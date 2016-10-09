@@ -1,0 +1,139 @@
+%% Thesis Template of Chinese Academy of Sciences
+%%   for using CASthesis package with LaTeX2e
+%%
+%% Created by Ling-Yun Wu <aloft@ctex.org>
+%%
+%% $Id: template.tex,v 1.7 2005/11/28 02:50:06 aloft Exp $
+
+
+\documentclass{CASthesis}
+
+\graphicspath{{fig/}}
+%\normalem
+% 取消链接的颜色（黑白打印时）
+\hypersetup{colorlinks=false}
+\usepackage{multirow}
+
+%改变行间距
+%\setlength{\baselineskip}{1.5\baselineskip}  %或者\linespread{1.5}
+
+%改变段间距
+\renewcommand{\baselinestretch}{1.38}
+%\linespread{1.5}
+
+% 小节标题靠左对齐
+\CTEXsetup[format+={\flushleft}]{section}
+
+%\setlength\parskip{3pt}
+
+\begin{document}\pagestyle{empty}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 封面部分
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+  % 中文封面内容
+  \classification{}
+  \confidential{}
+  \UDC{}
+  \serialnumber{}
+  \title{基于数字锁相放大器的近红外水分仪研究}
+  \author{李宇坤}
+  \advisor{李新光~~教授}
+  \advisorinstitute{东北大学信息科学与工程学院}
+  \degree{硕士}
+  \subject{工学}
+  \major{检测技术及自动化装置}
+  \submitdate{2016年6月}
+  \defenddate{2016年6月}
+  \conferdate{2016年7月}
+  \graduatedate{2016~年~6~月}
+  \reviewer{XXX~~XXX }
+  \institute{信息科学与工程学院}
+  \school{东~~~北~~~大~~~学}
+  \chairman{xxx}
+
+  % 英文封面内容
+  \englishdescription{A Thesis in Theoretical Physics}
+  \englishtitle{Constraining dark energy with Hubble parameter measurements}
+  \englishauthor{Yu-Kun Li}
+  \englishadvisor{Professor  Xingguang Li}
+  \englishdate{June 2016}
+
+
+  % 封面
+  \maketitle
+
+  % 英文封面
+  \makeenglishtitle
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 前言部分
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\frontmatter
+
+  % 独创性声明
+  \include{chapter/statement}
+  \makestatement
+
+  % 摘要
+  \include{chapter/abstract}
+
+   %目录
+  \tableofcontents
+
+  % 表格目录
+  %\listoftables
+   %插图目录
+  %\listoffigures
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 正文部分
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\mainmatter \pagestyle{fancy}
+
+  \include{chapter/chap-Intro}  %
+  %\include{chapter/chap-Theory}  % 水分检测原理
+  %\include{chapter/chap-DLIAsumli} % 数字锁相放大器仿真
+  \include{chapter/chap-HardWare} % 水分仪硬件电路设计
+ % \include{chapter/chap-SoftWare}  %水分仪软件设计
+  %\include{chapter/chap-Experiment} %水分仪测量实验
+  %\include{chapter/chap-Conclusion}% 结论和展望
+
+  % 附录
+  %\appendix
+
+  %\include{chapter/chap-req}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\mathrm{}
+%% 附件部分
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\backmatter
+
+  % 参考文献
+  % 使用 BibTeX
+
+%\bibliography{bib/tex}
+  %\nocite{*}
+  % 不使用 BibTeX
+  \include{chapter/bib}\pagestyle{fancy}
+
+% 发表文章目录
+ % \include{chapter/pub}
+
+% 获奖情况
+  %\include{chapter/reward}
+
+   % 致谢
+  \include{chapter/thanks}\pagestyle{fancy}
+
+
+  % 个人简历
+  %\include{chapter/resume}\pagestyle{fancy}
+
+
+\end{document}

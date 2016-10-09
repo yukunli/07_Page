@@ -1,0 +1,289 @@
+\chapter{多波长近红外水分检测原理与方案}
+\label{chap2}
+近红外光谱（NIR）产生于分子运动，含有C-H、O-H、N-H和S-H等化学键的不同物质，产生的光谱吸收峰的位置和强度各有差别，根据~Lambert-Beer （朗伯比尔）定律理论，随着样品中吸收物（粒子数）浓度的变化，其光谱特征也发生变化，因此可以利用近红外光谱分析技术测量出物质中的水分含量。
+\section{近红外水分测量理论}
+
+\subsection{近红外光谱原理}
+
+近红外（Near Infrared）是红外光的一部分，它是一种电磁波，具有光的属性，同时具有“波”“粒”二重性。因此，我们对光的能量也可以用光子表示。在量子力学理论里，光子能量为：
+\begin{equation}\label{q1}
+  E_{p}=h\cdot\gamma=h\cdot c/\lambda
+\end{equation}
+
+式~\ref{q1}~中，$h$~为普朗普朗克常量~$6.626\times10^{-34}J\cdot S$，$\gamma$~为光子的频率，$c$~为波的传播速度，$c=3.0\times10^{8}m/s$，$\lambda$~为光的波长，单位为~$nm$。近红外光子的能量同样可以用式~\ref{q1}~来描述。
+
+在电磁波谱中，通常以倍频程等级来表征频谱或波长的范围。红外辐射的波长范围为0.75$~$1000μm，从可见光的红光边界开始一直扩展到微波区边界，是个相当宽的区域，跨过了约~10~个倍频程。而在红外技术中，通常按波长将红外辐射光谱区分为~4~ 个波段，如表~\ref{qt1}~ 所示\upcite{9}。
+
+\begin{table*}[!h]\tiny
+\caption{红外辐射光谱区}
+\addtocounter{table}{-1}
+\renewcommand\tablename{Table}
+\caption{The area of infrared radiation spectrum }
+\label{qt1}
+\small
+%\setlength\tabcolsep{2.8pt}
+\renewcommand{\arraystretch}{1.5}
+\centering
+\begin{tabular}{cccccccccccccccccccccccccccccccccccccccccccccccc}
+\\
+\bottomrule
+%\cline{2-4}\cline{6-8}
+波段  &&&&&&&&&& 近红外    &&&&&&&&&& 中红外   &&&&&&&&&& 远红外  &&&&&&&&&& 极远红外\\
+\hline
+波长$/(\mu m)$  &&&&&&&&&& $0.75\sim3$ &&&&&&&&&& $3\sim6$  &&&&&&&&&& $6\sim15$ &&&&&&&&&& $15\sim1000$  \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+
+\subsection{水的近红外吸收光谱}
+
+水分子由两个氢原子和一个氧原子组成，具有两个O-H共价键，由共价键振动形式的不同而使水分子具有多个振动能级，这些振动能级的能级差能够吸收的光子在近红外光谱区。因为水分子具有多个能级，在近红外波段上存在多个水吸收峰。水分子的氢氧键伸缩振动的一级倍频和二级倍频分别约为1430nm和960nm，另有两个组合频分别约为1940nm和1220nm\upcite{}。水的吸收光谱分布较宽，位于近红外光谱区的吸收峰包括：1.43μm为氢氧键不对称伸缩振动；1.94μm 为氢氧键对称伸缩振动；2.95μm为H-O-H剪式弯曲振动\upcite{}。
+
+\begin{figure*}[!ht]
+\centering
+\includegraphics[width=8cm]{fig20.png}
+\caption {水的红外光谱吸收曲线图}
+\addtocounter{figure}{-1}
+\renewcommand\figurename{Fig.}
+\caption{\label{fig2_0}Infrared absorption spectrum graph of water}
+\end{figure*}
+
+如图~\ref{fig2_0}~所示，在近红外波段区域有多个吸收峰，分别是1200nm、1430nm、1940nm、2950nm。不同波长的吸收峰对水的吸收率不同，其适用范围也不同\upcite{}。如表~\ref{qt2}~所示。
+
+\begin{table*}[!h]\tiny
+\caption{水的近红外吸收峰比较}
+\addtocounter{table}{-1}
+\renewcommand\tablename{Table}
+\caption{The comparison of near infrared absorption peak of water }
+\label{qt2}
+\small
+%\setlength\tabcolsep{2.8pt}
+\renewcommand{\arraystretch}{1.5}
+\centering
+\begin{tabular}{cccccccccccccccccccccccccccccccccccccccccccccccccccc}
+\\
+\bottomrule
+%\cline{2-4}\cline{6-8}
+波长   &&&&&&&&&&&&&&&&&& 特点    &&&&&&&&&&&&&&&&&& 使用范围   \\
+\hline
+~~1200nm &&&&&&&&&&&&&&&&&& 吸收率过小 &&&&&&&&&&&&&&&&&& $50\%$以上的水分  \\
+~1430nm &&&&&&&&&&&&&&&&&& 吸收率适中，工业领域 &&&&&&&&&&&&&&&&&& 高含水率（$>20\%$）  \\
+~1940nm &&&&&&&&&&&&&&&&&& 吸收率适中，工业领域 &&&&&&&&&&&&&&&&&&  低含水率($0\%~20\%$) \\
+~2950nm &&&&&&&&&&&&&&&&&& 吸收率过大，测量范围窄 &&&&&&&&&&&&&&&&&&  ~小范围高精度测量~ \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+从表中可以看出，1.43μm和1.94μm这两个波长的透过率适中，适合用作水分测量。本课题测量的烧结混合料含水率在$0~10\%$，但考虑到近红外法有测量表层水的缺点，这里使用了1.43μm和1.94μm这两个测量波段进行综合考虑。
+
+参比波段选取测量波段的两侧，这样可以应用比值的方式消除因质地变化引起的影响。同时水分子对选取的参比波段的近红外光的吸收程度较小，并且应尽量靠近测量波段，这样可以保证各种干扰因素对三个波段红外光造成的吸收影响基本相同\upcite{}。 综合以上因素考虑，最终选取的参考波长分别为1.75 和2.2 。
+
+\subsection{朗伯比尔定律}
+
+物质对光吸收的定量关系很早就受到了科学家的注意并进行了研究。皮埃尔·布格（Pierre Bouguer）和约翰·海因里希·朗伯（Johann Heinrich Lambert）分别在1729年和1760年阐明了物质对光的吸收程度和吸收介质厚度之间的关系；1852 年奥古斯特·比尔（August Beer）又提出光的吸收程度和吸光物质浓度也具有类似关系，两者结合起来就得到有关光吸收的基本定律—— 布格－朗伯－比尔定律，简称朗伯-比尔定律。
+
+朗伯-比尔定律是光吸收的基本定量，适用于所有的电磁辐射和所有的吸光物质，包括气体、固体、液体、分子、原子和离子。朗伯-比尔定律可以描述为：一束单色光照射与一吸收介质表面，在通过一定厚度的介质后，由于介质吸收了一部分光能，透过光的强度就要减弱。透射后的光强~$P$~与入射光强~$P_{0}$~的关系为：
+\begin{equation}\label{q2}
+  P=P_{0}e^{-K_{\lambda}cd}
+\end{equation}
+
+式~\ref{q2}~中，$K_{\lambda}$~是介质的吸收系数，$c$~是介质的浓度，$d$~是均匀介质的厚度。
+
+不同的物质在同一个特征吸收波长下的~$K_{\lambda}$~是不同的，决定于物质的化学特性；同一物质在不同特征吸收波长下的~$K_{\lambda}$~也是不同的，决定于此吸收峰下分子共价键的振动能量。在实际工作中，常用吸光度的概念来表示透射或反射光强~$P$~相对于入射光强~$P_{0}$~的衰减程度，吸光度~$A$~描述为：
+\begin{equation}\label{q3}
+  A=\ln(\frac{P_{0}}{P})=K_{\lambda}cd
+\end{equation}
+
+所以，当一束平行单色光垂直通过某一均匀非散射的吸光物质时，其吸光度~$A$~与吸光物质的浓度~$c$~及吸收层的厚度~$d$~ 成正比。在$d$~一定的条件下，朗伯-比尔定律可用于物料含水量的在线测量，被测物的水分含量越大，吸光度越大，即入射光被吸收的能量越多。因此通过测量出从被测物质反射或透射回来的光能量的多少就可以间接的获得被测物质的含水量。
+
+朗伯-比尔定律作为光谱分析的理论依据，在可见、紫外以及红外光光谱的定量分析中的应用十分广泛。朗伯-比尔定律是在大量科学实验下总结出来的经验定律，在一定范围内是普遍适用的规律，超出这一范围则会导致严重偏离此定律。现将导致偏离此定律的原因列举如下：（1）待测样本的浓度过高($>0.01mol\cdot L^{-1}$ )，使分子之间电子云的相互作用加强，当入射光子撞击电子云时，电子云的形状方位与低浓度时不同，而影响了入射光的吸收程度；（2）样本中存在的大颗粒使入射表面不平整，而增大了入射光的散射程度；（3）如果样本中含有的某种成分能够产生荧光或者磷光，那么这些光会对反射光的组成造成影响；（4）由于浓度变化引起物质的物理化学性质发生改变，而导致偏离；（5）入射光并非单色平行光\upcite{16}。
+
+\subsection{三波长测量原理}
+
+根据钢铁厂烧结过程中的实际情况，近红外水分仪测量的精度会受物料的高度、物料颗粒的大小、物料表面的黑度系数及粗糙度、温度等环境因素的影响。为减小这些因素的影响，本设计采用了三波长测量法，即有一个测量光，两个参比光。这两个参比光波长分别在测量光波长两端附近，选择的参比光波长相对不易被水吸收，但是接收到的参比光信号会随着物料的高度、大小、温度等因素变化而变化，通过计算测量光信号与参比光信号的比值，用这个比值来表示水分的大小，这样可以提高近红外水分仪的准确度，减少外界因素的干扰。测量的原理如图~\ref{fig2_1}~和图~\ref{fig2_1}~所示。
+\begin{figure*}[!ht]
+\centering
+\includegraphics[width=7cm]{fig21.pdf}
+\caption {理想的吸收光谱}
+\addtocounter{figure}{-1}
+\renewcommand\figurename{Fig.}
+\caption{\label{fig2_1}The ideal state absorption spectrum}
+\end{figure*}
+
+\begin{figure*}[!ht]
+\centering
+\includegraphics[width=7cm]{fig22.pdf}
+\caption {物料质地发生改变时的吸收光谱}
+\addtocounter{figure}{-1}
+\renewcommand\figurename{Fig.}
+\caption{\label{fig2_2}The absorption spectrum affected by changing of the texture}
+\end{figure*}
+
+其中~$S_{0}$~为测量波段光的反射率，$R_{1}$~和~$R_{2}$~分别为参比波长~$\lambda_{1}$~和参比波长~$\lambda_{3}$~的反射率。在实际测量中由于物料表面状况、颜色和粒度的影响时，从图~\ref{fig2_1}~中可以看出，当被测物料的质地发生改变时，位于测量光两侧的参比光的反射率发生变化，其中~$R_{1}+\gamma$~和~$R_{2}-\gamma$~ 分别为参比波长~$\lambda_{1}$~ 和参比波长~$\lambda_{3}$~的反射率。
+在测量中使用测量值与参比值的比值来消除外界因素的干扰带来的误差，如式~\ref{q3}~和式~\ref{q4}~。
+\begin{equation}\label{q3}
+  T_{0}=\frac{S_{0}}{R_{1}+R_{2}}
+\end{equation}
+\begin{equation}\label{q4}
+  T_{1}=\frac{S_{0}}{(R_{1}+\gamma)+(R_{2}-\gamma)}= \frac{S_{0}}{R_{1}+R_{2}}
+\end{equation}
+
+式~\ref{q3}~为理想状态下的比值，式~\ref{q4}~为实际测量中受物料表面的质地影响的比值，可以看出两种状态下的结果是一样的，因而采用三波长测量可以消除外界因素带来的影响。
+
+\section{多波长近红外水分仪整体测量方案}
+
+\subsection{传统水分测量系统简介}
+
+传统的近红外水分仪通常采用白炽灯、卤钨灯做光源，利用窄带通滤光片对光源进行色散，将多个滤光片安装在切光盘上，切光盘靠电机带动旋转，一个滤光片对应一个波长，通常采用三个（一个测量，两个参比）波长进行测量。传统红外水分检测系统存在着一些问题。
+
+白炽灯、卤钨灯光源的功率很大，辐射范围宽，但是发射的连续光谱中只有很小的一部分红外光线是实际测量中应用的，其它光线并没有被利用到，有用波长光强占比小，实际的有用光发光功率并不大。这些光源需要较大功率的电源对它们进行驱动，发热影响也不能忽略，仪器的整体功耗较大。大功率的光源，其寿命也受到一定限制，应用一段时间后，光源的损耗导致有用光功率的下降，仪器的灵敏度也会受到影响。
+
+采用电机与切光盘配合对光信号的调制属于机械调制。实际应用中往往要求红外水分仪能够长时间，不间断的连续工作，机械部件长期工作后，不可避免的产生磨损，其精度必然会发生变化。电机的转动会在其外围空间造成较大的电磁干扰，这对硬件电路提出了更高的要求，增加了设计难度。机械调制光信号的模式下，光信号的频率就由电机的转速决定，转速越大，信号频率就越高，对于需要测量频率较高时，例如测量生产线上流动的物料，此时电机的转速有限成为测量的一个难点。光线通过旋转的滤光片分时照在被测物料上，测量光是断续的。
+另外电机、切光盘等可动部件在仪器工作时始终处在运动的状态，这也会对仪器的稳定性造成影响。
+
+
+\subsection{新型近红外水分仪测量方案}
+
+本课题针对传统的近红外水分仪的不足之处，提出了改进的测量方案。采用近红外LED光源代替传统的大功率卤钨灯，三个不同的近红外LED光源发出的光分别为特定波长的测量近红外光和两个参比近红外光，这样省去了滤光片等光学系统，同时近红外光源的体积很小，便于安装，功耗也特别小，减少了仪器的体积和功耗。采用电调制代替原有的机械调制，因此不需要切光盘等光学器件，也省去了电动机。采用电调制后光信号的调制频率可以提高很多，同时减少了电磁的干扰，提高了系统的稳定性。改进后的光学系统更为简单，没有可动部件，缩小了仪器的体积，更加便于携带。仪器的功耗更小，成本更低。
+
+本课题设计的近红外水分仪光学系统的结构示意如图2.12所示。图2.12中的三个近红外LED光源分别为测量光源和两个参比光源，三个光源发出的近红外光照射到物料后部分光被水分子吸收，部分光经过物料后发生散射等光学现象，一部分光能够照射到聚光镜上，然后聚光镜将光汇聚到光电探测器上，光电探测器将光信号转换为微弱的电信号，微弱的电信号经过电路的处理后的大小表示物料中的水分值[18]。
+\begin{figure*}[!ht]
+\centering
+\includegraphics[width=10cm]{fig23.jpg}
+\caption {新型近红外水分仪结构示意图}
+\addtocounter{figure}{-1}
+\renewcommand\figurename{Fig.}
+\caption{\label{fig2_3}The structure of new type of near infrared moisture meter diagram}
+\end{figure*}
+
+光电探测器输出的光电信号微弱，为了提取出淹没在噪声信号中的有用信号，本作品采用基于DSP的数字锁相放大器来处理微弱信号[6]，水分仪的整体检测系统结构图如图~\ref{fig2_4}~所示。
+
+\begin{figure*}[!ht]
+\centering
+\includegraphics[width=12cm]{fig24.pdf}
+\caption {水分仪的整体检测系统结构图}
+\addtocounter{figure}{-1}
+\renewcommand\figurename{Fig.}
+\caption{\label{fig2_4}The overall detection system structure of water meter}
+\end{figure*}
+
+
+\section{光源和红外探测器的选型}
+
+\subsection{光源的选型}
+
+光源负责为测量提供所需要的光能，是光谱仪器重要的组成部分。作为近红外水分仪的光源要在测量光谱区域内有足够强度的光辐射，同时也要有良好的稳定性。一般来说，常见的光源有白炽灯、卤钨灯、LED光源等。
+
+光源是光学系统中的核心部分，根据测量原理，水分仪的光源发出的光谱应包括测量波段和参比波段。在检测仪器中常用的光源有：卤钨灯、白炽灯、激光器和LED光源等。光源的种类和特点见表3.1。
+\begin{table*}[!h]\tiny
+\caption{光源种类与特性}
+\addtocounter{table}{-1}
+\renewcommand\tablename{Table}
+\caption{Types and characteristics of the light source }
+\label{qt3}
+\small
+%\setlength\tabcolsep{2.8pt}
+\renewcommand{\arraystretch}{1.5}
+\centering
+\begin{tabular}{cccccccccccccccccccccccccccccccccccccccccccccccccccc}
+\\
+\bottomrule
+%\cline{2-4}\cline{6-8}
+%\cline{2-4}\cline{6-8}
+~光源种类~   &&&&&&& 中心波长      &&&&&&& 辐射范围  &&&&&&& ~亮度~ &&&&&&& 主要特点   \\
+\hline
+卤钨灯     &&&&&&& $320\sim2500nm$ &&&&&&& 全向辐射$/$郎伯辐射  &&&&&&&  较低  &&&&&&& 辐射范围宽，热辐射光源\\
+激光二极管 &&&&&&& $600\sim1500nm$ &&&&&&& 高斯光束           &&&&&&& 高     &&&&&&& ~单色性好，方向性强，功率大~  \\
+LED        &&&&&&& $800\sim4000nm$ &&&&&&& 郎伯辐射           &&&&&&&  较高  &&&&&&&  功率低，波段带宽较窄 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+卤钨灯的体积较大，而且需要采用调制盘等机械调制结构，这样就会造成系统中有可动部件。激光二极管的体积小，发光强度大，频谱特性好，半宽度很窄，但其缺点是存在电流阈值，需要较大电流[20]。从表3.1中可以看出LED光源的中心波长在本课题选取的测量光和参考光波长的范围之内，并且LED光源具有体积小、功耗低、稳定性好、寿命长和可以应用电调制在较高频率下工作等特性。根据市场上现有的近红外光源，本课题选取的光源的型号及各项参数如表3.2。
+\begin{table*}[!h]\tiny
+\caption{LED光源发光特性}
+\addtocounter{table}{-1}
+\renewcommand\tablename{Table}
+\caption{LED light characteristics }
+\label{qt4}
+\small
+%\setlength\tabcolsep{2.8pt}
+\renewcommand{\arraystretch}{1.5}
+\centering
+\begin{tabular}{cccccccccccccccccccccccccccccccccccccccccccccccccccc}
+\\
+\bottomrule
+~型号~   &&&&&&& 峰值波长($nm$)      &&&&&&& 半幅宽度($nm$)  &&&&&&& 光功率($mW$) &&&&&&& ~~发光出射角($^{o}$)~~   \\
+\hline
+~LMS17~     &&&&&&& 1750 &&&&&&& 130&&&&&&&  1  &&&&&&& 5\\
+LMS19     &&&&&&& 1950 &&&&&&& 150    &&&&&&& 1     &&&&&&& 5   \\
+LMS22     &&&&&&& 2220 &&&&&&& 200     &&&&&&&  1  &&&&&&&  5 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+上表中的三个型号的光源特性相似，下面以LMS22型号的光源特性分析为例。LED~光源的发光功率与光源的驱动电流呈近似线性关系，从而LED光源的发光强度可以由驱动电流来调制。图~\ref{fig2_5}~为光源在不同驱动电流下的发光波长与发光强度的曲线，从图中可以看出，光源在不同的驱动电流下，峰值波长变化较小，对水分测量影响较小。从而可以让光源在不同的驱动电流下工作。
+\begin{figure*}[!ht]
+\centering
+\includegraphics[width=10cm]{fig25.pdf}
+\caption {LMS22发光强度特性}
+\addtocounter{figure}{-1}
+\renewcommand\figurename{Fig.}
+\caption{\label{fig2_5}LMS22 luminous intensity characteristics}
+\end{figure*}
+
+\subsection{红外探测器的选型}
+
+红外探测器把入射的光信号的变化转变成电信号的变化输出，作为红外系统的核心，其性能至关重要。红外探测器分为热探测器和光子探测器，分别基于红外热效应和光电效应。
+
+热探测器最突出的特点是其光谱响应几乎与波长无关，是“无选择性探测器”。但热探测器的热惯性大，响应速度一般较慢。光子探测器基于内光电或外光电等光子效应，也被称作“选择性红外器件”\upcite{20}。当红外光波长大于某一最大波长的时候不能引起光子探测器的光电效应，因此，光子探测器类型的红外器件都有一个长波限（截止波长）。根据光电效应的不同，光子探测器又有光电导探测器、光伏探测器和光发射-Schottky势垒探测器等几种类型。20~世纪~90~年代以来，随着红外技术的发展，又出现量子阱探测器和焦平面探测器，并得到迅速发展\upcite{21}。
+
+常用红外系统主要工作在三个“大气窗口”，分别为1$~$3μm波段、3$~$5μm波段、8$~$14μm波段。这三个大气窗口的典型的红外探测器：在1~3μm 波段是PbS（硫化铅）和InGaAs（铟镓砷）探测器；在3~5μm波段是InSb（锑化铟）探测器、在8$~$14μm波段是HgCdTe（碲镉汞）探测器\upcite{23}。
+
+由于本课题的红外水分仪使用的测量和参比波长有1.75μm、1.95μm、2.22μm，都在1$~$3μm这个大气窗口内。因此，能够用在水分仪上的红外探测器为PbS和InGaAs探测器。它们分别属于光导型探测器和光伏型探测器，其各方面参数（室温25?C）对比如下表。
+\begin{table*}[!h]\tiny
+\caption{PbS与InGaAs参数比较}
+\addtocounter{table}{-1}
+\renewcommand\tablename{Table}
+\caption{The parameter comparison between PbS and InGaAs}
+\label{qt5}
+\small
+%\setlength\tabcolsep{2.8pt}
+\renewcommand{\arraystretch}{1.5}
+\centering
+\begin{tabular}{cccccccccccccccccccccccccccccccccccccccccccccccccccc}
+\\
+\bottomrule
+~~~红外探测器~~~   &&&&&&& ~~硫化铅探测器($P_{b}S$)~~      &&&&&&& ~~铟镓砷($I_{n}G_{a}A_{a}$)~~   \\
+\hline
+光谱响应范围($\mu m$)     &&&&&&& 1$\sim$3.5 &&&&&&& 0.8$\sim$1.7\\
+受光面敏感直径($mm$)     &&&&&&& 1$\sim$25 &&&&&&& 0.25$\sim$2\\
+响应时间($\mu s$)     &&&&&&& (0.5$\sim$5)$\times 10^{2}$ &&&&&&& 0.2$\sim$1\\
+归一化探测率($cm\cdot H_{Z}^{1/2}\cdot W^{-1}$)     &&&&&&& (7$\sim$15)$\times 10^{10}$ &&&&&&& (0.5$\sim$1)$\times 10^{12}$\\
+受温度影响     &&&&&&& 暗电阻增大 &&&&&&& 暗电流增大\\
+\bottomrule
+\end{tabular}
+\end{table*} 
+
+\section{新型近红外水分仪光路结构}
+
+后续补充~
+
+\section{本章小结}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

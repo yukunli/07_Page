@@ -1,0 +1,55 @@
+\begin{thebibliography}{100}
+%\baselineskip=13pt
+\addtolength{\itemsep}{-1.5ex}
+\bibitem{sandage}
+ A.~Sandage,
+ The change of redshift and apparent luminosity of galaxies due to the deceleration of selected expanding universes.
+ Astrophys. J. {\bf 136}, 319 (1962).
+ 
+\bibitem{Loeb:1998bu}
+  A.~Loeb,
+  Direct measurement of cosmological parameters from the cosmic deceleration of extragalactic objects.
+  Astrophys.\ J.\  {\bf 499}, L111 (1998)
+  %doi:10.1086/311375
+  [astro-ph/9802122]. 
+ 
+ 
+\bibitem{Hubble}
+Hubble E. A relation between distance and radial velocity among extra-galactic nebulae[J], Proceedings of the National Academy of Sciences, 1929, 15(3): 168-173.
+
+\bibitem{Wang:2013mha}
+  Y.~Wang and S.~Wang,
+  %``Distance Priors from Planck and Dark Energy Constraints from Current Data,''
+  Phys.\ Rev.\ D {\bf 88}, no. 4, 043522 (2013)
+  Erratum: [Phys.\ Rev.\ D {\bf 88}, no. 6, 069903 (2013)]
+  doi:10.1103/PhysRevD.88.043522, 10.1103/PhysRevD.88.069903
+  [arXiv:1304.4514 [astro-ph.CO]].
+
+\bibitem{plk}
+  P.~A.~R.~Ade {\it et al.} [Planck Collaboration],
+  %``Planck 2015 results. XIV. Dark energy and modified gravity,''
+  arXiv:1502.01590 [astro-ph.CO].
+
+\bibitem{Conley:2011ku}
+  A.~Conley {\it et al.} [SNLS Collaboration],
+  %``Supernova Constraints and Systematic Uncertainties from the First 3 Years of the Supernova Legacy Survey,''
+  Astrophys.\ J.\ Suppl.\  {\bf 192}, 1 (2011)
+  doi:10.1088/0067-0049/192/1/1
+  [arXiv:1104.1443 [astro-ph.CO]].
+
+\bibitem{Riess:2011yx}
+  A.~G.~Riess {\it et al.},
+  %``A 3% Solution: Determination of the Hubble Constant with the Hubble Space Telescope and Wide Field Camera 3,''
+  Astrophys.\ J.\  {\bf 730}, 119 (2011)
+  Erratum: [Astrophys.\ J.\  {\bf 732}, 129 (2011)]
+  doi:10.1088/0004-637X/732/2/129, 10.1088/0004-637X/730/2/119
+  [arXiv:1103.2976 [astro-ph.CO]].
+
+\bibitem{Ade:2015xua}
+  P.~A.~R.~Ade et al. [Planck Collaboration],
+  Planck 2015 results. XIII. Cosmological parameters.
+  [arXiv:1502.01589 [astro-ph.CO]].
+
+
+
+\end{thebibliography}{100}

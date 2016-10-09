@@ -1,0 +1,266 @@
+\chapter{红移漂移观测数据对暗能量模型参数限制的影响}
+\label{chap3:ade}
+近年来，先进的天文观测和光谱技术为测量宇宙中光源在较短时间间隔内径向与横向位置的时间变化打开了一扇大门，从而建立了一个新的研究领域，即“实时宇宙学”~\upcite{Quercellini:2010zr}。目前为止，人们对其理论框架、观测策略以及约束暗能量的效果已做了大量的研究。本章中，我们首先介绍了本文涉及到的几个暗能量模型和修改引力模型。其次，详细介绍了红移漂移观测及其研究方法，并采用红移漂移检验数据定量地分析暗能量的物理性质。
+\section{暗能量模型}
+正如引言中介绍，暗能量是当前宇宙加速膨胀较合理的一种解释。尽管一直以来，人们并没有直接观测到它，但大量的宇宙学观测几乎可以确定暗能量确实存在。目前，与大量宇宙学观测符合最好的暗能量模型是宇宙学常数模型。然而，宇宙学常数模型在理论上也面临诸多的问题，如“精细调节”问题和“巧合性”问题。为此，大量的宇宙动力学模型被提出，进而讨论暗能量随时间的演化问题。
+
+我们知道，在均匀、各向同性的~FRW~标准宇宙中，Friedmann~方程的表达式为
+\begin{equation}\label{4.1}
+  \frac{3H^{2}}{8 \pi G} = \rho - \frac{3 k}{8 \pi G}\frac{1}{a^{2}},
+\end{equation}
+其中，$\rho$~为宇宙中冷暗物质、重子、辐射（如光子等）和暗能量密度的总和。$k$~为描述宇宙空间的曲率。通常，人们用暗能量状态方程~$w$~来刻画暗能量的性质，它与宇宙空间的曲率密度~$\Omega_{\rm k}$~之间存在一定的简并，而当前的宇宙学观测数据并没有足够的精度打破它们之间的简并。所以，在本文中我们并没有考虑宇宙空间的曲率密度~$\Omega_{\rm k}$。此外，当前的宇宙学观测表明宇宙中的空间曲率非常小： $|\Omega_{\rm k}|\lesssim {\cal O}(10^{-3})$~\upcite{Ade:2015xua}，因此，本文只考虑平坦宇宙中的一些相关研究。
+
+在平坦宇宙中，Friedmann~方程~(\ref{4.1})~可约化为
+\begin{equation}\label{4.2}
+  \frac{3H^{2}}{8 \pi G} = \rho_{\rm m}(1 + z)^{3} + \rho_{\rm r}(1 + z)^{4} + \rho_{\rm de}(0)X(z),
+\end{equation}
+$\rho_{\rm m}$，$\rho_{\rm r}$，$\rho_{\rm de}$~分别表示宇宙的物质密度、辐射密度和暗能量密度。$X(z) = \rho_{\rm de}(t) / \rho_{\rm de}(0)$~由具体的暗能量模型确定。通常，方程~(\ref{4.2})~又被写为
+\begin{equation}\label{4.3}
+ E(z) = H(z) / H_{0} =[\Omega_{\rm m}(1+z)^{3}+\Omega_{\rm r}(1+z)^{4}+(1-\Omega_{\rm r}-\Omega_{\rm m})X(z)]^{1 / 2}.
+\end{equation}
+
+特别地，宇宙空间的辐射密度主要为光子和中微子的总和，即~\upcite{Komatsu:2008hk}
+\begin{equation}\label{4.4}
+ \Omega_{\rm r} = \Omega_{\gamma}(1+0.2271N_{\rm eff}),
+\end{equation}
+其中~$N_{\rm eff}$~为中微子有效代数。本文中我们取~$N_{\rm eff} = 3.04$~\upcite{Komatsu:2010fb}。特定情况下，暗能量密度参数~$\Omega_{\rm de}(z) = (\rho_{\rm de}(z)\sqrt{8 \pi G}) / 3H^{2}$~的演化是由其微分方程决定的。因此，Friedmann~方程也可以被表示为
+\begin{equation}\label{4.5}
+  E(z) =\left(\frac{\Omega_{\rm m}(1+z)^{3}+\Omega_{\rm r}(1+z)^{4}}{1-\Omega_{\rm de}(z)}\right)^{1/2}.
+\end{equation}
+
+本文中我们只介绍本文相关的三种暗能量模型（宇宙学常数模型、参数化的暗能量模型和全息暗能量模型）以及一种典型的修改该引力模型（$f(T)$~引力模型），并研究了当前宇宙学观测数据对它们的检验效果。
+
+\subsection{宇宙学常数模型}
+宇宙学常数~$\Lambda$~是爱因斯坦为了构造静态宇宙学模型而引入的。1917~年，爱因斯坦在他的文章《根据广义相对论的宇宙学考察》中提出将广义相对论的引力场方程应用到整个宇宙，并建立起一种宇宙学模型。当时大多数科学家们认为我们所处的宇宙是静止不变的。为了能够得到一个静态的、均匀各向同性的解，爱因斯坦在他最初的引力场方程中引进了一个产生排斥作用的常数项，即宇宙学常数项~$\Lambda g_{\mu \nu}$：
+\begin{equation}\label{4.6}
+  R_{\mu\nu} -\frac{1}{2}g_{\mu\nu}-\Lambda g_{\mu\nu} = -8 \pi G  T_{\mu\nu}.
+\end{equation}
+因此宇宙学常数提供的斥力与宇宙中其他物质提供的万有引力相平衡，使宇宙处于稳定的状态，从而他构建了我们熟知的静态宇宙学模型（宇宙学常数模型）。
+
+宇宙学常数模型被认为是解释宇宙加速膨胀最合适的候选者，也是到目前为止最简单且与观测事实符合最好的模型。然而，理论上它仍然存在一些问题，即“精细调节”问题和“巧合性”问题。对于这两大难题，前面我已做过详细的介绍。%“巧合性”问题是指理论上宇宙物质密度以~$a^{-3}$~随宇宙膨胀衰减~($a$~为尺度因子，$a=(1+z)^{-1}$，其中~$z$~代表红移)，而作为暗能量的宇宙学常数~$\Lambda$~ 的密度不会发生改变，那么为什么现在我们所处时期的暗能量与物质的密度具有相同的量级。“精细调节”问题是指，宇宙学常数可以被看成是真空能，但根据量子场理论得到的真空能密度比天文观测得到的宇宙学常数大~120~个数量级。那么如果观测到的宇宙学常数是一个“裸的”宇宙学常数与真空能密度相抵消的结果，我们就需要~120~ 多位有效数字的精度对其进行的调节。
+我们知道，宇宙学常数模型由宇宙学常数~$\Lambda$~和宇宙中的冷暗物质~(Cold Dark Matter)~组成，因此它又被叫做~$\Lambda$CDM~模型。它的状态方程参数为~$w = -1$，因此得到~$\Lambda$CDM~模型的解析方程为
+\begin{equation}\label{4.7}
+  E(z) =\sqrt{\Omega_{\rm m}(1+z)^{3}+\Omega_{\rm r}(1+z)^{4}+(1-\Omega_{\rm r}-\Omega_{\rm m})}.
+\end{equation}
+很明显~$\Lambda$CDM~模型为单参数模型，其自由参数为~$\Omega_{\rm m}$。
+
+\subsection{参数化的暗能量模型}
+本文只考虑了两类参数化的暗能量模型，即~$w$CDM~模型和~CPL~模型~\upcite{CPL1,CPL2}。
+
+假设~$w$CDM~模型的状态方程参数~$w$~为常数，则它的的解析方程为
+\begin{equation}\label{4.8}
+   E(z) =\sqrt{\Omega_{\rm m}(1+z)^{3}+\Omega_{\rm r}(1+z)^{4}+(1-\Omega_{\rm r}-\Omega_{\rm m})(1+z)^{3(1+w)}}.
+\end{equation}
+可以看出，$w$CDM~模型的自由参数为~($\Omega_{\rm m},w$)。
+
+在~CPL~模型中，其状态方程参数~$w$~的形式为
+\begin{equation}\label{4.9}
+  w(z) = w_{0}+w_{a}\frac{z}{1+z},
+\end{equation}
+其中，$w_{0}$~和~$w_{a}$~均为常数。则~CPL~模型对应的~$E(z)$~的表达式为
+\begin{equation}\label{4.10}
+  E(z) =\sqrt{\Omega_{\rm m}(1+z)^{3}+\Omega_{\rm r}(1+z)^{4}+(1-\Omega_{\rm r}-\Omega_{\rm m})(1+z)^{3(1+w_{0}+w_{a})} \exp(-\frac{3w_{a}z}{1+z})}.
+\end{equation}
+CPL~模型中有三个独立的自由参数~($\Omega_{\rm m},w_{0},w_{a}$)。
+
+\subsection{全息暗能量模型}
+在全息暗能量模型（简称~HDE~模型）~\upcite{Li:2004rb,Huang:2004mx,Zhang:2014ija}中，我们取红外截断的大小为未来事件视界。因此它的暗能量密度为
+\begin{equation}\label{4.11}
+  \rho_{\rm de} = 3c^{2}R^{2}_{eh} / 8 \pi G,
+\end{equation}
+其中$c$~是一个无量纲的常数。$R_{eh}$~为未来事件视界，其表达式为
+\begin{equation}\label{4.12}
+ R_{eh} = a \int^{\infty}_{t}\frac{dt^{\prime}}{a} = a \int^{\infty}_{a} \frac{da^{\prime}}{Ha^{\prime 2}}.
+\end{equation}
+而~$\Omega_{\rm de}^{\prime}$~满足
+\begin{equation}\label{4.13}
+  \Omega_{\rm de}^{\prime}(z) = -\frac{2\Omega_{\rm de}(z)}{1+z}\left(\epsilon(z)-1+\frac{\sqrt{\Omega_{\rm de}}}{c}\right),
+\end{equation}
+其中，
+\begin{equation}\label{4.14}
+  \epsilon(z) = \frac{3}{2}\left[\frac{1+\frac{4}{3}(1+z)\gamma}{1+(1+z)\gamma}(1-\Omega_{\rm de}(z))+(1+w_{\rm de}(z))\Omega_{\rm de}(z)\right],
+\end{equation}
+其中，
+\begin{equation}\label{4.15}
+  \gamma = \frac{\Omega_{\rm r}}{\Omega_{\rm m}},~~~~~~~w_{\rm de}(z) = -\frac{1}{3} - \frac{2}{3}\sqrt{\Omega_{\rm de}(z)}.
+\end{equation}
+
+由方程~(\ref{4.5})~和方程~(\ref{4.13})~可得，全息暗能量模型的动力学演化方程为
+\begin{equation}\label{4.161}
+  \frac{1}{E(z)}\frac{dE(z)}{dz} = -\frac{\Omega_{\rm de}}{1+z}\left(\frac{1}{2} - \frac{\Omega_{\rm r}+3}{2\Omega_{\rm de}}+\sqrt{\frac{\Omega_{\rm de}}{c^{2}}}\right),
+\end{equation}
+\begin{equation}\label{4.162}
+   \frac{d\Omega_{\rm de}}{dz} = -\frac{2\Omega_{\rm de}(1-\Omega_{\rm de})}{1+z}\left(\sqrt{\frac{\Omega_{\rm de}}{c^{2}}}+\frac{1}{2}+\frac{\Omega_{\rm r}}{2(1-\Omega_{\rm de})}\right),
+\end{equation}
+其中~$E(z) = H(z) / H_{0}$~为无量纲的哈勃膨胀率，且
+\begin{equation}\label{4.17}
+  \Omega_{\rm r}(z) =\frac{\Omega_{\rm r0}(1+z)^{4}}{E(z)^{2}}.
+\end{equation}
+该动力学方程的初始条件为~$\Omega_{\rm de}(0)=1-\Omega_{\rm dm0}-\Omega_{\rm b0}-\Omega_{\nu0}-\Omega_{\rm r0}$， $\Omega_{\rm r}(z)=\Omega_{\rm r0}(1+z)^4/E(z)^2$。
+且有~$\Omega_{\rm r0}=\Omega_{\rm m0} / (1+z_{\rm eq})$，其中~$z_{\rm eq}=2.5\times 10^4 \Omega_{\rm m0} h^2 (T_{\rm cmb}/2.7\,{\rm K})^{-4}$。
+全息暗能量模型中有两个独立的自由参数~($\Omega_{\rm m},c$)。
+
+\subsection{$f(T)$ 引力模型}
+除暗能量外，宇宙加速膨胀还有另一种非常流行的解释—修改引力~\upcite{Sahni1,Parker2,Dvali3,Deffayet4,Nojiri5,Nicolis6,Hu7,Starobinsky8,Bengochea:2008gz,Linder:2010ev,Harko10}。本文中我们只考虑了一种典型的修改引力模型，即~$f(T)$~引力模型。$f(T)$~模型是在~$f(T)$~引力场中，用一个含~$T$~的任意函数~$f(T)$~替代挠率~$T$，从而使~Friedmann~方程的形式改变，并给出与天文观测相符合的宇宙膨胀历史。我们以两种不同形式的~$f(T)$~引力模型（幂律形式的~$f(T)_{\rm PL}$~模型~\upcite{Bengochea:2008gz}和指数形式的~$f(T)_{\rm EXP}$~\upcite{Linder:2010ev}模型）为例，定量地估计了红移漂移观测对这两个模型参数的限制。
+
+对于~$f(T)_{\rm PL}$~模型~\upcite{Bengochea:2008gz}，我们采用的~$f(T)$~形式为
+\begin{equation}\label{4.18}
+  f(T) = \alpha(-T)^{n},
+\end{equation}
+$n$~为该模型的模型参数，并且有
+\begin{equation}\label{4.19}
+  \alpha = (6H^{2}_{0})^{1-n}\frac{1-\Omega_{\rm m}-\Omega_{\rm r}}{2n-1},
+\end{equation}
+其中~$H_{0}$~为哈勃常数，且~$H_{0} = 100h$~km/s/Mpc。$\Omega_{\rm m}$~和~$\Omega_{\rm r}$~分别为宇宙的物质密度参数和辐射密度参数。因此，根据方程
+\begin{equation}\label{4.23}
+  E(z)^{2} = \Omega_{\rm m}(1+z)^{3} + \Omega_{\rm r}(1+z)^{4} + (1-\Omega_{\rm m}-\Omega_{\rm r})E(z)^{2n},
+\end{equation}
+可得到~$f(T)_{\rm PL}$~模型的动力学方程为
+\begin{equation}\label{4.20}
+  \frac{dE}{dz} = \frac{3\Omega_{\rm m}(1+z)^{2}+4\Omega_{\rm r}(1+z)^{3}}{2E-2n(1-\Omega_{\rm m}-\Omega_{\rm r})E^{2n-1}}.
+\end{equation}
+其初始条件为~$E(0) = 1$。
+
+而对于~$f(T)_{\rm EXP}$~模型~\upcite{Linder:2010ev}，我们采用的~$f(T)$~的形式为
+\begin{equation}\label{4.21}
+  f(T) = mT_{0}(1-\exp(-p\sqrt{T / T_{0}})),
+\end{equation}
+$p$~为该模型的模型参数，$T_{0} = -6H^{2}_{0}$。且
+\begin{equation}\label{4.22}
+  m = \frac{1-\Omega_{\rm m}-\Omega_{\rm r}}{1-(1+p)\exp(-p)}.
+\end{equation}
+同~$f(T)_{\rm PL}$~模型，根据方程
+\begin{equation}\label{4.24}
+   E(z)^{2} = \Omega_{\rm m}(1+z)^{3} + \Omega_{\rm r}(1+z)^{4} + m\left(1-(1+pE(z))\exp(-pE(z))\right),
+\end{equation}
+可得到~$f(T)_{\rm EXP}$~模型的动力学方程为
+\begin{equation}\label{4.25}
+  \frac{dE}{dz} = \frac{3\Omega_{\rm m}(1+z)^{2}+4\Omega_{\rm r}(1+z)^{3}}{2E-mp^{2}E(z) \exp(-pE(z))}.
+\end{equation}
+其初始条件也为~$E(0) = 1$。
+
+\section{红移漂移观测及其研究方法}
+近年来，关于红移漂移观测数据对宇宙学模型参数的限制人们已做了大量的研究~\cite{Balbi:2007fx,Zhang:2007zga,Zhang:2010im,Martinelli:2012vq,Zhang:2013zyn,sl4,sl1,sl5,sl3,msl3,Liske:2008ph,quint,phantom,k,Chaplygin,ngcg}。通常人们会选择最简单的~$\Lambda$CDM~模型为基准模型模拟红移漂移观测数据~\upcite{Balbi:2007fx,Zhang:2007zga,Zhang:2010im,Martinelli:2012vq,Zhang:2013zyn,sl5}。然而，这样模拟出的红移漂移观测数据与现有的其他天文观测数据之间存在一些紧张情况。因此，为了使红移漂移观测的模拟数据与其他天文观测数据保持一致，我们选用特定的暗能量模型本身作为基准模型。然而单独使用~SL~模拟数据无法约束暗能量模型参数，所以我们将这些模拟数据与现有的其他天文观测数据联合使用发现能够有效地打破模型参数间的简并，提高对暗能量模型参数的限制。
+
+此外，红移漂移数据对修改引力模型的宇宙学参数限制也是我们十分感兴趣的问题。首先，我们联合当前天文观测数据限制~$f(T)$~模型，并选出最佳拟合模型本身作为基准模型模拟出~30~个红移漂移数据。然后，结合这些模拟数据与现有的天文观测数据共同限制~$f(T)$~模型，定量地估计它们对不同形式的~$f(T)$~模型参数的限制。
+
+本文中，我们选用了典型的天文观测数据组合，即~SNIa + CMB + BAO + $H_{0}$~的组合。在第三章暗能量的宇宙学观测中，我们已经介绍了这些宇宙学观测的原理及本文中要采用的数据。下面我将对红移漂移的观测原理做一个简单的介绍。
+
+红移漂移观测中，某一光源的红移与宇宙膨胀率之间的关系是通过尺度因子连接的，其表达式为
+\begin{equation}\label{4.27}
+  1+z_{\rm s}(t_{\rm o})=\frac{a(t_{\rm o})}{a(t_{\rm s})},
+\end{equation}
+$t_{\rm s}$~为该光源发出辐射的时刻，$t_{\rm o}$~为该辐射被接收到的时刻。假设经过时间~$\Delta t$，则该光源相应的红移为
+\begin{equation}\label{4.28}
+  1+z_{\rm s}(t_{\rm o}+\Delta t_{\rm o})=\frac{a(t_{\rm o}+\Delta t_{\rm o})}{a(t_{\rm s}+\Delta t_{\rm s})}.
+\end{equation}
+
+\begin{table*}\tiny
+\caption{分别用当前观测数据、当前观测数据加~30~年~SL~数据限制~$f(T)_{\rm PL}$~模型和~$f(T)_{\rm EXP}$~模型的拟合结果。表中，我们采用了~$\pm 1 \sigma$~的误差范围。而当参数不能被限制时，我们引用了~$2 \sigma$~的误差下限。}
+\addtocounter{table}{-1}
+\renewcommand\tablename{Table}
+\caption{ Fit results for  the $f(T)_{\rm PL}$ and $f(T)_{\rm EXP}$  models using the
+current only and current+SL 30-year data. We quote $\pm 1\sigma$ errors, but
+for the parameters that cannot be well constrained, we quote the 95.4\% CL lower limits.}
+\label{table1}
+\small
+%\setlength\tabcolsep{2.8pt}
+\renewcommand{\arraystretch}{1.5}
+\centering
+\begin{tabular}{ccccccccccccccccccc}
+\\
+\bottomrule &\multicolumn{2}{c}{current only} &&\multicolumn{2}{c}{current + SL 30-year} \\
+           \cline{2-3}\cline{5-6}
+Parameter & $f(T)_{\rm PL}$ & $f(T)_{\rm EXP}$ && $f(T)_{\rm PL}$ & $f(T)_{\rm EXP}$\\ \hline
+
+$\Omega_bh^2$        & $0.0221^{+0.0003}_{-0.0003}$
+                   & $0.0224^{+0.0002}_{-0.0002}$ &
+                   & $0.0222^{+0.0003}_{-0.0003}$
+                   & $0.0224^{+0.0002}_{-0.0002}$
+                   \\
+
+$\Omega_ch^2$        & $0.1202^{+0.0026}_{-0.0021}$
+                   & $0.1173^{+0.0015}_{-0.0015}$ &
+                   & $0.1199^{+0.0021}_{-0.0021}$
+                   & $0.1172^{+0.0005}_{-0.0006}$
+                   \\
+
+$n$                  & $-0.1967^{+0.1191}_{-0.1782}$
+                   & $-$ &
+                   & $-0.1880^{+0.0982}_{-0.1171}$
+                   & $-$
+                   \\
+
+$p$                  & $-$
+                   & $>4.0815$ &
+                   & $-$
+                   & $>4.0483$
+                   \\
+
+$\Omega_{m}$         & $0.2871^{+0.0096}_{-0.0095}$
+                   & $0.2949^{+0.0088}_{-0.0084}$ &
+                   & $0.2866^{+0.0017}_{-0.0022}$
+                   & $0.2941^{+0.0020}_{-0.0019}$
+                   \\
+
+$H_0$                & $70.40^{+1.25}_{-1.14}$
+                   & $68.83^{+0.69}_{-0.68}$ &
+                   & $70.41^{+0.51}_{-0.41}$
+                   & $68.89^{+0.21}_{-0.22}$
+                   \\
+\bottomrule
+\end{tabular}
+\end{table*}
+\begin{figure}
+\begin{center}
+\includegraphics[width=12cm]{fig4a.pdf}
+\end{center}
+\caption{分别用当前观测数据、当前观测数据加~30~年~SL~数据限制~$f(T)_{\rm PL}$~模型的~$\Omega_{\rm m}$--$H_0$~和~$\Omega_{\rm m}$--$n$~的二维参数空间图。}\addtocounter{figure}{-1}
+\renewcommand\figurename{Fig.}
+\caption{Constraints (68.3\% and 95.4\% CL) in the $\Omega_{\rm m}$--$H_0$ plane and in the $\Omega_{\rm m}$--$n$ plane for $f(T)_{\rm PL}$ model with current only and current+SL 30-year data.}
+\label{fig4a}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=12cm]{fig4b.pdf}
+\end{center}
+\caption{分别用当前观测数据、当前观测数据加~30~年~SL~数据限制~$f(T)_{\rm EXP}$~的~$\Omega_{\rm m}$--$H_0$~和~$\Omega_{\rm m}$--$p$~的二维参数空间图。}\addtocounter{figure}{-1}
+\renewcommand\figurename{Fig.}
+\caption{Constraints (68.3\% and 95.4\% CL) in the $\Omega_{\rm m}$--$H_0$ plane and in the $\Omega_{\rm m}$--$p$ plane for $f(T)_{\rm EXP}$ model with current only and current+SL 30-year data.}
+\label{fig4b}
+\end{figure}
+
+因为~$\Delta t \ll t$，所以两次观测间的红移差~$\Delta z_{\rm s}$~为
+\begin{equation}\label{4.29}
+  \Delta z_{\rm s}=\frac{\dot{a}(t_{\rm o})-\dot{a}(t_{\rm s})}{a(t_{\rm s})}\Delta t_{\rm o},
+\end{equation}
+即
+\begin{equation}\label{4.30}
+  \Delta v \equiv \frac{\Delta z_{\rm s}}{1+z_{\rm s}},
+\end{equation}
+其中，光谱速度漂移~$\Delta v$~为红移漂移观测量。假设~$a(t_{\rm o}) = 1$，根据~Friedmann~方程，$\Delta v$~也可以被表示为~\upcite{Loeb:1998bu}
+\begin{equation}\label{4.31}
+  \Delta v =H_{0} \Delta t \left[1-\frac{E(z)}{1+z}\right],
+\end{equation}
+其中，$E(z)=H(z)/H_{0}$~由具体研究的~$f(T)$~模型所决定。
+
+进一步根据蒙特卡洛模拟，可得到光谱速度漂移~$\Delta v$~的误差表达式~\upcite{Liske:2008ph}
+\begin{equation}\label{4.32}
+  \sigma_{\Delta v} = 1.35\left(\frac{S/N}{2370}\right)^{-1}\left(\frac{N_{\rm QSO}}{30}\right)^{-1/2}\left(\frac{1+z_{\rm QSO}}{5}\right)^{x} ~\mathrm{cm}~\mathrm{s}^{-1},
+\end{equation}
+其中，$S/N$~为每~0.0125{\AA}~像素所产生的信噪比。当类星体的红移~$z_{\rm QSO}$~满足~$2<z<4$~时，指数~$x = -1.7$；当~$z > 4$~时，指数~$x = -0.9$。$N_{\rm QSO}$~为观察到的类星体数。本文中我们在红移区间~[2，5]~中均匀的模拟了~30~个红移漂移数据。
+
+\section{红移漂移观测限制~$f(T)$~引力模型的研究}
+这一部分我们将给出用红移漂移数据分析~$f(T)$~引力模型的一些结果。为了方便，我们用~current~表示~SNIa + CMB + BAO + $H_{0}$~的数据组合，则该数据组合与~30~年红移漂移模拟数据的结合表示为~current + SL 30-yr。表~\ref{table1}~已给出分别采用~current~和~current + SL 30-yr~数据限制两种不同形式~$f(T)$~引力模型的拟合结果。表中我们引用了~$\pm 1 \sigma$~的误差范围。但在~$f(T)_{\rm EXP}$~模型中，由于参数~$p$~不能被很好地限制，因此我们采用了~$2 \sigma$~的误差下限。图~\ref{fig4a}~为~$f(T)_{\rm PL}$~模型的~$\Omega_{\rm m}$--$H_0$~和~$\Omega_{\rm m}$--$n$~的二维后验分布图。其中，白色和蓝色分别表示~current~和~current + SL 30-yr~的数据对~$f(T)_{\rm PL}$~模型的限制情况。对于~current~观测数据，$f(T)_{\rm PL}$~模型参数~$\Omega_{\rm m}$、$H_{0}$、$n$~的限制精度分别是~4.70\%、2.40\%~和~108.97\%。而对于~current + SL 30-yr~的数据，它们的限制精度可分别达到~0.97\%、0.93\%~和~81.29\%。很明显，结合~SL 30~年的模拟数据可以有效地提高自由参数~$\Omega_{\rm m}$~和~$H_{0}$~ 的精度，并适当地提高模型参数~$n$~的限制精度。
+
+图~\ref{fig4b}~为~$f(T)_{\rm EXP}$~模型的~$\Omega_{\rm m}$--$H_0$~和~$\Omega_{\rm m}$--$p$~的二维后验分布图。同样，白色和蓝色分别表示~current~和~current + SL 30-yr~ 的数据对~$f(T)_{\rm EXP}$~模型的限制情况。当采用~current~观测数据时，$f(T)_{\rm EXP}$~模型的自由参数~$\Omega_{\rm m}$~和~$H_{0}$~的限制精度分别为~4.13\%~ 和~1.41\%。 结合了~SL 30-yr~的数据后，它们的限制精度分别可达~0.94\%~和~0.44\%，即SL 30~年的观测数据对~$f(T)_{\rm EXP}$~模型中~$\Omega_{\rm m}$~和~$H_{0}$~的限制也是相当明显的。从结果中可看出无论是否结合~SL 30~年的观测数据都不能很好地限制参数~$p$。也就是说，SL 30~年的观测数据并不影响模型参数~$p$~的限制精度。
+
+此外，从图~\ref{fig4a}~和~\ref{fig4b}~的左图中，我们看出未来的红移漂移数据可以有效地打破~$f(T)$~模型的自由参数~$\Omega_{\rm m}$~和~$H_{0}$~在当前观测数据中的强简并，并有效地提高这些参数的限制精度。在过去的研究~\cite{Balbi:2007fx,Zhang:2007zga,Zhang:2010im,Martinelli:2012vq,Zhang:2013zyn,sl4,sl1,sl5,sl3}~中，人们对红移漂移数据对暗能量模型的限制已做了大量的研究。其结果与我们研究的结果相一致。因此，我们初步得出结论：对于任意的宇宙学背景模型，红移漂移数据都能有效地打破当前观测数据中的强简并，进而提高各模型的参数限制精度。同时，这样的研究结果也对进一步研究红移漂移数据对未来宇宙学限制提供了更多的依据。
+
+\section{小结}
+红移漂移观测作为一种纯几何的天文观测方法，它能够直接测量遥远类星体~Lyman-$\alpha$~吸收线丛光谱的红移漂移，进而获得宇宙膨胀信息。它测量的所谓“红移沙漠”的范围为~$2 \lesssim z \lesssim 5$，在此红移范围内其他宇宙学观测几乎测不到宇宙膨胀信息。近年来，关于未来红移漂移数据对暗能量的检验人们已做了大量的研究~\cite{Balbi:2007fx,Zhang:2007zga,Zhang:2010im,Martinelli:2012vq,Zhang:2013zyn,sl4,sl1,sl5,sl3}。 其结果表明，红移漂移数据能够有效地打破当前观测数据中的强简并，并提高暗能量参数限制的精度。特别地，对于任一暗能量模型，未来红移漂移数据与当前低红移处观测数据的结合均能使自由参数~$\Omega_{\rm m}$~和~$H_{0}$~达到很高的精度。
+
+本文中我们定量地分析了未来红移漂移数据对~$f(T)$~引力理论的影响。我们以~$f(T)$~模型的两种不同形式~($f(T)_{\rm PL}$~模型和~$f(T)_{\rm EXP}$~模型)~为例，分别用当前低红移处的天文观测数据和联合~30~年~SL~观测数据对它们进行研究。我们发现~30~年的~SL~观测数据能够有效打破自由参数~$\Omega_{\rm m}$~和~$H_{0}$~间的强简并。对于~current~ 观测数据，$f(T)_{\rm PL}$~模型中的自由参数~$\Omega_{\rm m}$~和~$H_{0}$~的限制精度分别是~4.70\%~和~2.40\%。而对于~current + SL 30-yr~的数据，它们的限制精度可分别达到~0.97\%~ 和~0.93\%。对于~$f(T)_{\rm EXP}$~模型，当使用~current~观测数据时，其自由参数~$\Omega_{\rm m}$~和~$H_{0}$~的限制精度分别是~4.13\%~和~1.41\%。 结合了~SL 30-yr~的数据后，它们的限制精度分别可达~0.94\%~和~0.44\%。很明显，$f(T)$~模型的自由参数~$\Omega_{\rm m}$~和~$H_{0}$~的限制精度都有了巨大的提高。然而，SL 30-yr~的数据并不能显著地提高~$f(T)$~模型的模型参数的限制精度。$f(T)_{\rm PL}$模型的模型参数~$n$~的精度有适当的提高，而~$f(T)_{\rm EXP}$~模型的模型参数~$p$~并不能很好地被限制。
+
+本章工作的研究结果与先前人们对暗能量的红移漂移检验结果相一致。因此，我们初步认为未来红移漂移数据能提高自由参数~$\Omega_{\rm m}$~和~$H_{0}$~限制精度的结论与所选的宇宙背景模型无关。为了证实该结论的准确性，我们应该进一步研究更多的修改引力模型，如~DGP~模型和各种形式的~$f(R)$~模型。

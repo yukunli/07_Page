@@ -1,0 +1,341 @@
+\chapter{哈勃参数测量对暗能量模型的限制}
+宇宙作为人类的最大客体，人们对它的一切探索都具有极重要的意义。近年来，以哈勃参量为直接观测量的宇宙学研究已受到人们越来越多的关注。通过哈勃参量的直接观测，我们可以确定影响宇宙演化的宇宙学参数以及其他一些宇宙演化过程中的重要问题。本章中我们首先介绍哈勃参量~$H(z)$~的直接观测值以及未来高红移处的哈勃参量观测值，并分析了这些数据的准确性。其次，分别探究了这些数据对暗能量参数限制的影响及意义。
+
+\section{研究方法与数据}
+联合不同的天文观测数据限制暗能量是研究暗能量性质的一种基本方法。最常见的观测数据组合为~SNIa + CMB + BAO + $H_{0}$。众所周知，它们几乎都属于中低红移处的宇宙学观测。因此，探究高红移处天文观测数据对暗能量参数限制的影响具有重大的意义。
+
+红移漂移观测作为一种直接测量高红移~$2 \lesssim z \lesssim 5$~范围内宇宙膨胀率的几何观测。在过去的研究~\cite{sl4,sl1,sl3,sl2}~中，我们通常将它与一些常见的几何测量方法（如~SNIa~和~BAO）联合使用限制暗能量，使其打破模型参数间的简并。此外，红移漂移观测的本质是高红移处哈勃参量~$H_{z}$。因此，将它与当前已有的哈勃参量~$H(z)$~ 的观测值联合使用限制暗能量是我们十分关注的问题。
+
+\subsection{哈勃参量的直接观测}
+\begin{figure*}
+\centering
+\includegraphics[width=7cm]{fig5a.pdf}
+\includegraphics[width=7cm]{fig5b.pdf}
+\caption{\emph{左图}为本文所采用的~31~个哈勃参数~$H(z)$~直接的观测值以及误差范围，其中通过年龄微分法测得的有~25~个，其红移范围为~$0.07\leq z\leq 1.965$，其他观测值则由径向~BAO~大小法测得，其所在红移范围为~$0.35\leq z\leq 2.34$。通过~Lyman-$\alpha$~吸收线中~BAO~大小我们可测得高红移~$z=2.34$~处的哈勃参数的观测数据~\upcite{Delubac:2014aqe}，而其他通过径向~BAO~大小法测得哈勃参数观测数据的红移范围则在~[0.35， 0.73]~中。\emph{右图}为已有哈勃参数的观测数据限制~$\Lambda$CDM~模型的~$\Omega_{\rm m}$--$h$~的二维参数空间图。我们分别给出了通过年龄微分法和径向~BAO~大小法测得的哈勃参数的观测数据以及这两种数据的结合对~$\Lambda$CDM~模型的限制情况。}
+\addtocounter{figure}{-1}
+\renewcommand\figurename{Fig.}
+\caption{\label{fig1} {\it Left}: The current Hubble parameter measurements data (31 points referenced in total), where 25 $H(z)$ data points ($0.07\leq z\leq 1.965$) come from the ``DA'' measurement and six data points ($0.35\leq z\leq 2.34$) come from the ``Clustering'' measurement. In these data points, the highest redshift is $z=2.34$, corresponding to the point obtained from the BAO measurement in the Ly-$\alpha$ forest of BOSS quasars~\cite{Delubac:2014aqe}, in the ``Clustering'' dataset; whereas all the other five points in the ``Clustering'' dataset are in the range of $z\in [0.35, 0.73]$. {\it Right}: The constraints on the $\Lambda$CDM model with the current $H(z)$ measurements (the 68\% and 95\% CL contours are shown in the $\Omega_{\rm m}$--$h$ plane). We show the constraints from the ``DA'' and ``Clustering'' datasets, separately, and we also show the constraints from the combination of the two.}
+\end{figure*}
+\begin{table*}\tiny
+\caption{31~个已测哈勃参数~$H(z)$~的观测数据以及~$1 \sigma$~的误差。其中，$H(z)$~和~$\sigma$~的单位均为~km~s$^{-1}$~Mpc$^{-1}$。}
+\addtocounter{table}{-1}
+\renewcommand\tablename{Table}
+\caption{Data of the Hubble parameter $H(z)$ versus the redshift $z$, where $H(z)$ and $\sigma_{H}$ are in units of km~s$^{-1}$~Mpc$^{-1}$. }
+\label{table2}
+\small
+%\setlength\tabcolsep{2.8pt}
+\renewcommand{\arraystretch}{1.5}
+\centering
+\begin{tabular}{cccccccccc}
+\\
+\bottomrule
+%           \cline{2-4}\cline{6-8}
+$z$  && $H(z)$ && $\sigma_{H}$ && Reference && Method  \\ \hline
+
+$0.07$   && $69.0$   && $19.6$    && \cite{H13} && DA \\
+$0.1$    && $69.0$    && $12.0$     && \cite{H5} && DA \\
+$0.12$   && $68.6$   && $26.2$    && \cite{H13} && DA \\
+$0.17$   && $83.0$   && $8.0$    && \cite{H5} && DA \\
+$0.179$   && $75.0$   && $4.0$    && \cite{H8} && DA \\
+$0.199$   && $75.0$   && $5.0$    && \cite{H8} && DA \\
+$0.2$   && $72.9$   && $29.6$    && \cite{H13} && DA \\
+$0.27$   && $77.0$   && $14.0$    && \cite{H5} && DA \\
+$0.28$   && $88.8$   && $36.6$    && \cite{H13} && DA \\
+$0.352$   && $83.0$   && $14.0$    &&\cite{H8} && DA \\
+$0.4$   && $95.0$   && $17.0$    && \cite{H5} && DA \\
+$0.48$   && $97.0$   && $62.0$    && \cite{H5} && DA \\
+$0.593$   && $104.0$   && $13.0$    &&\cite{H8} &&  DA \\
+$0.68$   && $92.0$   && $8.0$    && \cite{H8} && DA \\
+$0.781$   && $105.0$   && $12.0$    && \cite{H8} && DA \\
+$0.875$   && $125.0$   && $17.0$    && \cite{H8} && DA \\
+$0.88$   && $90.0$   && $40.0$    && \cite{H5} && DA \\
+$0.9$   && $117.0$   && $23.0$    && \cite{H5} && DA \\
+$1.037$   && $154.0$   && $20.0$    && \cite{H8} && DA \\
+$1.3$   && $168.0$   && $17.0$    && \cite{H5} && DA \\
+$1.363$   && $160.0$   && $33.6$    && \cite{Moresco:2015cya} && DA \\
+$1.43$   && $177.0$   && $18.0$    && \cite{H5} && DA \\
+$1.53$   && $140.0$   && $14.0$    && \cite{H5} && DA \\
+$1.75$   && $202.0$   && $40.0$    && \cite{H5} && DA \\
+$1.965$   && $186.5$   && $50.4$    && \cite{Moresco:2015cya} && DA \\
+$0.35$   && $82.7$   && $8.4$    && \cite{H10} && Clustering \\
+$0.44$   && $82.6$   && $7.8$    && \cite{H9} && Clustering \\
+$0.57$   && $96.8$   && $3.4$    && \cite{Anderson:2013zyy} && Clustering \\
+$0.60$   && $87.9$   && $6.1$    && \cite{H9} && Clustering \\
+$0.73$   && $97.3$   && $7.0$    && \cite{H9} && Clustering \\
+$2.34$   && $222.0$   && $7.0$    && \cite{Delubac:2014aqe} && Clustering \\
+\bottomrule
+\end{tabular}
+\end{table*}
+哈勃参量~$H(z)$~可以反映宇宙空间的相对膨胀率，即通过哈勃参数的测量，我们可以了解宇宙膨胀的一些相关信息。因此，直接测量哈勃参量~$H(z)$~是当前宇宙学的一个重要挑战。
+
+近年来，天文学家们在哈勃参量~$H(z)$~的测量方面已取得巨大的成就。迄今为止，通过年龄微分法和径向~BAO~大小法人们已测得~30~多个哈勃参数的观测值。2002~年，Jimenez~ 和~Loeb~\upcite{H1}提出，我们可以把消极演化星系看作一种宇宙计时器，通过其微分年龄随红移的演化直接测量哈勃参量~$H(z)$~的观测值，正如方程~(\ref{3.25})~所示。因此，人们把这种测量哈勃参量~$H(z)$~的方法叫做“年龄微分法”，简称为“DA”法。本文中我们采用了由年龄微分法测得的~25~个哈勃参量~$H(z)$~的观测值，见表~\ref{table2}。 其中，2012~年~Moresco~等人通过年龄微分法测得的哈勃参数~$H(z)$~的观测值有~8~个~\upcite{H8}。研究~\cite{Chen:2011ys,H10,Farooq:2012ju}~表明，它们比先前数据的误差更小，并且对宇宙学模型参数的限制精度几乎可以达到超新星的限制效果。此外，我们引用了两个通过年龄微分法测得的最新观测数据~\upcite{Moresco:2015cya}，即红移~$z=1.363$~ 处哈勃参量~$H(z)$~的观测值为~$H(z) = 160.0 \pm 33.6 $ km~s$^{-1}$~Mpc$^{-1}$~以及红移~$z=1.965$~处哈勃参量~$H(z)$~的观测值为~$H(z) = 186.5 \pm 50.4 $ km~s$^{-1}$~Mpc$^{-1}$ 。 由文献~\cite{Moresco:2015cya}~可知，当这两个数据被用来限制~$\Lambda$CDM~模型和~$w$CDM~模型时，它们能将参数~$\Omega_{\rm m}$~和~$h$~的精度提高~5\%。因此，Moresco~的观测结果对研究暗能量问题具有重大的意义。
+
+BAO~作为观测的标准尺度，人们根据它在星系中的峰值统计特征直接测量哈勃参数~$H(z)$~的方法称为径向~BAO~大小法~\upcite{Peebles2}。为了方便，人们通常将径向~BAO~大小法简写为``Clustering"。通过~BAO~尺度测量球状星系的统计特征，人们可以得到一个与哈勃参量~$H(z)$~和角直径距离~$D_{\rm A}$~相关的物理量~$D_{\rm V}$。它的定义式为
+\begin{equation}\label{5.1}
+  D_{\rm V} = D^{2/3}_{\rm A} (z/H(z))^{1/3}.
+\end{equation}
+
+为了使~$D_{\rm V}$~中的哈勃参量~$H(z)$~和角直径距离~$D_{\rm A}$~分离，人们利用了星系二维分布法，并将相关函数分为视线方向和横向方向两部分。经过十几年的努力，天文学家们已获得丰硕的成果。如~Gaztanaga~等人~\upcite{H4}将亮红星系光谱沿视线方向和横向方向分离，并公布了~SDSS~的第~6~批和第~7~批观测数据，即红移~$z=0.24$~处的哈勃参量~$H(z) = 79.69 \pm 2.65 $ km~s$^{-1}$~Mpc$^{-1}$~以及红移~$z=0.43$~处的哈勃参量~$H(z) = 86.45 \pm 3.68 $ km~s$^{-1}$~Mpc$^{-1}$。由于它们不合理的误差范围受到了人们广泛的质疑~\upcite{MiraldaEscude:2009uz,Kazin:2010nd,Cabre:2010bc}，因此我们并没有对这两个哈勃参数的观测数据进行分析。此外，通过结合声学参数~$A(z) \propto [D^{2}_{\rm A}(z)/H(z)]^{1/3}$~和~Alcock-Paczynski~扭曲参数$F(z) \propto D_{\rm A}(z)H(z)$，Blake~等人~\upcite{H9}也测到三个哈勃参数的观测数据，即红移~$z=0.44$~ 处~$H(z) = 82.6 \pm 7.8 $ km~s$^{-1}$~Mpc$^{-1}$，红移~$z=0.6$~处~$H(z) = 87.9 \pm 6.1 $ km~s$^{-1}$~Mpc$^{-1}$，以及红移~$z=0.73$~处~$H(z) = 97.3 \pm 7.0 $ km~s$^{-1}$~Mpc$^{-1}$；等等其他哈勃参数的观测。关于具体的哈勃参数~$H(z)$~和角直径距离~$D_{\rm A}$~分离过程在文献~\cite{H4,H9,H10,Anderson:2013zyy,Delubac:2014aqe} 中有详细的介绍，本文将不再赘述。重要的是，我们还引用了两个通过径向~BAO~大小法测得的最新的哈勃参数观测值：$H(z= 0.57) = 96.8 \pm 3.4$ km~s$^{-1}$~Mpc$^{-1}$~\upcite{Anderson:2013zyy} 和~$H(z = 2.34) = 222 \pm 7$  km~s$^{-1}$~Mpc$^{-1}$~\upcite{Delubac:2014aqe}。 相比过去在同一红移处测得的哈勃参数观测值，它们可以更精确地限制暗能量模型参数。
+
+本文中，我们引用了文献~\cite{H15}~中列出的多数哈勃参数观测值，并详细地介绍了它们的统计误差和系统误差。而其他新加的哈勃参数观测值在文献~\cite{Anderson:2013zyy,Delubac:2014aqe,Moresco:2015cya}~中也加以详细地介绍。此外，人们认为通过径向~BAO~大小法测得的哈勃参数~$H(z)$~的观测值并不是模型独立的，因此它们不能检验宇宙学参数。当然，我们承认人们对这些数据的质疑有一定的合理性，但这些数据的来源并不是本文的重点。本文中我们主要的任务是检验红移漂移模拟数据单独和哈勃参数~$H(z)$~的直接观测值联合对宇宙学参数的影响。因此，径向~BAO~大小法测得的哈勃参数~$H(z)$~的观测值是否模型独立的问题在本文中我们将不做详细地讨论。
+
+图~\ref{fig1}~的左图给出了本文所采用的哈勃参数的观测数据以及~$1 \sigma$~范围的误差。通过年龄微分法测得哈勃参数~$H(z)$~的观测值有~25~个，其红移范围为~$0.07\leq z\leq 1.965$，另外的观测数据则由径向~BAO~大小法测得，其所在红移范围为~$0.35\leq z\leq 2.34$。通过~Lyman-$\alpha$~森林中~BAO~大小可测得高红移~$z=2.34$~处的哈勃参数的观测数据~\upcite{Delubac:2014aqe}，研究~\cite{Sahni:2014ooa}~表明，它可以证实演化的暗能量。而其他五个通过径向~BAO~大小法测得哈勃参数观测数据的红移范围在~[0.35, 0.73]~内。如图~\ref{fig1}~所示，尽管通过径向~BAO~大小法测得的哈勃参数~$H(z)$~的数据很少，但它们的误差比通过年龄微分法测得的误差小得多。
+
+本文中，我们采用了~$\chi^{2}$~统计解释哈勃参数~$H(z)$~的观测数据对宇宙学模型的限制，其~$\chi^{2}$~函数见方程~(~\ref{3.30})。下面我们以标准的~$\Lambda$CDM~模型为例检验通过这两种方法所观测到的哈勃参数观测值的一致性。图~\ref{fig1}~的右图表示哈勃参数的观测数据限制~$\Lambda$CDM~的~$\Omega_{\rm m}$--$h$~的二维参数空间图。很明显，我们发现这两种方法所观测到的哈勃参数的观测数据相当一致。尽管通过径向~BAO~大小法测得的哈勃参数的观测数据少，但它比通过年龄微分法测得的哈勃参数对模型参数限制的更好，且如图~\ref{fig1}~中的红色区域所示，这两种数据的联合使用对宇宙学模型限制的更紧~($\Omega_{\rm m}=0.2654^{+0.0325}_{-0.0287}$，$h=0.7043^{+0.0241}_{-0.0246}$)。$\Omega_{\rm m}$~和~$h$~的限制精度分别可达~$\sim 11.57\%$~和~$\sim 3.46\%$。 由此可知，单独使用已测哈勃参数的观测数据也可以对宇宙学参数提供很好的限制。
+
+\subsection{未来高红移处哈勃参量的直接观测}
+\begin{figure*}
+\includegraphics[width=5.0cm]{fig5c.pdf}
+\includegraphics[width=5.0cm]{fig5d.pdf}
+\includegraphics[width=5.0cm]{fig5e.pdf}
+\caption{以~$\Lambda$CDM、$w$CDM~和~CPL为基准模型重建的哈勃参量~$H(z)$~随红移~$z$~的演化图。为了方便，我们用~$H(z)/(1+z)$~代替~$H(z)$。黑色曲线和蓝绿色宽带分别表示用已有哈勃参数的观测数据~$H(z)$~重建拟合出的中心值和~1$\sigma$~的置信空间。图中红色的误差棒表示由红移漂移~10~年的数据重建给出的~1$\sigma$~的误差范围。}
+\addtocounter{figure}{-1}
+\renewcommand\figurename{Fig.}
+\caption{\label{fig2} The evolutions of $H(z)/(1+z)$ in the $\Lambda$CDM, $w$CDM, and CPL models. The black curves and cyan bands (best fit with 1$\sigma$ uncertainty) are reconstructed from the current $H(z)$ measurements. The red error bars (1$\sigma$) on the black curves are estimated from the 10-year redshift-drift observation.}
+\end{figure*}
+探究高红移处红移漂移观测数据的限制精度以及它们对已有哈勃参数观测的影响是本文的重点。关于它的详细介绍及研究方法在第四章中已讨论过，在此将不再赘述。需要注意的是，红移漂移观测的本质是观测高红移处的哈勃参量~$H(z)$。它们的可观测量及误差表达式分别为
+\begin{equation}\label{5.2}
+  H(z)=\left(H_0-\frac{\Delta v}{\Delta t_o}\right)(1+z),
+\end{equation}
+\begin{equation}\label{5.3}
+  \sigma_H=(1+z)\frac{\sigma_{\Delta v}}{\Delta t_o}.
+\end{equation}
+
+通过~SL~检验的方法我们可以模拟~30~个红移在~[2，5]~范围内的哈勃参数~$H(z)$~的观测数据。本文中我们研究了~10~年~($\Delta t_o=10$)~的红移漂移观测数据。研究~\cite{Zhang:2010im,Corasaniti:2007bg}~告诉我们，10~年的~SL~模拟数据能够合理的研究其对暗能量的限制情况。为了清晰地分析~10~年~红移漂移观测数据的精度，图~\ref{fig2}~ 给出了以~$\Lambda$CDM、$w$CDM~和~CPL 为基准模型重建的哈勃参量~$H(z)$~随红移~$z$~的演化过程。为了方便，我们用~$H(z)/(1+z)$~代替~$H(z)$。黑色曲线和蓝绿色宽带分别表示用已有哈勃参数的观测数据~$H(z)$~重建拟合出的中心值和~1$\sigma$~的置信空间。我们发现，红移越高，这些模拟数据的误差越小。这表明高红移处红移漂移观测数据在限制多参数宇宙学模型中起着重要的作用。
+
+在红移漂移数据模拟中，为了避免其与当前天文观测数据间的不一致，如第四章红移漂移观测的研究方法一样，我们选择当前观测数据最佳拟合的暗能量模型本身为基准模型。下面我们将给出~10~年高红移处的~SL~模拟数据与哈勃参数观测数据结合对暗能量限制的结果。
+
+\section{哈勃参数测量对暗能量限制的影响}
+\begin{table*}\tiny
+\caption{分别用已有哈勃参数~$H(z)$~的观测数据和已有哈勃参数~$H(z)$~的观测数据加~10~年~SL~模拟数据限制~$\Lambda$CDM、$w$CDM、CPL~和~HDE~模型的拟合结果。表中，我们采用了~$\pm 1 \sigma$~的误差范围。}
+\addtocounter{table}{-1}
+\renewcommand\tablename{Table}
+\caption{Fit results for the $\Lambda$CDM, $w$CDM, CPL, and HDE models using the current $H(z)$ data and the $H(z)$ + SL 10-year data.}
+\label{table3}
+\small
+%\setlength\tabcolsep{2.8pt}
+\renewcommand{\arraystretch}{1.5}
+\centering
+\begin{tabular}{cccccccccccc}
+\\
+\bottomrule &\multicolumn{2}{c}{$H(z)$} &&\multicolumn{2}{c}{$H(z)$+ SL 10-year} \\
+           \cline{2-3}\cline{5-6}
+Parameter  & $\Lambda$CDM & $w$CDM && $\Lambda$CDM & $w$CDM  \\ \hline
+
+$w$                & $-1~({\rm fixed})$
+                   & $-0.8174^{+0.2519}_{-0.2563}$&
+                   & $-1~({\rm fixed})$
+                   & $-0.8151^{+0.1884}_{-0.2391}$\\
+
+
+$\Omega_{\rm m}$       & $0.2654^{+0.0325}_{-0.0287}$
+                   & $0.2662^{+0.0355}_{-0.0376}$&
+                   & $0.2654^{+0.0056}_{-0.0055}$
+                   & $0.2663^{+0.0093}_{-0.0071}$\\
+
+$\emph{h}$         & $0.7043^{+0.0241}_{-0.0246}$
+                   & $0.6742^{+0.0489}_{-0.0451}$&
+                   & $0.7042^{+0.0126}_{-0.0126}$
+                   & $0.6735^{+0.0423}_{-0.0420}$
+                   \\
+\cline{2-3}\cline{5-6}
+Parameter  & CPL & HDE & & CPL & HDE \\ \hline
+$w_{0}$           & $-0.8591^{+0.3981}_{-0.3697}$
+                  & $-$&
+                  & $-0.8531^{+0.2689}_{-0.2652}$
+                  & $-$
+                   \\
+$w_{a}$            & $0.8583^{+0.4995}_{-2.4411}$
+                   & $-$&
+                   & $0.8366^{+0.4849}_{-0.4996}$
+                   & $-$
+                   \\
+$c$                & $-$
+                   & $1.1383^{+1.3681}_{-0.4323}$&
+                   & $-$
+                   & $1.1642^{+0.5430}_{-0.3271}$
+                   \\
+
+
+
+$\Omega_{\rm m}$          & $0.1534^{+0.1799}_{-0.1221}$
+                      & $0.2435^{+0.0334}_{-0.0341}$&
+                      & $0.1535^{+0.0094}_{-0.0071}$
+                      & $0.2421^{+0.0102}_{-0.0146}$
+                      \\
+
+$\emph{h}$              & $0.6884^{+0.0571}_{-0.0585}$
+                        & $0.6796^{+0.0536}_{-0.0485}$&
+                        & $0.6881^{+0.0493}_{-0.0499}$
+                        & $0.6785^{+0.0257}_{-0.0247}$
+                        \\
+\bottomrule
+\end{tabular}
+\end{table*}
+\begin{table*}\tiny
+\caption{分别用当前已测哈勃参数~$H(z)$~的观测数据和当前已测哈勃参数~$H(z)$~的观测数据加~10~年~SL~模拟数据拟合~$\Lambda$CDM、$w$CDM、CPL~和~HDE~模型的误差范围和精度。}
+\addtocounter{table}{-1}
+\renewcommand\tablename{Table}
+\caption{Constraint errors and precisions of parameters in the $\Lambda$CDM, $w$CDM, CPL, and HDE models for the fits to the current
+$H(z)$ data and the $H(z)$ + SL 10-year data.}
+\label{table4}
+\small
+%\setlength\tabcolsep{2.8pt}
+\renewcommand{\arraystretch}{1.5}
+\centering
+\begin{tabular}{cccccccccccc}
+\\
+\bottomrule &\multicolumn{4}{c}{$H(z)$} &&\multicolumn{4}{c}{$H(z)$+ SL 10-year} \\
+           \cline{2-5}\cline{7-10}
+Error  & $\Lambda$CDM & $w$CDM & CPL & HDE&& $\Lambda$CDM & $w$CDM & CPL  & HDE \\ \hline
+
+$\sigma(w_{0})$     & $-$
+                    & $0.2541$
+                    & $0.3842$
+                    & $-$&
+                    & $-$
+                    & $0.2152$
+                    & $0.2671$
+                    & $-$
+                    \\
+
+$\sigma(w_{a})$    & $-$
+                   & $-$
+                   & $1.7619$
+                   & $-$&
+                   & $-$
+                   & $-$
+                   & $0.4923$
+                   & $-$
+                   \\
+
+$\sigma(c)$        & $-$
+                   & $-$
+                   & $-$
+                   & $1.0145$&
+                   & $-$
+                   & $-$
+                   & $-$
+                   & $0.4482$       \\
+
+
+$\sigma(\Omega_{\rm m})$    & $0.0307$
+                        & $0.0366$
+                        & $0.1537$
+                        & $0.0338$&
+                        & $0.0056$
+                        & $0.0083$
+                        & $0.0083$
+                        & $0.0126$  \\
+
+$\sigma(\emph{h})$      & $0.0244$
+                        & $0.0470$
+                        & $0.0578$
+                        & $0.0511$&
+                        & $0.0126$
+                        & $0.0422$
+                        & $0.0496$
+                        & $0.0252$\\
+\cline{2-5}\cline{7-10}
+Precision  & $\Lambda$CDM & $w$CDM & CPL & HDE&& $\Lambda$CDM & $w$CDM & CPL  & HDE \\ \hline
+$\varepsilon(w_{0})$     & $-$
+                    & $0.3109$
+                    & $0.4472$
+                    & $-$&
+                    & $-$
+                    & $0.2640$
+                    & $0.3130$
+                    & $-$
+                    \\
+
+$\varepsilon(w_{a})$    & $-$
+                   & $-$
+                   & $2.0528$
+                   & $-$&
+                   & $-$
+                   & $-$
+                   & $0.5885$
+                   & $-$
+                   \\
+
+$\varepsilon(c)$        & $-$
+                   & $-$
+                   & $-$
+                   & $0.8912$&
+                   & $-$
+                   & $-$
+                   & $-$
+                   & $0.3850$       \\
+
+
+$\varepsilon(\Omega_{\rm m})$    & $0.1157$
+                        & $0.1375$
+                        & $1.0020$
+                        & $0.1388$&
+                        & $0.0211$
+                        & $0.0312$
+                        & $0.0541$
+                        & $0.0520$  \\
+
+$\varepsilon(\emph{h})$      & $0.0346$
+                        & $0.0697$
+                        & $0.0840$
+                        & $0.0752$&
+                        & $0.0179$
+                        & $0.0627$
+                        & $0.0721$
+                        & $0.0371$ \\
+\bottomrule
+\end{tabular}
+\end{table*}
+\begin{figure*}
+\centering
+\includegraphics[width=13.0cm]{fig5f.pdf}
+\caption{分别用当前已测哈勃参数~$H(z)$~的观测数据(粉色区域)~和当前已测哈勃参数~$H(z)$~的观测数据加~10~年~SL~模拟数据~(蓝色区域)~拟合~$\Lambda$CDM、$w$CDM、CPL~和~HDE~模型的~$\Omega_{\rm m}$--$h$~的二维参数空间图。}
+\addtocounter{figure}{-1}
+\renewcommand\figurename{Fig.}
+\caption{\label{fig3} Constraints ($1\sigma$ and $2\sigma$ CL) on the $\Lambda$CDM, $w$CDM, CPL, and HDE models in the $\Omega_{\rm m}$--$h$ plane from the current $H(z)$ measurements (pink contours) and current $H(z)$ + future 10-year redshift-drift measurements (blue contours). }
+\end{figure*}
+\begin{figure*}
+\centering
+\includegraphics[width=13.0cm]{fig5g.pdf}
+\caption{分别用当前已测哈勃参数~$H(z)$~的观测数据(粉色区域)~和当前已测哈勃参数~$H(z)$~的观测数据加~10~年~SL~模拟数据~(蓝色区域)~拟合~$w$CDM、CPL~和~HDE~模型的的二维参数空间图。在~$w$CDM~中我们给出了~$\Omega_{\rm m}$--$w$~的关系，对于~CPL~模型，我们给出了~$w_0$--$w_a$~关系，而在~HDE~模型中，我们给出了~$\Omega_{\rm m}$--$c$~ 关系。在~$w$CDM~和~CPL~模型中，我们可以清晰地看出宇宙学常数的位置。}
+\addtocounter{figure}{-1}
+\renewcommand\figurename{Fig.}
+\caption{\label{fig4} Constraints ($1\sigma$ and $2\sigma$ CL) on the $w$CDM, CPL, and HDE models from the current $H(z)$ measurements (pink contours) and current $H(z)$ + future 10-year redshift-drift measurements (blue contours). We show the two-dimensional marginalized contours in the $\Omega_{\rm m}$--$w$ plane for the $w$CDM model, in the $w_0$--$w_a$ plane for the CPL model, and in the $\Omega_{\rm m}$--$c$ plane for the HDE model. For the models that contain $\Lambda$CDM as a sub-model, namely $w$CDM and CPL, the positions of the cosmological constant are clearly denoted.}
+\end{figure*}
+\begin{figure*}
+\small
+\centering
+\includegraphics[width=7cm]{fig5h.pdf}
+\includegraphics[width=7cm]{fig5i.pdf}
+\caption{用当前已测哈勃参数的观测数据~$H(z)$~加~10~年~SL~数据拟合结果重构的~CPL~和~HDE~模型在~$1\sigma$~和~$2\sigma$~内的~$w(z)$~演化曲线。}
+\addtocounter{figure}{-1}
+\renewcommand\figurename{Fig.}
+\caption{\label{fig5} The reconstructed evolutions of $w(z)$ for CPL and HDE with errors ($1\sigma$ and $2\sigma$) obtained from the $H(z)$+ SL 10-year data. }
+\end{figure*}
+研究哈勃参数~$H(z)$~对暗能量模型的限制是本章的重点。首先，我们对哈勃参数观测数据限制典型的暗能量模型进行了分析。然后选出拟合最好的模型做为基准模型模拟出~10~ 的红移漂移观测数据，并与哈勃参数~$H(z)$~的直接观测数据结合共同限制暗能量模型。因此，通过红移漂移测得的未来高红移处的哈勃参数~$H(z)$~与当前已测哈勃参数观测数据结合对暗能量的限制提高是当前重要的课题之一。
+
+我们以四个典型的暗能量模型为例进行了分析，它们分别是~$\Lambda$CDM、$w$CDM、CPL~和~HDE~模型。$\Lambda$CDM~模型的状态方程为~$w = -1$，$w$CDM~模型的状态方程~$w$~ 为常数，CPL~模型的状态方程被参数化为~$w(z)=w_0+w_a \frac{z}{1+z}$~\upcite{CPL1,CPL2}以及~HDE~模型的状态方程为~$w(z)=-1/3-(2/3c)\sqrt{\Omega_{\rm de}(z)}$~\upcite{Li:2004rb}，其中，$c$~为无量纲的参数。我们可通过方程~$\Omega_{\rm de}'=\Omega_{\rm de}(1-\Omega_{\rm de})[1+(2/c)\sqrt{\Omega_{\rm de}}]$~\upcite{Li:2004rb}解得~$\Omega_{\rm de}(z)$，“$\prime$”表示对~$\ln a$~的微分。
+
+本文中我们使用了两种数据组合，即当前已测哈勃参数~$H(z)$~的观测数据以及当前已测哈勃参数~$H(z)$~观测数据与~10~年红移漂移模拟数据的结合。表~\ref{table3}~为用当前已测哈勃参数~$H(z)$~的观测数据和当前已测哈勃参数~$H(z)$~的观测数据加~10~年~SL~模拟数据限制~$\Lambda$CDM、$w$CDM、CPL~和~HDE~模型的最佳拟合结果。我们发现仅使用当前已测哈勃参数~$H(z)$~观测数据可以很好地限制~$\Lambda$CDM~模型，但对其他比~$\Lambda$CDM~模型参数更多的模型限制则很松散。然而当它与~10~年红移漂移模拟数据的结合时可以极大地提高对模型的参数限制效果。
+
+从图~\ref{fig3}~和~\ref{fig4}~很清晰地可以看到红移漂移模拟数据对模型参数限制的提高。图~\ref{fig3}~给出了当前已测哈勃参数~$H(z)$~的观测数据和当前已测哈勃参数~$H(z)$~的观测数据加~10~年~SL~模拟数据拟合~$\Lambda$CDM、$w$CDM、CPL~和~HDE~模型的~$\Omega_m$--$h$~的二维参数空间图。粉色区域表示当前哈勃参数~$H(z)$~对这几个模型的限制结果，蓝色区域则为结合当前已测哈勃参数~$H(z)$~与高红移处的模拟数据对这几个模型的限制结果。我们发现对任一模型，高红移处的红移漂移模拟数据都能明显地打破自由参数~$\Omega_{\rm m}$~ 和~$h$~的简并。此外，图~\ref{fig4}~给出了用当前已测哈勃参数~$H(z)$~的观测数据和当前已测哈勃参数~$H(z)$~的观测数据加~10~年~SL~模拟数据拟合~$w$CDM、CPL~和~HDE~模型的二维模型参数空间图。分别为~$w$CDM~模型的~$\Omega_{\rm m}$--$w$~图，CPL~模型的~$w_0$--$w_a$~图以及~HDE~模型的~$\Omega_{\rm m}$--$c$~ 图。很明显可以看出，结合~10~年的红移漂移模拟数据可以提高所有参数的限制精度，尤其对~$\Omega_{\rm m}$~参数精度的提高较为明显。
+
+为了更加具体清晰地看出参数限制的提高效果，表~\ref{table4}~量化了用当前已测哈勃参数~$H(z)$~的观测数据和当前已测哈勃参数~$H(z)$~的观测数据加~10~年~SL~数据拟合~$\Lambda$CDM、$w$CDM、CPL~和~HDE~模型的误差范围和精度。对于任一参数~$\xi$，我们定义其精度~$\varepsilon(\xi)$~为
+\begin{equation}\label{5.4}
+  \varepsilon(\xi)=\frac{\sigma(\xi)}{\xi_{\rm bf}}.
+\end{equation}
+其中，$\sigma(\xi)$~和~$\xi_{\rm bf}$~分别为最佳模型拟合的误差范围和中心值。
+
+我们发现联合红移漂移~10~年的模拟数据几乎可以使自由参数~$\Omega_{\rm m}$~的限制精度提高一个量级。具体情况分别为~$\Lambda$CDM~模型中自由参数~$\Omega_{\rm m}$~的限制精度由~11.57\%~提高到~2.11\%；$w$CDM~模型中自由参数~$\Omega_{\rm m}$~的限制精度由~13.75\%~提高到~3.12\%；CPL~模型中自由参数~$\Omega_{\rm m}$~的限制精度由~100.20\%~提高到~5.41\%；以及~HDE~模型中自由参数~$\Omega_{\rm m}$~的限制精度由~13.88\%~提高到~5.20\%。对于这四个模型，参数~$h$~的限制精度都有显著地提高。而对各模型模型参数的限制精度也有适当的提高，如~$w$CDM~模型中模型参数~$w$~的限制精度由~31.09\%~提高到~26.40\%；CPL~模型中模型参数~$w_{0}$~的限制精度由~44.72\%提高到~31.30\%；HDE~模型中模型参数~$c$~的限制精度由~89.12\%~提高到~38.50\%。然而，仅用当前已测哈勃参数观测数据检验~CPL~模型的参数时，对模型参数~$w_{a}$~的限制十分松散，其限制精度达~205.28\%，而结合红移漂移~10~年的模拟数据后，其限制精度可达~58.85\%。因此，我们可以得出结论，红移漂移~10~年的模拟数据与当前已测哈勃参数的观测数据联合可提高对暗能量的限制结果。
+
+此外，我们知道~CPL~模型和~HDE~模型可以描述暗能量的演化。其中~CPL~模型描述暗能量演化的模型参数为~$w_{0}$~和~$w_{a}$，因此它可以包含~$\Lambda$CDM~模型~(其对应参数~$(w_0,w_a)=(-1,0)$)。而~HDE~模型是完全区别于~CPL~模型的描述暗能量演化的暗能量模型，其唯一描述暗能量演化的模型参数为~$c$，即$w(z)=-1/3-(2/3c)\sqrt{\Omega_{\rm de}(z)}$。 很明显，在早期宇宙中~($z\rightarrow \infty$，$\Omega_{\rm de}\rightarrow 0$)，其暗能量状态方程~$w(z\rightarrow \infty)=-1/3$；而在未来~($z\rightarrow -1$，$\Omega_{\rm de}\rightarrow 1$)，其暗能量状态方程~$w(z\rightarrow -1)=-1/3-2/3c$~\upcite{Li:2004rb}。因此，HDE~模型并不包含~$\Lambda$CDM~模型。图~\ref{fig5}~给出用当前已测哈勃参数~$H(z)$~的观测数据加~10~年~SL~模拟数据拟合结果重构的~CPL~和~HDE~模型在~$1\sigma$~和~$2\sigma$~内的~$w(z)$~演化曲线。我们发现很可能仅用未来高红移处的哈勃参量~$H(z)$~就能从~$\Lambda$CDM~模型~中区别出不同的动力学暗能量模型。
+
+\section{小结}
+众所周知，不同红移处哈勃参数~$H(z)$~的测量对探究暗能量神秘性质具有重大的意义。迄今为止，人们大都通过距离------红移关系检验暗能量的性质。然而，2001~年~Maor~\upcite{Maor2001}等人的研究表明：通过距离------红移关系检验暗能量的方法存在一些不确定性：(1)~宇宙学距离需要通过积分建立与哈勃膨胀率~$H(z)$~的依赖关系， 这个积分会造成一些宇宙学参量特别是随红移演化的暗能量及其状态方程信息的缺失，因此在数据拟合中带来系统误差；(2)~积分的过程可能会降低其对宇宙学参量特别是随红移演化的暗能量及其状态方程的敏感性，使测得的距离------红移关系的信息无法区分不同演化历史的状态方程。因此，近年来，人们认为以哈勃参量为载体的直接测量是研究暗能量问题一种简单且合理的方法。
+
+尽管哈勃参量~$H(z)$~的直接观测面临着严峻的挑战，但近年来经过天文学家不懈努力已有很大的收获。到目前为止，人们共积累了红移在~[0.07，2.34]~范围内的~30~多个哈勃观测值。其中，通过年龄微分法测到的~25~个哈勃参数~$H(z)$~的红移范围为~$0.07\leq z\leq 1.965$，其他~6~个数据则通过径向~BAO~大小法测得，其对应的红移范围为~$0.35\leq z\leq 2.34$。我们发现，通过这两种方法测得的哈勃参数~$H(z)$~的数据组相互一致，并且它们的联合可以很好的约束当前一些典型的暗能量模型。
+
+此外，SL~检验可以直接测量高红移~[2， 5]~范围内的哈勃参量~$H(z)$。因此，本文中我们探究了红移漂移与当前已测哈勃参量直接观测结合对限制暗能量的影响。我们合理地选择了四个典型的暗能量模型（$\Lambda$CDM、$w$CDM、CPL~和~HDE~模型）进行分析，并考虑了~10~年的红移漂移观测模拟出~30~个红移在~[2，5]~范围内的哈勃参数量~$H(z)$。 结果表明，10~年红移漂移模拟数据与当前已测哈勃参量~$H(z)$~的结合可以强烈的约束暗能量模型参数，有效地补充了低红移处天文观测的不足。近年来，红移漂移观测的研究日渐成熟，尤其在约束暗能量方面有着举足轻重的地位。因此，高红移处红移漂移数据的精确测量很有可能为研究暗能量带来重大的贡献。
+

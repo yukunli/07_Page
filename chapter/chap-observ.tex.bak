@@ -1,0 +1,240 @@
+\chapter{暗能量的宇宙学观测}
+1998~年三位天体物理学家发现宇宙加速膨胀以来，解释宇宙的加速膨胀便成为宇宙学的一个热门课题。经过多年的努力，人们认为可从宇宙的膨胀历史和大尺度结构形成两方面探测宇宙的加速膨胀，它们的本质都是通过~Hubble~参量~$H(z)$~将宇宙学理论与实际观测相结合。事实上，观测到的膨胀历史数据越多，质量就会越好，因此也能更加精确地描述宇宙加速膨胀的行为。本文主要介绍了相关的一些观测方法，即超新星、宇宙微波背景辐射、重子声学振荡以及哈勃参数~$H(z)$~的直接测量。
+
+为了将理论模型与实际观测相结合，我们通常应用数学上的卡方统计解释。若物理量~$\xi$~的理论预言值为~$\xi_{\rm {th}}$，实验测量值为~$\xi_{\rm {obs}}$，标准偏差为~$\sigma_{\xi}$，则该物理量的卡方函数可以表示为
+\begin{equation}\label{3.1}
+  \chi^{2}_{\xi}({\bm p}) = \frac{(\xi_{\rm {obs}} -\xi_{\rm {th}}({\bm p}))^{2}}{\sigma^{2}_{\xi}},
+\end{equation}
+其中~${\bm p}$~表示宇宙学模型中的任一参数。若不同的宇宙学观测相互独立，那么它们总的卡方函数可表示为各个不同卡方函数的求和，即
+\begin{equation}\label{3.2}
+  \chi^{2}({\bm p}) = \sum_{i}\chi^{2}_{\xi_{i}}({\bm p}).
+\end{equation}
+通过卡方函数的计算，人们可以定量地检验理论与观测符合的程度。理论模型的卡方函数值越小，就意味着它与观测数据符合的越好。
+
+此外，若不同观测间彼此关联，则它们的卡方函数可表示为
+\begin{equation}\label{3.3}
+  \chi^{2}({\bm p}) = \sum_{i,j} \Delta_{i}({\bm p})(\rm Cov^{-1})_{ij}\Delta_{j}({\bm p}),
+\end{equation}
+其中向量~$\Delta_{i}({\bm p}) \equiv \xi_{i,\rm {obs}} - \xi_{i,\rm {th}}({\bm p})$，$\rm Cov$~为表征数据误差的协方差矩阵。
+
+在暗能量的数值研究中，人们通常借助~Markov Chain Monte Carlo (MCMC)~技术~\upcite{Lewis:2002ija}，计算出卡方函数的最小值~$\chi^{2}_{\rm {min}}$，进而确定理论模型的最佳拟合参数
+\begin{equation}\label{3.4}
+  \chi^{2}_{min} = \chi^{2}({\bm p}_{\rm {bf}}).
+\end{equation}
+
+\section{Ia~型超新星}
+\begin{figure*}
+\centering
+\includegraphics[width=10.0cm]{fig3a.jpg}\\
+\caption{Supernova Cosmology Project~对~42~个高红移处~Ia~型超新星以及~Calan Supernavo Survey~对~18~个低红移处~Ia~型超新星进行观测共同给出的结果~\upcite{Perlmutter1999}。}
+\addtocounter{figure}{-1}
+\renewcommand\figurename{Fig.}
+\caption{\label{fig3.1}Hubble diagram for 42 high-redshift Type Ia supernovae from the Supernova Cosmology Project, and 18 low-redshift Type Ia supernovae from the Calan/Tololo Supernova Survey, after correcting both sets for the SN Ia lightcurve width-luminosity relation~\upcite{Perlmutter1999}.}
+\end{figure*}
+
+超新星测距是迄今为止采集到测量数据最多的一种观测方法。Ia~型超新星（Type Ia supernavo，简称~SNIa）是白矮星从其伴星中吸积足够多的物质，从而触动其热核爆炸的产物。它们的质量非常接近钱德拉塞卡~(Chandrasekhar)~极限，即拥有几乎相同的绝对星等。通过超新星光变曲线与峰值亮度间的关系，人们可以精确地确定超新星的亮度，进而确定它与我们之间的距离。因此，Ia~型超新星被认为是理想的示距天体，也被叫做宇宙学尺度上的“标准烛光”。它们的亮度下降越慢，表示其绝对光度就越高。
+
+20~世纪末，三位天体物理学家~Perlmutter，Schmidt~和~Riess~通过观察遥远的超新星发现了宇宙的加速膨胀，从而推动宇宙学中暗能量问题的研究。宇宙的加速膨胀最初是在观测红移~$z < 0.9$~处的~Ia~型超新星的距离红移关系时被发现的。图~\ref{fig3.1}~是~Supernava Cosmology Project~对~42~个高红移处~Ia~型超新星和~Cal$\acute{a}$n Supernavo Survey 对~18~个低红移处~Ia~型超新星进行观测共同给出的结果~\upcite{Perlmutter1999}，以及图~\ref{fig3.2}~为高红移超新星搜寻组发现宇宙加速膨胀时给出的哈勃图。随着科技的发展，应用哈勃空间望远镜人们能观测到红移~$z > 1$~的~Ia~型超新星的距离红移关系。这些数据真实地反映了宇宙加速膨胀这一事实。
+
+Ia~型超新星观测是一种重要的距离测量手段。在宇宙学暗能量的研究中，人们通常以~$m$~表示~Ia~型超新星的视星等，它描述的是星体的视亮度；以~$M$~表示~Ia~型超新星的绝对星等，它则描述星体的绝对光度。它们之间的关系为
+\begin{equation}\label{3.5}
+  m(z) = M + 5\lg[d_{\rm {L}}(z) / \rm {Mpc}] + 25.
+\end{equation}
+因为~Ia~型超新星的内凛光度~$M \sim -19.5$，所以~Ia~型超新星的视星等可表示为
+\begin{equation}\label{3.6}
+   m(z) = 5\lg[d_{\rm {L}}(z) / \rm {Mpc}] + 5.5,
+\end{equation}
+其中~$d_{\rm {L}}(z)$~为光度距离，具体计算在上一章的最后一节中详细介绍过。因此，人们可以通过建立~Ia~型超新星的~$m(z)$~曲线描述宇宙膨胀的历史。若宇宙膨胀是加速的，那么对一给定退行速度星体的实际距离将会比预期的更远，人们看到的亮度将更弱。1998~年，超新星宇宙学课题组和高红移超新星搜寻组对红移~$z \sim 0.5$~的超新星进行观测，他们发现实际~Ia~型超新星的亮度小于它预期亮度。这一伟大发现说明，Ia~型超新星在宇宙中爆发的位置要比哈勃定律预期的远很多，即宇宙处于加速膨胀的状态~\upcite{Perlmutter1999,SN0}。
+
+在运用超新星数据研究宇宙暗能量问题时，通常人们用距离模数~$\mu$~作为观测量，描述超新星观测的信息。它被表示为超新星爆发的视星等~$m$~与绝对星等~$M$~的差值，即~$\mu^{\rm {obs}} = m - M$。 而距离模数与光度距离~$d_{\rm {L}}$~ 之间的关系为
+\begin{equation}\label{3.7}
+ \mu^{\rm {th}}_{i}(z_{i}) \equiv 5\lg d_{\rm {L}}(z_{i}) + 25.
+\end{equation}
+这样，可知~Ia~型超新星观测限制的~$\chi^{2}$~函数为
+\begin{equation}\label{3.8}
+  \chi^{2}_{\rm {SN}}({\bm p}) = \sum^{n}_{i=1} \frac{[\mu^{\rm {obs}}(z_{i})-\mu^{\rm {th}}(z_{i};{\bm p})]^{2}}{\sigma^{2}_{i}},
+\end{equation}
+$\mu^{\rm {obs}}$与~$\sigma_{i}$~分别表示在红移~$z$~处观测到的超新星的距离模数和观测误差。特别地，方程~(\ref{3.8})~并没有考虑超新星观测的系统误差。若考虑系统误差时，超新星观测到的数据点彼此联系，不再相互独立。此时，它所满足的卡方函数为
+\begin{equation}\label{3.9}
+  \chi^{2}_{\rm {SN}}({\bm p}) = (\mu^{\rm {obs}}_{i} - \mu^{\rm {th}}_{i}({\bm p}))(\rm Cov^{-1}_{\rm SN})_{ij}(\mu^{\rm {obs}}_{j} - \mu^{\rm {th}}_{j}({\bm p})),
+\end{equation}
+其中~$\rm Cov_{\rm {SN}}$~是描述超新星系统误差的协防差矩阵。本文中我们使用了来自于~the Supernova Legacy Survey~第一个~3~年的~472~个超新星数据~\upcite{Conley:2011ku}。Ia~型超新星是目前最强大的暗能量宇宙学观测手段。随着科技的发展，人们观测到的超新星数据越来越多，其统计误差也越来越小。然而，由于系统误差的不确定性，当前测得的超新星数据还是不够精确。因此，进一步提高超新星数据质量对研究暗能量问题具有重大的意义。
+\begin{figure*}
+\centering
+\includegraphics[width=10.0cm]{fig3b.jpg}\\
+\caption{高红移超新星搜寻组给出的哈勃图。上半部图形是他们对几组参数的宇宙学模型的预言。下半部图形是观测的距离模数数据对~$\Omega_{\rm m}=0.20$，$\Omega_{\Lambda}=0$~的平直宇宙模型所预言的距离模数的偏离~\upcite{SN0}。}
+\addtocounter{figure}{-1}
+\renewcommand\figurename{Fig.}
+\caption{\label{fig3.2} Hubble diagram from High-$z$ supernova search group. The upper half is their prediction about cosmological model with different parameters. The lower part of the graphic is the deviation of the distance modulus observed from the flat cosmological model ($\Omega_{\rm m}=0.20$，$\Omega_{\Lambda}=0$)~\upcite{SN0}.}
+\end{figure*}
+\section{宇宙微波背景辐射}
+宇宙微波背景辐射（Cosmic Microwave Background Radiation，简称~CMB）也是限制暗能量的一种重要的几何观测方法。1948~年，美国科学家~Alpher~和~Herman~ 预言，宇宙大爆炸后宇宙中还有残余的微波背景辐射。当时，他们的预言并未引起人们的普遍重视。直到~1964~年，Penzias~和~Wilson~意外发现了这种辐射场，它才重新引起了学术界的重视。在全宇宙空间，CMB~具有极高的各向同性的微波背景辐射，且和绝对温标~2.725 K~的黑体辐射相同。按照热大爆炸理论，早期宇宙的温度很高，密度很大，宇宙中的各组分都紧密地结合在一起，维持着宇宙的热平衡状态。然而，随着宇宙的膨胀，宇宙温度不断降低。在大约~$z \approx 1100$~处，由于汤姆逊散射的能量不足，宇宙中出现光子------电子退耦的迹象。退耦后的光子在宇宙中开始自由传播，并以~$T \propto 1 / a$~的速率逐渐冷却，形成今天人们所观测到的温度为~2.725 K~的微波辐射。图~\ref{fig3.3}~给出了~Planck 卫星在~2013~ 年发布的最新~CMB~温度涨落功率谱图。
+
+在本文中，我们采用了与文献~\cite{Wang:2013mha}~一致的~CMB~数据，通过这些数据对暗能量进行整体拟合。我们知道，从光子------电子退耦到现在的宇宙加速膨胀时期，CMB~声学峰的位置不断发生变化。因此，人们可以通过计算~CMB~声学峰的位置来获取宇宙加速膨胀的信息。此外采用~CMB~数据限制宇宙学模型有三个观测量，它们分别为光子退耦时期的红移~$z_{\ast}$，温度涨落功率谱中第一个峰的位置~$\ell_{\rm {A}}$，以及平移参数~$\mathcal{R}$。
+
+光子退耦时期的红移~$z_{\ast}$~的拟合公式为
+\begin{equation}\label{3.10}
+  z_{\ast} = 1048 [1 + 0.00124(\Omega_{\rm {b0}}h^{2})^{-0.738}][1 + g_{1}(\Omega_{\rm {m0}}h^{2})^{g_{2}}],
+\end{equation}
+其中，
+\begin{equation}\label{3.11}
+  g_{1} = \frac{0.0783(\Omega_{\rm {b0}} h^{2})^{-0.238}}{1+39.5(\Omega_{\rm {b0}} h^{2})^{0.763}},~~~~~~g_{2} = \frac{0.560}{1+21.1(\Omega_{\rm {b0}} h^{2})^{1.81}}.
+\end{equation}
+
+温度涨落功率谱中第一个峰的位置~$\ell_{\rm {A}}$~可通过声学视界和角直径距离表示出来，即
+\begin{equation}\label{3.12}
+  \ell_{\rm {A}} = (1 + z_{\ast})\frac{\pi d_{\rm {A}}(z_{\ast})}{r_{\rm s}(z_{\ast})},
+\end{equation}
+其中，光子退耦时的固有角直径距离~$d_{\rm {A}}(z)$~可由方程~(\ref{2.23})~给出，而声视界可表示为
+\begin{equation}\label{3.13}
+  r_{\rm s}(z) = \frac{1}{\sqrt{3}}\int^{1 / (1 + z)}_{0} \frac{da}{a^{2}H(a)\sqrt{1 + (3\Omega_{\rm {b0}} / 4\Omega_{\rm {\gamma0}})a}}.
+\end{equation}
+
+此外，还有一个表征~CMB~测距信息的观测量为平移参数~$\mathcal{R}$，它被表示为
+\begin{equation}\label{3.14}
+  \mathcal{R}(z_{\ast}) = \sqrt{\Omega_{\rm {m0}}}H_{0}(1 + z_{\ast})d_{\rm {A}}(z_{\ast}).
+\end{equation}
+很明显，平移参数~$\mathcal{R}$~可以反映出~CMB~在传播过程中受到宇宙膨胀历史的影响，所以研究~CMB~的观测数据对分析宇宙的加速膨胀有极其重要的作用。
+
+根据数学统计方法，我们可以很方便地构造出~CMB~数据的~$\chi^{2}$~函数
+\begin{equation}\label{3.15}
+  \chi^{2}_{\rm {CMB}}  = ({\bm x}^{\rm {obs}}_{i} - {\bm x}^{\rm {th}}_{i})(\rm Cov^{-1}_{\rm {CMB}})_{ij}({\bm x}^{\rm {obs}}_{j} - {\bm x}^{\rm {th}}_{j}).
+\end{equation}
+这里的~${\bm x}_{i}$~是由~CMB~测距中所有观测量所组成的一个向量，$\rm Cov_{\rm {CMB}}^{-1}$~是其求过逆的协方差矩阵。
+
+为了与先前的研究~\cite{sl1,sl3}~保持一致，本文的第四章我们所用的~CMB~观测数据的逆矩阵为
+\begin{equation*}
+(\rm Cov^{-1}_{\rm {CMB}})=
+\left(\begin{array}{ccc}
+1.0000& 0.5250&-0.4235\\
+0.5250&1.0000&-0.6925 \\
+-0.4235&-0.6925& 1.0000\
+\end{array}\right).
+\end{equation*}
+
+迄今为止，最新的~CMB~观测数据是~Planck 卫星~2015~年公布的数据~\upcite{Ade:2015xua}，它的逆矩阵为
+\begin{equation*}
+(\rm Cov^{-1}_{\rm {CMB}})=
+\left(\begin{array}{ccc}
+1.0&0.54&-0.63\\
+0.54&1.0&-0.43\\
+-0.63&-0.43&1.0\
+\end{array}\right).
+\end{equation*}
+
+采集并分析~CMB~的观测数据问题一直以来都是宇宙学研究的重要课题。对于暗能量限制的研究，超新星数据要比~CMB~观测数据符合的更好，但是它却可以弥补低红移超新星数据的不足，加强对宇宙学暗能量的限制，打破模型参数间的简并，从而开启精确宇宙学的时代。
+\begin{figure*}
+\centering
+\includegraphics[width=10.0cm]{fig3c.pdf}\\
+\caption{2013~年~Planck 卫星发布的最新~CMB~温度涨落功率谱图~\upcite{Ade:2013sjv}。}
+\addtocounter{figure}{-1}
+\renewcommand\figurename{Fig.}
+\caption{\label{fig3.3} The CMB temperature power spectrum given by Planck in 2013~\upcite{Ade:2013sjv}.}
+\end{figure*}
+\section{重子声学振荡}
+重子声学振荡（Baryon Acoustic Oscillations，简称~BAO）是指由于声波在早期宇宙中传播并在一定尺度上形成的高密度区域或者重子物质的结团迹象。它的本质是早期宇宙中光子退耦前的重子------光子气体振荡。在早期宇宙中，受~Thomson~散射耦合在一起的重子------光子气体，在重子的引力作用以及光子的斥力作用下，会发生类似于声波的周期性振荡。随着宇宙膨胀，光子脱耦，BAO~振荡也随之停止，其振荡的最终状态被凝固在~CMB~和大尺度结构中显现出来。正如在~CMB~温度图中看到的特定尺度的冷斑和热斑，它们对应于~BAO~ 周期性振荡的波峰和波谷的位置。此外，在大尺度结构中光子脱耦后~BAO~振荡的最终状态（特定尺度的星系团成团现象）也能被观测到。
+
+超新星实验为天文学观测提供了一个“标准烛光”，与此相同，BAO~造成的物质结团在宇宙学中为长度提供的则是一个“标准尺度”。这个标准尺度的长度（在今天的宇宙中大概是~150~Mpc）可以通过天文巡天查看物质的大尺度结构来测量。因此，我们可以通过~BAO~观测信息限制宇宙学参数的方式了解更多暗能量的物理性质。
+
+随着~BAO~观测技术的提高，近年来，人们已观测到越来越多的~BAO~数据，并且其精度也在不断地提高。通过观测~BAO~光锥以及垂直光锥方向的距离信息，人们能够确定其径向方向和角向方向的距离。因此通常~BAO~的实验数据总以距离组合的形式出现，如~BAO~观测的膨胀标度~$d_{\rm {V}}(z)$~以及~$A$~参量。
+
+
+BAO~观测的观测量为共动声视界~$r_{\rm {s}}(z_{\rm {d}})$~与膨胀标度~$d_{\rm {V}}(z)$~的比值，即
+\begin{equation}\label{3.16}
+  x_{i}(z_{i}) = \frac{r_{\rm {s}}(z_{\rm {d}})}{d_{\rm {V}}(z_{i})},
+\end{equation}
+$r_{\rm {s}}(z_{\rm {d}})$~为重子拖曳时期的共动声视界，其表达式为
+\begin{equation}\label{3.17}
+  r_{\rm {s}}(z_{\rm {d}}) = \frac{1291(\Omega_{\rm {m0}}h^{2})^{0.251}}{1 + 0.659(\Omega_{\rm {m0}}h^{2})^{0.828}} [1 + b_{1}(\Omega_{\rm {b0}}h^{2})^{b_{2}}],
+\end{equation}
+其中，
+\begin{equation}\label{3.18}
+  b_{1} = 0.313(\Omega_{\rm {m0}}h^{2})^{-0.419}[1+0.607(\Omega_{\rm {m0}}h^{2})^{0.674}],
+\end{equation}
+\begin{equation}\label{3.19}
+  b_{2} = 0.238(\Omega_{\rm {m0}}h^{2})^{0.223}.
+\end{equation}
+
+此外，膨胀标度~$d_{\rm {V}}(z)$~为
+\begin{equation}\label{3.20}
+  d_{\rm {V}}(z) = \left[(1+z)^{2}d^{2}_{\rm {A}}\frac{z}{H(z)}\right]^{1/3}.
+\end{equation}
+
+因此，我们可以很方便地构造出~BAO~数据的~$\chi^{2}$~统计函数，即
+\begin{equation}\label{3.21}
+  \chi^{2}_{\rm {BAO}}  = ({\bm x}^{\rm {obs}}_{i} - {\bm x}^{\rm {th}}_{i})(\rm Cov^{-1}_{\rm {BAO}})_{ij}({\bm x}^{\rm {obs}}_{j} - {\bm x}^{\rm {th}}_{j}).
+\end{equation}
+这里的~${\bm x}_{i}$~是由~BAO~测距中所有观测量所组成的一个向量，$\rm Cov_{\rm {BAO}}^{-1}$~是其求过逆的协方差矩阵。本文的第四章我们所用的~BAO~观测数据是来自~6dFGS~ ($z = 0.1$)~\upcite{Beutler:2011}，SDSS-DR7~($z = 0.35$)~\upcite{Padmanabhan:2012}，SDSS-DR9~($z = 0.57$)~\upcite{Anderson}和~WiggleZ~($z = 0.44$，0.60，和~0.73)~\upcite{Blake}的~$r_{\rm {s}}(z_{\rm {d}}) / d_{\rm {V}}(z)$~的测量。其中，来自~WiggleZ~ 的这三个~BAO~观测数据是相互关联的，因此我们使用的这些数据的逆矩阵为
+\begin{equation*}
+(\rm Cov^{-1}_{\rm {BAO}})=
+\left(\begin{array}{cccccc}
+4444.4&0&0&0&0&0\\
+0&34.602&0&0&0&0\\
+0&0&20.661157&0&0&0\\
+0&0&0&24532.1&$-25137.7$& 12099.1\\
+0&0&0&$-25137.7$&134598.4&$-64783.9$\\
+0&0&0& 12099.1&$-64783.9$&128837.6\
+\end{array}\right).
+\end{equation*}
+
+在宇宙学观测数据对暗能量限制的研究中，人们通常选择将~BAO~观测数据与~CMB~观测数据相结合。这样的组合能够有效地打破数据与模型参数间的简并，为进一步的研究提供更多的依据。
+
+\section{哈勃参量~$H(z)$~的直接观测}
+第二章中我们提到哈勃定律是第一个能够定量地解释宇宙膨胀的重要原理。哈勃参量~$H(z)$~中蕴含着大量有关宇宙膨胀的信息。作为宇宙相对膨胀率的指标，它被表示为：
+\begin{equation}\label{3.22}
+  H = \frac{\dot{a}}{a}.
+\end{equation}
+
+哈勃参量作为检验宇宙学模型的一个标准，它不仅有助于确定宇宙演化中重要宇宙学参数，而且能够描述宇宙演化过程中一些关键时刻。例如，通过哈勃参量~$H(z)$，我们能够研究宇宙膨胀由减速到加速的过渡点。
+
+近年来，哈勃参量的直接观测数据一直是宇宙学家们研究的重要课题。与其他观测距离相比，它能够直接与宇宙学参量建立关系，灵敏地关联暗能量及其状态方程信息，从而提高参数限制的精度。通常人们可通过两种方法观测哈勃参量~$H(z)$，即年龄微分法和径向~BAO~大小法~\upcite{H1,Peebles2}。
+
+我们知道，任意时刻~$t$~的宇宙学红移和尺度因子间的关系为
+\begin{equation}\label{3.23}
+  1 + z = \frac{a(t_{0})}{a(t_{\rm {e}})},
+\end{equation}
+式中，$t_{\rm {e}}$~为遥远光源发射光子的时刻，$t_{0}$~为接收到光子的时刻。令~$t_{0}$~为常数，对上式进行微分得
+\begin{equation}\label{3.24}
+ \frac{da(t_{\rm {e}})}{dt_{\rm {e}}} = -\frac{a(t_{0})}{(1 + z)^{2}} \frac{dz}{dt_{\rm {e}}} = -\frac{a(t_{\rm {e}})}{1 + z}\frac{dz}{dt_{\rm {e}}},
+\end{equation}
+
+因此，可得到
+\begin{equation}\label{3.25}
+  H(z) = - \frac{1}{1 + z}\frac{dz}{dt_{\rm {e}}}.
+\end{equation}
+
+这样人们可以通过观测消极演化星系，得出红移间隔为~$\Delta z$~的~2~个天体发出光子时所对应的宇宙年龄差~$\Delta t$。通过分析亮红星系~(LRG)~的光谱，从而确定哈勃参量的数值。这就是所谓的“年龄微分法”。
+
+除此之外，另一种直接观测哈勃参量~$H(z)$~的方法为径向~BAO~大小法。在~FRW~度规下，共动距离~r~可表示为
+\begin{equation}\label{3.26}
+  \int^{t_{0}}_{t_{\rm {e}}} \frac{c dt}{a(t)} = \int^{r_{\rm {e}}}_{0} \frac{dr}{\sqrt{1 - kr^{2}}} =r(r_{\rm {e}}),
+\end{equation}
+上式左右两边对~$t$~求导，可以得到
+\begin{equation}\label{3.27}
+  \frac{dr}{dt_{\rm {e}}} = -\frac{c}{a(t_{\rm {e}})}.
+\end{equation}
+结合方程~(\ref{3.24})~和~(\ref{3.27})，可以得到
+\begin{equation}\label{3.28}
+  \frac{dr}{dz} = \frac{dr}{dt_{\rm {e}}} \frac{dt_{\rm {e}}}{dz} = \frac{c}{a(t_{\rm {e}})}\frac{a(t_{\rm {e}})}{1 + z}\frac{dt_{\rm {e}}}{da(t_{\rm {e}})} = \frac{c}{a(t_{0})H},
+\end{equation}
+即
+\begin{equation}\label{3.29}
+  \frac{d[a(t_{0})r]}{dz} = \frac{c}{H(z)}.
+\end{equation}
+
+也就是说，对于一个具有一定大小的可观测天体，它在沿着我们视线的方向上跨越的空间长度为~$a(t_{0})\Delta r$，由此产生的红移差为~$\Delta z$~。通过这种方法也可以直接测得哈勃参量~$H(z)$~的观测值。例如，根据~BAO~宇宙密度场中两点相关函数的峰值，人们可以掌握宇宙空间中分散星体的统计特征，进而通过观测获得哈勃参量~$H(z)$。
+
+哈勃参量~$H(z)$~的~$\chi^{2}$~统计可以表示为
+\begin{equation}\label{3.30}
+ \chi^{2}_{H}({\bm p})=\sum^{N}_{i=1}\frac{[H^{\rm th}(z_{i};{\bm p})-H^{\rm obs}(z_{i})]^{2}}{\sigma^{2}_{H,i}},
+\end{equation}
+其中，${\bm p}$~表示宇宙学模型的任一自由参数，$H^{\rm th}$~和~$H^{\rm obs}$~分别为哈勃参量的理论值和观测值，$\sigma_{H,i}$~为观测误差。
+
+通常，在观测数据对暗能量检验的研究中，人们会在使用的观测数据中引入哈勃常数~$H_{0}$，以此打破它与其他宇宙学参数间的简并。哈勃常数~$H_{0}$~表示当前哈勃参量观测值，它可以反映宇宙的膨胀速率。因此，精确测量哈勃常数~$H_{0}$~也是当前研究宇宙学问题十分重要的课题之一。
+
+经过天文学家们多年的努力，迄今为止哈勃常数~$H_{0}$~的观测值已精确到~50~到~100~km／s／Mpc。本文中我们直接引用了~Riess~等人通过~Hubble Space Telescope~(HST) 观测到的结果~\upcite{Riess:2011yx}：$H_{0} = 73.8 \pm 2.4$  km／s／Mpc，其精度可达~3.3\%。
+
+因此，我们可很方便地构造出哈勃常数~$H_{0}$~的~$\chi^{2}$~函数，即
+\begin{equation}\label{3.22}
+  \chi^{2}_{h} = \left(\frac{h - 0.738}{0.024}\right)^{2}.
+\end{equation}
