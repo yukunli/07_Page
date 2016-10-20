@@ -67,7 +67,7 @@ DSP~Î¢´¦ÀíÆ÷ÊÇÕû¸öË®·Ö²âÁ¿ÏµÍ³µÄ¿ØÖÆºËÐÄ£¬Ëü²»½ö¿ØÖÆ~DDS~Ð¾Æ¬²úÉúËùÐèµÄÕýÏÒ²¨ÐÅº
 ÆäÖÐ£¬$+$15V~µçÔ´ÓÉÐÍºÅÎª~LH10-B15~µçÔ´Ä£¿é²úÉú£¬Êä³ö¹¦ÂÊÄÜ´ïµ½~10W¡£ ¶ø~$\pm$12V~µçÔ´ÓÉÐÍºÅÎª~LH10-10A12~µçÔ´Ä£¿é²úÉú£¬Êä³ö¹¦ÂÊÄÜ´ïµ½~10W£¬Ä£Äâ²¿·ÖµÄ~$+$5V~µçÔ´ÓÉÐÍºÅÎª~LH05-10B05~µçÔ´Ä£¿é²úÉú£¬Êä³ö¹¦ÂÊÒ²ÄÜ´ïµ½~5W£¬ÍêÈ«ÄÜÂú×ã±¾¿ÎÌâµÄ¹©µçÐèÇó¡£ÆäÓàµÄµçÔ´µçÑ¹£¬ÈçÊý×Ö²¿·ÖµÄ~$+$5V~µçÔ´¡¢Ä£Äâ¼°Êý×Ö²¿·ÖµÄ~$+$3.3V¡¢$+$1.9V~µçÔ´¾ùÓÉÄ£Äâ²¿·ÖµÄ~$+$5V~µçÔ´Í¨¹ýµç¸ÐÆ÷¼þºÍÏßÐÔÎÈÑ¹µçÔ´Ð¾Æ¬×ª»¯¶øÀ´¡£
 \begin{figure*}[!h]
 \centering
-\includegraphics[width=14cm]{fig41.png}
+\includegraphics[width=14cm]{fig41.jpg}
 \caption {LH10-10A12~µçÔ´Ä£¿éµçÂ·Í¼}
 \addtocounter{figure}{-1}
 \renewcommand\figurename{Fig.}
@@ -80,7 +80,7 @@ D1¡¢D2~ÎªË²±äµçÑ¹ÒÖÖÆ¶þ¼«¹Ü£¬ËüÊÇÒ»ÖÖ¸ßÐÔÄÜµÄµçÂ·±£»¤Æ÷¼þ£¬¾ßÓÐ³ÐÊÜË²¼ä´óµçÁ÷µÄÄ
 ±¾¿ÎÌâÖÐÊý×ÖµçÂ·µÄºËÐÄÊÇÖ÷¿ØÐ¾Æ¬~TMS32F28335~´¦ÀíÆ÷¡£ÎªÂú×ã¸Ã~DSP~Ð¾Æ¬ÄÚ²¿¹¦ÄÜÄ£¿éµÄ²»Í¬¹©µçÐèÇó£¬Éè¼ÆÁË·ùÖµÎª~3.3V~ºÍ~1.9V~ µÄÊý×ÖµçÔ´ºÍÄ£ÄâµçÔ´Á½ÖÖ¡£Êý×ÖµçÔ´µçÂ·²ÉÓÃÁË~DSP~×¨ÓÃµçÔ´Ð¾Æ¬~PS767D301£¬ÄÜ¹»Í¬Ê±Êä³öÁ½ÖÖµçÑ¹£¬Ò»Â·¹Ì¶¨Êä³ö~3.3V£¬Ò»Â·¿ÉÒÔÔÚ~1.5V-5.5V~·¶Î§ÄÚµ÷Õû¡£
 \begin{figure*}[!h]
 \centering
-\includegraphics[width=14cm]{fig42.png}
+\includegraphics[width=14cm]{fig42.jpg}
 \caption {3.3VºÍ1.9VµçÔ´µçÂ·Í¼}
 \addtocounter{figure}{-1}
 \renewcommand\figurename{Fig.}
@@ -115,16 +115,16 @@ TMS320F28335~ÄÜ¹»ÔËÐÐµÄ×îÐ¡ÏµÍ³°üÀ¨ÒÔÏÂ¼¸¸ö²¿·Ö£ºµçÔ´µçÂ·¡¢¾§ÕñµçÂ·¡¢JTAG~½Ó¿Úµç
 \caption{\label{fig43} The minimum system block diagram on TMS320F28335}
 \end{figure*}
 
-ÆäÖÐ£¬3.3V~ºÍ~1.9V~µçÔ´µçÂ·ÔÚÉÏÒ»Ð¡½áÖÐÒÑ¾­½éÉÜ¹ý£¬²ÉÓÃ~TI~¹«Ë¾×¨ÓÃµÄ~LDO~Ð¾Æ¬¼´»ñµÃÁËÂú×ãÎ¢¿ØÖÆÆ÷Ë«µçÑ¹¹©µçºÍ¹¦ºÄµÄÒªÇóµÄÊä³öµçÑ¹¡£±¾¿ÎÌâ²ÉÓÃ~30MHz~¾§ÕñÌá¹©ÏµÍ³Ê±ÖÓ£¬¿É»ñµÃ×î¸ß~150MHz~µÄ~CPU~Ö÷Æµ£¬JTAG~½Ó¿ÚµçÂ·¡¢¿´ÃÅ¹·¼°¸´Î»µçÂ·²ÉÓÃ¾­µäµÄµçÂ·Á¬½Ó·½Ê½£¬ÔÚ´Ë²»ÔÙ×¸Êö¡£
+ÆäÖÐ£¬3.3V~ºÍ~1.9V~µçÔ´µçÂ·ÔÚÉÏÒ»Ð¡½áÖÐÒÑ¾­½éÉÜ¹ý£¬²ÉÓÃ~TI~¹«Ë¾×¨ÓÃµÄ~LDO~Ð¾Æ¬¼´»ñµÃÁËÂú×ãÎ¢¿ØÖÆÆ÷Ë«µçÑ¹¹©µçºÍ¹¦ºÄµÄÒªÇóµÄÊä³öµçÑ¹¡£±¾¿ÎÌâ²ÉÓÃ~30MHz~¾§ÕñÌá¹©ÏµÍ³Ê±ÖÓ£¬¿É»ñµÃ×î¸ß~150MHz~µÄ~CPU~Ö÷Æµ¡£JTAG~½Ó¿ÚµçÂ·¡¢¿´ÃÅ¹·¼°¸´Î»µçÂ·²ÉÓÃ¾­µäµÄµçÂ·Á¬½Ó·½Ê½£¬ÔÚ´Ë²»ÔÙ×¸Êö¡£
 
 \subsection{´®¿ÚÍ¨ÐÅÉè¼Æ}
 
 ±¾¿ÎÌâÉè¼ÆÁËÁ½Â·~RS232~´®¿ÚÍ¨ÐÅ½Ó¿Ú£¬·Ö±ðÓëÉÏÎ»»úºÍ¹¤Òµ´¥ÃþÆÁ½øÐÐÊµÊ±µÄÊý¾Ý½»»»¡£PC~ÉÏÎ»»úÓÃÓÚÔ¶¶Ë½ÓÊÕË®·Ö¼ì²âÏµÍ³´«Êä»ØÀ´µÄÀúÊ·Êý¾Ý£¬²¢ÔÚÉÏÎ»»úÈí¼þ½øÐÐÏÔÊ¾ºÍ´æ´¢¡£¹¤Òµ´¥ÃþÆÁÓÃÓÚ¹¤ÒµÏÖ³¡µÄÊµÊ±Ë®·ÖÊý¾ÝµÄÏÔÊ¾¡¢Ë®·Ö²âÁ¿ÏµÍ³µÄ±ê¶¨ÒÔ¼°½ÏÕý²Ù×÷¡£
 
-TMS320F28335DSP~Ð¾Æ¬ÄÚ²¿ÓÐÈý¸öÈ«Ë«¹¤~UART~Í¨Ñ¶½Ó¿Ú£¬Òò´Ë¿ÉÒÔÊ¹ÓÃÆäÖÐµÄÁ½¸öÀ´·Ö±ðÓëÉÏÎ»»úºÍ¹¤Òµ´¥ÃþÆÁ½øÐÐÍ¨ÐÅ¡£Í¨ÐÅµçÂ·ÈçÍ¼~\ ref{fig44}~ËùÊ¾£¬Ê¹ÓÃ~MAX3232~Ð¾Æ¬Íê³É~TTL~µçÆ½Óë~RS232~µçÆ½µÄ×ª»»\upcite{}¡£01~Í¨µÀÁ¬½Ó¹¤Òµ´¥ÃþÆÁ£¬02~Í¨µÀÁ¬½ÓÉÏÎ»»ú½øÐÐ´®¿ÚÍ¨ÐÅ¡£
+TMS320F28335DSP~Ð¾Æ¬ÄÚ²¿ÓÐÈý¸öÈ«Ë«¹¤~UART~Í¨Ñ¶½Ó¿Ú£¬Òò´Ë¿ÉÒÔÊ¹ÓÃÆäÖÐµÄÁ½¸öÀ´·Ö±ðÓëÉÏÎ»»úºÍ¹¤Òµ´¥ÃþÆÁ½øÐÐÍ¨ÐÅ¡£Í¨ÐÅµçÂ·ÈçÍ¼~\ref{fig44}~ËùÊ¾£¬Ê¹ÓÃ~MAX3232~Ð¾Æ¬Íê³É~TTL~µçÆ½Óë~RS232~µçÆ½µÄ×ª»»\upcite{}¡£01~Í¨µÀÁ¬½Ó¹¤Òµ´¥ÃþÆÁ£¬02~Í¨µÀÁ¬½ÓÉÏÎ»»ú½øÐÐ´®¿ÚÍ¨ÐÅ¡£
 \begin{figure*}[!h]
 \centering
-\includegraphics[width=12cm]{fig44.jpg}
+\includegraphics[width=13cm]{fig44.jpg}
 \caption {Í¨ÐÅµçÂ·}
 \addtocounter{figure}{-1}
 \renewcommand\figurename{Fig.}
@@ -136,38 +136,152 @@ TMS320F28335DSP~Ð¾Æ¬ÄÚ²¿ÓÐÈý¸öÈ«Ë«¹¤~UART~Í¨Ñ¶½Ó¿Ú£¬Òò´Ë¿ÉÒÔÊ¹ÓÃÆäÖÐµÄÁ½¸öÀ´·Ö±ð
 ¹âÔ´Çý¶¯µçÂ·Îª½üºìÍâ~LED~¹âÔ´Ìá¹©¾«ÃÜÎÈ¶¨°´ÕýÏÒ¹æÂÉ±ä»¯µÄÇý¶¯µçÁ÷£¬LED~¹âÔ´µÄ¹¤×÷µçÑ¹µÍ£¬Ð§ÂÊ¸ß¡£Çý¶¯µçÁ÷¹ý´ó»áËð»µµçÔ´£¬¹ýµÍÓÖ»á½µµÍ¹âÔ´·¢³öµÄ¹âÇ¿¡£Çý¶¯µçÂ·²»ÎÈ¶¨Ò²»áÓ°Ïìµ½Ë®·ÖÒÇµÄ²âÁ¿¾«¶È£¬Òò´Ë¹âÔ´Çý¶¯µçÂ·µÄÉè¼Æ¶ÔÕûÌåÏµÍ³µÄÊµÏÖÖÁ¹ØÖØÒª¡£
 \subsection{¼¤ÀøÐÅºÅ·¢ÉúÆ÷}
 
-±¾¿ÎÌâÈýÂ·¹âÔ´·Ö±ð²ÉÓÃ~5kHz¡¢6kHz~ºÍ~7kHz~ÆµÂÊµÄÕýÏÒÐÅºÅµ÷ÖÆ¡£¹âµç´«¸ÐÆ÷¼ì²âµ½µÄÐÅºÅ¾­¹ýµçÂ·ÖÐ²»Í¬Õ­´øÍ¨ÂË²¨Æ÷µÃµ½ÈýÂ·²»Í¬µÄÐÅºÅ¡£±¾¿ÎÌâÖÐµÄÕýÏÒ¼¤ÀøÐÅºÅÊÇÓÉ~AD9833~ÐÅºÅ·¢ÉúÆ÷Ð¾Æ¬²úÉúµÄ£¬AD9833~ÊÇ~ADI~¹«Ë¾Éú²úµÄÒ»¿îµÍ¹¦ºÄ¡¢¿É±à³Ì²¨ÐÎ·¢ÉúÆ÷£¬ÄÜ¹»²úÉúÕýÏÒ²¨¡¢Èý½Ç²¨¡¢·½²¨Êä³ö¡£²¨ÐÎ·¢ÉúÆ÷¹ã·ºÓ¦ÓÃÓÚ¸÷ÖÖ²âÁ¿¡¢¼¤ÀøºÍÊ±ÓòÏìÓ¦ÁìÓò¡£AD9833~µÄÊä³öÆµÂÊºÍÏàÎ»¶¼¿ÉÍ¨¹ýÈí¼þ±à³ÌÉèÖÃ£¬Ò×ÓÚµ÷½Ú¡£Ö÷ÆµÊ±ÖÓÎª~25MHz~ Ê±£¬¾«¶ÈÎª~0.1Hz£»Ö÷ÆµÊ±ÖÓÎª~1MHz~Ê±£¬¾«¶È¿ÉÒÔ´ïµ½~0.004Hz¡£
+±¾¿ÎÌâÈýÂ·¹âÔ´·Ö±ð²ÉÓÃ~5kHz¡¢6kHz~ºÍ~7kHz~ÆµÂÊµÄÕýÏÒÐÅºÅµ÷ÖÆ¡£¹âµç´«¸ÐÆ÷¼ì²âµ½µÄÐÅºÅ¾­¹ýµçÂ·ÖÐ²»Í¬Õ­´øÍ¨ÂË²¨Æ÷µÃµ½ÈýÂ·²»Í¬µÄÐÅºÅ¡£µçÂ·ÖÐµÄÕýÏÒ¼¤ÀøÐÅºÅÊÇÓÉ~AD9833~ÐÅºÅ·¢ÉúÆ÷Ð¾Æ¬²úÉúµÄ£¬AD9833~ÊÇ~ADI~¹«Ë¾Éú²úµÄÒ»¿îµÍ¹¦ºÄ¡¢¿É±à³Ì²¨ÐÎ·¢ÉúÆ÷£¬ÄÜ¹»²úÉúÕýÏÒ²¨¡¢Èý½Ç²¨¡¢·½²¨Êä³ö¡£²¨ÐÎ·¢ÉúÆ÷¹ã·ºÓ¦ÓÃÓÚ¸÷ÖÖ²âÁ¿¡¢¼¤ÀøºÍÊ±ÓòÏìÓ¦ÁìÓò¡£AD9833~µÄÊä³öÆµÂÊºÍÏàÎ»¶¼¿ÉÍ¨¹ýÈí¼þ±à³ÌÉèÖÃ£¬Ò×ÓÚµ÷½Ú¡£Ö÷ÆµÊ±ÖÓÎª~25MHz~ Ê±£¬¾«¶ÈÎª~0.1Hz£»Ö÷ÆµÊ±ÖÓÎª~1MHz~Ê±£¬¾«¶È¿ÉÒÔ´ïµ½~0.004Hz¡£
 
-ADA9833~ÊÇÒ»¿éÍêÈ«¼¯³ÉµÄ~DDS~µçÂ·£¬½öÐèÒªÒ»¸öÍâ²¿²Î¿¼Ê±ÖÓ£¬Ò»¸öµÍ¾«¶Èµç×èÆ÷ºÍÒ»¸ö½âñîµçÈÝÆ÷¾ÍÄÜ²úÉú¸ß´ï~12.5MHz~µÄ²¨ÐÎÊä³ö¡£ÆäÓ²¼þµçÂ·ÈçÍ¼~\ref{fig45}~ËùÊ¾¡£
+AD9833~ÊÇÒ»¿éÍêÈ«¼¯³ÉµÄ~DDS~µçÂ·£¬½öÐèÒªÒ»¸öÍâ²¿²Î¿¼Ê±ÖÓ£¬Ò»¸öµÍ¾«¶Èµç×èÆ÷ºÍÒ»¸ö½âñîµçÈÝÆ÷¾ÍÄÜ²úÉú¸ß´ï~12.5MHz~µÄ²¨ÐÎÊä³ö¡£ÆäÓ²¼þµçÂ·ÈçÍ¼~\ref{fig45}~ËùÊ¾¡£
 \begin{figure*}[!h]
 \centering
-\includegraphics[width=14cm]{fig45.png}
+\includegraphics[width=14cm]{fig45.jpg}
 \caption {ÕýÏÒ²¨·¢ÉúÆ÷µçÂ·}
 \addtocounter{figure}{-1}
 \renewcommand\figurename{Fig.}
 \caption{\label{fig45} Sine wave generator circuit}
 \end{figure*}
 
-DSP~Î¢¿ØÖÆÆ÷Í¨¹ýÈýÏßÖÆ~SCI~Í¨ÐÅ·½Ê½¶Ô~AD9833~µÄÊä³öÆµÂÊ½øÐÐ¿ØÖÆ£¬AD9833~µÄÊä³ö²¨ÐÎÊÇ
+DSP~Î¢¿ØÖÆÆ÷Í¨¹ýÈýÏßÖÆ~SCI~Í¨ÐÅ·½Ê½¶Ô~AD9833~µÄÊä³öÆµÂÊ½øÐÐ¿ØÖÆ£¬ÆäÍâ²¿²Î¿¼Ê±ÖÓÓÉÆµÂÊÎª~1MHz~µÄÓÐÔ´¾§ÕñÉú²ú¡£AD9833~µÄÊä³öÐÅºÅµÄ·å·åÖµµÄµäÐÍÖµÎª~0.6V~£¬¶øÇÒÊÇË«¼«ÐÔ²¨ÐÎ£¬²»ÄÜÂú×ãÇý¶¯ºóÐøºãÁ÷Ô´µçÂ·µÄÉè¼ÆÒªÇó£¬ËùÒÔÔÚ~AD9833~µÄ²¨ÐÎÊä³ö¶ËÉè¼ÆÁËÒ»¸ö~RC~ µÍÍ¨ÂË²¨Æ÷£¬½«Ë«¼«ÐÔ²¨ÐÎ×ª»»Îªµ¥¼«ÐÔ²¨ÐÎ¡£
 
+ÓÉÓÚ±¾¿ÎÌâÐèÒªµÄÈýÖÖ²»Í¬ÆµÂÊµÄÕýÏÒ¼¤ÀøÐÅºÅ£¬¶øÃ¿Â·ÕýÏÒ²¨·¢ÉúµçÂ·Ö»ÄÜ²úÉúÒ»ÖÖ¹Ì¶¨ÆµÂÊµÄÕýÏÒÐÅºÅ£¬ËùÒÔÔÚÓ²¼þµçÂ·µÄÊµ¼ÊÉÏ£¬±¾¿ÎÌâ·Ö±ðÉè¼ÆÁËÈýÂ·Ïà¶Ô¶ÀÁ¢µÄÕýÏÒ²¨·¢ÉúµçÂ·ÓÃÀ´Êä³ö²»Í¬ÆµÂÊµÄÖÜÆÚÐÅºÅ¡£ÆäÖÐ£¬ÈýÂ·~AD9833~¹²ÓÃÍ¬Ò»¸öÍâ²¿ÓÐÔ´¾§ÕñÒÔ¼°~SCI~µÄÊý¾ÝÏßºÍÊ±ÖÓÏß½Ó¿Ú£¬DSP~Í¨¹ý¿ØÖÆ~AD9833~µÄÆ¬Ñ¡ÐÅºÅÏß¶ÔÈýÂ·~AD9833~½øÐÐÑ¡Í¨¡£Í¬ÑùµÄµÀÀí£¬ÈýÂ·~AD9833~µÄ²¨ÐÎÊä³öÒ²½«·Ö±ð¶ÀÁ¢µÄ½øÈëµ½ºóÐøµÄÐÅºÅ·Å´óµçÂ·ºÍºãÁ÷Ô´µçÂ·ÖÐ¡£
 
 \subsection{ºãÁ÷Ô´Çý¶¯µçÂ·}
+LED~¹âÔ´¾ßÓÐµ¥Ïòµ¼µçÐÔ¡¢¾ßÓÐÊÆÀÝµçÊÆºÍÎÂ¶ÈÏµÊýÎª¸ºµÈÌØÐÔ£¬LED~¹âÔ´ÔÚÕýÏòµ¼Í¨ºó£¬ÆäÕýÏòµçÑ¹µÄÏ¸Ð¡±ä»¯½«ÒýÆð~LED~µçÁ÷µÄºÜ´ó±ä»¯\cite{29}¡£½üºìÍâ~LED~¹âÔ´¾ßÓÐÍ¬ÆÕÍ¨~LED~¹âÔ´ÏàËÆµÄÐÔÖÊ£¬¹ý´óµçÁ÷ÒÔ¼°·´ÏòµçÁ÷¶¼»áÔì³É½üºìÍâ~LED~¹âÔ´µÄËð»µ£¬Òò´ËºãÁ÷Ô´µçÂ·µÄÉè¼ÆÒª¿¼ÂÇË²±äµÄ´óµçÁ÷¡¢·´ÏòµçÑ¹ºÍ¾²µçµÈ»áËð»µ¹âÔ´µÄÇé¿ö¡£
+
+ÔÚ¼¤ÀøÇý¶¯µçÂ·ÏµÍ³ÖÐ£¬ºãÁ÷Ô´Ìá¹©~$0\sim200mA$~µÄÕýÏÒ±ä»¯µÄ¼¤ÀøµçÁ÷£¬ºãÁ÷Ô´µÄ¾«¶ÈºÍÎÈ¶¨ÐÔÓ°Ïì×ÅÕû¸öÏµÍ³µÄ¾«¶ÈºÍÎÈ¶¨¡£±¾¿ÎÌâÉè¼ÆµÄºãÁ÷Ô´µçÂ·ÈçÍ¼~\ref{fig46}~ËùÊ¾¡£
+\begin{figure*}[!h]
+\centering
+\includegraphics[width=14cm]{fig46.jpg}
+\caption {ºãÁ÷Ô´µçÂ·}
+\addtocounter{figure}{-1}
+\renewcommand\figurename{Fig.}
+\caption{\label{fig46} The constant current source circuit}
+\end{figure*}
+
+²¨ÐÎ·¢ÉúÆ÷Êä³öµÄÕýÏÒÐÅºÅ¾­¹ýÐÅºÅ·Å´óµçÂ·ºóÊäÈëºãÁ÷Ô´µçÂ·µÄ~SOUR$_{-}$IN1~¶Ë¿Ú£¬Í¨¹ýÑ¹¿ØÁ÷ÐÍºãÁ÷Ô´µçÂ·´ïµ½¿ØÖÆ~RJ1~µç×èÁ½¶ËµÄµçÑ¹µÄÄ¿µÄ¡£RJ1~²ÉÓÃµÍÎÂÆ¯¡¢¸ß¾«¶ÈµÄÈÆÏßµç×è~RX70~,µ±~RJ1~µç×èÁ½¶ËµÄµçÑ¹ÊÇÕýÏÒ±ä»¯µÄµçÑ¹Ê±£¬Á÷¾­~RJ1~µç×èµÄµçÁ÷¾ÍÊÇÕýÏÒ±ä»¯µÄ¼¤ÀøµçÁ÷¡£ÓÉÓÚÁ÷¹ý´ïÁÖ¶Ù¾§Ìå¹Ü~Q2~¼¯µç¼«µÄµçÁ÷µÈÓÚ·¢Éä¼«µÄµçÁ÷£¬ËùÒÔ¸ÃµçÁ÷±ãÊÇÌá¹©¸ø~LED~¹âÔ´µÄÕýÏÒÇý¶¯µçÁ÷¡£Q1~Îª³¡Ð§Ó¦¹Ü£¬Í¨¹ý¿ØÖÆ³¡Ð§Ó¦¹Ü~G~ºÍ~S~Á½¶ËµÄµçÑ¹£¬ÊµÏÖ¿ØÖÆµçÂ·µÄµ¼Í¨ºÍ¹Ø¶Ï£¬µçÂ·ÉÏµçÊ±£¬G~ºÍ~S~Á½¶ËµÄµçÑ¹ÓÉµçÈÝÖð½¥³äµçÀ´¿ØÖÆ£¬´Ó¶ø¿ÉÒÔ»ºÂý¿ØÖÆ³¡Ð§Ó¦¹ÜÓÉ¹Ø¶Ïµ½µ¼Í¨×´Ì¬£¬ÊµÏÖÁËÂýÆô¶¯¹¦ÄÜ¡£D3~ÎªË²Ì¬µçÑ¹ÒÖÖÆ¶þ¼«¹Ü£¬ËüÊÇÒ»ÖÖ±£»¤¹âÔ´µÄÆ÷¼þ£¬ÓÃÀ´·ÀÖ¹ÀËÓ¿µçÑ¹¶Ô¹âÔ´µÄËð»µ¡£
+
+\begin{figure*}[!h]
+\centering
+\includegraphics[width=7cm]{fig47.jpg}
+\caption {ºãÁ÷Ô´µçÂ·µÈÐ§Ä£ÐÍ}
+\addtocounter{figure}{-1}
+\renewcommand\figurename{Fig.}
+\caption{\label{fig47} Equivalent model of constant current source circuit}
+\end{figure*}
+
+ÔÚÑ¹¿ØºãÁ÷Ô´µÄÉè¼ÆÖÐ£¬¾«ÃÜµç×èºÍÏÞÁ÷µç×èµÄÈ¡Öµ·Ç³£¹Ø¼ü£¬Èç¹ûµç×èµÄÈ¡Öµ²»µ±»áÔì³ÉµçÁ÷ÐÅºÅÊ§ÕæµÄÇé¿ö¡£±¾¿ÎÌâ½«ºãÁ÷Ô´µçÂ·¼ò»¯³ÉÈçÍ¼~\ref{fig47}~ËùÊ¾µÄµÈÐ§Ä£ÐÍ½øÐÐ·ÖÎö¡£Õâ¸öµçÂ·ÊÇÊµÖÊÊÇÒ»¸ö¸º·´À¡µçÂ·£¬Í¨¹ý~R~µÄµçÁ÷Îª~$I_{R}$£¬Æä¶ËµçÑ¹Îª~$U_{b}$~£¬Á÷¹ý~$R_{L}$~ºÍ~$R_{o}$~µçÂ·Îª~$I_{R_{L}}$£¬ÓÉÔË·ÅÁ½ÊäÈë¶Ë¡°Ðé¶Ì¡±¹ØÏµÓÐ£º
+\begin{equation}\label{xd1}
+  U_{IN}=U_{+}=U_{-} = U_{b}
+\end{equation}
+\begin{equation}\label{xd2}
+  I_{R_{L}}=I_{R}=\frac{U_{b}}{R}
+\end{equation}
+
+ÓÉÊ½~\ref{xd1}~ºÍÊ½~\ref{xd2}~¿ÉÖª£¬Í¨¹ýµç×è~$R$~µÄµçÁ÷ÊÜ~$U_{IN}$~µÄ¿ØÖÆ¡£µ«ÊÇÔÚ¸ºÔØÍ¨Â·ÉÏÓÖ±ØÐëÒªÂú×ãÅ·Ä·¶¨ÂÉ£¬¹ØÏµÊ½Îª£º
+\begin{equation}\label{xd3}
+  V_{CC}=I_{R_{L}}R_{o}+I_{R_{L}}R_{L}+U_{b}
+\end{equation}
+
+ÓÉÓÚÈý¼«¹ÜÔÚµ¼Í¨×´Ì¬ÏÂÄÚ×èºÜÐ¡£¬ÆäÉÏÏûºÄµÄµçÑ¹ºöÂÔ²»¼Æ¡£
+
+½«Ê½~\ref{xd2}~´úÈëÉÏÊ½ÖÐ£¬µÃ£º
+\begin{equation}\label{xd4}
+  V_{CC}=U_{IN}(\frac{R_{o}+R_{L}}{R}+1)
+\end{equation}
+
+±¾¿ÎÌâÖÐºãÁ÷Ô´µçÂ·µÄÊäÈëÊÇ·ùÖµÎª~$0\sim$4V~ÕýÏÒ±ä»¯µÄµçÑ¹ÐÅºÅ£¬¶øÇý¶¯~LED~¹âÔ´µÄÐÅºÅÊÇ·ùÖµÎª~$0\sim200$mA~ÕýÏÒ±ä»¯µÄµçÁ÷£¬ËùÒÔ¾«ÃÜµç×è~$R$~È¡Öµ~$20\Omega$¡£LED~¹âÔ´ÔÚÒ»¶¨Çý¶¯µçÁ÷ÏÂ×èÖµÔ¼Îª~$24\Omega$£¬¿¼ÂÇµ½ºãÁ÷Ô´µçÂ·µçÔ´~$V_{CC}$~Îª~15V£¬ËùÒÔµç×è~$R_{o}$~È¡Öµ~$40\Omega$~ÊÇ±È½ÏºÏÊÊµÄ¡£
 
 \section{Ä£ÄâÐÅºÅÊäÈëÍ¨µÀÉè¼Æ}
+¹âÐÅºÅµÄ±ä»¯ÒýÆðPbSÌ½²âÆ÷µÄ×èÖµµÄ±ä»¯£¬¾­¹ýÆ«ÖÃºÍÇ°ÖÃ·Å´óµçÂ·×ª±ä³ÉµçÐÅºÅ£¬²¢½øÐÐÒ»¶¨µÄ·Å´ó¡£Î¢ÈõµÄµçÐÅºÅÒÀ´Î¾­¹ý¸÷ÖÖÄ£ÄâÐÅºÅ´¦ÀíµçÂ·µÄ´¦Àíºó£¬×îÖÕ½øÈëµ¥Æ¬»úADÍ¨µÀ½øÐÐ²ÉÑù¡£Ä£ÄâÐÅºÅ´¦ÀíµçÂ·µÄ¿òÍ¼ÈçÍ¼4.7ËùÊ¾¡£
 
 \subsection{ÐÅºÅ·Å´óµçÂ·}
-
+ha
 \subsection{Õ­´ø´øÍ¨ÂË²¨µçÂ·}
-
+ha
 \section{Ä£Êý×ª»»µçÂ·Éè¼Æ}
 
-\subsection{A/DÐ¾Æ¬Ñ¡ÐÍ}
+\subsection{A/D~Ð¾Æ¬Ñ¡ÐÍ}
 
-\subsection{A/D×ª»»µçÂ·}
+ÎªÁËÊµÏÖ¶Ô¶àÂ·~AD~ÐÅºÅÊµÊ±¸ß¾«¶È²É¼¯£¬ÒÔ¼°¿¼ÂÇµ½Ä£ÄâÐÅºÅË«¼«ÐÔÌØµã£¬±¾¿ÎÌâ²ÉÓÃÁËÑÇµÂÅµ°ëµ¼Ìå¹«Ë¾£¨~ADI~£©ÍÆ³öµÄÒ»¿îÁùÍ¨µÀÖð´Î±Æ½üÐÍ£¨~SAR~£©µÄÄ£Êý×ª»»Æ÷~AD7656¡£AD7656~ÄÚÖÃÁù¸ö~16~Î»¡¢¿ìËÙ¡¢µÍ¹¦ºÄÖð´Î±Æ½üÐÍ~ADC£¬²¢¼¯³Éµ½Ò»¸ö·â×°ÖÐ£¬²ÉÓÃ~iCMOS~ ¹¤ÒÕ£¨¹¤Òµ¼¶~CMOS~£©Éè¼Æ¡£²ÉÓÃiCMOS~¹¤ÒÕÉè¼ÆµÄÔª¼þ²»µ«¿ÉÒÔÊäÈëË«¼«ÐÔÐÅºÅ£¬Í¬Ê±»¹ÄÜÌáÉýÐÔÄÜ£¬´ó·ù½µµÍ¹¦ºÄ²¢¼õÐ¡·â×°³ß´ç¡£
+
+AD7656~Ö÷ÒªÓÐÒÔÏÂ¼¸¸öÌØµã£º
+
+£¨1£©¹©µçµçÔ´µçÑ¹·¶Î§½Ï¿í£¬¿ÉÍ¨¹ýÅäÖÃÑ¡ÔñÄ£ÄâÁ¿ÊäÈëµçÑ¹·¶Î§£º$\pm$10V¡¢$\pm$5V¡£
+
+£¨2£©ÍÌÍÂËÙÂÊ×î¸ß¿É´ï~250kSPS£¬²¢ÇÒÄÚÖÃ¿í´ø¿í£¨~4.5 MHz~£©²ÉÑù±£³Ö·Å´óÆ÷£¬¿É´¦Àí×î¸ß~4.5MHz~ µÄÊäÈëÆµÂÊ¡£
+
+£¨3£©Æ¬ÄÚ°üº¬Ò»¸ö~2.5V~ÄÚ²¿»ù×¼µçÑ¹Ô´ºÍ»ù×¼»º³åÆ÷¡£
+
+£¨4£©~AD7656~ »¹¾ßÓÐ¸ßËÙ²¢ÐÐºÍ´®ÐÐ½Ó¿Ú£¬¿ÉÒÔÓëÎ¢´¦ÀíÆ÷£¨~MCU~£©»òÊý×ÖÐÅºÅ´¦ÀíÆ÷£¨~DSP~£©Á¬½Ó¡£
+
+£¨5£©AD7656~ ÔÚ´®ÐÐ½Ó¿Ú·½Ê½ÏÂ£¬ÄÜÌá¹©Ò»¸ö¾Õ»¨Á´Á¬½Ó·½Ê½£¬ÒÔ±ã°Ñ¶à¸ö~ADC~ Á¬½Óµ½Ò»¸ö´®ÐÐ½Ó¿ÚÉÏ¡£
+
+\subsection{Ð¾Æ¬Ô­ÀíºÍ½á¹¹}
+
+AD7656~ÊÇÖð´Î±Æ½üÐÍAD×ª»»Æ÷£¬Ã¿Â·~ADC~µçÂ·°üÀ¨Ò»¸ö²ÉÑù±£³ÖÆ÷¡¢Ò»¸ö±È½ÏÆ÷¡¢Ò»¸ö~SAR~Ä£Êý×ª»»Æ÷ºÍÒ»¸öÂß¼­¿ØÖÆµ¥Ôª¡£¾ßÌå½á¹¹ÈçÍ¼~\ref{fig48}~ËùÊ¾¡£
+\begin{figure*}[!h]
+\centering
+\includegraphics[width=12cm]{fig48.jpg}
+\caption {AD7656~ÄÚ²¿½á¹¹¿òÍ¼}
+\addtocounter{figure}{-1}
+\renewcommand\figurename{Fig.}
+\caption{\label{fig48} Internal structure diagram of AD7656 }
+\end{figure*}
+
+AD7656~µÄ6Â·Ä£ÄâÐÅºÅÊäÈëÍ¨µÀ¶¼ÊÇÏà¹Ø¶ÀÁ¢µÄ£¬Íâ²¿Ä£ÄâÐÅºÅ´Ó~V1$-$V6~Òý½ÅÊäÈë£¬¾­¹ýÒ»¸ö¸ß´ø¿íµÄÏßÐÔ¸úËæÆ÷£¨~T/H~£©µ¥Ôª½øÐÐ²ÉÑù¡£Ã¿Â·~ADC~¾ù°´ÕÕÖð´Î±Æ½üÔ­Àí½øÐÐ£¬ÓÉ¿ØÖÆÂß¼­µçÂ·ºÍ~SAR~Ä£Êý×ª»»Æ÷¹²Í¬Íê³É¡£µ±Ä£ÄâÐÅºÅ×ª»»ÎªÊý×ÖÐÅºÅºó£¬ÓÉ¿ØÖÆÂß¼­µ¥Ôª¿ØÖÆÊý×ÖÊä³öÇý¶¯µçÂ·ÒÔ´®ÐÐ»ò²¢ÐÐÊý¾ÝµÄ·½Ê½Êä³ö¡£
+
+AD7656~µÄÄ£ÄâÐÅºÅÊäÈë²ÉÈ¡ÁËµ¥¶ËÊäÈë·½Ê½£¬ÊäÈëÐÅºÅµÄµçÆ½·¶Î§ÎªÁ½ÖÖ~$\pm$10V~ºÍ~$\pm$5V¡£¿ÉÍ¨¹ýÁ½ÖÖ·½Ê½Ñ¡ÔñÊäÈëÐÅºÅµçÆ½·¶Î§£¬Ó²¼þÉÏÍ¨¹ý~RANGE~¹Ü½ÅÉèÖÃ£¬Èí¼þÉÏÍ¨¹ýÅäÖÃ¿ØÖÆ¼Ä´æÆ÷µÄ~RANGE~Î»À´Ñ¡Ôñ¡£AD7656~µÄ×ª»»·Ö±æÂÊÓëÊäÈëÐÅºÅµÄ·¶Î§ÓÐ¹Ø£¬µ±ÊäÈëÐÅºÅµÄµçÆ½·¶Î§Îª~$\pm$5V~Ê±£¬ADC~·Ö±æÂÊÄÜ´ïµ½~0.153mV¡£
+
+\subsection{A/D~Ç°¶Ëµ÷ÀíµçÂ·Éè¼Æ}
+ÎªÁËÊ¹´ÓÄ£ÄâÐÅºÅ´¦ÀíÍ¨µÀÊä³öµÄÐÅºÅÔ´Óë~AD7656~ÒªÇóµÄÊäÈëÐÅºÅÏàÆ¥Åä£¬±¾¿ÎÌâ¶ÔÐÅºÅÔ´µÄÐÅºÅ½øÐÐÇ°¶Ëµ÷ÀíµçÂ·µ÷Õû£¬ÔÚ~AD7656~Ç°¶ËµÄµ÷ÀíµçÂ·ÖÐ¼ÓÈëÁË×è¿¹Æ¥ÅäºÍ¿¹»ìµþÂË²¨µçÂ·¡£
+\begin{figure*}[!h]
+\centering
+\includegraphics[width=12cm]{fig50.png}
+\caption {AD7656~Ç°¶Ëµ÷ÀíµçÂ·}
+\addtocounter{figure}{-1}
+\renewcommand\figurename{Fig.}
+\caption{\label{fig50} The front conditioning circuit of AD7656 }
+\end{figure*}
+
+AD7656~µÄÊäÈë¶ËºÜ¿ÉÄÜ¶ÔÐÅºÅÔ´ÐÅºÅ·ÖÑ¹£¬´Ó¶øÓ°Ïì²É¼¯×ª»»ÐÅºÅµÄ¾«¶È£¬ËùÒÔÉè¼Æ×è¿¹Æ¥ÅäµçÂ·ÊÇ·Ç³£±ØÒªµÄ¡£ÔÚ~AD7656~Ç°¼¶ÊäÈë¼ÓÈëÓÉÔËËã·Å´óÆ÷¹¹³ÉµÄµçÑ¹¸úËæÆ÷ºÜ¹»»ñµÃ½ÏµÍµÄÊä³ö×è¿¹£¬´Ó¶øÇý¶¯~AD7656~µÄÊäÈë¶Ë£¬µçÂ·Ô­ÀíÈçÍ¼~\ref{fig50}~ËùÊ¾¡£AD7656~ÊäÈë¶Ë¾ßÓÐÈÝÐÔ¸ºÔØÌØÐÔ£¬Í¨³£ÐèÒªÒ»¸öµç×èºÍµçÈÝ×é³ÉÍâ²¿²¹³¥µçÂ·ÓÃÒÔ¼õÉÙÈÝÐÔ¸ºÔØµÄÓ°Ïì¡£Í¬Ê±£¬µç×èºÍµçÈÝ»¹¿ÉÒÔ×öµÍÍ¨ÂË²¨Æ÷£¬ÊµÏÖ¿¹»ìµþÂË²¨µçÂ·µÄÐ§¹û¡£
+
+\subsection{A/D~Óë~DSP~½Ó¿ÚµçÂ·Éè¼Æ}
+
+AD7656~Óë~TMS320F28335~¿ØÖÆÆ÷½Ó¿ÚµçÂ·²ÉÈ¡²¢ÐÐ½Ó¿ÚÉè¼Æ£¬½Ó¿ÚµçÂ·ÈçÍ¼~\ref{fig49}~ËùÊ¾¡£
+\begin{figure*}[!h]
+\centering
+\includegraphics[width=14cm]{fig49.jpg}
+\caption {AD7656~Óë~DSP~½Ó¿ÚµçÂ·}
+\addtocounter{figure}{-1}
+\renewcommand\figurename{Fig.}
+\caption{\label{fig49} Interface circuit of AD7656 and DSP }
+\end{figure*}
+
+
+ÔÚµçÂ·Éè¼ÆÊ±£¬AD7656~Æ÷¼þ¾ßÓÐ°Ë¸ö~$AVcc$~µçÔ´Òý½Å£¬Ã¿¸ö~$AVcc$~µçÔ´Òý½Å¾ùÐèÒªÍ¨¹ýÒ»¸ö~10$\mu$F~îãµçÈÝºÍÒ»¸ö~100nF~ÌÕ´ÉµçÈÝ½øÐÐÁ¼ºÃÈ¥ñî¡£AD7656~¼´¿É²ÉÓÃÄÚ²¿»ù×¼µçÑ¹Ô´¹¤×÷£¬Ò²¿ÉÒÔ²ÉÓÃÍâ²¿Ê©¼ÓµÄ»ù×¼µçÑ¹Ô´¹¤×÷¡£ÔÚ±¾µçÂ·ÖÐ£¬Æ÷¼þ±»ÅäÖÃÎªÔÚÄÚ²¿»ù×¼µçÑ¹Ô´ÏÂ¹¤×÷¡£
+
+µ±~AD7656~µÄ~H/SSEL~¹Ü½Å½ÓµØÊ±£¬AD7656~ÔÚÓ²¼þÑ¡ÔñÄ£Ê½ÏÂ¹¤×÷£¬¿ÉÒÔ¸ù¾ÝÓ²¼þÑ¡ÔñÒý½ÅÉÏµÄÂß¼­µçÆ½À´ÅäÖÃ~AD7656¡£±¾µçÂ·ÖÐÔÚÓ²¼þÑ¡ÔñÄ£Ê½ÏÂ½«~AD7656~µÄ~SER/PAR~¹Ü½Å½ÓµØÊ¹~AD7656~¹¤×÷ÔÚ²¢ÐÐ½Ó¿Ú·½Ê½¡£Í¬Ê±£¬½«~RANGE~¹Ü½Å½ÓµØ´Ó¶øÑ¡Ôñ~$\pm$5V~µÄÄ£ÄâÊäÈë·¶Î§¡£¶ø¿ØÖÆ×ª»»Æô¶¯µÄ~CONVST~A¡¢~CONVST~B~ºÍ~CONVST~C~¹Ü½Å½ÓÈë~DSP~¿ØÖÆÆ÷£¬ÓÉ~DSP~Í¨¹ýÈí¼þ¼¤»î~CONVST~ÊäÈë´Ó¶øÆô¶¯~AD7656~µÄ×ª»»¡£CONVST~A~ÓÃÀ´¶Ô~V1~ºÍ~V2~Æô¶¯Í¬²½²ÉÑù£¬CONVST~B~ÓÃÀ´¶Ô~V3~ºÍ~V4~Æô¶¯Í¬²½²ÉÑù£¬¶ø~CONVST~C~ÓÃÀ´¶Ô~V5~ºÍ~V6~Æô¶¯Í¬²½²ÉÑù¡£±¾¿ÎÌâÖ»Ê¹ÓÃÁËÇ°ÈýÂ·Ä£ÄâÊäÈëÍ¨µÀ£¬ÆäÓàÄ£ÄâÊäÈëÍ¨µÀ½ÓµØ¡£
+
 
 \section{ÎÂ¿ØµçÂ·Éè¼Æ}
 
 \subsection{ÎÂ¶È¼ì²âµçÂ·}
+ÔÚË®·Ö²âÁ¿ÒÇ¹¤×÷Ê±£¬»·¾³ÎÂ¶È¶ÔÒÇÆ÷¹¤×÷¾ßÓÐÒ»¶¨µÄÓ°Ïì£¬¹âµçÌ½²âÆ÷ºÍ½üºìÍâ~LED~¹âÔ´ÔÚ²»Í¬ÎÂ¶ÈÏÂ¹¤×÷µÄÌØÐÔÒ²²»Ò»Ñù£¬Òò´ËÊµÊ±¼ì²â»·¾³ÎÂ¶ÈÊÇÊ®·Ö±ØÒªµÄ¡£±¾¿ÎÌâ²ÉÓÃ~DS18B20~ÎÂ¶È´«¸ÐÆ÷£¬Ëü¾ßÓÐÎ¢ÐÍ»¯¡¢µÍ¹¦ºÄ¡¢¿¹¸ÉÈÅÄÜÁ¦Ç¿£¬Ò×ÓëÎ¢´¦ÀíÆ÷½Ó¿ÚµÈÓÅµã£¬Ëü¼¯ÎÂ¶È²âÁ¿¡¢A/D~×ª»»ÓÚÒ»Ìå£¬Ö»ÐèÒ»¸ù¶Ë¿ÚÏß¾ÍÄÜÓëµ¥Æ¬»úÍ¨Ñ¶£¬²âÁ¿ÏµÍ³µçÂ·¼òµ¥£¬Ò×ÓÚÊµÏÖ¡£Æä²âÎÂ·¶Î§Îª~-55¡æ$\sim$~+125¡æ£¬²âÎÂ·Ö±æÂÊÎª~0.5¡æ¡£ ÎÂ¶È²âÁ¿µçÂ·ÈçÍ¼~\ref{fig51}~ËùÊ¾¡£
+\begin{figure*}[!h]
+\centering
+\includegraphics[width=10cm]{fig51.png}
+\caption {²âÎÂµçÂ·}
+\addtocounter{figure}{-1}
+\renewcommand\figurename{Fig.}
+\caption{\label{fig51} The temperature measurement circuit }
+\end{figure*}
 
 \subsection{°ëµ¼ÌåÖÆÀäµçÂ·}
 

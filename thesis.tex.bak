@@ -12,7 +12,7 @@
 %\normalem
 % 取消链接的颜色（黑白打印时）
 \hypersetup{colorlinks=false}
-\usepackage{multirow}
+
 
 %改变行间距
 %\setlength{\baselineskip}{1.5\baselineskip}  %或者\linespread{1.5}
@@ -25,6 +25,7 @@
 \CTEXsetup[format+={\flushleft}]{section}
 
 %\setlength\parskip{3pt}
+\usepackage{multirow}
 
 \begin{document}\pagestyle{empty}
 
@@ -95,7 +96,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \mainmatter \pagestyle{fancy}
 
-  \include{chapter/chap-Intro}  %
+  %\include{chapter/chap-Intro}  %
   %\include{chapter/chap-Theory}  % 水分检测原理
   %\include{chapter/chap-DLIAsumli} % 数字锁相放大器仿真
   \include{chapter/chap-HardWare} % 水分仪硬件电路设计
