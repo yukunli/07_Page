@@ -30,7 +30,7 @@ DSP~Î¢´¦ÀíÆ÷ÊÇÕû¸öË®·Ö²âÁ¿ÏµÍ³µÄ¿ØÖÆºËÐÄ£¬Ëü²»½ö¿ØÖÆ~DDS~Ð¾Æ¬²úÉúËùÐèµÄÕýÏÒ²¨ÐÅº
 
 £¨4£©µçÔ´µçÂ·Ä£¿é
 
-µçÔ´Ä£¿éÓÃÓÚ¸øÓ²¼þµçÂ·µÄ²»Í¬Ä£¿éÌá¹©ÎÈ¶¨µÄµçÔ´£¬Ä£Äâ²¿·ÖÖ÷ÒªÊÇ¸øºãÁ÷Ô´¡¢ÔËËã·Å´óÆ÷µÈÆ÷¼þ¹©µç£¬Êý×Ö²¿·ÖÖ÷ÒªÊÇ¸ø~DSP~Î¢´¦ÀíÆ÷¡¢DDS~Ð¾Æ¬µÈÊý×ÖÆ÷¼þ¹©µç¡£±¾¿ÎÌâ¸ù¾ÝÄ£Äâ²¿·ÖºÍÊý×Ö²¿·ÖµÄ¹©µçÐèÇó£¬Éè¼ÆÁËÊä³öÎÈ¶¨¡¢µÍÎÆ²¨¡¢µÍÔëÉùµÄ²»Í¬Êä³öµçÑ¹µÄµçÔ´¡£
+µçÔ´Ä£¿éÓÃÓÚ¸øÓ²¼þµçÂ·µÄ²»Í¬Ä£¿éÌá¹©ÎÈ¶¨µÄµçÔ´£¬Ä£Äâ²¿·ÖÖ÷ÒªÊÇ¸øºãÁ÷Ô´¡¢ÔËËã·Å´óÆ÷µÈÆ÷¼þ¹©µç£¬Êý×Ö²¿·ÖÖ÷ÒªÊÇ¸ø~DSP~Î¢´¦ÀíÆ÷¡¢DDS~ Ð¾Æ¬µÈÊý×ÖÆ÷¼þ¹©µç¡£±¾¿ÎÌâ¸ù¾ÝÄ£Äâ²¿·ÖºÍÊý×Ö²¿·ÖµÄ¹©µçÐèÇó£¬Éè¼ÆÁËÊä³öÎÈ¶¨¡¢µÍÎÆ²¨¡¢µÍÔëÉùµÄ²»Í¬Êä³öµçÑ¹µÄµçÔ´¡£
 \section{Ó²¼þÏµÍ³µÄ»ù´¡ÐÔÉè¼Æ}
 
 \subsection{ÏµÍ³µçÔ´Éè¼Æ}
@@ -198,17 +198,36 @@ LED~¹âÔ´¾ßÓÐµ¥Ïòµ¼µçÐÔ¡¢¾ßÓÐÊÆÀÝµçÊÆºÍÎÂ¶ÈÏµÊýÎª¸ºµÈÌØÐÔ£¬LED~¹âÔ´ÔÚÕýÏòµ¼Í¨ºó£¬
 
 ±¾¿ÎÌâÖÐºãÁ÷Ô´µçÂ·µÄÊäÈëÊÇ·ùÖµÎª~$0\sim$4V~ÕýÏÒ±ä»¯µÄµçÑ¹ÐÅºÅ£¬¶øÇý¶¯~LED~¹âÔ´µÄÐÅºÅÊÇ·ùÖµÎª~$0\sim200$mA~ÕýÏÒ±ä»¯µÄµçÁ÷£¬ËùÒÔ¾«ÃÜµç×è~$R$~È¡Öµ~$20\Omega$¡£LED~¹âÔ´ÔÚÒ»¶¨Çý¶¯µçÁ÷ÏÂ×èÖµÔ¼Îª~$24\Omega$£¬¿¼ÂÇµ½ºãÁ÷Ô´µçÂ·µçÔ´~$V_{CC}$~Îª~15V£¬ËùÒÔµç×è~$R_{o}$~È¡Öµ~$40\Omega$~ÊÇ±È½ÏºÏÊÊµÄ¡£
 
-\section{Ä£ÄâÐÅºÅÊäÈëÍ¨µÀÉè¼Æ}
-¹âÐÅºÅµÄ±ä»¯ÒýÆðPbSÌ½²âÆ÷µÄ×èÖµµÄ±ä»¯£¬¾­¹ýÆ«ÖÃºÍÇ°ÖÃ·Å´óµçÂ·×ª±ä³ÉµçÐÅºÅ£¬²¢½øÐÐÒ»¶¨µÄ·Å´ó¡£Î¢ÈõµÄµçÐÅºÅÒÀ´Î¾­¹ý¸÷ÖÖÄ£ÄâÐÅºÅ´¦ÀíµçÂ·µÄ´¦Àíºó£¬×îÖÕ½øÈëµ¥Æ¬»úADÍ¨µÀ½øÐÐ²ÉÑù¡£Ä£ÄâÐÅºÅ´¦ÀíµçÂ·µÄ¿òÍ¼ÈçÍ¼4.7ËùÊ¾¡£
+\section{Ä£ÄâÐÅºÅ´¦ÀíµçÂ·Éè¼Æ}
+¹âÐÅºÅµÄ±ä»¯ÒýÆð~InGaAs~¹âµçÌ½²âÆ÷µÄ×èÖµµÄ±ä»¯£¬¾­¹ýÆ«ÖÃºÍÇ°ÖÃ·Å´óµçÂ·×ª±ä³ÉµçÐÅºÅ£¬²¢½øÐÐÒ»¶¨µÄ·Å´ó¡£Î¢ÈõµÄµçÐÅºÅÒÀ´Î¾­¹ý¸÷ÖÖÄ£ÄâÐÅºÅ´¦ÀíµçÂ·µÄ´¦Àíºó£¬×îÖÕ½øÈëµ¥Æ¬»úADÍ¨µÀ½øÐÐ²ÉÑù¡£Ä£ÄâÐÅºÅ´¦ÀíµçÂ·µÄ¿òÍ¼ÈçÍ¼~\ref{fig55}~ËùÊ¾¡£
+\begin{figure*}[!h]
+\centering
+\includegraphics[width=12cm]{fig55.pdf}
+\caption {Ä£ÄâÐÅºÅ´¦ÀíµçÂ·¿òÍ¼}
+\addtocounter{figure}{-1}
+\renewcommand\figurename{Fig.}
+\caption{\label{fig55} The diagram of analog circuits}
+\end{figure*}
 
-\subsection{ÐÅºÅ·Å´óµçÂ·}
-ha
+\subsection{Ç°ÖÃ·Å´óµçÂ·}
+\subsubsection{Ç°ÖÃ·Å´óµçÂ·µÄÑ¡Ôñ}
+Ñ¡Ôñ²ÉÓÃ¿çµ½·½Ê½£¡
+\subsubsection{Ç°ÖÃ·Å´óµçÂ·ÔëÉù·ÖÎö}
+\subsubsection{Ç°ÖÃ·Å´óµçÂ·¾ßÌåÉè¼Æ}
+
+\subsection{´Î¼¶ÐÅºÅ·Å´óµçÂ·}
+\subsubsection{´Î¼¶ÐÅºÅ·Å´óµçÂ·¾ßÌåÉè¼Æ}
+Ç°ÖÃ·Å´óµçÂ·¶ÔÌ½²âÆ÷Æðµ½Æ«ÖÃµÄ×÷ÓÃ£¬²¢×÷Îª»º³å¼¶¶ÔÎ¢ÈõµÄµçÐÅºÅ½øÐÐ³õ²½µÄ·Å´ó¡£Ö®ºó»¹ÐèÒª½øÈë´Î¼¶·Å´óµçÂ·½øÐÐÖ÷·Å´ó¡£µçÂ·Ô­ÀíÍ¼ÈçÍ¼~\ref{}~ËùÊ¾¡£
+
+\subsubsection{´Î¼¶ÐÅºÅ·Å´óµçÂ·ÔëÉù·ÖÎö}
+ÔË·ÅµÄÔëÉù¿ÉÒÔÓÃ~En-In~Ä£ÐÍ\upcite{[42]}À´±íÊ¾£¬En~ÎªÔË·ÅÔëÉùµçÑ¹¾ù·½¸ùÖµ£¬In~ÎªÔË·ÅÔëÉùµçÁ÷¾ù·½¸ùÖµ¡£´Î¼¶ÐÅºÅ·Å´óµçÂ·µÄÔëÉùµÈÐ§Ä£ÐÍÈçÍ¼~\ref{}~ËùÊ¾¡£
+
 \subsection{Õ­´ø´øÍ¨ÂË²¨µçÂ·}
-ha
+ÐÅºÅ¾­¹ý·Å´óµçÂ·ºó£¬»¹´æÔÚ´óÁ¿µÄ¹¤ÆµÔëÉù¡¢Ëæ»úÔëÉùµÈ¸ÉÈÅ£¬ÐèÒªÊ¹ÓÃÂË²¨Æ÷ÂË³ýÕâÐ©¸ÉÈÅÐÅºÅ¡£ÓÉÓÚ¹¤ÆµÔëÉù¡¢Ëæ»úÔëÉùµÈ¸ÉÈÅºÍÓÐÓÃÐÅºÅµÄÆµÂÊ²»Í¬£¬¿ÉÒÔÊ¹ÓÃ´øÍ¨ÂË²¨Æ÷ÂË³ý¸ÉÈÅ¡£´øÍ¨ÂË²¨Æ÷ÊÇÒ»ÖÖÆÁ±ÎÍ¨´øÍâµÄÆµ¶ÎÐÅºÅ£¬¶øÖ»ÔÊÐíÍ¨´øÄÚµÄÆµ¶ÎÐÅºÅÍ¨¹ýµÄÂË²¨Æ÷¡£´øÍ¨ÂË²¨Æ÷ÓÐÐí¶àÀàÐÍ£¬ÆäÖÐ°ÍÌØÎÖË¹ÂË²¨Æ÷ÔÚÐÅºÅµÄÂË²¨ÖÐÓ¦ÓÃ½ÏÎª¹ã·º£¬Ëü¾ßÓÐÑ¡ÔñÐÔ¼«¸ßºÍ¹ý¶É´ø¶¸ÇÍµÄÌØµã\upcite{[42]}¡£ËüµÄµçÂ·Ô­ÐÍÈçÍ¼~\ref{}~¡£
+
 \section{Ä£Êý×ª»»µçÂ·Éè¼Æ}
 
 \subsection{A/D~Ð¾Æ¬Ñ¡ÐÍ}
-
 ÎªÁËÊµÏÖ¶Ô¶àÂ·~AD~ÐÅºÅÊµÊ±¸ß¾«¶È²É¼¯£¬ÒÔ¼°¿¼ÂÇµ½Ä£ÄâÐÅºÅË«¼«ÐÔÌØµã£¬±¾¿ÎÌâ²ÉÓÃÁËÑÇµÂÅµ°ëµ¼Ìå¹«Ë¾£¨~ADI~£©ÍÆ³öµÄÒ»¿îÁùÍ¨µÀÖð´Î±Æ½üÐÍ£¨~SAR~£©µÄÄ£Êý×ª»»Æ÷~AD7656¡£AD7656~ÄÚÖÃÁù¸ö~16~Î»¡¢¿ìËÙ¡¢µÍ¹¦ºÄÖð´Î±Æ½üÐÍ~ADC£¬²¢¼¯³Éµ½Ò»¸ö·â×°ÖÐ£¬²ÉÓÃ~iCMOS~ ¹¤ÒÕ£¨¹¤Òµ¼¶~CMOS~£©Éè¼Æ¡£²ÉÓÃiCMOS~¹¤ÒÕÉè¼ÆµÄÔª¼þ²»µ«¿ÉÒÔÊäÈëË«¼«ÐÔÐÅºÅ£¬Í¬Ê±»¹ÄÜÌáÉýÐÔÄÜ£¬´ó·ù½µµÍ¹¦ºÄ²¢¼õÐ¡·â×°³ß´ç¡£
 
 AD7656~Ö÷ÒªÓÐÒÔÏÂ¼¸¸öÌØµã£º
