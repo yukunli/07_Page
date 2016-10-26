@@ -5,27 +5,9 @@
 \section{下位机软件设计}
 
 \subsection{数据采集程序的设计}
-本课题有三路正弦信号进入~A/D~转换通道进行同步模数转换，所以对于~AD7656~而言，其采样频率的选取应综合三路正弦信号频率满足奈奎斯特采样定律以及~AD~芯片最大转换速率进行考虑。基于第~3~章节对数字锁相放大器的仿真和分析，本文选用~120KHz~作为采样频率对这三路信号进行采样和转换，每路信号连续采集~420~个点序列。
-\begin{figure*}[!h]
-\centering
-\includegraphics[width=13cm]{fig73.png}
-\caption {AD7656~并行接口模式工作时序图}
-\addtocounter{figure}{-1}
-\renewcommand\figurename{Fig.}
-\caption{\label{fig73} Work sequence diagram of AD7656~ parallel interface mode}
-\end{figure*}
+本课题有三路正弦信号进入~A/D~转换通道进行同步模数转换，所以对于~AD7656~而言，其采样频率的选取应综合三路正弦信号频率满足奈奎斯特采样定律以及~AD~芯片最大转换速率进行考虑。基于第~3~章节对数字锁相放大器的仿真和分析，本文选用~120KHz~作为采样频率对这三路信号进行采样和转换，每路信号连续采集420个点序列。
 
-本文采用~AD7656~并行工作模式，图\ref{fig73}所示是~AD7656~在并行方式下的工作时序图。首先通过脉冲激活~CONVST~输入来启动模数转换，并保持为高电平。当转换过程结束后，BUSY~信号会出现下降沿，此时，可通过控制片选和读信号引脚来依次读出各个通道的~AD~转换值。在读出转换值后，可改变~CONVST~为低电平，为下一次转换做准备。本课题通过控制~CONVST A~和~CONVST B~信号转换前4路通道的模拟信号，前3路信号为待测信号，第四路信号为模拟地。
-
-本文设计的数据采集程序主要包括~TMS320F28335~的~IO~口初始化、AD7656~控制时序的产生及状态查询、采集数据的处理。其程序的流程图如图~\ref{fig74}~所示.
-\begin{figure*}[!h]
-\centering
-\includegraphics[width=13cm]{fig74.pdf}
-\caption {数据采集程序流程图}
-\addtocounter{figure}{-1}
-\renewcommand\figurename{Fig.}
-\caption{\label{fig74} Data acquisition program flow chart}
-\end{figure*}
+本文设计的数据采集程序主要包括~TMS320F28335~的~IO~口初始化、AD7656~控制时序的产生及状态查询、采集数据的处理
 
 \subsection{数据通讯程序的设计}
 下位机的通讯程序主要功能是将~DSP~处理后的数据发送到组态工业串口屏进行显示，本文设计的通讯采用~TMS320F28335~的串行通信接口（~SCI~），与~UART~类似。SCI~接收器和发送器各自拥有一个~16~级深度的~FIFO，也各自拥有自己的使能和中断位，两者都能独立进行半双工通信，或者联立建立全双工通信。为了保证数据的完整性，SCI~模块会对接收到的数据进行简断检测、奇偶性、溢出和帧错误等检测。通过一个~16~ 位波特率寄存器的编程，可配置不同的通信速率。

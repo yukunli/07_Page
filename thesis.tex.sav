@@ -25,6 +25,7 @@
 \CTEXsetup[format+={\flushleft}]{section}
 
 %\setlength\parskip{3pt}
+\usepackage{multirow}
 
 \begin{document}\pagestyle{empty}
 
@@ -95,12 +96,12 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \mainmatter \pagestyle{fancy}
 
-  \include{chapter/chap-Intro}  % 绪论部分
-  \include{chapter/chap-Theory}  % 水分检测原理
- % \include{chapter/chap-DLIAsumli} % 数字锁相放大器仿真
-  %\include{chapter/chap-HardWare} % 水分仪硬件电路设计
+  %\include{chapter/chap-Intro}  %
+  %\include{chapter/chap-Theory}  % 水分检测原理
+  %\include{chapter/chap-DLIAsumli} % 数字锁相放大器仿真
+  \include{chapter/chap-HardWare} % 水分仪硬件电路设计
  % \include{chapter/chap-SoftWare}  %水分仪软件设计
-  %\include{chapter/chap-Experiment}  %水分仪测量实验
+  %\include{chapter/chap-Experiment} %水分仪测量实验
   %\include{chapter/chap-Conclusion}% 结论和展望
 
   % 附录
@@ -120,20 +121,20 @@
 %\bibliography{bib/tex}
   %\nocite{*}
   % 不使用 BibTeX
-  \include{chapter/bib}\pagestyle{fancy}
+  %\include{chapter/bib}\pagestyle{fancy}
 
 % 发表文章目录
-  \include{chapter/pub}
+ % \include{chapter/pub}
 
 % 获奖情况
   %\include{chapter/reward}
 
    % 致谢
-  \include{chapter/thanks}\pagestyle{fancy}
+  %\include{chapter/thanks}\pagestyle{fancy}
 
 
   % 个人简历
-  \include{chapter/resume}\pagestyle{fancy}
+  %\include{chapter/resume}\pagestyle{fancy}
 
 
 \end{document}

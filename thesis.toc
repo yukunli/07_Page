@@ -3,31 +3,21 @@
 \contentsline {chapter}{摘\CTEX@spaceChar \CTEX@spaceChar 要}{III}{section*.1}
 \contentsline {chapter}{Abstract}{V}{section*.2}
 \contentsline {chapter}{目\CTEX@spaceChar \CTEX@spaceChar 录}{VII}{chapter*.3}
-\contentsline {chapter}{\numberline {第一章\hspace {0.3em}}水分测量系统的硬件设计}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}硬件系统总体设计}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}硬件系统的基础性设计}{2}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}系统电源设计}{2}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}DSP最小系统设计}{4}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}串口通信设计}{5}{subsection.1.2.3}
-\contentsline {section}{\numberline {1.3}光源信号驱动电路设计}{6}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}激励信号发生器}{6}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}恒流源驱动电路}{7}{subsection.1.3.2}
-\contentsline {section}{\numberline {1.4}模拟信号处理电路设计}{9}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}前置放大电路}{10}{subsection.1.4.1}
-\contentsline {subsubsection}{\numberline {1.4.1.1}前置放大电路的选择}{10}{subsubsection.1.4.1.1}
-\contentsline {subsubsection}{\numberline {1.4.1.2}前置放大电路噪声分析}{11}{subsubsection.1.4.1.2}
-\contentsline {subsubsection}{\numberline {1.4.1.3}前置放大电路具体设计}{11}{subsubsection.1.4.1.3}
-\contentsline {subsection}{\numberline {1.4.2}次级信号放大电路}{11}{subsection.1.4.2}
-\contentsline {subsubsection}{\numberline {1.4.2.1}次级信号放大电路具体设计}{11}{subsubsection.1.4.2.1}
-\contentsline {subsubsection}{\numberline {1.4.2.2}次级信号放大电路噪声分析}{11}{subsubsection.1.4.2.2}
-\contentsline {subsection}{\numberline {1.4.3}窄带带通滤波电路}{11}{subsection.1.4.3}
-\contentsline {section}{\numberline {1.5}模数转换电路设计}{11}{section.1.5}
-\contentsline {subsection}{\numberline {1.5.1}A/D\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 芯片选型}{11}{subsection.1.5.1}
-\contentsline {subsection}{\numberline {1.5.2}芯片原理和结构}{12}{subsection.1.5.2}
-\contentsline {subsection}{\numberline {1.5.3}A/D\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 前端调理电路设计}{13}{subsection.1.5.3}
-\contentsline {subsection}{\numberline {1.5.4}A/D\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 与\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces DSP\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 接口电路设计}{13}{subsection.1.5.4}
-\contentsline {section}{\numberline {1.6}温控电路设计}{14}{section.1.6}
-\contentsline {subsection}{\numberline {1.6.1}温度检测电路}{14}{subsection.1.6.1}
-\contentsline {subsection}{\numberline {1.6.2}半导体制冷电路}{15}{subsection.1.6.2}
-\contentsline {section}{\numberline {1.7}本章小结}{15}{section.1.7}
+\contentsline {chapter}{\numberline {第一章\hspace {0.3em}}绪论}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}课题研究的背景与意义}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}近红外水分测量技术简介}{1}{section.1.2}
+\contentsline {section}{\numberline {1.3}水分检测的研究现状和发展方向}{2}{section.1.3}
+\contentsline {section}{\numberline {1.4}本课题的研究内容与主要工作}{3}{section.1.4}
+\contentsline {chapter}{\numberline {第二章\hspace {0.3em}}水分测量系统软件设计}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}水分测量系统整体软件结构}{5}{section.2.1}
+\contentsline {section}{\numberline {2.2}下位机软件设计}{5}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}数据采集程序的设计}{5}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}数据通讯程序的设计}{6}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}温度控制程序的设计}{8}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}数字锁相放大器软件设计}{8}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}参考信号的产生}{9}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}相关运算的实现}{9}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}数字滤波器的设计}{9}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}工业串口屏软件设计}{9}{section.2.4}
+\contentsline {section}{\numberline {2.5}本章小结}{10}{section.2.5}
 \contentsfinish 

@@ -1,10 +1,10 @@
 \chapter{Ë®·Ö²âÁ¿ÏµÍ³µÄÓ²¼þÉè¼Æ}\label{chap4}
 
-±¾ÕÂÖ÷ÒªÎ§ÈÆ¹¹³ÉË®·Ö²âÁ¿ÏµÍ³µÄÓ²¼þÉè¼Æ½øÐÐ½éÉÜ¡£Ó²¼þµçÂ·Ö÷Òª°üÀ¨~LED~¹âÔ´µÄ¼¤ÀøÇý¶¯ÐÅºÅµÄ²úÉú¡¢Ä£ÄâÐÅºÅÊäÈëÍ¨µÀµÄÉè¼Æ¡¢A/D~ ²É¼¯µçÂ·ÒÔ¼°Ö÷¿Ø~DSP~¿ØÖÆÆ÷µÈ²¿·Ö¡£
+±¾ÕÂÖ÷ÒªÎ§ÈÆ¹¹³ÉË®·Ö²âÁ¿ÏµÍ³µÄÓ²¼þÉè¼Æ½øÐÐ½éÉÜ¡£Ó²¼þµçÂ·Ö÷Òª°üÀ¨~LED~¹âÔ´µÄ¼¤ÀøÇý¶¯ÐÅºÅµÄ²úÉú¡¢Ä£ÄâÐÅºÅÊäÈëÍ¨µÀµÄÉè¼Æ¡¢A/D~²É¼¯µçÂ·ÒÔ¼°Ö÷¿Ø~DSP~¿ØÖÆÆ÷µÈ²¿·Ö¡£
 
 \section{Ó²¼þÏµÍ³×ÜÌåÉè¼Æ}
 
-±¾¿ÎÌâÉè¼ÆµÄË®·Ö²âÁ¿ÏµÍ³Ö÷ÒªÓÉÒÔÏÂËÄ²¿·Ö×é³É£º¹âÔ´¼¤ÀøÄ£¿é¡¢ÐÅºÅ´¦ÀíÄ£¿é¡¢DSP~¿ØÖÆÄ£¿éÒÔ¼°µçÔ´µçÂ·Ä£¿é¡£ÆäÖÐÐÅºÅ´¦ÀíÄ£¿éÓÉÄ£ÄâÐÅºÅ´¦ÀíÄ£¿éºÍÊý×ÖËøÏà·Å´óÆ÷×é³É£¬Êý×ÖËøÏà·Å´óÆ÷ÓÉ~DSP~Î¢¿ØÖÆÄÚ²¿ÊµÏÖ£¬ËùÒÔÓ²¼þµçÂ·µÄÊµÏÖÉÏ£¬ÐÅºÅ´¦ÀíÄ£¿éÖ÷ÒªÊÇÖ¸Ä£ÄâÐÅºÅ´¦Àí¡£Ó²¼þµçÂ·Éè¼ÆµÄÖ÷Òª¹¦ÄÜÊÇÎª~LED~¹âÔ´Ìá¹©¼¤ÀøÐÅºÅ£¬²¢¶Ô¹âµçÌ½²âÆ÷½ÓÊÕµ½µÄµçÐÅºÅ½øÐÐ·Å´ó¡¢ÂË²¨¡¢²É¼¯µÈÊý¾Ý´¦Àí£¬²¢½«²É¼¯µ½µÄÐÅºÅ´«ËÍµ½Î¢¿ØÖÆÆ÷½øÐÐºóÐøÊý¾Ý´¦Àí¡£Ó²¼þÏµÍ³µÄÕûÌå½á¹¹¿òÍ¼ÈçÍ¼~\ref{fig40}~ËùÊ¾
+±¾¿ÎÌâÉè¼ÆµÄË®·Ö²âÁ¿ÏµÍ³Ö÷ÒªÓÉÒÔÏÂËÄ²¿·Ö×é³É£º¹âÔ´¼¤ÀøÄ£¿é¡¢ÐÅºÅ´¦ÀíÄ£¿é¡¢DSP~¿ØÖÆÄ£¿éÒÔ¼°µçÔ´µçÂ·Ä£¿é¡£ÆäÖÐÐÅºÅ´¦ÀíÄ£¿éÓÉÄ£ÄâÐÅºÅ´¦ÀíÄ£¿éºÍÊý×ÖËøÏà·Å´óÆ÷×é³É£¬Êý×ÖËøÏà·Å´óÆ÷ÓÉ~DSP~Î¢¿ØÖÆÄÚ²¿ÊµÏÖ£¬ËùÒÔÓ²¼þµçÂ·µÄÊµÏÖÉÏ£¬ÐÅºÅ´¦ÀíÄ£¿éÖ÷ÒªÊÇÖ¸Ä£ÄâÐÅºÅ´¦Àí¡£Ó²¼þµçÂ·Éè¼ÆµÄÖ÷Òª¹¦ÄÜÊÇÎª~LED~ ¹âÔ´Ìá¹©¼¤ÀøÐÅºÅ£¬²¢¶Ô¹âµçÌ½²âÆ÷½ÓÊÕµ½µÄµçÐÅºÅ½øÐÐ·Å´ó¡¢ÂË²¨¡¢²É¼¯µÈÊý¾Ý´¦Àí£¬²¢½«²É¼¯µ½µÄÐÅºÅ´«ËÍµ½Î¢¿ØÖÆÆ÷½øÐÐºóÐøÊý¾Ý´¦Àí¡£Ó²¼þÏµÍ³µÄÕûÌå½á¹¹¿òÍ¼ÈçÍ¼~\ref{fig40}~ËùÊ¾
 \begin{figure*}[!h]
 \centering
 \includegraphics[width=12cm]{fig40.pdf}
@@ -18,19 +18,19 @@
 
 £¨1£©¹âÔ´¼¤ÀøÄ£¿é
 
-¸ÃÄ£¿éÎª~LED~¹âÔ´Ìá¹©ÕýÏÒ²¨¼¤ÀøÐÅºÅ£¬Ê¹~LED~¹âÔ´ÄÜÒÔ¹Ì¶¨ÆµÂÊµÄÕýÏÒ¼¤ÀøÕÕÉäµ½±»²âÎïµÄ±íÃæ¡£±ê×¼µÄÕýÏÒ²¨¼¤ÀøÐÅºÅÓÉ~DSP~Î¢´¦ÀíÆ÷¿ØÖÆÊý×ÖÊ½ÆµÂÊºÏ³ÉÆ÷£¨DDS£©Ð¾Æ¬²úÉú£¬ÔÙ¾­¹ýºãÁ÷Ô´µçÂ·±ä³ÉÕýÏÒµçÁ÷¼¤Àø¹©¸ø~LED~¹âÔ´¡£ÓÉÓÚ±¾¿ÎÌâ²ÉÓÃÁËÈý²¨³¤²âÁ¿ÊÖ¶Î£¬¼´Ò»Â·²âÁ¿²¨³¤ºÍÁ½Â·²Î±È²¨³¤µÄ¹âÔ´Í¬Ê±ÕÕÉä±»²âÎïµÄ±íÃæ£¬ËùÒÔ±¾ÎÄµÄ¹âÔ´¼¤ÀøÓ²¼þÄ£¿éÐèÒªÈýÂ·£¬·Ö±ð¸øÈýÂ·²»Í¬²¨³¤µÄ¹âÔ´Ìá¹©Í¬·ù²»Í¬ÆµµÄÕýÏÒ²¨µçÁ÷¼¤ÀøÐÅºÅ£¬±¾¿ÎÌâÖÐÈýÂ·¼¤ÀøÐÅºÅµÄÆµÂÊÒ»´ÎÎª~5kHz~¡¢6kHz~ºÍ~7kHz¡£
+¸ÃÄ£¿éÎª~LED~¹âÔ´Ìá¹©ÕýÏÒ²¨¼¤ÀøÐÅºÅ£¬Ê¹~LED~¹âÔ´ÄÜÒÔ¹Ì¶¨ÆµÂÊµÄÕýÏÒ¼¤ÀøÕÕÉäµ½±»²âÎïµÄ±íÃæ¡£±ê×¼µÄÕýÏÒ²¨¼¤ÀøÐÅºÅÓÉ~DSP~ Î¢´¦ÀíÆ÷¿ØÖÆÊý×ÖÊ½ÆµÂÊºÏ³ÉÆ÷£¨DDS£©Ð¾Æ¬²úÉú£¬ÔÙ¾­¹ýºãÁ÷Ô´µçÂ·±ä³ÉÕýÏÒµçÁ÷¼¤Àø¹©¸ø~LED~¹âÔ´¡£ÓÉÓÚ±¾¿ÎÌâ²ÉÓÃÁËÈý²¨³¤²âÁ¿ÊÖ¶Î£¬¼´Ò»Â·²âÁ¿²¨³¤ºÍÁ½Â·²Î±È²¨³¤µÄ¹âÔ´Í¬Ê±ÕÕÉä±»²âÎïµÄ±íÃæ£¬ËùÒÔ±¾ÎÄµÄ¹âÔ´¼¤ÀøÓ²¼þÄ£¿éÐèÒªÈýÂ·£¬·Ö±ð¸øÈýÂ·²»Í¬²¨³¤µÄ¹âÔ´Ìá¹©Í¬·ù²»Í¬ÆµµÄÕýÏÒ²¨µçÁ÷¼¤ÀøÐÅºÅ£¬±¾¿ÎÌâÖÐÈýÂ·¼¤ÀøÐÅºÅµÄÆµÂÊÒ»´ÎÎª~5kHz~¡¢6kHz~ºÍ~7kHz¡£
 
 £¨2£©Ä£ÄâÐÅºÅ´¦ÀíÄ£¿é
 
-Ä£ÄâÐÅºÅ´¦ÀíµçÂ·°üÀ¨ÐÅºÅ·Å´óµçÂ·ºÍ´øÍ¨ÂË²¨µçÂ·¡£ÆäÖÐÐÅºÅ·Å´óµçÂ·ÓÉÁ½²¿·Ö×é³É£ºµÍÔëÉùÇ°ÖÃ·Å´óÆ÷ºÍ´Î¼¶·Å´óÆ÷¡£´Ó±»²âÎï±íÃæ·´Éä»ØÀ´µÄÈýÂ·²»Í¬ÆµÂÊµÄ¹âÐÅºÅÈ«²¿½øÈë¹âµçÌ½²âÆ÷ºó×ª»¯ÎªµçÐÅºÅ£¬µ«´ËÊ±µÄÓÐÓÃÐÅºÅ·Ç³£Î¢Èõ¡£ÎªÁËµÃµ½Âú×ãºóÐø~A/D~²ÉÑùµÄµçÆ½·¶Î§ÒªÇó£¬Î¢ÈõµÄÐÅºÅ¾­¹ýµÍÔëÉùÇ°ÖÃ·Å´óÆ÷ºÍ´Î¼¶·Å´óÆ÷½øÐÐÐÅºÅ·Å´ó£¬·Å´óºóµÄÐÅºÅÊÇÈýÂ·²»Í¬ÆµÂÊÕýÏÒÐÅºÅµÄµþ¼Ó£¬ÔÙ·Ö±ð¾­¹ýÈýÂ·²»Í¬ÖÐÐÄÆµÂÊµÄÕ­´ø´øÍ¨ÂË²¨Æ÷½øÐÐÂË²¨£¬¾ÍµÃµ½ÁËÈýÂ··ÖÀëºóµÄÕýÏÒ²¨´ý²âÐÅºÅ¡£±¾¿ÎÌâÖÐÕâÈýÂ·´ý²âÐÅºÅµÄÆµÂÊÒÀ´ÎÎª~5kHz~¡¢6kHz~ºÍ~7kHz£¬ÓëÌá¹©µÄÈýÂ·~LED~¹âÔ´¼¤ÀøÐÅºÅµÄÆµÂÊÏàÒ»ÖÂ¡£½«ÕâÈýÂ·´ý²âÐÅºÅÈ«²¿Í¨¹ý~A/D~×ª»»Ð¾Æ¬½øÐÐÄ£Êý×ª»»ºóËÍÈë~DSP~Î¢´¦ÀíÆ÷£¬ÔÚ~DSP~Î¢´¦ÀíÆ÷ÄÚ²¿½øÐÐÊý×ÖËøÏà·Å´óÆ÷ÔËËã¡£ËùÒÔ¸ÃÄ£¿éÒ²ÊÇÊý×ÖËøÏà·Å´óÆ÷µÄÐÅºÅÊäÈëÍ¨µÀ¡£
+Ä£ÄâÐÅºÅ´¦ÀíµçÂ·°üÀ¨ÐÅºÅ·Å´óµçÂ·ºÍ´øÍ¨ÂË²¨µçÂ·¡£ÆäÖÐÐÅºÅ·Å´óµçÂ·ÓÉÁ½²¿·Ö×é³É£ºµÍÔëÉùÇ°ÖÃ·Å´óÆ÷ºÍ´Î¼¶·Å´óÆ÷¡£´Ó±»²âÎï±íÃæ·´Éä»ØÀ´µÄÈýÂ·²»Í¬ÆµÂÊµÄ¹âÐÅºÅÈ«²¿½øÈë¹âµçÌ½²âÆ÷ºó×ª»¯ÎªµçÐÅºÅ£¬µ«´ËÊ±µÄÓÐÓÃÐÅºÅ·Ç³£Î¢Èõ¡£ÎªÁËµÃµ½Âú×ãºóÐø~A/D~²ÉÑùµÄµçÆ½·¶Î§ÒªÇó£¬Î¢ÈõµÄÐÅºÅ¾­¹ýµÍÔëÉùÇ°ÖÃ·Å´óÆ÷ºÍ´Î¼¶·Å´óÆ÷½øÐÐÐÅºÅ·Å´ó£¬·Å´óºóµÄÐÅºÅÊÇÈýÂ·²»Í¬ÆµÂÊÕýÏÒÐÅºÅµÄµþ¼Ó£¬ÔÙ·Ö±ð¾­¹ýÈýÂ·²»Í¬ÖÐÐÄÆµÂÊµÄÕ­´ø´øÍ¨ÂË²¨Æ÷½øÐÐÂË²¨£¬¾ÍµÃµ½ÁËÈýÂ··ÖÀëºóµÄÕýÏÒ²¨´ý²âÐÅºÅ¡£±¾¿ÎÌâÖÐÕâÈýÂ·´ý²âÐÅºÅµÄÆµÂÊÒÀ´ÎÎª~5kHz~¡¢6kHz~ ºÍ~7kHz£¬ÓëÌá¹©µÄÈýÂ·~LED~¹âÔ´¼¤ÀøÐÅºÅµÄÆµÂÊÏàÒ»ÖÂ¡£½«ÕâÈýÂ·´ý²âÐÅºÅÈ«²¿Í¨¹ý~A/D~ ×ª»»Ð¾Æ¬½øÐÐÄ£Êý×ª»»ºóËÍÈë~DSP~Î¢´¦ÀíÆ÷£¬ÔÚ~DSP~Î¢´¦ÀíÆ÷ÄÚ²¿½øÐÐÊý×ÖËøÏà·Å´óÆ÷ÔËËã¡£ËùÒÔ¸ÃÄ£¿éÒ²ÊÇÊý×ÖËøÏà·Å´óÆ÷µÄÐÅºÅÊäÈëÍ¨µÀ¡£
 
 £¨3£©DSP~¿ØÖÆÄ£¿é
 
-DSP~Î¢´¦ÀíÆ÷ÊÇÕû¸öË®·Ö²âÁ¿ÏµÍ³µÄ¿ØÖÆºËÐÄ£¬Ëü²»½ö¿ØÖÆ~DDS~Ð¾Æ¬²úÉúËùÐèµÄÕýÏÒ²¨ÐÅºÅ£¬Í¬Ê±ÓÃÓÚ²úÉúÊý×ÖËøÏà·Å´óÆ÷ËùÐèµÄ²Î¿¼ÐÅºÅÐòÁÐ£¬²¢ÓëÈýÂ·´ý²âÐÅºÅÒÀ´Î½øÐÐÊý×ÖËøÏà·Å´óÆ÷ÔËËã£¬´Ó¶øµÃµ½´ý²âÐÅºÅµÄ·ùÖµ£¬½øÒ»²½¼ÆËãµÃµ½±»²âÎïµÄË®·Öº¬Á¿¡£DSP~¿ØÖÆÄ£¿é»¹°üÀ¨~PC~Í¨Ñ¶½Ó¿ÚµçÂ·¡¢·äÃùÆ÷¼°~LED~Ö¸Ê¾µçÂ·¡¢ÎÂ¿ØµçÂ·ºÍ¹¤Òµ´®¿ÚÆÁ½Ó¿ÚµçÂ·¡£ÆäÖÐ£¬PC~Í¨Ñ¶½Ó¿ÚµçÂ·ºÍ¹¤Òµ´®¿ÚÆÁ½Ó¿ÚµçÂ·¾ù²ÉÓÃ´®¿ÚÍ¨ÐÅÔ­Àí£¬ÓÃÓÚ½«²âÁ¿µÃµ½µÄÊý¾ÝÊµÊ±´«Êäµ½ÉÏÎ»»ú½øÐÐÏÔÊ¾ºÍ´æ´¢¡£
+DSP~Î¢´¦ÀíÆ÷ÊÇÕû¸öË®·Ö²âÁ¿ÏµÍ³µÄ¿ØÖÆºËÐÄ£¬Ëü²»½ö¿ØÖÆ~DDS~Ð¾Æ¬²úÉúËùÐèµÄÕýÏÒ²¨ÐÅºÅ£¬Í¬Ê±ÓÃÓÚ²úÉúÊý×ÖËøÏà·Å´óÆ÷ËùÐèµÄ²Î¿¼ÐÅºÅÐòÁÐ£¬²¢ÓëÈýÂ·´ý²âÐÅºÅÒÀ´Î½øÐÐÊý×ÖËøÏà·Å´óÆ÷ÔËËã£¬´Ó¶øµÃµ½´ý²âÐÅºÅµÄ·ùÖµ£¬½øÒ»²½¼ÆËãµÃµ½±»²âÎïµÄË®·Öº¬Á¿¡£DSP~ ¿ØÖÆÄ£¿é»¹°üÀ¨~PC~Í¨Ñ¶½Ó¿ÚµçÂ·¡¢·äÃùÆ÷¼°~LED~Ö¸Ê¾µçÂ·¡¢ÎÂ¿ØµçÂ·ºÍ¹¤Òµ´®¿ÚÆÁ½Ó¿ÚµçÂ·¡£ÆäÖÐ£¬PC~Í¨Ñ¶½Ó¿ÚµçÂ·ºÍ¹¤Òµ´®¿ÚÆÁ½Ó¿ÚµçÂ·¾ù²ÉÓÃ´®¿ÚÍ¨ÐÅÔ­Àí£¬ÓÃÓÚ½«²âÁ¿µÃµ½µÄÊý¾ÝÊµÊ±´«Êäµ½ÉÏÎ»»ú½øÐÐÏÔÊ¾ºÍ´æ´¢¡£
 
 £¨4£©µçÔ´µçÂ·Ä£¿é
 
-µçÔ´Ä£¿éÓÃÓÚ¸øÓ²¼þµçÂ·µÄ²»Í¬Ä£¿éÌá¹©ÎÈ¶¨µÄµçÔ´£¬Ä£Äâ²¿·ÖÖ÷ÒªÊÇ¸øºãÁ÷Ô´¡¢ÔËËã·Å´óÆ÷µÈÆ÷¼þ¹©µç£¬Êý×Ö²¿·ÖÖ÷ÒªÊÇ¸ø~DSP~Î¢´¦ÀíÆ÷¡¢DDS~ Ð¾Æ¬µÈÊý×ÖÆ÷¼þ¹©µç¡£±¾¿ÎÌâ¸ù¾ÝÄ£Äâ²¿·ÖºÍÊý×Ö²¿·ÖµÄ¹©µçÐèÇó£¬Éè¼ÆÁËÊä³öÎÈ¶¨¡¢µÍÎÆ²¨¡¢µÍÔëÉùµÄ²»Í¬Êä³öµçÑ¹µÄµçÔ´¡£
+µçÔ´Ä£¿éÓÃÓÚ¸øÓ²¼þµçÂ·µÄ²»Í¬Ä£¿éÌá¹©ÎÈ¶¨µÄµçÔ´£¬Ä£Äâ²¿·ÖÖ÷ÒªÊÇ¸øºãÁ÷Ô´¡¢ÔËËã·Å´óÆ÷µÈÆ÷¼þ¹©µç£¬Êý×Ö²¿·ÖÖ÷ÒªÊÇ¸ø~DSP~Î¢´¦ÀíÆ÷¡¢DDS~Ð¾Æ¬µÈÊý×ÖÆ÷¼þ¹©µç¡£±¾¿ÎÌâ¸ù¾ÝÄ£Äâ²¿·ÖºÍÊý×Ö²¿·ÖµÄ¹©µçÐèÇó£¬Éè¼ÆÁËÊä³öÎÈ¶¨¡¢µÍÎÆ²¨¡¢µÍÔëÉùµÄ²»Í¬Êä³öµçÑ¹µÄµçÔ´¡£
 \section{Ó²¼þÏµÍ³µÄ»ù´¡ÐÔÉè¼Æ}
 
 \subsection{ÏµÍ³µçÔ´Éè¼Æ}
@@ -62,9 +62,9 @@ DSP~Î¢´¦ÀíÆ÷ÊÇÕû¸öË®·Ö²âÁ¿ÏµÍ³µÄ¿ØÖÆºËÐÄ£¬Ëü²»½ö¿ØÖÆ~DDS~Ð¾Æ¬²úÉúËùÐèµÄÕýÏÒ²¨ÐÅº
 \end{tabular}
 \end{table*}
 
-ÎªÁË¼ò»¯µçÔ´µçÂ·Êµ¼ÊµÄ¸´ÔÓÐÔ£¬±¾¿ÎÌâÑ¡ÓÃÁË½ðÉýÑôµÄ~LH~ÏµÁÐ~AC-DC~Ä£¿éµçÔ´£¬LH~ÏµÁÐµçÔ´Ä£¿éÊäÈëµçÑ¹·¶Î§Îª~85¡«264VAC£¬50/60Hz£¬Êä³öµçÔ´ÎÈ¶¨¡¢µÍÎÆ²¨¡¢µÍÔëÉù£¬¾ßÓÐÊä³ö¶ÌÂ·¡¢¹ýÁ÷ºÍ¹ýÎÂ±£»¤¹¦ÄÜ¡£¸ÃÏµÁÐµÄµçÔ´Ä£¿éÖ»ÐèÒª¼¸¸öµçÈÝµç×è¾ÍÄÜÊµÏÖ~AC-DC~µÄ¾«È·Êä³ö£¬¸÷Êä³öµçÑ¹µÄ¹¦ÂÊÒ²ÄÜÂú×ã±¾¿ÎÌâµÄÒªÇó¡£
+ÎªÁË¼ò»¯µçÔ´µçÂ·Êµ¼ÊµÄ¸´ÔÓÐÔ£¬±¾¿ÎÌâÑ¡ÓÃÁË½ðÉýÑôµÄ~LH~ ÏµÁÐ~AC-DC~Ä£¿éµçÔ´£¬LH~ÏµÁÐµçÔ´Ä£¿éÊäÈëµçÑ¹·¶Î§Îª~85 ¡«264VAC£¬50/60Hz£¬Êä³öµçÔ´ÎÈ¶¨¡¢µÍÎÆ²¨¡¢µÍÔëÉù£¬¾ßÓÐÊä³ö¶ÌÂ·¡¢¹ýÁ÷ºÍ¹ýÎÂ±£»¤¹¦ÄÜ¡£¸ÃÏµÁÐµÄµçÔ´Ä£¿éÖ»ÐèÒª¼¸¸öµçÈÝµç×è¾ÍÄÜÊµÏÖ~AC-DC~µÄ¾«È·Êä³ö£¬¸÷Êä³öµçÑ¹µÄ¹¦ÂÊÒ²ÄÜÂú×ã±¾¿ÎÌâµÄÒªÇó¡£
 
-ÆäÖÐ£¬$+$15V~µçÔ´ÓÉÐÍºÅÎª~LH10-B15~µçÔ´Ä£¿é²úÉú£¬Êä³ö¹¦ÂÊÄÜ´ïµ½~10W¡£ ¶ø~$\pm$12V~µçÔ´ÓÉÐÍºÅÎª~LH10-10A12~µçÔ´Ä£¿é²úÉú£¬Êä³ö¹¦ÂÊÄÜ´ïµ½~10W£¬Ä£Äâ²¿·ÖµÄ~$+$5V~µçÔ´ÓÉÐÍºÅÎª~LH05-10B05~µçÔ´Ä£¿é²úÉú£¬Êä³ö¹¦ÂÊÒ²ÄÜ´ïµ½~5W£¬ÍêÈ«ÄÜÂú×ã±¾¿ÎÌâµÄ¹©µçÐèÇó¡£ÆäÓàµÄµçÔ´µçÑ¹£¬ÈçÊý×Ö²¿·ÖµÄ~$+$5V~µçÔ´¡¢Ä£Äâ¼°Êý×Ö²¿·ÖµÄ~$+$3.3V¡¢$+$1.9V~µçÔ´¾ùÓÉÄ£Äâ²¿·ÖµÄ~$+$5V~µçÔ´Í¨¹ýµç¸ÐÆ÷¼þºÍÏßÐÔÎÈÑ¹µçÔ´Ð¾Æ¬×ª»¯¶øÀ´¡£
+ÆäÖÐ£¬$+$15V~µçÔ´ÓÉÐÍºÅÎª~LH10-B15~µçÔ´Ä£¿é²úÉú£¬Êä³ö¹¦ÂÊÄÜ´ïµ½~10W¡£ ¶ø~$\pm$12V~µçÔ´ÓÉÐÍºÅÎª~LH10-10A12~ µçÔ´Ä£¿é²úÉú£¬Êä³ö¹¦ÂÊÄÜ´ïµ½~10W£¬Ä£Äâ²¿·ÖµÄ~$+$5V~µçÔ´ÓÉÐÍºÅÎª~LH05-10B05~µçÔ´Ä£¿é²úÉú£¬Êä³ö¹¦ÂÊÒ²ÄÜ´ïµ½~5W£¬ÍêÈ«ÄÜÂú×ã±¾¿ÎÌâµÄ¹©µçÐèÇó¡£ÆäÓàµÄµçÔ´µçÑ¹£¬ÈçÊý×Ö²¿·ÖµÄ~$+$5V~µçÔ´¡¢Ä£Äâ¼°Êý×Ö²¿·ÖµÄ~$+$3.3V¡¢$+$1.9V~ µçÔ´¾ùÓÉÄ£Äâ²¿·ÖµÄ~$+$5V~µçÔ´Í¨¹ýµç¸ÐÆ÷¼þºÍÏßÐÔÎÈÑ¹µçÔ´Ð¾Æ¬×ª»¯¶øÀ´¡£
 \begin{figure*}[!h]
 \centering
 \includegraphics[width=14cm]{fig41.jpg}
@@ -74,10 +74,10 @@ DSP~Î¢´¦ÀíÆ÷ÊÇÕû¸öË®·Ö²âÁ¿ÏµÍ³µÄ¿ØÖÆºËÐÄ£¬Ëü²»½ö¿ØÖÆ~DDS~Ð¾Æ¬²úÉúËùÐèµÄÕýÏÒ²¨ÐÅº
 \caption{\label{fig41}The power supply circuit diagram about LH10-10A12}
 \end{figure*}
 
-±¾ÎÄÒÔ~LH10-10A12~µçÔ´Ä£¿éµÄµçÂ·Ô­ÀíÍ¼ÎªÀý½øÐÐËµÃ÷£¨ÈçÍ¼~\ref{fig41}£©£¬ÆäËûµçÔ´Ä£¿éµÄµçÂ·Ô­ÀíÍ¼ÀàËÆ¡£Í¼ÖÐ~F1~Îª±£ÏÕË¿¹Ü£¬¶ÔµçÂ·¾ßÓÐ¹ýÁ÷±£»¤µÄ×÷ÓÃ¡£U1~ÎªµçÔ´Ä£¿é£¬U2~ÊÇÐÍºÅÎª~FC-LX1D~µÄ~EMI~ÂË²¨Ä£¿é£¬Í¨¹ýÔÚµçÔ´Ä£¿éµÄÊäÈë¶Ë°²×°~EMI~ÂË²¨Ä£¿é£¬¿ÉÒÔÌá¸ßÒÇÆ÷µÄ¿¹µç´Å¸ÉÈÅÄÜÁ¦£¬¼õÉÙÍâ½ç¶Ô½üºìÍâË®·ÖÒÇµÄ¸ÉÈÅ£¬±£ÕÏË®·ÖÒÇµÄÕý³£¹¤×÷\upcite{26}¡£
+±¾ÎÄÒÔ~LH10-10A12~µçÔ´Ä£¿éµÄµçÂ·Ô­ÀíÍ¼ÎªÀý½øÐÐËµÃ÷£¨ÈçÍ¼~\ref{fig41}£©£¬ÆäËûµçÔ´Ä£¿éµÄµçÂ·Ô­ÀíÍ¼ÀàËÆ¡£Í¼ÖÐ~F1~ Îª±£ÏÕË¿¹Ü£¬¶ÔµçÂ·¾ßÓÐ¹ýÁ÷±£»¤µÄ×÷ÓÃ¡£U1~ÎªµçÔ´Ä£¿é£¬U2~ÊÇÐÍºÅÎª~FC-LX1D~µÄ~EMI~ÂË²¨Ä£¿é£¬Í¨¹ýÔÚµçÔ´Ä£¿éµÄÊäÈë¶Ë°²×°~EMI~ÂË²¨Ä£¿é£¬¿ÉÒÔÌá¸ßÒÇÆ÷µÄ¿¹µç´Å¸ÉÈÅÄÜÁ¦£¬¼õÉÙÍâ½ç¶Ô½üºìÍâË®·ÖÒÇµÄ¸ÉÈÅ£¬±£ÕÏË®·ÖÒÇµÄÕý³£¹¤×÷\upcite{26}¡£
 D1¡¢D2~ÎªË²±äµçÑ¹ÒÖÖÆ¶þ¼«¹Ü£¬ËüÊÇÒ»ÖÖ¸ßÐÔÄÜµÄµçÂ·±£»¤Æ÷¼þ£¬¾ßÓÐ³ÐÊÜË²¼ä´óµçÁ÷µÄÄÜÁ¦£¬µ±µçÂ·ÖÐÓÐË²±äµçÑ¹·¢ÉúÊ±£¬Ë²±äµçÑ¹ÒÖÖÆ¶þ¼«¹ÜÄÜ¹»¿ìËÙÏìÓ¦£¬ºÄÉ¢ºÜ´óµÄË²±äµçÁ÷£¬Ê¹µçÂ·µçÑ¹óéÎ»ÓÚµÍµçÑ¹ÉÏ£¬´Ó¶ø±£»¤ºóÃæµÄµçÂ·¡£
 
-±¾¿ÎÌâÖÐÊý×ÖµçÂ·µÄºËÐÄÊÇÖ÷¿ØÐ¾Æ¬~TMS32F28335~´¦ÀíÆ÷¡£ÎªÂú×ã¸Ã~DSP~Ð¾Æ¬ÄÚ²¿¹¦ÄÜÄ£¿éµÄ²»Í¬¹©µçÐèÇó£¬Éè¼ÆÁË·ùÖµÎª~3.3V~ºÍ~1.9V~ µÄÊý×ÖµçÔ´ºÍÄ£ÄâµçÔ´Á½ÖÖ¡£Êý×ÖµçÔ´µçÂ·²ÉÓÃÁË~DSP~×¨ÓÃµçÔ´Ð¾Æ¬~PS767D301£¬ÄÜ¹»Í¬Ê±Êä³öÁ½ÖÖµçÑ¹£¬Ò»Â·¹Ì¶¨Êä³ö~3.3V£¬Ò»Â·¿ÉÒÔÔÚ~1.5V-5.5V~·¶Î§ÄÚµ÷Õû¡£
+±¾¿ÎÌâÖÐÊý×ÖµçÂ·µÄºËÐÄÊÇÖ÷¿ØÐ¾Æ¬~TMS32F28335~´¦ÀíÆ÷¡£ÎªÂú×ã¸Ã~DSP~Ð¾Æ¬ÄÚ²¿¹¦ÄÜÄ£¿éµÄ²»Í¬¹©µçÐèÇó£¬Éè¼ÆÁË·ùÖµÎª~3.3V~ ºÍ~1.9V~µÄÊý×ÖµçÔ´ºÍÄ£ÄâµçÔ´Á½ÖÖ¡£Êý×ÖµçÔ´µçÂ·²ÉÓÃÁË~DSP~×¨ÓÃµçÔ´Ð¾Æ¬~PS767D301£¬ÄÜ¹»Í¬Ê±Êä³öÁ½ÖÖµçÑ¹£¬Ò»Â·¹Ì¶¨Êä³ö~3.3V£¬Ò»Â·¿ÉÒÔÔÚ~1.5V-5.5V~·¶Î§ÄÚµ÷Õû¡£
 \begin{figure*}[!h]
 \centering
 \includegraphics[width=14cm]{fig42.jpg}
@@ -87,7 +87,7 @@ D1¡¢D2~ÎªË²±äµçÑ¹ÒÖÖÆ¶þ¼«¹Ü£¬ËüÊÇÒ»ÖÖ¸ßÐÔÄÜµÄµçÂ·±£»¤Æ÷¼þ£¬¾ßÓÐ³ÐÊÜË²¼ä´óµçÁ÷µÄÄ
 \caption{\label{fig42} The 3.3V and 1.9V power supply circuit}
 \end{figure*}
 
-3.3V~ºÍ1.9V~µçÔ´µçÂ·Ô­ÀíÈçÍ¼~\ref{fig42}~ËùÊ¾¡£Á½¸öÊäÈë¶Ë¾ù½ÓÈëÊý×Ö²¿·ÖµÄ~5V~µçÑ¹£¬µÚ~2~Â·Êä³öµÄµçÑ¹Îª~3.3V£¬µÚÒ»Â·Êä³öµÄµçÑ¹Í¨¹ýµç×è~R42~ ºÍ~R43~·ÖÑ¹·´À¡µ½~24~Òý½Å£¬Ê¹µÃÊä³öµçÑ¹ÎÈ¶¨ÔÚ~1.9V£¬ÕâÑù±ãµÃµ½Êý×ÖµçÔ´~3.3V~ºÍ~1.9V¡£ÔÙ·Ö±ðÍ¨¹ýµç¸Ð~L44~ºÍ~L45~µÃµ½Ä£ÄâµçÔ´~3.3V~ºÍ~1.9V¡£C44$-$C51~¾ùÎªÂË²¨µçÈÝ£¬0.1$\mu$F~µçÈÝ¿ÉÒÔÂË³ý¸ßÆµ¸ÉÈÅ£¬22$\mu$F~µçÈÝ¿ÉÒÔÂË³ýµÍÆµ¸ÉÈÅ£¬Ê¹µÃµçÔ´ÄÜ¹»ÎÈ¶¨Êä³ö¡£
+3.3V~ºÍ1.9V~µçÔ´µçÂ·Ô­ÀíÈçÍ¼~\ref{fig42}~ËùÊ¾¡£Á½¸öÊäÈë¶Ë¾ù½ÓÈëÊý×Ö²¿·ÖµÄ~5V~µçÑ¹£¬µÚ~2~Â·Êä³öµÄµçÑ¹Îª~3.3V£¬µÚÒ»Â·Êä³öµÄµçÑ¹Í¨¹ýµç×è~R42~ ºÍ~R43~ ·ÖÑ¹·´À¡µ½~24~Òý½Å£¬Ê¹µÃÊä³öµçÑ¹ÎÈ¶¨ÔÚ~1.9V£¬ÕâÑù±ãµÃµ½Êý×ÖµçÔ´~3.3V~ºÍ~1.9V¡£ÔÙ·Ö±ðÍ¨¹ýµç¸Ð~L44~ºÍ~L45~µÃµ½Ä£ÄâµçÔ´~3.3V~ ºÍ~1.9V¡£C44$-$C51~¾ùÎªÂË²¨µçÈÝ£¬0.1$\mu$F~µçÈÝ¿ÉÒÔÂË³ý¸ßÆµ¸ÉÈÅ£¬22$\mu$F~µçÈÝ¿ÉÒÔÂË³ýµÍÆµ¸ÉÈÅ£¬Ê¹µÃµçÔ´ÄÜ¹»ÎÈ¶¨Êä³ö¡£
 
 \subsection{DSP×îÐ¡ÏµÍ³Éè¼Æ}
 
@@ -97,7 +97,7 @@ TMS320F000~ÏµÁÐ~DSP~ÈÚºÏÁË¿ØÖÆÍâÉèµÄ¼¯³É¹¦ÄÜÓëÎ¢´¦ÀíÆ÷£¨MCU£©µÄÒ×ÓÃÐÔ£¬¾ßÓÐÇ¿´óµ
 
 £¨1£©¸ßÐÔÄÜ¾²Ì¬~CMOS~¼¼Êõ£ºÖ÷Æµ¿É´ï~150MHz,Ö¸ÁîÖÜÆÚÎª~6.67ns£»ÄÚºËµçÑ¹Îª~1.9V£¬I/O~Ó²¼þµçÑ¹Îª3.3V¡£
 
-£¨2£©¸ßÐÔÄÜµÄ~32~Î»~CPU~£º¾ßÓÐµ¥¾«¶È¸¡µãÔËËãµ¥Ôª£¨FPU£©£¬$16\times16$~Î»ºÍ~$32\times32$~Î»³Ë·¨ÀÛ¼Ó²Ù×÷£¬Á½¸ö~$16\times 16$~ Î»³Ë·¨ÀÛ¼ÓÆ÷¡£ÄÜ¹»¿ìËÙÖ´ÐÐÖÐ¶ÏÏìÓ¦£¬¾ßÓÐÍ³Ò»µÄ¼Ä´æÆ÷±à³ÌÄ£Ê½¡£
+£¨2£©¸ßÐÔÄÜµÄ~32~Î»~CPU~£º¾ßÓÐµ¥¾«¶È¸¡µãÔËËãµ¥Ôª£¨FPU£©£¬$16\times16$~Î»ºÍ~$32\times32$~Î»³Ë·¨ÀÛ¼Ó²Ù×÷£¬Á½¸ö~$16\times 16$~Î»³Ë·¨ÀÛ¼ÓÆ÷¡£ÄÜ¹»¿ìËÙÖ´ÐÐÖÐ¶ÏÏìÓ¦£¬¾ßÓÐÍ³Ò»µÄ¼Ä´æÆ÷±à³ÌÄ£Ê½¡£
 
 £¨3£©¹þ·ðÁ÷Ë®Ïß×ÜÏß½á¹¹£º³ÌÐò´æ´¢Æ÷ºÍÊý¾Ý´æ´¢Æ÷»¥Ïà¶ÀÁ¢£¬¿É½øÐÐ¶ÀÁ¢±àÖ·ºÍ·ÃÎÊ¡£²¢ÔÊÐíÊý¾ÝÔÚ³ÌÐò¿Õ¼äºÍÊý¾Ý¿Õ¼ä»¥Ïà´«ËÍ¡£¿ÉÓÃ
 
@@ -105,7 +105,7 @@ TMS320F000~ÏµÁÐ~DSP~ÈÚºÏÁË¿ØÖÆÍâÉèµÄ¼¯³É¹¦ÄÜÓëÎ¢´¦ÀíÆ÷£¨MCU£©µÄÒ×ÓÃÐÔ£¬¾ßÓÐÇ¿´óµ
 
 £¨5£©ÏÈ½øµÄ·ÂÕæ¹¦ÄÜ£ºÖ§³Ö~JTAG~ÊµÊ±ÔÚÏß·ÂÕæºÍ±ß½çÉ¨Ãè£¬¾ßÓÐ·ÖÎöºÍ¶Ïµã¹¦ÄÜ£¬ÄÜ¹»Ó²¼þÊµÊ±µ÷ÊÔ¡£
 
-TMS320F28335~ÄÜ¹»ÔËÐÐµÄ×îÐ¡ÏµÍ³°üÀ¨ÒÔÏÂ¼¸¸ö²¿·Ö£ºµçÔ´µçÂ·¡¢¾§ÕñµçÂ·¡¢JTAG~½Ó¿ÚµçÂ·¡¢¿´ÃÅ¹·¼°¸´Î»µçÂ·µÈ¹¹³É¡£ÏµÍ³¿òÍ¼ÈçÍ¼~\ref{fig43}~ ËùÊ¾¡£
+TMS320F28335~ÄÜ¹»ÔËÐÐµÄ×îÐ¡ÏµÍ³°üÀ¨ÒÔÏÂ¼¸¸ö²¿·Ö£ºµçÔ´µçÂ·¡¢¾§ÕñµçÂ·¡¢JTAG~½Ó¿ÚµçÂ·¡¢¿´ÃÅ¹·¼°¸´Î»µçÂ·µÈ¹¹³É¡£ÏµÍ³¿òÍ¼ÈçÍ¼~\ref{fig43}~ËùÊ¾¡£
 \begin{figure*}[!h]
 \centering
 \includegraphics[width=10cm]{fig43.pdf}
@@ -121,7 +121,7 @@ TMS320F28335~ÄÜ¹»ÔËÐÐµÄ×îÐ¡ÏµÍ³°üÀ¨ÒÔÏÂ¼¸¸ö²¿·Ö£ºµçÔ´µçÂ·¡¢¾§ÕñµçÂ·¡¢JTAG~½Ó¿Úµç
 
 ±¾¿ÎÌâÉè¼ÆÁËÁ½Â·~RS232~´®¿ÚÍ¨ÐÅ½Ó¿Ú£¬·Ö±ðÓëÉÏÎ»»úºÍ¹¤Òµ´¥ÃþÆÁ½øÐÐÊµÊ±µÄÊý¾Ý½»»»¡£PC~ÉÏÎ»»úÓÃÓÚÔ¶¶Ë½ÓÊÕË®·Ö¼ì²âÏµÍ³´«Êä»ØÀ´µÄÀúÊ·Êý¾Ý£¬²¢ÔÚÉÏÎ»»úÈí¼þ½øÐÐÏÔÊ¾ºÍ´æ´¢¡£¹¤Òµ´¥ÃþÆÁÓÃÓÚ¹¤ÒµÏÖ³¡µÄÊµÊ±Ë®·ÖÊý¾ÝµÄÏÔÊ¾¡¢Ë®·Ö²âÁ¿ÏµÍ³µÄ±ê¶¨ÒÔ¼°½ÏÕý²Ù×÷¡£
 
-TMS320F28335DSP~Ð¾Æ¬ÄÚ²¿ÓÐÈý¸öÈ«Ë«¹¤~UART~Í¨Ñ¶½Ó¿Ú£¬Òò´Ë¿ÉÒÔÊ¹ÓÃÆäÖÐµÄÁ½¸öÀ´·Ö±ðÓëÉÏÎ»»úºÍ¹¤Òµ´¥ÃþÆÁ½øÐÐÍ¨ÐÅ¡£Í¨ÐÅµçÂ·ÈçÍ¼~\ref{fig44}~ËùÊ¾£¬Ê¹ÓÃ~MAX3232~Ð¾Æ¬Íê³É~TTL~µçÆ½Óë~RS232~µçÆ½µÄ×ª»»\upcite{}¡£01~Í¨µÀÁ¬½Ó¹¤Òµ´¥ÃþÆÁ£¬02~Í¨µÀÁ¬½ÓÉÏÎ»»ú½øÐÐ´®¿ÚÍ¨ÐÅ¡£
+TMS320F28335DSP~Ð¾Æ¬ÄÚ²¿ÓÐÈý¸öÈ«Ë«¹¤~UART~Í¨Ñ¶½Ó¿Ú£¬Òò´Ë¿ÉÒÔÊ¹ÓÃÆäÖÐµÄÁ½¸öÀ´·Ö±ðÓëÉÏÎ»»úºÍ¹¤Òµ´¥ÃþÆÁ½øÐÐÍ¨ÐÅ¡£Í¨ÐÅµçÂ·ÈçÍ¼~\ref{fig44}~ ËùÊ¾£¬Ê¹ÓÃ~MAX3232~Ð¾Æ¬Íê³É~TTL~µçÆ½Óë~RS232~µçÆ½µÄ×ª»»\upcite{}¡£01~Í¨µÀÁ¬½Ó¹¤Òµ´¥ÃþÆÁ£¬02~Í¨µÀÁ¬½ÓÉÏÎ»»ú½øÐÐ´®¿ÚÍ¨ÐÅ¡£
 \begin{figure*}[!h]
 \centering
 \includegraphics[width=13cm]{fig44.jpg}
@@ -136,9 +136,9 @@ TMS320F28335DSP~Ð¾Æ¬ÄÚ²¿ÓÐÈý¸öÈ«Ë«¹¤~UART~Í¨Ñ¶½Ó¿Ú£¬Òò´Ë¿ÉÒÔÊ¹ÓÃÆäÖÐµÄÁ½¸öÀ´·Ö±ð
 ¹âÔ´Çý¶¯µçÂ·Îª½üºìÍâ~LED~¹âÔ´Ìá¹©¾«ÃÜÎÈ¶¨°´ÕýÏÒ¹æÂÉ±ä»¯µÄÇý¶¯µçÁ÷£¬LED~¹âÔ´µÄ¹¤×÷µçÑ¹µÍ£¬Ð§ÂÊ¸ß¡£Çý¶¯µçÁ÷¹ý´ó»áËð»µµçÔ´£¬¹ýµÍÓÖ»á½µµÍ¹âÔ´·¢³öµÄ¹âÇ¿¡£Çý¶¯µçÂ·²»ÎÈ¶¨Ò²»áÓ°Ïìµ½Ë®·ÖÒÇµÄ²âÁ¿¾«¶È£¬Òò´Ë¹âÔ´Çý¶¯µçÂ·µÄÉè¼Æ¶ÔÕûÌåÏµÍ³µÄÊµÏÖÖÁ¹ØÖØÒª¡£
 \subsection{¼¤ÀøÐÅºÅ·¢ÉúÆ÷}
 
-±¾¿ÎÌâÈýÂ·¹âÔ´·Ö±ð²ÉÓÃ~5kHz¡¢6kHz~ºÍ~7kHz~ÆµÂÊµÄÕýÏÒÐÅºÅµ÷ÖÆ¡£¹âµç´«¸ÐÆ÷¼ì²âµ½µÄÐÅºÅ¾­¹ýµçÂ·ÖÐ²»Í¬Õ­´øÍ¨ÂË²¨Æ÷µÃµ½ÈýÂ·²»Í¬µÄÐÅºÅ¡£µçÂ·ÖÐµÄÕýÏÒ¼¤ÀøÐÅºÅÊÇÓÉ~AD9833~ÐÅºÅ·¢ÉúÆ÷Ð¾Æ¬²úÉúµÄ£¬AD9833~ÊÇ~ADI~¹«Ë¾Éú²úµÄÒ»¿îµÍ¹¦ºÄ¡¢¿É±à³Ì²¨ÐÎ·¢ÉúÆ÷£¬ÄÜ¹»²úÉúÕýÏÒ²¨¡¢Èý½Ç²¨¡¢·½²¨Êä³ö¡£²¨ÐÎ·¢ÉúÆ÷¹ã·ºÓ¦ÓÃÓÚ¸÷ÖÖ²âÁ¿¡¢¼¤ÀøºÍÊ±ÓòÏìÓ¦ÁìÓò¡£AD9833~µÄÊä³öÆµÂÊºÍÏàÎ»¶¼¿ÉÍ¨¹ýÈí¼þ±à³ÌÉèÖÃ£¬Ò×ÓÚµ÷½Ú¡£Ö÷ÆµÊ±ÖÓÎª~25MHz~ Ê±£¬¾«¶ÈÎª~0.1Hz£»Ö÷ÆµÊ±ÖÓÎª~1MHz~Ê±£¬¾«¶È¿ÉÒÔ´ïµ½~0.004Hz¡£
+±¾¿ÎÌâÈýÂ·¹âÔ´·Ö±ð²ÉÓÃ~5kHz¡¢6kHz~ºÍ~7kHz~ÆµÂÊµÄÕýÏÒÐÅºÅµ÷ÖÆ¡£¹âµç´«¸ÐÆ÷¼ì²âµ½µÄÐÅºÅ¾­¹ýµçÂ·ÖÐ²»Í¬Õ­´øÍ¨ÂË²¨Æ÷µÃµ½ÈýÂ·²»Í¬µÄÐÅºÅ¡£µçÂ·ÖÐµÄÕýÏÒ¼¤ÀøÐÅºÅÊÇÓÉ~AD9833~ ÐÅºÅ·¢ÉúÆ÷Ð¾Æ¬²úÉúµÄ£¬AD9833~ÊÇ~ADI~¹«Ë¾Éú²úµÄÒ»¿îµÍ¹¦ºÄ¡¢¿É±à³Ì²¨ÐÎ·¢ÉúÆ÷£¬ÄÜ¹»²úÉúÕýÏÒ²¨¡¢Èý½Ç²¨¡¢·½²¨Êä³ö¡£²¨ÐÎ·¢ÉúÆ÷¹ã·ºÓ¦ÓÃÓÚ¸÷ÖÖ²âÁ¿¡¢¼¤ÀøºÍÊ±ÓòÏìÓ¦ÁìÓò¡£AD9833~µÄÊä³öÆµÂÊºÍÏàÎ»¶¼¿ÉÍ¨¹ýÈí¼þ±à³ÌÉèÖÃ£¬Ò×ÓÚµ÷½Ú¡£Ö÷ÆµÊ±ÖÓÎª~25MHz~Ê±£¬¾«¶ÈÎª~0.1Hz£»Ö÷ÆµÊ±ÖÓÎª~1MHz~ Ê±£¬¾«¶È¿ÉÒÔ´ïµ½~0.004Hz¡£
 
-AD9833~ÊÇÒ»¿éÍêÈ«¼¯³ÉµÄ~DDS~µçÂ·£¬½öÐèÒªÒ»¸öÍâ²¿²Î¿¼Ê±ÖÓ£¬Ò»¸öµÍ¾«¶Èµç×èÆ÷ºÍÒ»¸ö½âñîµçÈÝÆ÷¾ÍÄÜ²úÉú¸ß´ï~12.5MHz~µÄ²¨ÐÎÊä³ö¡£ÆäÓ²¼þµçÂ·ÈçÍ¼~\ref{fig45}~ËùÊ¾¡£
+AD9833~ÊÇÒ»¿éÍêÈ«¼¯³ÉµÄ~DDS~µçÂ·£¬½öÐèÒªÒ»¸öÍâ²¿²Î¿¼Ê±ÖÓ£¬Ò»¸öµÍ¾«¶Èµç×èÆ÷ºÍÒ»¸ö½âñîµçÈÝÆ÷¾ÍÄÜ²úÉú¸ß´ï~12.5MHz~ µÄ²¨ÐÎÊä³ö¡£ÆäÓ²¼þµçÂ·ÈçÍ¼~\ref{fig45}~ËùÊ¾¡£
 \begin{figure*}[!h]
 \centering
 \includegraphics[width=14cm]{fig45.jpg}
@@ -148,12 +148,13 @@ AD9833~ÊÇÒ»¿éÍêÈ«¼¯³ÉµÄ~DDS~µçÂ·£¬½öÐèÒªÒ»¸öÍâ²¿²Î¿¼Ê±ÖÓ£¬Ò»¸öµÍ¾«¶Èµç×èÆ÷ºÍÒ»¸ö
 \caption{\label{fig45} Sine wave generator circuit}
 \end{figure*}
 
-DSP~Î¢¿ØÖÆÆ÷Í¨¹ýÈýÏßÖÆ~SCI~Í¨ÐÅ·½Ê½¶Ô~AD9833~µÄÊä³öÆµÂÊ½øÐÐ¿ØÖÆ£¬ÆäÍâ²¿²Î¿¼Ê±ÖÓÓÉÆµÂÊÎª~1MHz~µÄÓÐÔ´¾§ÕñÉú²ú¡£AD9833~µÄÊä³öÐÅºÅµÄ·å·åÖµµÄµäÐÍÖµÎª~0.6V~£¬¶øÇÒÊÇË«¼«ÐÔ²¨ÐÎ£¬²»ÄÜÂú×ãÇý¶¯ºóÐøºãÁ÷Ô´µçÂ·µÄÉè¼ÆÒªÇó£¬ËùÒÔÔÚ~AD9833~µÄ²¨ÐÎÊä³ö¶ËÉè¼ÆÁËÒ»¸ö~RC~ µÍÍ¨ÂË²¨Æ÷£¬½«Ë«¼«ÐÔ²¨ÐÎ×ª»»Îªµ¥¼«ÐÔ²¨ÐÎ¡£
+DSP~Î¢¿ØÖÆÆ÷Í¨¹ýÈýÏßÖÆ~SCI~Í¨ÐÅ·½Ê½¶Ô~AD9833~µÄÊä³öÆµÂÊ½øÐÐ¿ØÖÆ£¬ÆäÍâ²¿²Î¿¼Ê±ÖÓÓÉÆµÂÊÎª~1MHz~µÄÓÐÔ´¾§ÕñÉú²ú¡£AD9833~ µÄÊä³öÐÅºÅµÄ·å·åÖµµÄµäÐÍÖµÎª~0.6V£¬¶øÇÒÊÇË«¼«ÐÔ²¨ÐÎ£¬²»ÄÜÂú×ãÇý¶¯ºóÐøºãÁ÷Ô´µçÂ·µÄÉè¼ÆÒªÇó£¬ËùÒÔÔÚ~AD9833~µÄ²¨ÐÎÊä³ö¶ËÉè¼ÆÁËÒ»¸ö~RC~ µÍÍ¨ÂË²¨Æ÷£¬½«Ë«¼«ÐÔ²¨ÐÎ×ª»»Îªµ¥¼«ÐÔ²¨ÐÎ¡£
 
-ÓÉÓÚ±¾¿ÎÌâÐèÒªµÄÈýÖÖ²»Í¬ÆµÂÊµÄÕýÏÒ¼¤ÀøÐÅºÅ£¬¶øÃ¿Â·ÕýÏÒ²¨·¢ÉúµçÂ·Ö»ÄÜ²úÉúÒ»ÖÖ¹Ì¶¨ÆµÂÊµÄÕýÏÒÐÅºÅ£¬ËùÒÔÔÚÓ²¼þµçÂ·µÄÊµ¼ÊÉÏ£¬±¾¿ÎÌâ·Ö±ðÉè¼ÆÁËÈýÂ·Ïà¶Ô¶ÀÁ¢µÄÕýÏÒ²¨·¢ÉúµçÂ·ÓÃÀ´Êä³ö²»Í¬ÆµÂÊµÄÖÜÆÚÐÅºÅ¡£ÆäÖÐ£¬ÈýÂ·~AD9833~¹²ÓÃÍ¬Ò»¸öÍâ²¿ÓÐÔ´¾§ÕñÒÔ¼°~SCI~µÄÊý¾ÝÏßºÍÊ±ÖÓÏß½Ó¿Ú£¬DSP~Í¨¹ý¿ØÖÆ~AD9833~µÄÆ¬Ñ¡ÐÅºÅÏß¶ÔÈýÂ·~AD9833~½øÐÐÑ¡Í¨¡£Í¬ÑùµÄµÀÀí£¬ÈýÂ·~AD9833~µÄ²¨ÐÎÊä³öÒ²½«·Ö±ð¶ÀÁ¢µÄ½øÈëµ½ºóÐøµÄÐÅºÅ·Å´óµçÂ·ºÍºãÁ÷Ô´µçÂ·ÖÐ¡£
+ÓÉÓÚ±¾¿ÎÌâÐèÒªµÄÈýÖÖ²»Í¬ÆµÂÊµÄÕýÏÒ¼¤ÀøÐÅºÅ£¬¶øÃ¿Â·ÕýÏÒ²¨·¢ÉúµçÂ·Ö»ÄÜ²úÉúÒ»ÖÖ¹Ì¶¨ÆµÂÊµÄÕýÏÒÐÅºÅ£¬ËùÒÔÔÚÓ²¼þµçÂ·µÄÊµ¼ÊÉÏ£¬±¾¿ÎÌâ·Ö±ðÉè¼ÆÁËÈýÂ·Ïà¶Ô¶ÀÁ¢µÄÕýÏÒ²¨·¢ÉúµçÂ·ÓÃÀ´Êä³ö²»Í¬ÆµÂÊµÄÖÜÆÚÐÅºÅ¡£ÆäÖÐ£¬ÈýÂ·~AD9833~¹²ÓÃÍ¬Ò»¸öÍâ²¿ÓÐÔ´¾§ÕñÒÔ¼°~SCI~µÄÊý¾ÝÏßºÍÊ±ÖÓÏß½Ó¿Ú£¬DSP~Í¨¹ý¿ØÖÆ~AD9833~ µÄÆ¬Ñ¡ÐÅºÅÏß¶ÔÈýÂ·~AD9833~½øÐÐÑ¡Í¨¡£Í¬ÑùµÄµÀÀí£¬ÈýÂ·~AD9833~ µÄ²¨ÐÎÊä³öÒ²½«·Ö±ð¶ÀÁ¢µÄ½øÈëµ½ºóÐøµÄÐÅºÅ·Å´óµçÂ·ºÍºãÁ÷Ô´µçÂ·ÖÐ¡£
 
 \subsection{ºãÁ÷Ô´Çý¶¯µçÂ·}
-LED~¹âÔ´¾ßÓÐµ¥Ïòµ¼µçÐÔ¡¢¾ßÓÐÊÆÀÝµçÊÆºÍÎÂ¶ÈÏµÊýÎª¸ºµÈÌØÐÔ£¬LED~¹âÔ´ÔÚÕýÏòµ¼Í¨ºó£¬ÆäÕýÏòµçÑ¹µÄÏ¸Ð¡±ä»¯½«ÒýÆð~LED~µçÁ÷µÄºÜ´ó±ä»¯\cite{29}¡£½üºìÍâ~LED~¹âÔ´¾ßÓÐÍ¬ÆÕÍ¨~LED~¹âÔ´ÏàËÆµÄÐÔÖÊ£¬¹ý´óµçÁ÷ÒÔ¼°·´ÏòµçÁ÷¶¼»áÔì³É½üºìÍâ~LED~¹âÔ´µÄËð»µ£¬Òò´ËºãÁ÷Ô´µçÂ·µÄÉè¼ÆÒª¿¼ÂÇË²±äµÄ´óµçÁ÷¡¢·´ÏòµçÑ¹ºÍ¾²µçµÈ»áËð»µ¹âÔ´µÄÇé¿ö¡£
+LED~¹âÔ´¾ßÓÐµ¥Ïòµ¼µçÐÔ¡¢¾ßÓÐÊÆÀÝµçÊÆºÍÎÂ¶ÈÏµÊýÎª¸ºµÈÌØÐÔ£¬LED~¹âÔ´ÔÚÕýÏòµ¼Í¨ºó£¬ÆäÕýÏòµçÑ¹µÄÏ¸Ð¡±ä»¯½«ÒýÆð~LED~ µçÁ÷µÄºÜ´ó±ä»¯
+\upcite{29}¡£ ½üºìÍâ~LED~¹âÔ´¾ßÓÐÍ¬ÆÕÍ¨~LED~¹âÔ´ÏàËÆµÄÐÔÖÊ£¬¹ý´óµçÁ÷ÒÔ¼°·´ÏòµçÁ÷¶¼»áÔì³É½üºìÍâ~LED~¹âÔ´µÄËð»µ£¬Òò´ËºãÁ÷Ô´µçÂ·µÄÉè¼ÆÒª¿¼ÂÇË²±äµÄ´óµçÁ÷¡¢·´ÏòµçÑ¹ºÍ¾²µçµÈ»áËð»µ¹âÔ´µÄÇé¿ö¡£
 
 ÔÚ¼¤ÀøÇý¶¯µçÂ·ÏµÍ³ÖÐ£¬ºãÁ÷Ô´Ìá¹©~$0\sim200mA$~µÄÕýÏÒ±ä»¯µÄ¼¤ÀøµçÁ÷£¬ºãÁ÷Ô´µÄ¾«¶ÈºÍÎÈ¶¨ÐÔÓ°Ïì×ÅÕû¸öÏµÍ³µÄ¾«¶ÈºÍÎÈ¶¨¡£±¾¿ÎÌâÉè¼ÆµÄºãÁ÷Ô´µçÂ·ÈçÍ¼~\ref{fig46}~ËùÊ¾¡£
 \begin{figure*}[!h]
@@ -165,7 +166,7 @@ LED~¹âÔ´¾ßÓÐµ¥Ïòµ¼µçÐÔ¡¢¾ßÓÐÊÆÀÝµçÊÆºÍÎÂ¶ÈÏµÊýÎª¸ºµÈÌØÐÔ£¬LED~¹âÔ´ÔÚÕýÏòµ¼Í¨ºó£¬
 \caption{\label{fig46} The constant current source circuit}
 \end{figure*}
 
-²¨ÐÎ·¢ÉúÆ÷Êä³öµÄÕýÏÒÐÅºÅ¾­¹ýÐÅºÅ·Å´óµçÂ·ºóÊäÈëºãÁ÷Ô´µçÂ·µÄ~SOUR$_{-}$IN1~¶Ë¿Ú£¬Í¨¹ýÑ¹¿ØÁ÷ÐÍºãÁ÷Ô´µçÂ·´ïµ½¿ØÖÆ~RJ1~µç×èÁ½¶ËµÄµçÑ¹µÄÄ¿µÄ¡£RJ1~²ÉÓÃµÍÎÂÆ¯¡¢¸ß¾«¶ÈµÄÈÆÏßµç×è~RX70~,µ±~RJ1~µç×èÁ½¶ËµÄµçÑ¹ÊÇÕýÏÒ±ä»¯µÄµçÑ¹Ê±£¬Á÷¾­~RJ1~µç×èµÄµçÁ÷¾ÍÊÇÕýÏÒ±ä»¯µÄ¼¤ÀøµçÁ÷¡£ÓÉÓÚÁ÷¹ý´ïÁÖ¶Ù¾§Ìå¹Ü~Q2~¼¯µç¼«µÄµçÁ÷µÈÓÚ·¢Éä¼«µÄµçÁ÷£¬ËùÒÔ¸ÃµçÁ÷±ãÊÇÌá¹©¸ø~LED~¹âÔ´µÄÕýÏÒÇý¶¯µçÁ÷¡£Q1~Îª³¡Ð§Ó¦¹Ü£¬Í¨¹ý¿ØÖÆ³¡Ð§Ó¦¹Ü~G~ºÍ~S~Á½¶ËµÄµçÑ¹£¬ÊµÏÖ¿ØÖÆµçÂ·µÄµ¼Í¨ºÍ¹Ø¶Ï£¬µçÂ·ÉÏµçÊ±£¬G~ºÍ~S~Á½¶ËµÄµçÑ¹ÓÉµçÈÝÖð½¥³äµçÀ´¿ØÖÆ£¬´Ó¶ø¿ÉÒÔ»ºÂý¿ØÖÆ³¡Ð§Ó¦¹ÜÓÉ¹Ø¶Ïµ½µ¼Í¨×´Ì¬£¬ÊµÏÖÁËÂýÆô¶¯¹¦ÄÜ¡£D3~ÎªË²Ì¬µçÑ¹ÒÖÖÆ¶þ¼«¹Ü£¬ËüÊÇÒ»ÖÖ±£»¤¹âÔ´µÄÆ÷¼þ£¬ÓÃÀ´·ÀÖ¹ÀËÓ¿µçÑ¹¶Ô¹âÔ´µÄËð»µ¡£
+²¨ÐÎ·¢ÉúÆ÷Êä³öµÄÕýÏÒÐÅºÅ¾­¹ýÐÅºÅ·Å´óµçÂ·ºóÊäÈëºãÁ÷Ô´µçÂ·µÄ~SOUR$_{-}$IN1~ ¶Ë¿Ú£¬Í¨¹ýÑ¹¿ØÁ÷ÐÍºãÁ÷Ô´µçÂ·´ïµ½¿ØÖÆ~RJ1~µç×èÁ½¶ËµÄµçÑ¹µÄÄ¿µÄ¡£RJ1~ ²ÉÓÃµÍÎÂÆ¯¡¢¸ß¾«¶ÈµÄÈÆÏßµç×è~RX70~,µ±~RJ1~µç×èÁ½¶ËµÄµçÑ¹ÊÇÕýÏÒ±ä»¯µÄµçÑ¹Ê±£¬Á÷¾­~RJ1~µç×èµÄµçÁ÷¾ÍÊÇÕýÏÒ±ä»¯µÄ¼¤ÀøµçÁ÷¡£ÓÉÓÚÁ÷¹ý´ïÁÖ¶Ù¾§Ìå¹Ü~Q2~¼¯µç¼«µÄµçÁ÷µÈÓÚ·¢Éä¼«µÄµçÁ÷£¬ËùÒÔ¸ÃµçÁ÷±ãÊÇÌá¹©¸ø~LED~¹âÔ´µÄÕýÏÒÇý¶¯µçÁ÷¡£Q1~Îª³¡Ð§Ó¦¹Ü£¬Í¨¹ý¿ØÖÆ³¡Ð§Ó¦¹Ü~G~ºÍ~S~Á½¶ËµÄµçÑ¹£¬ÊµÏÖ¿ØÖÆµçÂ·µÄµ¼Í¨ºÍ¹Ø¶Ï£¬µçÂ·ÉÏµçÊ±£¬G~ºÍ~S~Á½¶ËµÄµçÑ¹ÓÉµçÈÝÖð½¥³äµçÀ´¿ØÖÆ£¬´Ó¶ø¿ÉÒÔ»ºÂý¿ØÖÆ³¡Ð§Ó¦¹ÜÓÉ¹Ø¶Ïµ½µ¼Í¨×´Ì¬£¬ÊµÏÖÁËÂýÆô¶¯¹¦ÄÜ¡£D3~ÎªË²Ì¬µçÑ¹ÒÖÖÆ¶þ¼«¹Ü£¬ËüÊÇÒ»ÖÖ±£»¤¹âÔ´µÄÆ÷¼þ£¬ÓÃÀ´·ÀÖ¹ÀËÓ¿µçÑ¹¶Ô¹âÔ´µÄËð»µ¡£
 
 \begin{figure*}[!h]
 \centering
@@ -176,7 +177,7 @@ LED~¹âÔ´¾ßÓÐµ¥Ïòµ¼µçÐÔ¡¢¾ßÓÐÊÆÀÝµçÊÆºÍÎÂ¶ÈÏµÊýÎª¸ºµÈÌØÐÔ£¬LED~¹âÔ´ÔÚÕýÏòµ¼Í¨ºó£¬
 \caption{\label{fig47} Equivalent model of constant current source circuit}
 \end{figure*}
 
-ÔÚÑ¹¿ØºãÁ÷Ô´µÄÉè¼ÆÖÐ£¬¾«ÃÜµç×èºÍÏÞÁ÷µç×èµÄÈ¡Öµ·Ç³£¹Ø¼ü£¬Èç¹ûµç×èµÄÈ¡Öµ²»µ±»áÔì³ÉµçÁ÷ÐÅºÅÊ§ÕæµÄÇé¿ö¡£±¾¿ÎÌâ½«ºãÁ÷Ô´µçÂ·¼ò»¯³ÉÈçÍ¼~\ref{fig47}~ËùÊ¾µÄµÈÐ§Ä£ÐÍ½øÐÐ·ÖÎö¡£Õâ¸öµçÂ·ÊÇÊµÖÊÊÇÒ»¸ö¸º·´À¡µçÂ·£¬Í¨¹ý~R~µÄµçÁ÷Îª~$I_{R}$£¬Æä¶ËµçÑ¹Îª~$U_{b}$~£¬Á÷¹ý~$R_{L}$~ºÍ~$R_{o}$~µçÂ·Îª~$I_{R_{L}}$£¬ÓÉÔË·ÅÁ½ÊäÈë¶Ë¡°Ðé¶Ì¡±¹ØÏµÓÐ£º
+ÔÚÑ¹¿ØºãÁ÷Ô´µÄÉè¼ÆÖÐ£¬¾«ÃÜµç×èºÍÏÞÁ÷µç×èµÄÈ¡Öµ·Ç³£¹Ø¼ü£¬Èç¹ûµç×èµÄÈ¡Öµ²»µ±»áÔì³ÉµçÁ÷ÐÅºÅÊ§ÕæµÄÇé¿ö¡£±¾¿ÎÌâ½«ºãÁ÷Ô´µçÂ·¼ò»¯³ÉÈçÍ¼~\ref{fig47}~ ËùÊ¾µÄµÈÐ§Ä£ÐÍ½øÐÐ·ÖÎö¡£Õâ¸öµçÂ·ÊÇÊµÖÊÊÇÒ»¸ö¸º·´À¡µçÂ·£¬Í¨¹ý~R~µÄµçÁ÷Îª~$I_{R}$£¬Æä¶ËµçÑ¹Îª~$U_{b}$~£¬Á÷¹ý~$R_{L}$~ºÍ~$R_{o}$~µçÂ·Îª~$I_{R_{L}}$£¬ÓÉÔË·ÅÁ½ÊäÈë¶Ë¡°Ðé¶Ì¡±¹ØÏµÓÐ£º
 \begin{equation}\label{xd1}
   U_{IN}=U_{+}=U_{-} = U_{b}
 \end{equation}
@@ -196,10 +197,10 @@ LED~¹âÔ´¾ßÓÐµ¥Ïòµ¼µçÐÔ¡¢¾ßÓÐÊÆÀÝµçÊÆºÍÎÂ¶ÈÏµÊýÎª¸ºµÈÌØÐÔ£¬LED~¹âÔ´ÔÚÕýÏòµ¼Í¨ºó£¬
   V_{CC}=U_{IN}(\frac{R_{o}+R_{L}}{R}+1)
 \end{equation}
 
-±¾¿ÎÌâÖÐºãÁ÷Ô´µçÂ·µÄÊäÈëÊÇ·ùÖµÎª~$0\sim$4V~ÕýÏÒ±ä»¯µÄµçÑ¹ÐÅºÅ£¬¶øÇý¶¯~LED~¹âÔ´µÄÐÅºÅÊÇ·ùÖµÎª~$0\sim200$mA~ÕýÏÒ±ä»¯µÄµçÁ÷£¬ËùÒÔ¾«ÃÜµç×è~$R$~È¡Öµ~$20\Omega$¡£LED~¹âÔ´ÔÚÒ»¶¨Çý¶¯µçÁ÷ÏÂ×èÖµÔ¼Îª~$24\Omega$£¬¿¼ÂÇµ½ºãÁ÷Ô´µçÂ·µçÔ´~$V_{CC}$~Îª~15V£¬ËùÒÔµç×è~$R_{o}$~È¡Öµ~$40\Omega$~ÊÇ±È½ÏºÏÊÊµÄ¡£
+±¾¿ÎÌâÖÐºãÁ÷Ô´µçÂ·µÄÊäÈëÊÇ·ùÖµÎª~$0\sim$4V~ÕýÏÒ±ä»¯µÄµçÑ¹ÐÅºÅ£¬¶øÇý¶¯~LED~¹âÔ´µÄÐÅºÅÊÇ·ùÖµÎª~$0\sim200$mA~ ÕýÏÒ±ä»¯µÄµçÁ÷£¬ËùÒÔ¾«ÃÜµç×è~$R$~È¡Öµ~$20\Omega$¡£LED~ ¹âÔ´ÔÚÒ»¶¨Çý¶¯µçÁ÷ÏÂ×èÖµÔ¼Îª~$24\Omega$£¬¿¼ÂÇµ½ºãÁ÷Ô´µçÂ·µçÔ´~$V_{CC}$~ Îª~15V£¬ËùÒÔµç×è~$R_{o}$~È¡Öµ~$40\Omega$~ÊÇ±È½ÏºÏÊÊµÄ¡£
 
 \section{Ä£ÄâÐÅºÅ´¦ÀíµçÂ·Éè¼Æ}
-¹âÐÅºÅµÄ±ä»¯ÒýÆð~InGaAs~¹âµçÌ½²âÆ÷µÄ×èÖµµÄ±ä»¯£¬¾­¹ýÆ«ÖÃºÍÇ°ÖÃ·Å´óµçÂ·×ª±ä³ÉµçÐÅºÅ£¬²¢½øÐÐÒ»¶¨µÄ·Å´ó¡£Î¢ÈõµÄµçÐÅºÅÒÀ´Î¾­¹ý¸÷ÖÖÄ£ÄâÐÅºÅ´¦ÀíµçÂ·µÄ´¦Àíºó£¬×îÖÕ½øÈëµ¥Æ¬»úADÍ¨µÀ½øÐÐ²ÉÑù¡£Ä£ÄâÐÅºÅ´¦ÀíµçÂ·µÄ¿òÍ¼ÈçÍ¼~\ref{fig55}~ËùÊ¾¡£
+¹âÐÅºÅµÄ±ä»¯ÒýÆð~InGaAs~¹âµçÌ½²âÆ÷µÄÊä³öµçÁ÷µÄ±ä»¯£¬Î¢ÈõµÄµçÁ÷ÐÅºÅ¾­¹ýÇ°ÖÃ·Å´óµçÂ·×ª±ä³ÉµçÑ¹ÐÅºÅ£¬²¢½øÐÐÒ»¶¨µÄÐÅºÅ·Å´ó¡£Ö®ºó¾­¹ýÒ»ÏµÁÐµÄÄ£ÄâÐÅºÅ´¦ÀíµçÂ·µÄ´¦Àíºó£¬×îÖÕ½øÈëµ¥Æ¬»ú~AD~Í¨µÀ½øÐÐ²ÉÑù¡£Ä£ÄâÐÅºÅ´¦ÀíµçÂ·µÄ¿òÍ¼ÈçÍ¼~\ref{fig55}~ ËùÊ¾¡£
 \begin{figure*}[!h]
 \centering
 \includegraphics[width=12cm]{fig55.pdf}
@@ -211,19 +212,188 @@ LED~¹âÔ´¾ßÓÐµ¥Ïòµ¼µçÐÔ¡¢¾ßÓÐÊÆÀÝµçÊÆºÍÎÂ¶ÈÏµÊýÎª¸ºµÈÌØÐÔ£¬LED~¹âÔ´ÔÚÕýÏòµ¼Í¨ºó£¬
 
 \subsection{Ç°ÖÃ·Å´óµçÂ·}
 \subsubsection{Ç°ÖÃ·Å´óµçÂ·µÄÑ¡Ôñ}
-Ñ¡Ôñ²ÉÓÃ¿çµ½·½Ê½£¡
-\subsubsection{Ç°ÖÃ·Å´óµçÂ·ÔëÉù·ÖÎö}
+¹âµçÌ½²âÆ÷×÷ÎªÒ»¸öµçÁ÷Æ÷¼þ£¬¹âÐÅºÅ½«ÓÉËü×ª»¯ÎªÒ»¸öµçÁ÷ÐÅºÅ£¬ÓÉÓÚÐÅµÀË¥¼õ£¬¹âµçÌ½²âÆ÷µÄÊä³öµçÁ÷ÐÅºÅÊ®·ÖÎ¢Èõ¡£Ç°ÖÃ·Å´óÆ÷¾ÍÊÇÎªÁËÊ¹¹âµçÌ½²âÆ÷ÓëºóÐøµçÂ·ÊµÏÖÁ¼ºÃµÄÆ¥Åä£¬²¢½«Î¢ÈõµÄµçÁ÷ÐÅºÅ×ª»¯ÎªÒ»¸ö¾¡¿ÉÄÜ´óµÄµçÑ¹ÐÅºÅ¡£
+
+µäÐÍµÄÇ°ÖÃ·Å´óµçÂ·ÓÐÈýÖÖÀàÐÍ£ºµÍ×è¿¹¡¢¸ß×è¿¹ºÍ¿ç×è·Å´óÆ÷¡£
+
+µÍ×è¿¹Ç°ÖÃ·Å´óÆ÷½á¹¹¼òµ¥£¬Ëü½«Ò»¸öÐ¡µç×èÓëÇ°ÖÃ·Å´óÆ÷µÄÊäÈë¶Ë²¢Áª£¬´Ó¶øÊµÏÖÓë´«ÊäÏßµÄ×è¿¹Æ¥Åä£¬¼õÉÙ·´ÉäÐÎ³ÉµÄÊ§Õæ¡£ÕâÖÖÀàÐÍµÄ·Å´óÆ÷ÊÊºÏÓÚÓÃµçÁ÷Ô´À´Çý¶¯µÄµÍÆµµçÂ·£¬µ«ÊÇÔöÒæ±È½ÏµÍ£¬ÔëÉùÐÔÄÜ²î¡£
+
+¸ß×è¿¹Ç°ÖÃ·Å´óÆ÷ÊÇÔÚ×î´óÔöÒæÔ­ÀíÉÏ½¨Á¢µÄ¡£¹âµçÌ½²âÆ÷µÈÐ§ÎªÒ»¸öÄÚ×èºÜ¸ßµÄÐÅºÅÔ´£¬ÐèÒªÓëÒ»¸ö¸ß×è¿¹µÄ¸ºÔØµç×è½øÐÐÆ¥ÅäÒ»»ñµÃ×î´óÔöÒæ¡£ÆäÓÅµãÊÇÔöÒæ¸ß£¬ÔëÉùÐ¡¡£µ«ÓÉÓÚ¹âµçÌ½²âÆ÷µÄÆ«ÖÃµç×èºÍ³¡Ð§Ó¦¹ÜµÄÊäÈëµçÈÝ¶Ô¹âµçÌ½²âÆ÷µÄµçÁ÷ÐÅºÅÐÎ³ÉÒ»¸ö»ý·ÖµçÂ·£¬¾ÍÐèÒªÔÚÖ÷·Å´óÆ÷ÖÐÉè¼ÆÒ»¸ö¸´ÔÓµÄ¾ùºâÍøÂç¡£´ËÍâËüµÄ¶¯Ì¬·¶Î§·Ç³£Ð¡¡£ÕâÖÖÀàÐÍµÄÇ°ÖÃ·Å´óÆ÷Ö»ÊÊÓÃÓë¶ÔËÙÂÊÒªÇó²»¸ßµ«¶ÔÁéÃô¶ÈÒªÇóºÜ¸ßµÄÏµÍ³\upcite{}¡£
+
+¿ç×èÇ°ÖÃ·Å´óÆ÷ÔÚÊäÈë¶ËºÍÊä³ö¶ËÖ®¼ä¿ç½ÓÒ»¸ö·´À¡µç×è£¬ÐÎ³ÉµçÑ¹²¢Áª¸º·´À¡£¬Ê¹µÄµçÂ·ÔöÒæÎÈ¶¨£¬¶¯Ì¬·¶Î§Ôö´ó£¬Æµ´øÕ¹¿í¡£²¢ÇÒËü²»ÐèÒª¾ùºâµçÂ·¡£»ùÓÚÕâÐ©ÓÅµã£¬¿ç×è·Å´óÆ÷¹ã·ºÓÃÓÚ¸ßËÙ´«ÊäÏµÍ³¡£
+
+±¾¿ÎÌâÑ¡ÓÃ¿ç×èÇ°ÖÃ·Å´óÆ÷£¬Í¨¹ýÒ»¸ö·´À¡µç×è½«µçÁ÷ÐÅºÅ×ª»¯ÎªµçÑ¹ÐÅºÅ£¬²¢¶ÔµçÑ¹ÐÅºÅ½øÐÐÒ»¶¨µÄ·Å´ó¡£ÆäµçÂ·Ä£ÐÍÈçÍ¼~\ref{fig56}~ËùÊ¾¡£
+\begin{figure*}[!h]
+\centering
+\includegraphics[width=8cm]{fig56.png}
+\caption {¿ç×èÇ°ÖÃ·Å´óÆ÷µçÂ·Ä£ÐÍ}
+\addtocounter{figure}{-1}
+\renewcommand\figurename{Fig.}
+\caption{\label{fig56} Preamplifier circuit for Photoelectric detector }
+\end{figure*}
+
+InGaAs~¹âµçÌ½²âÆ÷ÊÇ»ùÓÚ¹âÉú·üÌØÐ§Ó¦µÄ~PV~¹âµç¶þ¼«¹Ü£¬Æä~PN~½áÖÐ¼äÉèÖÃÁËÒ»²ã²ôÔÓÅ¨¶ÈºÜµÍµÄ±¾Õ÷°ëµ¼Ìå£¬ÐÎ³É~P-I-N~½á¹¹£¬ ±¾Õ÷²ãµÄÒýÈë¼Ó´óÁËºÄ¾¡²ãÇøµÄºñ¶È£¬²¢ÐÎ³ÉÇ¿µç³¡Çø¡£ÓÉÓÚÈëÉä¹â×ÓÖ»ÄÜÔÚ±¾Õ÷²ãÄÚ±»ÎüÊÕ£¬¹âÉúÔØÁ÷×ÓÔÚÇ¿µç³¡×÷ÓÃÏÂ¼ÓËÙÔË¶¯ÖÁ~N~ ²ã£¬Òò´ËÔØÁ÷×Ó¶ÉÔ½Ê±¼ä·Ç³£¶Ì£¬Í¬Ê±ºÄ¾¡²ãµÄ¼Ó¿íÊ¹½áµçÈÝÃ÷ÏÔ¼õÐ¡£¬Ìá¸ßÁËÏìÓ¦ËÙ¶È\upcite{PINtheory}¡£InGaAs~¹âµçÌ½²âÆ÷¿ÉµÈÐ§³ÉÈçÍ¼~\ref{fig57}~ËùÊ¾µçÂ·£¬ÓÉÒ»¸öÅÔÂ·µç×è~$R_{D}$~ºÍÅÔÂ·µçÈÝ~$C_{D}$~×é³ÉµÄµçÁ÷Ô´¡£Í¼~\ref{fig56}~Ò²ÊÇÒ»¸öµÄµçÁ÷- µçÑ¹×ª»»µçÂ·£¬Êä³öµçÑ¹~$V_{out}=I_{in}\times R_{f}$¡£
+
+\begin{figure*}[!h]
+\centering
+\includegraphics[width=4cm]{fig57.png}
+\caption {Ì½²âÆ÷µÈÐ§µçÂ·}
+\addtocounter{figure}{-1}
+\renewcommand\figurename{Fig.}
+\caption{\label{fig57} Detector equivalent circuit }
+\end{figure*}
+
 \subsubsection{Ç°ÖÃ·Å´óµçÂ·¾ßÌåÉè¼Æ}
+Í¨¹ýÉÏ½Ú¶ÔÇ°ÖÃ·Å´óµçÂ·µÄÑ¡ÔñºÍ·ÖÎö£¬±¾ÎÄÉè¼ÆÁËÈçÍ¼~\ref{fig58}~ËùÊ¾µÄÇ°ÖÃ·Å´óµçÂ·¡£
+\begin{figure*}[!h]
+\centering
+\includegraphics[width=12cm]{fig58.png}
+\caption {Ç°ÖÃ·Å´óÆ÷µçÂ·}
+\addtocounter{figure}{-1}
+\renewcommand\figurename{Fig.}
+\caption{\label{fig58} Preamplifier circuit }
+\end{figure*}
+
+µçÂ·²ÉÓÃË«µçÔ´¹©µçµÄ~AD8671~ÔËËã·Å´óÆ÷£¬AD8671~¾ßÓÐ¼«µÍÔëÉù¡¢¼«µÍÊ§µ÷µçÑ¹ºÍÆ¯ÒÆ¡¢µÍÊäÈëÆ«ÖÃµçÁ÷µÈÌØµã£¬10MHz~µÄ´ø¿íÄÜ¹»±£³ÖÐÅºÅÆµÆ×ÖÐÓÐÓÃÐÅºÅÄÜÁ¿È«²¿Í¨¹ý£¬Âú×ãÌ½²âÆ÷¶Ô·Å´óÆ÷´ø¿íµÄÒªÇó¡£
+
+ÓÉÓÚ±¾¿ÎÌâ²ÉÓÃµÄ¹âµçÌ½²âÆ÷ÄÚ×è±È½ÏÐ¡£¬$R_{D}\approx 1K$£¬ËùÒÔÉè¼ÆÓÅÁ¼µÄÇ°ÖÃ·Å´óÆ÷µÄµçÑ¹ÔëÉù±äµÄ·Ç³£ÖØÒª¡£Îª»ñµÃ½ÏµÍµÄ·Å´óÆ÷ÔëÉùºÍ½Ï¸ßµÄÁéÃô¶È£¬·´À¡µç×è~$R_{f}$~Òª±ÈÌ½²âÆ÷ÄÚ×è´óºÜ¶à£¬±¾µçÂ·ÖÐ~$R_{f}$~È¡Öµ~1M~Å·Ä·¡£
+
+ÔËËã·Å´óµçÂ·²úÉúÕðµ´ÊÇÒòÎªÊäÈëµçÈÝºÍ¸ºÔØµçÈÝ£¨»¹°üÀ¨ñîºÏµçÈÝºÍÅÔÂ·µçÈÝ£©»áµ¼ÖÂÏàÎ»ÖÍºó£¬Ò»µ©ÏàÎ»ÖÍºóµ½~$180^{\circ}$£¬¸º·´À¡µçÂ·±ä³ÉÁËÕý·´À¡µçÂ·£¬ÕâÊ±Õðµ´¾Í·¢ÉúÁË¡£Èç¹û½ö½öÊÇÔËËã·Å´óÆ÷µçÂ·±¾Éí£¬ËüÊÇÎÈ¶¨µÄ£¬µ«ÊÇÓÐÁËÊäÈëµçÈÝºÍ¸ºÔØµçÈÝ£¬ÏàÎ»Ô£¶È±äÐ¡£¬¾ÍÈÝÒ×²úÉúÕðµ´¡£ÒªÏû³ýÕðµ´£¬ÐèÒªÓÃÏàÎ»²¹³¥£¬¾ÍÊÇÊ¹µçÂ·µÄÏàÎ»Ô£¶È±£³ÖÔÚ~$45^{\circ}\sim60^{\circ}$~·¶Î§ÄÚ¡£Í¨³£²ÉÓÃ³¬Ç°²¹³¥µÄ·½Ê½£¬½«³¬Ç°²¹³¥µçÈÝ¼ÓÔÚ·´À¡»ØÂ·¡£Í¼~\ref{fig58}~ÖÐµÄµçÈÝ~$C_{s}$~¾ÍÊÇ³¬Ç°²¹³¥µçÈÝ¡£Ëü¿ÉÒÔµÖÏûÊäÈëµçÈÝºÍ¸´ÔÓµçÈÝµÄ¼«µã£¬²úÉúÐÂµÄÁãµãºÍ¼«µã¡£ÔÚ¸ßÔöÒæºÍ´ó·´À¡µç×èµÄ·Å´óµçÂ·ÖÐ£¬µçÈÝ~$C_{s}$~µÄÈ¡Öµ¼ÆËã¹«Ê½Îª£º
+
+
+\begin{equation}\label{xd5}
+  C_{s}=\sqrt{\frac{C_{D}}{GBP\times R_{f}}}
+\end{equation}
+
+Ê½ÖÐ£¬$C_{D}$~ÎªµçÂ·µÄÊäÈëµçÈÝ£¬¼´Ì½²âÆ÷µÄÅÔÂ·µçÈÝ¡£$GBP$~ÎªÔË·ÅµÄÔöÒæ´ø¿í»ý¡£
+
+AD8671~ÔËËã·Å´óÆ÷µÄÔöÒæ´ø¿í»ýÎª~10MHz£¬¶øÌ½²âÆ÷µÄÅÔÂ·µçÈÝ~$C_{D}\simeq1000pF$£¬ËùÒÔµçÂ·ÖÐµçÈÝ~$C_{s}$~È¡ÖµÎª~10pF¡£
+
+\subsubsection{Ç°ÖÃ·Å´óµçÂ·ÔëÉù·ÖÎö}
+Ç°ÖÃ·Å´óµçÂ·µÄÔëÉùÖ÷ÒªÓÉ¹âµçÌ½²âÆ÷ÔëÉùºÍ·Å´óÆ÷¼þÔëÉùÁ½²¿·Ö×é³É¡£¹âµçÌ½²âÆ÷ÖÐ´æÔÚµÄÔëÉùÖ÷ÒªÓÐÈÈÔëÉù¡¢É¢Á£ÔëÉù¡¢¸´ºÏÔëÉù¡¢ÎÂ¶ÈÔëÉùºÍ~1/f~ÔëÉùµÈ£¬Ò»°ã¹âµçÆ÷¼þÖÐÖ÷ÒªµÄÄÚ²¿ÔëÉùÊÇÈÈÔëÉùºÍÉ¢Á£ÔëÉù¡£·Å´óÆ÷¼þÔëÉùÖ÷ÒªÊÇÊäÈëµçÑ¹ÔëÉùºÍÊäÈëµçÁ÷ÔëÉù¡£
+
+Ç°ÖÃ·Å´óÆ÷µÄÔëÉùÄ£ÐÍÈçÍ¼~\ref{fig59}~ËùÊ¾¡£
+\begin{figure*}[!h]
+\centering
+\includegraphics[width=12cm]{fig59.png}
+\caption {Ç°ÖÃ·Å´óÆ÷µçÂ·ÔëÉùÄ£ÐÍ}
+\addtocounter{figure}{-1}
+\renewcommand\figurename{Fig.}
+\caption{\label{fig59} Preamplifier circuit noise model }
+\end{figure*}
+
+Í¼~\ref{fig59}~ÖÐ£¬$I_{sc}$~Îª¹âµç¶þ¼«¹ÜµÄ¹âµçÁ÷£»$I_{ns}^{2} = 2eI_{sc}\Delta f$£»$\Delta f$~ÎªµçÂ·ÖÐµÄÍ¨Æµ´ø£»$R_{d}$~Îª¹âµç¶þ¼«¹ÜµÄÄÚ×è£»$I_{nd}$~Îª¹âµç¶þ¼«¹ÜÄÚ×è²úÉúµÄÈÈÔëÉùµçÁ÷£¬$I_{nd}^{2} = 4KT\Delta f/R_{d}$£»$C_{d}$~Îª¹âµç¶þ¼«¹ÜµÄ½áµçÈÝ£»$E_{n}$¡¢$I_{n}$~·Ö±ðÎª·Å´óÆ÷µÄµÈÐ§ÊäÈëÔëÉùµçÑ¹ºÍµÈÐ§ÊäÈëÔëÉùµçÁ÷£»$U_{nf}$~ Îª·´À¡µç×è²úÉúµÄÈÈÔëÉùµçÑ¹£¬$U_{nf}^{2} = 4KTR_{f}\Delta f$¡£
+
+Ç°ÖÃ·Å´óµçÂ·µÄÊä³ö×ÜµçÑ¹Îª£º
+\begin{equation}\label{xd6}
+  U_{0} = (I_{sc}+I_{ns}+I_{nd}+I_{n}+\frac{E_{n}}{R_{d}})R_{f}+U_{nf}
+\end{equation}
+
+Êä³öÓÐÓÃÐÅºÅµçÑ¹Îª£º
+\begin{equation}\label{xd7}
+  U_{so} = I_{sc}R_{f}
+\end{equation}
+
+ËùÒÔÊä³öÔëÉùµçÑ¹Îª£º
+\begin{equation}\label{xd8}
+  U_{no} = U_{0}-U_{so}=(I_{ns}+I_{nd}+\frac{E_{n}}{R_{d}})+U_{nf}
+\end{equation}
+
+Ç°ÖÃ·Å´óÆ÷µÄÊä³öÐÅÔë±ÈÎª£º
+\begin{equation}\label{xd9}
+  SNR = \frac{U_{so}}{U_{no}}
+\end{equation}
+
+½«Ê½~\ref{xd7}~ºÍÊ½~\ref{xd8}~´øÈëÉÏÊ½ÖÐ£¬µÃ£º
+\begin{equation}\label{xd10}
+\begin{split}
+  SNR & = \frac{I_{sc}R_{f}}{U_{0}-U_{so}=(I_{ns}+I_{nd}+\frac{E_{n}}{R_{d}})+U_{nf}} \\
+      & =  \frac{I_{sc}R_{f}}{(\sqrt{2eI_{sc}\Delta f}+\frac{2\sqrt{KT\Delta f}}{\sqrt{R_{d}}}+I_{n}+\frac{E_{n}}{R_{d}})R_{F}+2\sqrt{KTR_{f}\Delta f}}  \\
+      & = 1/(\frac{\sqrt{2e\Delta f}}{\sqrt{I_{sc}}} + \frac{2\sqrt{2T\Delta f}}{I_{sc}\sqrt{R_{d}}}+ \frac{I_{n}}{I_{sc}}+ \frac{E_{n}}{I_{sc}R_{d}}+ \frac{2\sqrt{KT\Delta f}}{I_sc\sqrt{R_{f}}})
+\end{split}
+\end{equation}
+
+·ÖÎöÊ½~\ref{xd10}~¿ÉÒÔµÃ³ö£º
+
+£¨1£©Ç°ÖÃ·Å´óµçÂ·ÖÐµÄ·´À¡µç×è~$R_{f}$~Ô½´ó£¬Êä³öÐÅÔë±ÈÔ½´ó£¬Í¬Ê±ÐÅºÅµÄÔöÒæÒ²Ô½´ó¡£µ«Í¬Ê±Òª¿¼ÂÇÇ°ÖÃ·Å´óµçÂ·Óë¹âµç´«¸ÐÆ÷µÄ×è¿¹Æ¥ÅäÎÊÌâ¡£
+
+£¨2£©Ç°ÖÃ·Å´óµçÂ·µÄÍ¨Æµ´ø~$\Delta f$~Ô½Ð¡£¬Êä³öµÄÐÅÔë±ÈÔ½´ó¡£Óë~$R_{f}$~²¢ÁªµÄ~$C_{s}$~¹¹³ÉµÄÏàÎ»²¹³¥µçÂ·£¬³ýÁË¾ßÓÐÏû³ý×Ô¼¤Õñµ´µÄ×÷ÓÃÍâ£¬»¹¹¹³ÉÁËÒ»¸öµÍÍ¨ÂË²¨Æ÷¡£¸ßÆµ½ØÖ¹ÆµÂÊÎª~$1/2\pi R_{f}C_{s}$¡£$R_{f}$~ºÍ~$C_{s}$~Ô½´ó£¬Í¨Æµ´øÔ½Ð¡£¬µ«ÊÇ ²»ÄÜÌ«´ó£¬·ñÔò»áÔì³ÉÏµÍ³ÏìÓ¦¹ýÂý¡£
+
+£¨3£©¼¯³ÉÔËËã·Å´óÆ÷µÄµÈÐ§ÊäÈëÔëÉùµçÑ¹~$E_{n}$~ºÍµÈÐ§ÊäÈëÔëÉùµçÁ÷~$I_{n}$~Ô½Ð¡£¬Êä³öÐÅÔë±ÈÔ½´ó£»
+
+£¨4£©¹âµç¶þ¼¶¹ÜµÄÄÚ×è~$R_{d}$~Ô½´ó£¬Êä³öÐÅÔë±ÈÔ½´ó¡£±¾¿ÎÌâÖÐÑ¡ÓÃµÄ¹âµç´«¸ÐÆ÷ÄÚ×èÎª~1K~×óÓÒ£¬ÔÚÉè¼ÆÇ°ÖÃ·Å´óµçÂ·Ê±£¬ÒªÊ¹¹âµç¶þ¼«¹ÜÓëÔËËã·Å´óÆ÷ÏàÆ¥Åä£¬¼´µ±~$R_{d}=E_{n}/I_{n}$~Ê±£¬µçÂ·µÄÔëÉùÏµÊýÎª×îÐ¡£»
+
+£¨5£©µçÂ·µÄ¹¤×÷»·¾³ÎÂ¶È~T~Ô½Ð¡£¬Êä³öÐÅÔë±ÈÔ½´ó£¬ËùÒÔÒªÊ¹µçÂ·¾¡¿ÉÄÜ¹¤×÷ÔÚ½ÏµÍÎÂ¶ÈÏÂ£»
+
+£¨6£©ÓÉÓÚÏµÍ³Íâ²¿ÓÐÔëÉù¸ÉÈÅ£¬ËùÒÔ¹âµç¼ì²âµçÂ·±ØÐëÓÃ½ðÊôÍâ¿ÇÀ´ÆÁ±ÎÍâ½çµç´Å¸ÉÈÅ£¬Í¬Ê±Íâ¿ÇÐèÒª½ÓµØ¡£
 
 \subsection{´Î¼¶ÐÅºÅ·Å´óµçÂ·}
 \subsubsection{´Î¼¶ÐÅºÅ·Å´óµçÂ·¾ßÌåÉè¼Æ}
-Ç°ÖÃ·Å´óµçÂ·¶ÔÌ½²âÆ÷Æðµ½Æ«ÖÃµÄ×÷ÓÃ£¬²¢×÷Îª»º³å¼¶¶ÔÎ¢ÈõµÄµçÐÅºÅ½øÐÐ³õ²½µÄ·Å´ó¡£Ö®ºó»¹ÐèÒª½øÈë´Î¼¶·Å´óµçÂ·½øÐÐÖ÷·Å´ó¡£µçÂ·Ô­ÀíÍ¼ÈçÍ¼~\ref{}~ËùÊ¾¡£
+Ç°ÖÃ·Å´óµçÂ·¶ÔÌ½²âÆ÷Æðµ½Æ«ÖÃµÄ×÷ÓÃ£¬²¢×÷Îª»º³å¼¶¶ÔÎ¢ÈõµÄµçÐÅºÅ½øÐÐ³õ²½µÄ·Å´ó¡£Ö®ºó»¹ÐèÒª½øÈë´Î¼¶·Å´óµçÂ·½øÐÐÖ÷·Å´ó¡£µçÂ·Ô­ÀíÍ¼ÈçÍ¼~\ref{fig60}~ËùÊ¾¡£
+\begin{figure*}[!h]
+\centering
+\includegraphics[width=14cm]{fig60.png}
+\caption {´Î¼¶ÐÅºÅ·Å´óµçÂ·}
+\addtocounter{figure}{-1}
+\renewcommand\figurename{Fig.}
+\caption{\label{fig60} Secondary signal amplification circuit }
+\end{figure*}
 
-\subsubsection{´Î¼¶ÐÅºÅ·Å´óµçÂ·ÔëÉù·ÖÎö}
-ÔË·ÅµÄÔëÉù¿ÉÒÔÓÃ~En-In~Ä£ÐÍ\upcite{[42]}À´±íÊ¾£¬En~ÎªÔË·ÅÔëÉùµçÑ¹¾ù·½¸ùÖµ£¬In~ÎªÔË·ÅÔëÉùµçÁ÷¾ù·½¸ùÖµ¡£´Î¼¶ÐÅºÅ·Å´óµçÂ·µÄÔëÉùµÈÐ§Ä£ÐÍÈçÍ¼~\ref{}~ËùÊ¾¡£
+ÓÉÓÚÇ°ÖÃ·Å´óÆ÷Êä³öµÄÐÅºÅ·Ç³£Î¢Èõ£¬ÒªÏë»ñµÃÂú×ãºóÐøµçÂ·¶ÔÐÅºÅµçÆ½µÄÒªÇó£¬±ØÐë½«´Î¼¶ÐÅºÅ·Å´óµçÂ·Éè¼Æ³É¸ßÔöÒæ·Å´óµçÂ·¡£±¾ÎÄ²ÉÓÃÁËÁ½¼¶ÔËËã·Å´óÆ÷µçÂ·ÊµÏÖ¶ÔÎ¢ÈõÐÅºÅµÄÖ÷·Å´ó¡£
+
+ÔË·ÅµÄÔëÉù¿ÉÒÔÓÃ~En-In~Ä£ÐÍ\upcite{}À´±íÊ¾£¬En~ÎªÔË·ÅÔëÉùµçÑ¹¾ù·½¸ùÖµ£¬In~ÎªÔË·ÅÔëÉùµçÁ÷¾ù·½¸ùÖµ¡£´Î¼¶ÐÅºÅ·Å´óµçÂ·µÄÔëÉùµÈÐ§Ä£ÐÍÈçÍ¼~\ref{}~ËùÊ¾¡£
 
 \subsection{Õ­´ø´øÍ¨ÂË²¨µçÂ·}
-ÐÅºÅ¾­¹ý·Å´óµçÂ·ºó£¬»¹´æÔÚ´óÁ¿µÄ¹¤ÆµÔëÉù¡¢Ëæ»úÔëÉùµÈ¸ÉÈÅ£¬ÐèÒªÊ¹ÓÃÂË²¨Æ÷ÂË³ýÕâÐ©¸ÉÈÅÐÅºÅ¡£ÓÉÓÚ¹¤ÆµÔëÉù¡¢Ëæ»úÔëÉùµÈ¸ÉÈÅºÍÓÐÓÃÐÅºÅµÄÆµÂÊ²»Í¬£¬¿ÉÒÔÊ¹ÓÃ´øÍ¨ÂË²¨Æ÷ÂË³ý¸ÉÈÅ¡£´øÍ¨ÂË²¨Æ÷ÊÇÒ»ÖÖÆÁ±ÎÍ¨´øÍâµÄÆµ¶ÎÐÅºÅ£¬¶øÖ»ÔÊÐíÍ¨´øÄÚµÄÆµ¶ÎÐÅºÅÍ¨¹ýµÄÂË²¨Æ÷¡£´øÍ¨ÂË²¨Æ÷ÓÐÐí¶àÀàÐÍ£¬ÆäÖÐ°ÍÌØÎÖË¹ÂË²¨Æ÷ÔÚÐÅºÅµÄÂË²¨ÖÐÓ¦ÓÃ½ÏÎª¹ã·º£¬Ëü¾ßÓÐÑ¡ÔñÐÔ¼«¸ßºÍ¹ý¶É´ø¶¸ÇÍµÄÌØµã\upcite{[42]}¡£ËüµÄµçÂ·Ô­ÐÍÈçÍ¼~\ref{}~¡£
+ÐÅºÅ¾­¹ý·Å´óµçÂ·ºó£¬»¹´æÔÚ´óÁ¿µÄ¹¤ÆµÔëÉù¡¢Ëæ»úÔëÉùµÈ¸ÉÈÅ£¬ÐèÒªÊ¹ÓÃÂË²¨Æ÷ÂË³ýÕâÐ©¸ÉÈÅÐÅºÅ¡£Í¬Ê±£¬ÓÉÓÚÌ½²âÆ÷½ÓÊÕµ½µÄÊÇÈýÂ·²»Í¬¼¤ÀøÆµÂÊÏÂµÄ¹âÐÅºÅ£¬ËùÒÔÐÅºÅÖÐ»ìºÏÕâÈýÂ·²»Í¬ÆµÂÊµÄÕýÏÒÐÅºÅ¡£ÒªÏë½«Õâ²»Í¬ÆµÂÊµÄÈýÂ·ÕýÏÒÐÅºÅ·ÖÀë³öÀ´£¬±ØÐëÊ¹ÓÃÕ­´ø´øÍ¨ÂË²¨Æ÷¡£´øÍ¨ÂË²¨Æ÷ÊÇÒ»ÖÖÆÁ±ÎÍ¨´øÍâµÄÆµ¶ÎÐÅºÅ£¬¶øÖ»ÔÊÐíÍ¨´øÄÚµÄÆµ¶ÎÐÅºÅÍ¨¹ýµÄÂË²¨Æ÷¡£´øÍ¨ÂË²¨Æ÷ÓÐÐí¶àÀàÐÍ£¬ÆäÖÐ°ÍÌØÎÖË¹ÂË²¨Æ÷ÔÚÐÅºÅµÄÂË²¨ÖÐÓ¦ÓÃ½ÏÎª¹ã·º£¬Ëü¾ßÓÐÑ¡ÔñÐÔ¼«¸ßºÍ¹ý¶É´ø¶¸ÇÍµÄÌØµã\upcite{}¡£ ËüµÄµçÂ·Ô­ÐÍÈçÍ¼~\ref{fig61}¡£
+\begin{figure*}[!h]
+\centering
+\includegraphics[width=12cm]{fig61.png}
+\caption {´øÍ¨ÂË²¨Æ÷µçÂ·Ô­ÐÍ}
+\addtocounter{figure}{-1}
+\renewcommand\figurename{Fig.}
+\caption{\label{fig61} The prototype of bandpass filter circuit }
+\end{figure*}
+
+Í¼ÖÐ~C1~ºÍ~R3~¹¹³ÉÁ½¸ö·´À¡Ö§Â·£¬Æä·´À¡µÄÇ¿ÈõÓëÐÅºÅÆµÂÊÓÐ¹Ø¡£Îª·½±ãÉè¼Æ£¬µçÈÝµÄÈ¡ÖµÍ¨³£Îª~$C_{1}=C_{2}=C$£¬´øÍ¨ÂË²¨Æ÷µÄÖÐÐÄÆµÂÊ¡¢·Å´ó±¶Êý¡¢Æ·ÖÊÒòÊýºÍ´ø¿í·Ö±ðÈçÏÂÊ½±íÊ¾¡£
+\begin{equation}\label{xd15}
+  f_{0}=\frac{1}{2\pi C}\sqrt{\frac{R_{1}+R_{2}}{R_{1}R_{2}R_{3}}}
+\end{equation}
+
+\begin{equation}\label{xd16}
+  H(j\cdot 2\pi f_{0})=-\frac{R_{3}}{2R_{1}}
+\end{equation}
+
+\begin{equation}\label{xd17}
+  Q = \frac{1}{2}\sqrt{\frac{(R_{1}+R_{2})R_{3}}{R_{1}R_{2}}}
+\end{equation}
+
+\begin{equation}\label{xd18}
+  BW=f_{H} - f_{L} = \frac{f_{0}}{Q}
+\end{equation}
+
+¸ù¾ÝÊ½~\ref{xd15}$\sim$\ref{xd18}~¿ÉÖª£¬µçÈÝ~C~µÄÖµÖ»Ó°ÏìÖÐÐÄÆµÂÊ¡£µç×è~R3~µÄ±ä»¯»áÍ¬Ê±Ó°ÏìÖÐÐÄÆµÂÊ¡¢ÔöÒæºÍÆ·ÖÊÒòËØ¡£R1¡¢R2~µÄ²¢ÁªÖµÓ°ÏìÖÐÐÄÆµÂÊºÍÆ·ÖÊÒòÊý¡£R2~²»Ó°ÏìÍ¨´øÔöÒæ¡£ÓÉÍ¨´ø¿íµÄ¼ÆËã¹«Ê½Öª£¬Í¨´ø¿íÓëµçÈÝ~C~ºÍµç×è~R3~³É·´±È\upcite{}¡£
+
+±¾¿ÎÌâÖÐµÄÈýÂ·ÐÅºÅÆµÂÊ·Ö±ðÎª~5KHz£¬6KHz£¬7KHz£¬¾­¹ýÐÅºÅ·Å´óµçÂ·µÄÐÅºÅÐèÒª½ÓÈëÕ­´ø´øÍ¨ÂË²¨Æ÷½«ÈýÂ·ÐÅºÅ·Ö±ðÂË³öÀ´¡£µÂÖÝÒÇÆ÷µÄ~FilterPro~³ÌÐò¿ÉÒÔ¸ù¾ÝËùÒªÇóµÄÂË²¨Æ÷Ö¸ÊýÉè¼Æ³öÂú×ãÒªÇóµÄÂË²¨Æ÷¡£±¾ÌâÌâÊ¹ÓÃ¸ÃÈí¼þ½øÐÐÕ­´ø´øÍ¨ÂË²¨Æ÷µÄÉè¼Æ£¬ÒÔÍ¨Æµ´øÖÐÐÄÆµÂÊÎª~6KHz~ÎªÀý½øÐÐËµÃ÷¡£
+
+´ò¿ª~FilterPro~Ó¦ÓÃÈí¼þ£¬ÊäÈëÉè¼ÆËùÐèµÄÐÂÄÜ²ÎÊý£¬Ñ¡È¡ÖÐÐÄÆµÂÊ~$f_{0}=6000Hz$£¬ÔÊÐíµÄ´øÍ¨ÎÆ²¨Îª~0.5dB¡£Í¨´ø´ø¿íÎª~500Hz£¬½ÇÆµÂÊË¥¼õÎª~-3dB¡£Í¬Ê±Ñ¡ÔñÂË²¨Æ÷½×´Î¹Ì¶¨Îª~4~½×£¬×îºóÉè¼ÆµÄ°ÍÌØÎÖË¹´øÍ¨ÂË²¨Æ÷ÈçÏÂÍ¼ËùÊ¾¡£
+\begin{figure*}[!h]
+\centering
+\includegraphics[width=14cm]{fig62.png}
+\caption {ÖÐÐÄÆµÂÊÎª~6KHz~µÄ´øÍ¨ÂË²¨µçÂ·}
+\addtocounter{figure}{-1}
+\renewcommand\figurename{Fig.}
+\caption{\label{fig62} A bandpass filter with a center frequency of 6KHz }
+\end{figure*}
+
+µÃ³öµÄµç×è¡¢µçÈÝ²ÎÊý¿ÉÒÔ´úÈëÀíÂÛ¹«Ê½½øÐÐÑéÖ¤ºÍ·ÖÎö¡£¾­¹ýÊµ¼ÊµÄ²âÊÔºÍ²»¶ÏÓÅ»¯£¬×îÖÕÉè¼ÆµÄ´øÍ¨ÂË²¨Æ÷µÄ²®µÂÍ¼ÈçÍ¼~\ref{fig63}~ËùÊ¾¡£
+\begin{figure*}[!h]
+\centering
+\includegraphics[width=14cm]{fig63.png}
+\caption {Õ­´ø´øÍ¨ÂË²¨Æ÷²®µÂÍ¼}
+\addtocounter{figure}{-1}
+\renewcommand\figurename{Fig.}
+\caption{\label{fig63} The bode diagram of narrow bandpass filter }
+\end{figure*}
 
 \section{Ä£Êý×ª»»µçÂ·Éè¼Æ}
 
@@ -238,9 +408,9 @@ AD7656~Ö÷ÒªÓÐÒÔÏÂ¼¸¸öÌØµã£º
 
 £¨3£©Æ¬ÄÚ°üº¬Ò»¸ö~2.5V~ÄÚ²¿»ù×¼µçÑ¹Ô´ºÍ»ù×¼»º³åÆ÷¡£
 
-£¨4£©~AD7656~ »¹¾ßÓÐ¸ßËÙ²¢ÐÐºÍ´®ÐÐ½Ó¿Ú£¬¿ÉÒÔÓëÎ¢´¦ÀíÆ÷£¨~MCU~£©»òÊý×ÖÐÅºÅ´¦ÀíÆ÷£¨~DSP~£©Á¬½Ó¡£
+£¨4£©AD7656~»¹¾ßÓÐ¸ßËÙ²¢ÐÐºÍ´®ÐÐ½Ó¿Ú£¬¿ÉÒÔÓëÎ¢´¦ÀíÆ÷£¨~MCU~£©»òÊý×ÖÐÅºÅ´¦ÀíÆ÷£¨~DSP~£©Á¬½Ó¡£
 
-£¨5£©AD7656~ ÔÚ´®ÐÐ½Ó¿Ú·½Ê½ÏÂ£¬ÄÜÌá¹©Ò»¸ö¾Õ»¨Á´Á¬½Ó·½Ê½£¬ÒÔ±ã°Ñ¶à¸ö~ADC~ Á¬½Óµ½Ò»¸ö´®ÐÐ½Ó¿ÚÉÏ¡£
+£¨5£©AD7656~ÔÚ´®ÐÐ½Ó¿Ú·½Ê½ÏÂ£¬ÄÜÌá¹©Ò»¸ö¾Õ»¨Á´Á¬½Ó·½Ê½£¬ÒÔ±ã°Ñ¶à¸ö~ADC~ Á¬½Óµ½Ò»¸ö´®ÐÐ½Ó¿ÚÉÏ¡£
 
 \subsection{Ð¾Æ¬Ô­ÀíºÍ½á¹¹}
 
@@ -254,12 +424,12 @@ AD7656~ÊÇÖð´Î±Æ½üÐÍAD×ª»»Æ÷£¬Ã¿Â·~ADC~µçÂ·°üÀ¨Ò»¸ö²ÉÑù±£³ÖÆ÷¡¢Ò»¸ö±È½ÏÆ÷¡¢Ò»¸ö~S
 \caption{\label{fig48} Internal structure diagram of AD7656 }
 \end{figure*}
 
-AD7656~µÄ6Â·Ä£ÄâÐÅºÅÊäÈëÍ¨µÀ¶¼ÊÇÏà¹Ø¶ÀÁ¢µÄ£¬Íâ²¿Ä£ÄâÐÅºÅ´Ó~V1$-$V6~Òý½ÅÊäÈë£¬¾­¹ýÒ»¸ö¸ß´ø¿íµÄÏßÐÔ¸úËæÆ÷£¨~T/H~£©µ¥Ôª½øÐÐ²ÉÑù¡£Ã¿Â·~ADC~¾ù°´ÕÕÖð´Î±Æ½üÔ­Àí½øÐÐ£¬ÓÉ¿ØÖÆÂß¼­µçÂ·ºÍ~SAR~Ä£Êý×ª»»Æ÷¹²Í¬Íê³É¡£µ±Ä£ÄâÐÅºÅ×ª»»ÎªÊý×ÖÐÅºÅºó£¬ÓÉ¿ØÖÆÂß¼­µ¥Ôª¿ØÖÆÊý×ÖÊä³öÇý¶¯µçÂ·ÒÔ´®ÐÐ»ò²¢ÐÐÊý¾ÝµÄ·½Ê½Êä³ö¡£
+AD7656~µÄ6Â·Ä£ÄâÐÅºÅÊäÈëÍ¨µÀ¶¼ÊÇÏà¹Ø¶ÀÁ¢µÄ£¬Íâ²¿Ä£ÄâÐÅºÅ´Ó~V1$-$V6~Òý½ÅÊäÈë£¬¾­¹ýÒ»¸ö¸ß´ø¿íµÄÏßÐÔ¸úËæÆ÷£¨~T/H~£©µ¥Ôª½øÐÐ²ÉÑù¡£Ã¿Â·~ADC~ ¾ù°´ÕÕÖð´Î±Æ½üÔ­Àí½øÐÐ£¬ÓÉ¿ØÖÆÂß¼­µçÂ·ºÍ~SAR~Ä£Êý×ª»»Æ÷¹²Í¬Íê³É¡£µ±Ä£ÄâÐÅºÅ×ª»»ÎªÊý×ÖÐÅºÅºó£¬ÓÉ¿ØÖÆÂß¼­µ¥Ôª¿ØÖÆÊý×ÖÊä³öÇý¶¯µçÂ·ÒÔ´®ÐÐ»ò²¢ÐÐÊý¾ÝµÄ·½Ê½Êä³ö¡£
 
-AD7656~µÄÄ£ÄâÐÅºÅÊäÈë²ÉÈ¡ÁËµ¥¶ËÊäÈë·½Ê½£¬ÊäÈëÐÅºÅµÄµçÆ½·¶Î§ÎªÁ½ÖÖ~$\pm$10V~ºÍ~$\pm$5V¡£¿ÉÍ¨¹ýÁ½ÖÖ·½Ê½Ñ¡ÔñÊäÈëÐÅºÅµçÆ½·¶Î§£¬Ó²¼þÉÏÍ¨¹ý~RANGE~¹Ü½ÅÉèÖÃ£¬Èí¼þÉÏÍ¨¹ýÅäÖÃ¿ØÖÆ¼Ä´æÆ÷µÄ~RANGE~Î»À´Ñ¡Ôñ¡£AD7656~µÄ×ª»»·Ö±æÂÊÓëÊäÈëÐÅºÅµÄ·¶Î§ÓÐ¹Ø£¬µ±ÊäÈëÐÅºÅµÄµçÆ½·¶Î§Îª~$\pm$5V~Ê±£¬ADC~·Ö±æÂÊÄÜ´ïµ½~0.153mV¡£
+AD7656~µÄÄ£ÄâÐÅºÅÊäÈë²ÉÈ¡ÁËµ¥¶ËÊäÈë·½Ê½£¬ÊäÈëÐÅºÅµÄµçÆ½·¶Î§ÎªÁ½ÖÖ~$\pm$10V~ºÍ~$\pm$5V¡£¿ÉÍ¨¹ýÁ½ÖÖ·½Ê½Ñ¡ÔñÊäÈëÐÅºÅµçÆ½·¶Î§£¬Ó²¼þÉÏÍ¨¹ý~RANGE~¹Ü½ÅÉèÖÃ£¬Èí¼þÉÏÍ¨¹ýÅäÖÃ¿ØÖÆ¼Ä´æÆ÷µÄ~RANGE~Î»À´Ñ¡Ôñ¡£AD7656~µÄ×ª»»·Ö±æÂÊÓëÊäÈëÐÅºÅµÄ·¶Î§ÓÐ¹Ø£¬µ±ÊäÈëÐÅºÅµÄµçÆ½·¶Î§Îª~$\pm$5V~ Ê±£¬ADC~·Ö±æÂÊÄÜ´ïµ½~0.153mV¡£
 
 \subsection{A/D~Ç°¶Ëµ÷ÀíµçÂ·Éè¼Æ}
-ÎªÁËÊ¹´ÓÄ£ÄâÐÅºÅ´¦ÀíÍ¨µÀÊä³öµÄÐÅºÅÔ´Óë~AD7656~ÒªÇóµÄÊäÈëÐÅºÅÏàÆ¥Åä£¬±¾¿ÎÌâ¶ÔÐÅºÅÔ´µÄÐÅºÅ½øÐÐÇ°¶Ëµ÷ÀíµçÂ·µ÷Õû£¬ÔÚ~AD7656~Ç°¶ËµÄµ÷ÀíµçÂ·ÖÐ¼ÓÈëÁË×è¿¹Æ¥ÅäºÍ¿¹»ìµþÂË²¨µçÂ·¡£
+ÎªÁËÊ¹´ÓÄ£ÄâÐÅºÅ´¦ÀíÍ¨µÀÊä³öµÄÐÅºÅÔ´Óë~AD7656~ÒªÇóµÄÊäÈëÐÅºÅÏàÆ¥Åä£¬±¾¿ÎÌâ¶ÔÐÅºÅÔ´µÄÐÅºÅ½øÐÐÇ°¶Ëµ÷ÀíµçÂ·µ÷Õû£¬ÔÚ~AD7656~ Ç°¶ËµÄµ÷ÀíµçÂ·ÖÐ¼ÓÈëÁË×è¿¹Æ¥ÅäºÍ¿¹»ìµþÂË²¨µçÂ·¡£
 \begin{figure*}[!h]
 \centering
 \includegraphics[width=12cm]{fig50.png}
@@ -269,7 +439,7 @@ AD7656~µÄÄ£ÄâÐÅºÅÊäÈë²ÉÈ¡ÁËµ¥¶ËÊäÈë·½Ê½£¬ÊäÈëÐÅºÅµÄµçÆ½·¶Î§ÎªÁ½ÖÖ~$\pm$10V~ºÍ~$\
 \caption{\label{fig50} The front conditioning circuit of AD7656 }
 \end{figure*}
 
-AD7656~µÄÊäÈë¶ËºÜ¿ÉÄÜ¶ÔÐÅºÅÔ´ÐÅºÅ·ÖÑ¹£¬´Ó¶øÓ°Ïì²É¼¯×ª»»ÐÅºÅµÄ¾«¶È£¬ËùÒÔÉè¼Æ×è¿¹Æ¥ÅäµçÂ·ÊÇ·Ç³£±ØÒªµÄ¡£ÔÚ~AD7656~Ç°¼¶ÊäÈë¼ÓÈëÓÉÔËËã·Å´óÆ÷¹¹³ÉµÄµçÑ¹¸úËæÆ÷ºÜ¹»»ñµÃ½ÏµÍµÄÊä³ö×è¿¹£¬´Ó¶øÇý¶¯~AD7656~µÄÊäÈë¶Ë£¬µçÂ·Ô­ÀíÈçÍ¼~\ref{fig50}~ËùÊ¾¡£AD7656~ÊäÈë¶Ë¾ßÓÐÈÝÐÔ¸ºÔØÌØÐÔ£¬Í¨³£ÐèÒªÒ»¸öµç×èºÍµçÈÝ×é³ÉÍâ²¿²¹³¥µçÂ·ÓÃÒÔ¼õÉÙÈÝÐÔ¸ºÔØµÄÓ°Ïì¡£Í¬Ê±£¬µç×èºÍµçÈÝ»¹¿ÉÒÔ×öµÍÍ¨ÂË²¨Æ÷£¬ÊµÏÖ¿¹»ìµþÂË²¨µçÂ·µÄÐ§¹û¡£
+AD7656~µÄÊäÈë¶ËºÜ¿ÉÄÜ¶ÔÐÅºÅÔ´ÐÅºÅ·ÖÑ¹£¬´Ó¶øÓ°Ïì²É¼¯×ª»»ÐÅºÅµÄ¾«¶È£¬ËùÒÔÉè¼Æ×è¿¹Æ¥ÅäµçÂ·ÊÇ·Ç³£±ØÒªµÄ¡£ÔÚ~AD7656~ Ç°¼¶ÊäÈë¼ÓÈëÓÉÔËËã·Å´óÆ÷¹¹³ÉµÄµçÑ¹¸úËæÆ÷ºÜ¹»»ñµÃ½ÏµÍµÄÊä³ö×è¿¹£¬´Ó¶øÇý¶¯~AD7656~µÄÊäÈë¶Ë£¬µçÂ·Ô­ÀíÈçÍ¼~\ref{fig50}~ËùÊ¾¡£AD7656~ ÊäÈë¶Ë¾ßÓÐÈÝÐÔ¸ºÔØÌØÐÔ£¬Í¨³£ÐèÒªÒ»¸öµç×èºÍµçÈÝ×é³ÉÍâ²¿²¹³¥µçÂ·ÓÃÒÔ¼õÉÙÈÝÐÔ¸ºÔØµÄÓ°Ïì¡£Í¬Ê±£¬µç×èºÍµçÈÝ»¹¿ÉÒÔ×öµÍÍ¨ÂË²¨Æ÷£¬ÊµÏÖ¿¹»ìµþÂË²¨µçÂ·µÄÐ§¹û¡£
 
 \subsection{A/D~Óë~DSP~½Ó¿ÚµçÂ·Éè¼Æ}
 
@@ -286,13 +456,13 @@ AD7656~Óë~TMS320F28335~¿ØÖÆÆ÷½Ó¿ÚµçÂ·²ÉÈ¡²¢ÐÐ½Ó¿ÚÉè¼Æ£¬½Ó¿ÚµçÂ·ÈçÍ¼~\ref{fig49}~
 
 ÔÚµçÂ·Éè¼ÆÊ±£¬AD7656~Æ÷¼þ¾ßÓÐ°Ë¸ö~$AVcc$~µçÔ´Òý½Å£¬Ã¿¸ö~$AVcc$~µçÔ´Òý½Å¾ùÐèÒªÍ¨¹ýÒ»¸ö~10$\mu$F~îãµçÈÝºÍÒ»¸ö~100nF~ÌÕ´ÉµçÈÝ½øÐÐÁ¼ºÃÈ¥ñî¡£AD7656~¼´¿É²ÉÓÃÄÚ²¿»ù×¼µçÑ¹Ô´¹¤×÷£¬Ò²¿ÉÒÔ²ÉÓÃÍâ²¿Ê©¼ÓµÄ»ù×¼µçÑ¹Ô´¹¤×÷¡£ÔÚ±¾µçÂ·ÖÐ£¬Æ÷¼þ±»ÅäÖÃÎªÔÚÄÚ²¿»ù×¼µçÑ¹Ô´ÏÂ¹¤×÷¡£
 
-µ±~AD7656~µÄ~H/SSEL~¹Ü½Å½ÓµØÊ±£¬AD7656~ÔÚÓ²¼þÑ¡ÔñÄ£Ê½ÏÂ¹¤×÷£¬¿ÉÒÔ¸ù¾ÝÓ²¼þÑ¡ÔñÒý½ÅÉÏµÄÂß¼­µçÆ½À´ÅäÖÃ~AD7656¡£±¾µçÂ·ÖÐÔÚÓ²¼þÑ¡ÔñÄ£Ê½ÏÂ½«~AD7656~µÄ~SER/PAR~¹Ü½Å½ÓµØÊ¹~AD7656~¹¤×÷ÔÚ²¢ÐÐ½Ó¿Ú·½Ê½¡£Í¬Ê±£¬½«~RANGE~¹Ü½Å½ÓµØ´Ó¶øÑ¡Ôñ~$\pm$5V~µÄÄ£ÄâÊäÈë·¶Î§¡£¶ø¿ØÖÆ×ª»»Æô¶¯µÄ~CONVST~A¡¢~CONVST~B~ºÍ~CONVST~C~¹Ü½Å½ÓÈë~DSP~¿ØÖÆÆ÷£¬ÓÉ~DSP~Í¨¹ýÈí¼þ¼¤»î~CONVST~ÊäÈë´Ó¶øÆô¶¯~AD7656~µÄ×ª»»¡£CONVST~A~ÓÃÀ´¶Ô~V1~ºÍ~V2~Æô¶¯Í¬²½²ÉÑù£¬CONVST~B~ÓÃÀ´¶Ô~V3~ºÍ~V4~Æô¶¯Í¬²½²ÉÑù£¬¶ø~CONVST~C~ÓÃÀ´¶Ô~V5~ºÍ~V6~Æô¶¯Í¬²½²ÉÑù¡£±¾¿ÎÌâÖ»Ê¹ÓÃÁËÇ°ÈýÂ·Ä£ÄâÊäÈëÍ¨µÀ£¬ÆäÓàÄ£ÄâÊäÈëÍ¨µÀ½ÓµØ¡£
+µ±~AD7656~µÄ~H/SSEL~¹Ü½Å½ÓµØÊ±£¬AD7656~ÔÚÓ²¼þÑ¡ÔñÄ£Ê½ÏÂ¹¤×÷£¬¿ÉÒÔ¸ù¾ÝÓ²¼þÑ¡ÔñÒý½ÅÉÏµÄÂß¼­µçÆ½À´ÅäÖÃ~AD7656¡£ ±¾µçÂ·ÖÐÔÚÓ²¼þÑ¡ÔñÄ£Ê½ÏÂ½«~AD7656~µÄ~SER/PAR~¹Ü½Å½ÓµØÊ¹~AD7656~¹¤×÷ÔÚ²¢ÐÐ½Ó¿Ú·½Ê½¡£Í¬Ê±£¬½«~RANGE~¹Ü½Å½ÓµØ´Ó¶øÑ¡Ôñ~$\pm$5V~µÄÄ£ÄâÊäÈë·¶Î§¡£¶ø¿ØÖÆ×ª»»Æô¶¯µÄ~CONVST~A¡¢~CONVST~B~ºÍ~CONVST~C~¹Ü½Å½ÓÈë~DSP~¿ØÖÆÆ÷£¬ÓÉ~DSP~ Í¨¹ýÈí¼þ¼¤»î~CONVST~ÊäÈë´Ó¶øÆô¶¯~AD7656~µÄ×ª»»¡£CONVST~A~ÓÃÀ´¶Ô~V1~ºÍ~V2~Æô¶¯Í¬²½²ÉÑù£¬CONVST~B~ÓÃÀ´¶Ô~V3~ºÍ~V4~Æô¶¯Í¬²½²ÉÑù£¬¶ø~CONVST~C~ÓÃÀ´¶Ô~V5~ ºÍ~V6~Æô¶¯Í¬²½²ÉÑù¡£±¾¿ÎÌâÖ»Ê¹ÓÃÁËÇ°ÈýÂ·Ä£ÄâÊäÈëÍ¨µÀ£¬ÆäÓàÄ£ÄâÊäÈëÍ¨µÀ½ÓµØ¡£
 
 
 \section{ÎÂ¿ØµçÂ·Éè¼Æ}
 
 \subsection{ÎÂ¶È¼ì²âµçÂ·}
-ÔÚË®·Ö²âÁ¿ÒÇ¹¤×÷Ê±£¬»·¾³ÎÂ¶È¶ÔÒÇÆ÷¹¤×÷¾ßÓÐÒ»¶¨µÄÓ°Ïì£¬¹âµçÌ½²âÆ÷ºÍ½üºìÍâ~LED~¹âÔ´ÔÚ²»Í¬ÎÂ¶ÈÏÂ¹¤×÷µÄÌØÐÔÒ²²»Ò»Ñù£¬Òò´ËÊµÊ±¼ì²â»·¾³ÎÂ¶ÈÊÇÊ®·Ö±ØÒªµÄ¡£±¾¿ÎÌâ²ÉÓÃ~DS18B20~ÎÂ¶È´«¸ÐÆ÷£¬Ëü¾ßÓÐÎ¢ÐÍ»¯¡¢µÍ¹¦ºÄ¡¢¿¹¸ÉÈÅÄÜÁ¦Ç¿£¬Ò×ÓëÎ¢´¦ÀíÆ÷½Ó¿ÚµÈÓÅµã£¬Ëü¼¯ÎÂ¶È²âÁ¿¡¢A/D~×ª»»ÓÚÒ»Ìå£¬Ö»ÐèÒ»¸ù¶Ë¿ÚÏß¾ÍÄÜÓëµ¥Æ¬»úÍ¨Ñ¶£¬²âÁ¿ÏµÍ³µçÂ·¼òµ¥£¬Ò×ÓÚÊµÏÖ¡£Æä²âÎÂ·¶Î§Îª~-55¡æ$\sim$~+125¡æ£¬²âÎÂ·Ö±æÂÊÎª~0.5¡æ¡£ ÎÂ¶È²âÁ¿µçÂ·ÈçÍ¼~\ref{fig51}~ËùÊ¾¡£
+ÔÚË®·Ö²âÁ¿ÒÇ¹¤×÷Ê±£¬»·¾³ÎÂ¶È¶ÔÒÇÆ÷¹¤×÷¾ßÓÐÒ»¶¨µÄÓ°Ïì£¬¹âµçÌ½²âÆ÷ºÍ½üºìÍâ~LED~¹âÔ´ÔÚ²»Í¬ÎÂ¶ÈÏÂ¹¤×÷µÄÌØÐÔÒ²²»Ò»Ñù£¬Òò´ËÊµÊ±¼ì²â»·¾³ÎÂ¶ÈÊÇÊ®·Ö±ØÒªµÄ¡£±¾¿ÎÌâ²ÉÓÃ~DS18B20~ÎÂ¶È´«¸ÐÆ÷£¬Ëü¾ßÓÐÎ¢ÐÍ»¯¡¢µÍ¹¦ºÄ¡¢¿¹¸ÉÈÅÄÜÁ¦Ç¿£¬Ò×ÓëÎ¢´¦ÀíÆ÷½Ó¿ÚµÈÓÅµã£¬Ëü¼¯ÎÂ¶È²âÁ¿¡¢A/D~×ª»»ÓÚÒ»Ìå£¬Ö»ÐèÒ»¸ù¶Ë¿ÚÏß¾ÍÄÜÓëµ¥Æ¬»úÍ¨Ñ¶£¬²âÁ¿ÏµÍ³µçÂ·¼òµ¥£¬Ò×ÓÚÊµÏÖ¡£Æä²âÎÂ·¶Î§Îª~-55¡æ$\sim$~+125¡æ£¬²âÎÂ·Ö±æÂÊÎª~0.5¡æ¡£ ÎÂ¶È²âÁ¿µçÂ·ÈçÍ¼~\ref{fig51}~ ËùÊ¾¡£
 \begin{figure*}[!h]
 \centering
 \includegraphics[width=10cm]{fig51.png}
