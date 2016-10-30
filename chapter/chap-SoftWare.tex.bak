@@ -254,7 +254,19 @@ FIR~滤波器工作原理就是一个离散信号序列通过一个离散滤波系统，得到离散输出信号的过
 
 考虑到水分测量系统的实时性要求和三路锁相放大器运算对运算速度的要求，本文选择通过快速卷积法实现~FIR~滤波。
 
+FFT运算时假设其所计算的信号为周期信号，因此通过上述快速卷积法计算出的结果实际上是两个信号的循环卷积（或叫圆周卷积），而不是线性卷积。为了用~FFT~计算线性卷积，需要对信号进行补零扩展，使得其长度大于线性卷积结果的长度。在本课题中，如果低通滤波器的阶次为~50，而参与卷积的输入信号长度为~840~点，则需要将滤波器系数和输入信号长度均补零到至少~889~个点，这将意味着~DSP~要做很多冗余的计算，快速卷积运算速度快的优势也不能体现出来。所以引入分段卷积法可以解决以上的问题。
 
+将长度很长的输入序列分解为若干个较小的段，对每一个输入段分别计算相应的线性卷积，然后把每段的输出按照一定的方法组合在一起，得到最终的输出序列\upcite{OAM1，OAM2}。根据分段方式的不同，分段卷积法分为重叠相加法（Overlap-add Method）和重叠保留法（Overlap-save Method）两种。其中重叠相加法的分段卷积过程如图~\ref{fig81}~ 所示。
+\begin{figure*}[!h]
+\centering
+\includegraphics[width=12cm]{fig81.png}
+\caption{分段卷积过程演示图}
+\addtocounter{figure}{-1}
+\renewcommand\figurename{Fig.}
+\caption{\label{fig81} Demonstration of overlap-add process}
+\end{figure*}
+
+本文通过分段卷积算法实现~FIR~滤波，其软件流程图如图~\ref{}~所示。
 \begin{figure*}[!h]
 \centering
 \includegraphics[width=12cm]{fig81.png}

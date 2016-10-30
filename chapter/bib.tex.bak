@@ -7,7 +7,18 @@
  陈永甫.红外辐射红外器件与典型应用[M] .北京:电子工业出版社, 2004:200.
 \bibitem{sin}
  雷杨梅,张良祖等.电力设备高质量信号发生器的查表法软件实现.西安交通大学.2007年
-
-
-
+\bibitem{Filter1}
+ 李兰英[1],王志超[1],王峰[1]等.FIR数字滤波器设计与仿真[J].哈尔滨理工大学学报,2013,18(3):36-41.
+\bibitem{Filter2}
+ 胡琥[1],万秋玉[1],周彤[2].FIR数字滤波器的DSP实现.哈尔滨理工大学学报,2004,9(1);122-124
+\bibitem{Filter3}
+ 李泉溪[1],黄全振[2],陈素霞[1].基于DSP的FIR数字滤波器的实现.河南科学,2008,26(2);190-193
+\bibitem{Filter4}
+  Nianxi Xue, Application of MATLAB in Digital Signal Processing, pp. 86-120, Qinhua University Press.
+\bibitem{Filter5}
+   Quanzhen Huang, Quanxi Li, Zhongwei Chen, "System Design and Application of TMS320C54X Based FIR Wave Filter", Journal of Henan University of Science and Technology (natural Science), vol. 27, no. 2, pp. 314-318, 2008.
+\bibitem{Filter6}
+   Xongwei Zhang, Tieyong Cao, The Fundamentals and Application of DSP Chips, pp. 186-200, 2000, Electronics Press.
+   
+   
 \end{thebibliography}
