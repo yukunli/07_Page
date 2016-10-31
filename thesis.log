@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.23)  28 OCT 2016 16:34
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.23)  31 OCT 2016 20:54
 entering extended mode
 **E:/01_Master_project/Water_Detection_Project/07_Page/thesis.tex
 (E:/01_Master_project/Water_Detection_Project/07_Page/thesis.tex
@@ -1128,7 +1128,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.23 
+l.20 
       [1
 
 
@@ -1136,147 +1136,120 @@ l.23
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.39 
-      [2])pdfTeX warning (ext4): destination with the same identifier (name{pag
-e.3}) has been already used, duplicate ignored
+l.36 
+      [2]pdfTeX warning (ext4): destination with the same identifier (name{page
+.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.50 ±æ
+       øŒÃ‚“‘∏÷Ã˙≥ß÷–µƒ…’Ω·ªÏ∫œ¡œµƒÀÆ∑÷≤‚¡øŒ™”¶”√±≥æ∞£¨ª˘”⁄Œﬁø…∂Ø≤øº˛µƒÀÆ∑÷º...
+[3])pdfTeX warning (ext4): destination with the same identifier (name{page.4}) 
+has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.99   \include{chapter/chap-Intro}
-                                     % [3]
-(E:\01_Master_project\Water_Detection_Project\07_Page\chapter/chap-Theory.texpd
-fTeX warning (ext4): destination with the same identifier (name{page.4}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1 \chapter
-            {Ω¸∫ÏÕ‚ÀÆ∑÷ºÏ≤‚‘≠¿Ì”Î∑Ω∞∏} [4
-
-
-
-]
+                                     % [4]
+(E:\01_Master_project\Water_Detection_Project\07_Page\chapter/chap-Theory.tex
 µ⁄∂˛’¬
 
-Package natbib Warning: Citation `9' on page 5 undefined on input line 15.
+Package natbib Warning: Citation `9' on page 5 undefined on input line 8.
 
-<fig/fig20.png, id=684, 314.67563pt x 277.035pt>
-File: fig/fig20.png Graphic file (type png)
- <use fig/fig20.png>
-Package pdftex.def Info: fig/fig20.png used on input line 45.
-(pdftex.def)             Requested size: 227.62204pt x 200.39502pt.
- [5pdfTeX warning (ext4): destination with the same identifier (name{table.2.1}
-) has been already used, duplicate ignored
+
+Package natbib Warning: Citation `?' on page 5 undefined on input line 42.
+
+<fig/fig20.pdf, id=694, 436.63126pt x 392.21532pt>
+File: fig/fig20.pdf Graphic file (type pdf)
+ <use fig/fig20.pdf>
+Package pdftex.def Info: fig/fig20.pdf used on input line 46.
+(pdftex.def)             Requested size: 227.62204pt x 204.46782pt.
+ [5
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{table.2.1}) h
+as been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.50 \end{figure*}
+l.51 \end{figure*}
                   ] [6pdfTeX warning (ext4): destination with the same identifi
 er (name{figure.2.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.85 
+l.82 
      pdfTeX warning (ext4): destination with the same identifier (name{table.2.
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.85 
-      <E:/01_Master_project/Water_Detection_Project/07_Page/fig/fig20.png>]
+l.82 
+      <E:/01_Master_project/Water_Detection_Project/07_Page/fig/fig20.pdf>]
+[7]
 
-Package natbib Warning: Citation `16' on page 7 undefined on input line 100.
+Package natbib Warning: Citation `16' on page 8 undefined on input line 111.
 
-
-Underfull \vbox (badness 1168) has occurred while \output is active []
-
- [7]
-<fig/fig21.pdf, id=722, 345.54094pt x 247.67531pt>
+<fig/fig21.pdf, id=752, 345.54094pt x 247.67531pt>
 File: fig/fig21.pdf Graphic file (type pdf)
  <use fig/fig21.pdf>
-Package pdftex.def Info: fig/fig21.pdf used on input line 107.
+Package pdftex.def Info: fig/fig21.pdf used on input line 120.
 (pdftex.def)             Requested size: 199.16928pt x 142.75987pt.
 
-<fig/fig22.pdf, id=723, 337.26pt x 243.91125pt>
+<fig/fig22.pdf, id=753, 337.26pt x 243.91125pt>
 File: fig/fig22.pdf Graphic file (type pdf)
  <use fig/fig22.pdf>
-Package pdftex.def Info: fig/fig22.pdf used on input line 116.
+Package pdftex.def Info: fig/fig22.pdf used on input line 129.
 (pdftex.def)             Requested size: 199.16928pt x 144.04408pt.
  [8pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.127 \end{equation}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{figure.2.3}) has been already used, duplicate ignored
+l.146 
+       <E:/01_Master_project/Water_Detection_Project/07_Page/fig/fig21.pdf>]
+[9pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.127 \end{equation}
-                     <E:/01_Master_project/Water_Detection_Project/07_Page/fig/
-fig21.pdf> <E:/01_Master_project/Water_Detection_Project/07_Page/fig/fig22.pdf>
-] [9] <fig/fig23.jpg, id=793, 426.122pt x 438.13687pt>
-File: fig/fig23.jpg Graphic file (type jpg)
- <use fig/fig23.jpg>
-Package pdftex.def Info: fig/fig23.jpg used on input line 153.
-(pdftex.def)             Requested size: 284.52756pt x 292.56741pt.
-
-<fig/fig24.pdf, id=795, 333.49594pt x 167.87718pt>
-File: fig/fig24.pdf Graphic file (type pdf)
- <use fig/fig24.pdf>
-Package pdftex.def Info: fig/fig24.pdf used on input line 164.
-(pdftex.def)             Requested size: 341.43306pt x 171.88567pt.
- [10pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
-4}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.178 π‚
-        ‘¥ «π‚—ßœµÕ≥÷–µƒ∫À–ƒ≤ø∑÷£¨∏˘æ›≤‚¡ø‘≠¿Ì£¨ÀÆ∑÷“«µƒπ‚‘¥∑¢≥ˆµƒπ‚∆◊”¶∞¸¿®...
- <E:/01_Master_project/Water_Detection_Project/07_Page/fig/fig23.jpg>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<fig/fig25.pdf, id=803, 380.92313pt x 267.24844pt>
-File: fig/fig25.pdf Graphic file (type pdf)
- <use fig/fig25.pdf>
-Package pdftex.def Info: fig/fig25.pdf used on input line 229.
-(pdftex.def)             Requested size: 284.52756pt x 199.62433pt.
- [11pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
-5}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.239 
+l.198 
       pdfTeX warning (ext4): destination with the same identifier (name{table.2
 .3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.239 
-       <E:/01_Master_project/Water_Detection_Project/07_Page/fig/fig24.pdf>]
+l.198 
+       <E:/01_Master_project/Water_Detection_Project/07_Page/fig/fig22.pdf>]
+<fig/fig25.pdf, id=834, 380.92313pt x 267.24844pt>
+File: fig/fig25.pdf Graphic file (type pdf)
+ <use fig/fig25.pdf>
+Package pdftex.def Info: fig/fig25.pdf used on input line 202.
+(pdftex.def)             Requested size: 227.62204pt x 159.69376pt.
 
-Package natbib Warning: Citation `20' on page 12 undefined on input line 240.
+
+Package natbib Warning: Citation `20' on page 10 undefined on input line 213.
 
 
-Package natbib Warning: Citation `21' on page 12 undefined on input line 240.
+Package natbib Warning: Citation `21' on page 10 undefined on input line 213.
 
-
-Package natbib Warning: Citation `23' on page 12 undefined on input line 242.
-
-[12pdfTeX warning (ext4): destination with the same identifier (name{table.2.4}
+[10pdfTeX warning (ext4): destination with the same identifier (name{table.2.4}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.243 
+l.214 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-2.6}) has been already used, duplicate ignored
+2.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.243 
+l.214 
        <E:/01_Master_project/Water_Detection_Project/07_Page/fig/fig25.pdf>]
-Overfull \hbox (0.13803pt too wide) in paragraph at lines 244--268
+
+Package natbib Warning: Citation `23' on page 11 undefined on input line 215.
+
+
+Overfull \hbox (2.75868pt too wide) in paragraph at lines 217--241
 \C19/zhsong/m/n/12.05/40 — \C19/zhsong/m/n/12.05/63 3\OT1/cmr/m/n/12.05 1$ $3\C
 19/rm/m/n/12.05/29 \OT1/cmr/m/n/12.05 m\C19/zhsong/m/n/12.05/63 ˘ \C19/zhsong/
 m/n/12.05/42 á \C19/zhsong/m/n/12.05/39 å \C19/zhsong/m/n/12.05/52 Ì \C19/zhson
@@ -1287,17 +1260,44 @@ m/n/12.05/25 "| \C19/zhsong/m/n/12.05/61 œ \C19/zhsong/m/n/12.05/39 d|\C19/rm/m
  Y \C19/zhsong/m/n/12.05/41 © \C19/zhsong/m/n/12.05/61 § \C19/zhsong/m/n/12.05/
 54 ˛ \C19/zhsong/m/n/12.05/40  \C19/zhsong/m/n/12.05/43 ˘ \C19/zhsong/m/n/12.0
 5/58 	 \C19/zhsong/m/n/12.05/57 & \C19/zhsong/m/n/12.05/37 ˇ \C19/zhsong/m/n/12
-.05/52 Ï \C19/zhsong/m/n/12.05/58 è\OT1/cmr/m/n/12.05 PbS\C19/zhsong/m/n/12.05/
-43 ⁄\OT1/cmr/m/n/12.05 InGaAs\C19/zhsong/m/n/12.05/57 &
+.05/52 Ï \C19/zhsong/m/n/12.05/58 è\OT1/cmr/m/n/12.05 PbS \C19/zhsong/m/n/12.05
+/43 ⁄\OT1/cmr/m/n/12.05 InGaAs\C19/zhsong/m/n/12.05/57 &
  []
 
-) [13pdfTeX warning (ext4): destination with the same identifier (name{table.2.
-5}) has been already used, duplicate ignored
+[11pdfTeX warning (ext4): destination with the same identifier (name{table.2.5}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.252 
+      ] <fig/fig23.jpg, id=874, 426.122pt x 438.13687pt>
+File: fig/fig23.jpg Graphic file (type jpg)
+ <use fig/fig23.jpg>
+Package pdftex.def Info: fig/fig23.jpg used on input line 261.
+(pdftex.def)             Requested size: 284.52756pt x 292.56741pt.
+
+<fig/fig24.pdf, id=876, 333.49594pt x 167.87718pt>
+File: fig/fig24.pdf Graphic file (type pdf)
+ <use fig/fig24.pdf>
+Package pdftex.def Info: fig/fig24.pdf used on input line 272.
+(pdftex.def)             Requested size: 341.43306pt x 171.88567pt.
+)
+[12] [13pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.2.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.100   \include{chapter/chap-Theory}
-                                       % ÀÆ∑÷ºÏ≤‚‘≠¿Ì]
+                                       % ÀÆ∑÷ºÏ≤‚‘≠¿ÌpdfTeX warning (ext4): des
+tination with the same identifier (name{figure.2.6}) has been already used, dup
+licate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.100   \include{chapter/chap-Theory}
+                                       % ÀÆ∑÷ºÏ≤‚‘≠¿Ì <E:/01_Master_project/Wat
+er_Detection_Project/07_Page/fig/fig23.jpg> <E:/01_Master_project/Water_Detecti
+on_Project/07_Page/fig/fig24.pdf>]
 (E:\01_Master_project\Water_Detection_Project\07_Page\chapter/chap-DLIAsumli.te
 x [14
 
@@ -1305,7 +1305,7 @@ x [14
 
 ]
 µ⁄»˝’¬
-[15] [16] <fig/fig30.png, id=886, 740.7675pt x 217.5628pt>
+[15] [16] <fig/fig30.png, id=925, 740.7675pt x 217.5628pt>
 File: fig/fig30.png Graphic file (type png)
  <use fig/fig30.png>
 Package pdftex.def Info: fig/fig30.png used on input line 50.
@@ -1318,7 +1318,7 @@ Package pdftex.def Info: fig/fig30.png used on input line 50.
                                                   \fi \fi 
 l.84 \end{equation}
                     <E:/01_Master_project/Water_Detection_Project/07_Page/fig/f
-ig30.png>] <fig/fig31.png, id=898, 565.11125pt x 342.27875pt>
+ig30.png>] <fig/fig31.png, id=937, 565.11125pt x 342.27875pt>
 File: fig/fig31.png Graphic file (type png)
 
 <use fig/fig31.png>
@@ -1328,7 +1328,7 @@ Package pdftex.def Info: fig/fig31.png used on input line 106.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<fig/fig32.png, id=900, 798.73407pt x 292.09125pt>
+<fig/fig32.png, id=939, 798.73407pt x 292.09125pt>
 File: fig/fig32.png Graphic file (type png)
  <use fig/fig32.png>
 Package pdftex.def Info: fig/fig32.png used on input line 119.
@@ -1348,7 +1348,7 @@ l.142 \end{equation}
 l.142 \end{equation}
                      <E:/01_Master_project/Water_Detection_Project/07_Page/fig/
 fig31.png> <E:/01_Master_project/Water_Detection_Project/07_Page/fig/fig32.png>
-] <fig/fig33.png, id=922, 642.14906pt x 239.39438pt>
+] <fig/fig33.png, id=961, 642.14906pt x 239.39438pt>
 File: fig/fig33.png Graphic file (type png)
  <use fig/fig33.png>
 Package pdftex.def Info: fig/fig33.png used on input line 152.
@@ -1364,7 +1364,7 @@ l.169 \end{equation}
 fig33.png>]
 Missing character: There is no ß in font cmr12!
 Missing character: There is no ß in font cmr12!
- [21] [22] <fig/fig34.pdf, id=948, 359.84438pt x 1029.09468pt>
+ [21] [22] <fig/fig34.pdf, id=987, 359.84438pt x 1029.09468pt>
 File: fig/fig34.pdf Graphic file (type pdf)
 
 <use fig/fig34.pdf>
@@ -1384,13 +1384,13 @@ Underfull \vbox (badness 2726) has occurred while \output is active []
                                                   \fi \fi 
 l.248 
        <E:/01_Master_project/Water_Detection_Project/07_Page/fig/fig34.pdf>]
-<fig/fig35_2.png, id=968, 760.2804pt x 534.798pt>
+<fig/fig35_2.png, id=1007, 760.2804pt x 534.798pt>
 File: fig/fig35_2.png Graphic file (type png)
  <use fig/fig35_2.png>
 Package pdftex.def Info: fig/fig35_2.png used on input line 256.
 (pdftex.def)             Requested size: 426.79134pt x 300.21927pt.
 
-<fig/fig36.png, id=971, 781.2387pt x 469.755pt>
+<fig/fig36.png, id=1010, 781.2387pt x 469.755pt>
 File: fig/fig36.png Graphic file (type png)
  <use fig/fig36.png>
 Package pdftex.def Info: fig/fig36.png used on input line 267.
@@ -1399,7 +1399,7 @@ Package pdftex.def Info: fig/fig36.png used on input line 267.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<fig/fig37.png, id=972, 728.4816pt x 433.62pt>
+<fig/fig37.png, id=1011, 728.4816pt x 433.62pt>
 File: fig/fig37.png Graphic file (type png)
  <use fig/fig37.png>
 Package pdftex.def Info: fig/fig37.png used on input line 276.
@@ -1431,7 +1431,7 @@ l.286
 l.286 
        <E:/01_Master_project/Water_Detection_Project/07_Page/fig/fig36.png> <E:
 /01_Master_project/Water_Detection_Project/07_Page/fig/fig37.png>]
-<fig/fig38_2.png, id=990, 990.099pt x 482.7636pt>
+<fig/fig38_2.png, id=1029, 990.099pt x 482.7636pt>
 File: fig/fig38_2.png Graphic file (type png)
  <use fig/fig38_2.png>
 Package pdftex.def Info: fig/fig38_2.png used on input line 311.
@@ -1471,7 +1471,7 @@ l.101   \include{chapter/chap-DLIAsumli}
 
 ]
 µ⁄Àƒ’¬
-<fig/fig40.pdf, id=1009, 661.72218pt x 517.935pt>
+<fig/fig40.pdf, id=1048, 661.72218pt x 517.935pt>
 File: fig/fig40.pdf Graphic file (type pdf)
  <use fig/fig40.pdf>
 Package pdftex.def Info: fig/fig40.pdf used on input line 10.
@@ -1486,7 +1486,7 @@ l.22
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[30] <fig/fig41.jpg, id=1038, 1511.6475pt x 478.78876pt>
+[30] <fig/fig41.jpg, id=1077, 1511.6475pt x 478.78876pt>
 File: fig/fig41.jpg Graphic file (type jpg)
  <use fig/fig41.jpg>
 Package pdftex.def Info: fig/fig41.jpg used on input line 70.
@@ -1508,7 +1508,7 @@ l.79
                                                   \fi \fi 
 l.79 
       <E:/01_Master_project/Water_Detection_Project/07_Page/fig/fig41.jpg>]
-<fig/fig42.jpg, id=1048, 1394.20876pt x 582.175pt>
+<fig/fig42.jpg, id=1087, 1394.20876pt x 582.175pt>
 File: fig/fig42.jpg Graphic file (type jpg)
  <use fig/fig42.jpg>
 Package pdftex.def Info: fig/fig42.jpg used on input line 83.
@@ -1521,13 +1521,13 @@ Package pdftex.def Info: fig/fig42.jpg used on input line 83.
 l.100 £®
         2£©∏ﬂ–‘ƒ‹µƒ~32~Œª~CPU~£∫æﬂ”–µ•æ´∂»∏°µ„‘ÀÀ„µ•‘™£®FPU£©£¨$16\times16$~...
  <E:/01_Master_project/Water_Detection_Project/07_Page/fig/fig42.jpg>]
-<fig/fig43.pdf, id=1057, 500.62032pt x 268.75406pt>
+<fig/fig43.pdf, id=1096, 500.62032pt x 268.75406pt>
 File: fig/fig43.pdf Graphic file (type pdf)
  <use fig/fig43.pdf>
 Package pdftex.def Info: fig/fig43.pdf used on input line 111.
 (pdftex.def)             Requested size: 284.52756pt x 152.75261pt.
 
-<fig/fig44.jpg, id=1059, 730.73pt x 443.6575pt>
+<fig/fig44.jpg, id=1098, 730.73pt x 443.6575pt>
 File: fig/fig44.jpg Graphic file (type jpg)
  <use fig/fig44.jpg>
 Package pdftex.def Info: fig/fig44.jpg used on input line 127.
@@ -1539,7 +1539,7 @@ Package pdftex.def Info: fig/fig44.jpg used on input line 127.
                                                   \fi \fi 
 l.133 
        <E:/01_Master_project/Water_Detection_Project/07_Page/fig/fig43.pdf>]
-<fig/fig45.jpg, id=1109, 1330.9725pt x 593.21625pt>
+<fig/fig45.jpg, id=1148, 1330.9725pt x 593.21625pt>
 File: fig/fig45.jpg Graphic file (type jpg)
  <use fig/fig45.jpg>
 Package pdftex.def Info: fig/fig45.jpg used on input line 144.
@@ -1558,7 +1558,7 @@ l.152
 
 Package natbib Warning: Citation `29' on page 35 undefined on input line 157.
 
-<fig/fig46.jpg, id=1119, 1171.37625pt x 866.23625pt>
+<fig/fig46.jpg, id=1158, 1171.37625pt x 866.23625pt>
 File: fig/fig46.jpg Graphic file (type jpg)
  <use fig/fig46.jpg>
 Package pdftex.def Info: fig/fig46.jpg used on input line 162.
@@ -1574,7 +1574,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
                                                   \fi \fi 
 l.170 
        <E:/01_Master_project/Water_Detection_Project/07_Page/fig/fig45.jpg>]
-<fig/fig47.jpg, id=1126, 711.65875pt x 828.09375pt>
+<fig/fig47.jpg, id=1165, 711.65875pt x 828.09375pt>
 File: fig/fig47.jpg Graphic file (type jpg)
  <use fig/fig47.jpg>
 Package pdftex.def Info: fig/fig47.jpg used on input line 173.
@@ -1593,7 +1593,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
                                                   \fi \fi 
 l.191 \end{equation}
                      <E:/01_Master_project/Water_Detection_Project/07_Page/fig/
-fig46.jpg>] <fig/fig55.pdf, id=1139, 310.91156pt x 152.82094pt>
+fig46.jpg>] <fig/fig55.pdf, id=1178, 310.91156pt x 152.82094pt>
 File: fig/fig55.pdf Graphic file (type pdf)
 
 <use fig/fig55.pdf>
@@ -1613,7 +1613,7 @@ Underfull \vbox (badness 2277) has occurred while \output is active []
                                                   \fi \fi 
 l.216 
        <E:/01_Master_project/Water_Detection_Project/07_Page/fig/fig47.jpg>]
-<fig/fig56.png, id=1148, 544.0325pt x 365.365pt>
+<fig/fig56.png, id=1187, 544.0325pt x 365.365pt>
 File: fig/fig56.png Graphic file (type png)
  <use fig/fig56.png>
 Package pdftex.def Info: fig/fig56.png used on input line 228.
@@ -1629,13 +1629,13 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
                                                   \fi \fi 
 l.236 
        <E:/01_Master_project/Water_Detection_Project/07_Page/fig/fig55.pdf>]
-<fig/fig57.png, id=1173, 382.42876pt x 417.05812pt>
+<fig/fig57.png, id=1212, 382.42876pt x 417.05812pt>
 File: fig/fig57.png Graphic file (type png)
  <use fig/fig57.png>
 Package pdftex.def Info: fig/fig57.png used on input line 239.
 (pdftex.def)             Requested size: 113.81102pt x 124.11292pt.
 
-<fig/fig58.png, id=1175, 765.6103pt x 386.94562pt>
+<fig/fig58.png, id=1214, 765.6103pt x 386.94562pt>
 File: fig/fig58.png Graphic file (type png)
  <use fig/fig58.png>
 Package pdftex.def Info: fig/fig58.png used on input line 250.
@@ -1658,7 +1658,7 @@ l.262
 l.262 
        <E:/01_Master_project/Water_Detection_Project/07_Page/fig/fig56.png> <E:
 /01_Master_project/Water_Detection_Project/07_Page/fig/fig57.png>]
-<fig/fig59.png, id=1187, 720.6925pt x 315.1775pt>
+<fig/fig59.png, id=1226, 720.6925pt x 315.1775pt>
 File: fig/fig59.png Graphic file (type png)
  <use fig/fig59.png>
 Package pdftex.def Info: fig/fig59.png used on input line 278.
@@ -1681,7 +1681,7 @@ l.286
                                                   \fi \fi 
 l.319 
        <E:/01_Master_project/Water_Detection_Project/07_Page/fig/fig59.png>]
-<fig/fig60.png, id=1211, 972.63374pt x 319.94531pt>
+<fig/fig60.png, id=1250, 972.63374pt x 319.94531pt>
 File: fig/fig60.png Graphic file (type png)
  <use fig/fig60.png>
 Package pdftex.def Info: fig/fig60.png used on input line 335.
@@ -1690,7 +1690,7 @@ Package pdftex.def Info: fig/fig60.png used on input line 335.
 
 LaTeX Warning: Reference `' on page 42 undefined on input line 344.
 
-<fig/fig61.png, id=1213, 709.65125pt x 368.37625pt>
+<fig/fig61.png, id=1252, 709.65125pt x 368.37625pt>
 File: fig/fig61.png Graphic file (type png)
  <use fig/fig61.png>
 Package pdftex.def Info: fig/fig61.png used on input line 350.
@@ -1710,13 +1710,13 @@ l.356
                                                   \fi \fi 
 l.377 
        <E:/01_Master_project/Water_Detection_Project/07_Page/fig/fig61.png>]
-<fig/fig62.png, id=1233, 977.15062pt x 262.73157pt>
+<fig/fig62.png, id=1272, 977.15062pt x 262.73157pt>
 File: fig/fig62.png Graphic file (type png)
  <use fig/fig62.png>
 Package pdftex.def Info: fig/fig62.png used on input line 381.
 (pdftex.def)             Requested size: 455.24408pt x 122.40543pt.
 
-<fig/fig63.png, id=1235, 526.21594pt x 181.42781pt>
+<fig/fig63.png, id=1274, 526.21594pt x 181.42781pt>
 File: fig/fig63.png Graphic file (type png)
  <use fig/fig63.png>
 Package pdftex.def Info: fig/fig63.png used on input line 391.
@@ -1736,7 +1736,7 @@ l.402
 l.402 
        <E:/01_Master_project/Water_Detection_Project/07_Page/fig/fig62.png> <E:
 /01_Master_project/Water_Detection_Project/07_Page/fig/fig63.png>]
-<fig/fig48.jpg, id=1245, 508.14844pt x 462.97969pt>
+<fig/fig48.jpg, id=1284, 508.14844pt x 462.97969pt>
 File: fig/fig48.jpg Graphic file (type jpg)
  <use fig/fig48.jpg>
 Package pdftex.def Info: fig/fig48.jpg used on input line 420.
@@ -1749,13 +1749,13 @@ Package pdftex.def Info: fig/fig48.jpg used on input line 420.
                                                   \fi \fi 
 l.428 
        <E:/01_Master_project/Water_Detection_Project/07_Page/fig/fig48.jpg>]
-<fig/fig50.png, id=1251, 820.56563pt x 346.29375pt>
+<fig/fig50.png, id=1290, 820.56563pt x 346.29375pt>
 File: fig/fig50.png Graphic file (type png)
  <use fig/fig50.png>
 Package pdftex.def Info: fig/fig50.png used on input line 435.
 (pdftex.def)             Requested size: 341.43306pt x 144.08966pt.
 
-<fig/fig49.jpg, id=1254, 715.17188pt x 453.94594pt>
+<fig/fig49.jpg, id=1293, 715.17188pt x 453.94594pt>
 File: fig/fig49.jpg Graphic file (type jpg)
  <use fig/fig49.jpg>
 Package pdftex.def Info: fig/fig49.jpg used on input line 449.
@@ -1771,7 +1771,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
                                                   \fi \fi 
 l.458 
        <E:/01_Master_project/Water_Detection_Project/07_Page/fig/fig50.png>]
-<fig/fig51.png, id=1263, 703.87968pt x 429.85594pt>
+<fig/fig51.png, id=1302, 703.87968pt x 429.85594pt>
 File: fig/fig51.png Graphic file (type png)
  <use fig/fig51.png>
 Package pdftex.def Info: fig/fig51.png used on input line 468.
@@ -1797,7 +1797,7 @@ l.102   \include{chapter/chap-HardWare}
 ect/Water_Detection_Project/07_Page/fig/fig51.png>]
 (E:\01_Master_project\Water_Detection_Project\07_Page\chapter/chap-SoftWare.tex
 µ⁄ŒÂ’¬
-<fig/fig75.pdf, id=1276, 576.65437pt x 355.3275pt>
+<fig/fig75.pdf, id=1315, 576.65437pt x 355.3275pt>
 File: fig/fig75.pdf Graphic file (type pdf)
  <use fig/fig75.pdf>
 Package pdftex.def Info: fig/fig75.pdf used on input line 10.
@@ -1816,13 +1816,13 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.22 
       <E:/01_Master_project/Water_Detection_Project/07_Page/fig/fig75.pdf>]
-<fig/fig76.pdf, id=1298, 218.31563pt x 352.31625pt>
+<fig/fig76.pdf, id=1337, 218.31563pt x 352.31625pt>
 File: fig/fig76.pdf Graphic file (type pdf)
  <use fig/fig76.pdf>
 Package pdftex.def Info: fig/fig76.pdf used on input line 28.
 (pdftex.def)             Requested size: 199.16928pt x 321.42004pt.
 
-<fig/fig73.png, id=1299, 846.91406pt x 295.1025pt>
+<fig/fig73.png, id=1338, 846.91406pt x 295.1025pt>
 File: fig/fig73.png Graphic file (type png)
  <use fig/fig73.png>
 Package pdftex.def Info: fig/fig73.png used on input line 39.
@@ -1834,7 +1834,7 @@ Package pdftex.def Info: fig/fig73.png used on input line 39.
                                                   \fi \fi 
 l.45 
       <E:/01_Master_project/Water_Detection_Project/07_Page/fig/fig76.pdf>]
-<fig/fig74.pdf, id=1320, 340.27126pt x 360.59718pt>
+<fig/fig74.pdf, id=1359, 340.27126pt x 360.59718pt>
 File: fig/fig74.pdf Graphic file (type pdf)
  <use fig/fig74.pdf>
 Package pdftex.def Info: fig/fig74.pdf used on input line 48.
@@ -1850,7 +1850,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
                                                   \fi \fi 
 l.85 
       <E:/01_Master_project/Water_Detection_Project/07_Page/fig/fig73.png>]
-<fig/fig72.pdf, id=1333, 218.31563pt x 191.21437pt>
+<fig/fig72.pdf, id=1372, 218.31563pt x 191.21437pt>
 File: fig/fig72.pdf Graphic file (type pdf)
  <use fig/fig72.pdf>
 Package pdftex.def Info: fig/fig72.pdf used on input line 89.
@@ -1859,7 +1859,7 @@ Package pdftex.def Info: fig/fig72.pdf used on input line 89.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<fig/fig71.pdf, id=1335, 305.64188pt x 549.55313pt>
+<fig/fig71.pdf, id=1374, 305.64188pt x 549.55313pt>
 File: fig/fig71.pdf Graphic file (type pdf)
  <use fig/fig71.pdf>
 Package pdftex.def Info: fig/fig71.pdf used on input line 99.
@@ -1895,7 +1895,7 @@ l.129
                                                   \fi \fi 
 l.133 
        <E:/01_Master_project/Water_Detection_Project/07_Page/fig/fig71.pdf>]
-<fig/fig77.pdf, id=1402, 430.60875pt x 304.88907pt>
+<fig/fig77.pdf, id=1441, 430.60875pt x 304.88907pt>
 File: fig/fig77.pdf Graphic file (type pdf)
  <use fig/fig77.pdf>
 Package pdftex.def Info: fig/fig77.pdf used on input line 164.
@@ -1904,25 +1904,25 @@ Package pdftex.def Info: fig/fig77.pdf used on input line 164.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<fig/fig78a.png, id=1403, 540.51938pt x 449.42906pt>
+<fig/fig78a.png, id=1442, 540.51938pt x 449.42906pt>
 File: fig/fig78a.png Graphic file (type png)
  <use fig/fig78a.png>
 Package pdftex.def Info: fig/fig78a.png used on input line 174.
 (pdftex.def)             Requested size: 199.16928pt x 165.60037pt.
 
-<fig/fig78b.png, id=1404, 540.51938pt x 447.17062pt>
+<fig/fig78b.png, id=1443, 540.51938pt x 447.17062pt>
 File: fig/fig78b.png Graphic file (type png)
  <use fig/fig78b.png>
 Package pdftex.def Info: fig/fig78b.png used on input line 175.
 (pdftex.def)             Requested size: 199.16928pt x 164.7682pt.
 
-<fig/fig78c.png, id=1405, 540.51938pt x 448.67625pt>
+<fig/fig78c.png, id=1444, 540.51938pt x 448.67625pt>
 File: fig/fig78c.png Graphic file (type png)
  <use fig/fig78c.png>
 Package pdftex.def Info: fig/fig78c.png used on input line 176.
 (pdftex.def)             Requested size: 199.16928pt x 165.32298pt.
 
-<fig/fig78d.png, id=1406, 540.51938pt x 447.17062pt>
+<fig/fig78d.png, id=1445, 540.51938pt x 447.17062pt>
 File: fig/fig78d.png Graphic file (type png)
  <use fig/fig78d.png>
 Package pdftex.def Info: fig/fig78d.png used on input line 177.
@@ -1954,7 +1954,7 @@ l.231
 :/01_Master_project/Water_Detection_Project/07_Page/fig/fig78b.png> <E:/01_Mast
 er_project/Water_Detection_Project/07_Page/fig/fig78c.png> <E:/01_Master_projec
 t/Water_Detection_Project/07_Page/fig/fig78d.png>]
-<fig/fig80.png, id=1449, 578.91281pt x 397.485pt>
+<fig/fig80.png, id=1488, 578.91281pt x 397.485pt>
 File: fig/fig80.png Graphic file (type png)
  <use fig/fig80.png>
 Package pdftex.def Info: fig/fig80.png used on input line 237.
@@ -1967,7 +1967,7 @@ Package pdftex.def Info: fig/fig80.png used on input line 237.
 l.252 “ª
         ∞„”–¡Ω÷÷∑Ω Ω µœ÷~FIR¬À≤®£∫÷±Ω”æÌª˝∑®∫ÕøÏÀŸæÌª˝∑®°£÷±Ω”æÌª˝∑® «∏˘æ›æÌ...
  <E:/01_Master_project/Water_Detection_Project/07_Page/fig/fig80.png>]
-<fig/fig81.png, id=1459, 602.25pt x 599.23875pt>
+<fig/fig81.png, id=1498, 602.25pt x 599.23875pt>
 File: fig/fig81.png Graphic file (type png)
  <use fig/fig81.png>
 Package pdftex.def Info: fig/fig81.png used on input line 260.
@@ -1979,19 +1979,19 @@ Package pdftex.def Info: fig/fig81.png used on input line 260.
                                                   \fi \fi 
 l.268 
        <E:/01_Master_project/Water_Detection_Project/07_Page/fig/fig81.png>]
-<fig/fig82.pdf, id=1469, 166.37157pt x 351.56343pt>
+<fig/fig82.pdf, id=1508, 166.37157pt x 351.56343pt>
 File: fig/fig82.pdf Graphic file (type pdf)
  <use fig/fig82.pdf>
 Package pdftex.def Info: fig/fig82.pdf used on input line 276.
 (pdftex.def)             Requested size: 142.26378pt x 300.63812pt.
 
-<fig/fig79a.png, id=1471, 540.51938pt x 420.82219pt>
+<fig/fig79a.png, id=1510, 540.51938pt x 420.82219pt>
 File: fig/fig79a.png Graphic file (type png)
  <use fig/fig79a.png>
 Package pdftex.def Info: fig/fig79a.png used on input line 286.
 (pdftex.def)             Requested size: 199.16928pt x 155.05965pt.
 
-<fig/fig79b.png, id=1472, 543.53062pt x 421.575pt>
+<fig/fig79b.png, id=1511, 543.53062pt x 421.575pt>
 File: fig/fig79b.png Graphic file (type png)
  <use fig/fig79b.png>
 Package pdftex.def Info: fig/fig79b.png used on input line 287.
@@ -2007,7 +2007,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
                                                   \fi \fi 
 l.297 
        <E:/01_Master_project/Water_Detection_Project/07_Page/fig/fig82.pdf>]
-<fig/fig70.png, id=1495, 703.87968pt x 443.40656pt>
+<fig/fig70.png, id=1534, 703.87968pt x 443.40656pt>
 File: fig/fig70.png Graphic file (type png)
  <use fig/fig70.png>
 Package pdftex.def Info: fig/fig70.png used on input line 301.
@@ -2028,19 +2028,19 @@ l.309
        <E:/01_Master_project/Water_Detection_Project/07_Page/fig/fig79a.png> <E
 :/01_Master_project/Water_Detection_Project/07_Page/fig/fig79b.png> <E:/01_Mast
 er_project/Water_Detection_Project/07_Page/fig/fig70.png>]
-<fig/fig83.png, id=1505, 722.7pt x 542.025pt>
+<fig/fig83.png, id=1544, 722.7pt x 542.025pt>
 File: fig/fig83.png Graphic file (type png)
  <use fig/fig83.png>
 Package pdftex.def Info: fig/fig83.png used on input line 315.
 (pdftex.def)             Requested size: 284.52756pt x 213.39865pt.
 
-<fig/fig84a.png, id=1507, 722.7pt x 542.025pt>
+<fig/fig84a.png, id=1546, 722.7pt x 542.025pt>
 File: fig/fig84a.png Graphic file (type png)
  <use fig/fig84a.png>
 Package pdftex.def Info: fig/fig84a.png used on input line 325.
 (pdftex.def)             Requested size: 199.16928pt x 149.37575pt.
 
-<fig/fig84b.png, id=1508, 722.7pt x 542.025pt>
+<fig/fig84b.png, id=1547, 722.7pt x 542.025pt>
 File: fig/fig84b.png Graphic file (type png)
  <use fig/fig84b.png>
 Package pdftex.def Info: fig/fig84b.png used on input line 326.
@@ -2080,7 +2080,7 @@ ex [66
 
 ]
 (E:\01_Master_project\Water_Detection_Project\07_Page\chapter/bib.tex
-Underfull \hbox (badness 1082) in paragraph at lines 34--35
+Underfull \hbox (badness 1082) in paragraph at lines 45--46
 []\C19/zhsong/m/n/12.05/48 o \C19/zhsong/m/n/12.05/54  \C19/zhsong/m/n/12.05/5
 9 M\OT1/cmr/m/n/12.05 [1],\C19/zhsong/m/n/12.05/44 ë \C19/zhsong/m/n/12.05/54 
  \C19/zhsong/m/n/12.05/64 \OT1/cmr/m/n/12.05 [2],\C19/zhsong/m/n/12.05/38 ù \C
@@ -2093,10 +2093,10 @@ ng/m/n/12.05/59 y\OT1/cmr/m/n/12.05 .\C19/zhsong/m/n/12.05/43 ‡ \C19/zhsong/m/n
 /12.05/51 H \C19/zhsong/m/n/12.05/47 â
  []
 
-) [69
+[69
 
 
-]
+]) [70]
 
 Package natbib Warning: There were undefined citations.
 
@@ -2120,7 +2120,7 @@ ux) (E:\01_Master_project\Water_Detection_Project\07_Page\chapter/bib.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: BBC430B5E55DE9A5E9F3138E8B95786C;6093.
+(rerunfilecheck)             Checksum: 6452BFE786F87F6331E1D9883D4158F5;6079.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2134,31 +2134,31 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 18878 strings out of 495354
- 300146 string characters out of 3183859
- 368114 words of memory out of 3000000
- 21195 multiletter control sequences out of 15000+200000
- 110321 words of font info for 383 fonts, out of 3000000 for 9000
+ 18914 strings out of 495354
+ 300592 string characters out of 3183859
+ 368262 words of memory out of 3000000
+ 21223 multiletter control sequences out of 15000+200000
+ 110612 words of font info for 384 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 47i,18n,54p,1381b,1206s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,18n,54p,1381b,1388s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/s
-imsun.ttc><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows
-/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simkai.ttf><C:
+imsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simkai.ttf><C:/Windows
+/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:
 /Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai
-.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Font
+.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Font
 s/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Wind
-ows/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc>
-<C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/sim
+ows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc>
+<C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/sim
 kai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/F
-onts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simhei.ttf><C:/W
+onts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/W
 indows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.t
 tf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/
-simkai.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Window
-s/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C
+simhei.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simhei.ttf><C:/Window
+s/Fonts/simhei.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C
 :/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simka
 i.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fon
-ts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simhei.ttf><C:/Win
-dows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc
+ts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Win
+dows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf
 ><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/si
 msun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/
 Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/
@@ -2169,32 +2169,32 @@ ws/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><
 C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/sims
 un.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fo
 nts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Wi
-ndows/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.tt
+ndows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.tt
 f><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/s
 imhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows
 /Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:
 /Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei
-.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Font
-s/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Wind
+.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Font
+s/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Wind
 ows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf>
-<D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/CTEX/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmbx6.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmex10.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/CT
-EX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/CTEX/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmmi6.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-mi7.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/CTEX/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmmi9.pfb><D:/CTEX/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmr10.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><
-D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/CTEX/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmr7.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmr8.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><D:/CTEX/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/CTEX/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmsy7.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-<D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><D:/CTEX/MiKTeX/fonts/
-type1/public/amsfonts/symbols/msam10.pfb>
-Output written on thesis.pdf (83 pages, 5603600 bytes).
+<C:/Windows/Fonts/simhei.ttf><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmb
+x12.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx6.pfb><D:/CTEX/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/CTEX/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmmi10.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pf
+b><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/CTEX/MiKTeX/font
+s/type1/public/amsfonts/cm/cmmi7.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmmi8.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><D:/CTE
+X/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/CTEX/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6
+.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/CTEX/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmr8.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmr9.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/CT
+EX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/CTEX/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmsy8.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cms
+y9.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on thesis.pdf (84 pages, 5800836 bytes).
 PDF statistics:
- 1977 PDF objects out of 2073 (max. 8388607)
- 288 named destinations out of 1000 (max. 500000)
+ 2027 PDF objects out of 2073 (max. 8388607)
+ 295 named destinations out of 1000 (max. 500000)
  961 words of extra memory for PDF output out of 10000 (max. 10000000)
 

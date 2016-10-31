@@ -43,9 +43,6 @@ AD9833~µÄÈí¼þÁ÷³ÌÍ¼Èç~\ref{fig76}~ËùÊ¾¡£
 \caption{\label{fig73} Work sequence diagram of AD7656~ parallel interface mode}
 \end{figure*}
 
-±¾ÎÄ²ÉÓÃ~AD7656~²¢ÐÐ¹¤×÷Ä£Ê½£¬Í¼~\ref{fig73}~ËùÊ¾ÊÇ~AD7656~ÔÚ²¢ÐÐ·½Ê½ÏÂµÄ¹¤×÷Ê±ÐòÍ¼¡£Ê×ÏÈÍ¨¹ýÂö³å¼¤»î~CONVST~ÊäÈëÀ´Æô¶¯Ä£Êý×ª»»£¬²¢±£³ÖÎª¸ßµçÆ½¡£µ±×ª»»¹ý³Ì½áÊøºó£¬BUSY~ÐÅºÅ»á³öÏÖÏÂ½µÑØ£¬´ËÊ±£¬¿ÉÍ¨¹ý¿ØÖÆÆ¬Ñ¡ºÍ¶ÁÐÅºÅÒý½ÅÀ´ÒÀ´Î¶Á³ö¸÷¸öÍ¨µÀµÄ~AD~×ª»»Öµ¡£ÔÚ¶Á³ö×ª»»Öµºó£¬¿É¸Ä±ä~CONVST~ ÎªµÍµçÆ½£¬ÎªÏÂÒ»´Î×ª»»×ö×¼±¸¡£±¾¿ÎÌâÍ¨¹ý¿ØÖÆ~CONVST A~ºÍ~CONVST B~ÐÅºÅ×ª»»Ç°4Â·Í¨µÀµÄÄ£ÄâÐÅºÅ£¬Ç°3Â·ÐÅºÅÎª´ý²âÐÅºÅ£¬µÚËÄÂ·ÐÅºÅÎªÄ£ÄâµØ¡£
-
-±¾ÎÄÉè¼ÆµÄÊý¾Ý²É¼¯³ÌÐòÖ÷Òª°üÀ¨~TMS320F28335~µÄ~IO~¿Ú³õÊ¼»¯¡¢AD7656~¿ØÖÆÊ±ÐòµÄ²úÉú¼°×´Ì¬²éÑ¯¡¢²É¼¯Êý¾ÝµÄ´¦Àí¡£Æä³ÌÐòµÄÁ÷³ÌÍ¼ÈçÍ¼~\ref{fig74}~ ËùÊ¾.
 \begin{figure*}[!h]
 \centering
 \includegraphics[width=11cm]{fig74.pdf}
@@ -54,6 +51,10 @@ AD9833~µÄÈí¼þÁ÷³ÌÍ¼Èç~\ref{fig76}~ËùÊ¾¡£
 \renewcommand\figurename{Fig.}
 \caption{\label{fig74} Data acquisition program flow chart}
 \end{figure*}
+
+±¾ÎÄ²ÉÓÃ~AD7656~²¢ÐÐ¹¤×÷Ä£Ê½£¬Í¼~\ref{fig73}~ËùÊ¾ÊÇ~AD7656~ÔÚ²¢ÐÐ·½Ê½ÏÂµÄ¹¤×÷Ê±ÐòÍ¼¡£Ê×ÏÈÍ¨¹ýÂö³å¼¤»î~CONVST~ÊäÈëÀ´Æô¶¯Ä£Êý×ª»»£¬²¢±£³ÖÎª¸ßµçÆ½¡£µ±×ª»»¹ý³Ì½áÊøºó£¬BUSY~ÐÅºÅ»á³öÏÖÏÂ½µÑØ£¬´ËÊ±£¬¿ÉÍ¨¹ý¿ØÖÆÆ¬Ñ¡ºÍ¶ÁÐÅºÅÒý½ÅÀ´ÒÀ´Î¶Á³ö¸÷¸öÍ¨µÀµÄ~AD~×ª»»Öµ¡£ÔÚ¶Á³ö×ª»»Öµºó£¬¿É¸Ä±ä~CONVST~ ÎªµÍµçÆ½£¬ÎªÏÂÒ»´Î×ª»»×ö×¼±¸¡£±¾¿ÎÌâÍ¨¹ý¿ØÖÆ~CONVST A~ºÍ~CONVST B~ÐÅºÅ×ª»»Ç°4Â·Í¨µÀµÄÄ£ÄâÐÅºÅ£¬Ç°3Â·ÐÅºÅÎª´ý²âÐÅºÅ£¬µÚËÄÂ·ÐÅºÅÎªÄ£ÄâµØ¡£
+
+±¾ÎÄÉè¼ÆµÄÊý¾Ý²É¼¯³ÌÐòÖ÷Òª°üÀ¨~TMS320F28335~µÄ~IO~¿Ú³õÊ¼»¯¡¢AD7656~¿ØÖÆÊ±ÐòµÄ²úÉú¼°×´Ì¬²éÑ¯¡¢²É¼¯Êý¾ÝµÄ´¦Àí¡£Æä³ÌÐòµÄÁ÷³ÌÍ¼ÈçÍ¼~\ref{fig74}~ ËùÊ¾.
 
 \subsection{Êý¾ÝÍ¨Ñ¶³ÌÐòµÄÉè¼Æ}
 ÏÂÎ»»úµÄÍ¨Ñ¶³ÌÐòÖ÷Òª¹¦ÄÜÊÇ½«~DSP~´¦ÀíºóµÄÊý¾Ý·¢ËÍµ½×éÌ¬¹¤Òµ´®¿ÚÆÁ½øÐÐÏÔÊ¾£¬±¾ÎÄÉè¼ÆµÄÍ¨Ñ¶²ÉÓÃ~TMS320F28335~µÄ´®ÐÐÍ¨ÐÅ½Ó¿Ú£¨~SCI~£©£¬Óë~UART~ ÀàËÆ¡£SCI~½ÓÊÕÆ÷ºÍ·¢ËÍÆ÷¸÷×ÔÓµÓÐÒ»¸ö~16~¼¶Éî¶ÈµÄ~FIFO£¬Ò²¸÷×ÔÓµÓÐ×Ô¼ºµÄÊ¹ÄÜºÍÖÐ¶ÏÎ»£¬Á½Õß¶¼ÄÜ¶ÀÁ¢½øÐÐ°ëË«¹¤Í¨ÐÅ£¬»òÕßÁªÁ¢½¨Á¢È«Ë«¹¤Í¨ÐÅ¡£ÎªÁË±£Ö¤Êý¾ÝµÄÍêÕûÐÔ£¬SCI~Ä£¿é»á¶Ô½ÓÊÕµ½µÄÊý¾Ý½øÐÐ¼ò¶Ï¼ì²â¡¢ÆæÅ¼ÐÔ¡¢Òç³öºÍÖ¡´íÎóµÈ¼ì²â¡£Í¨¹ýÒ»¸ö~16~ Î»²¨ÌØÂÊ¼Ä´æÆ÷µÄ±à³Ì£¬¿ÉÅäÖÃ²»Í¬µÄÍ¨ÐÅËÙÂÊ¡£
@@ -254,29 +255,32 @@ FIR~ÂË²¨Æ÷¹¤×÷Ô­Àí¾ÍÊÇÒ»¸öÀëÉ¢ÐÅºÅÐòÁÐÍ¨¹ýÒ»¸öÀëÉ¢ÂË²¨ÏµÍ³£¬µÃµ½ÀëÉ¢Êä³öÐÅºÅµÄ¹ý
 
 ¿¼ÂÇµ½Ë®·Ö²âÁ¿ÏµÍ³µÄÊµÊ±ÐÔÒªÇóºÍÈýÂ·ËøÏà·Å´óÆ÷ÔËËã¶ÔÔËËãËÙ¶ÈµÄÒªÇó£¬±¾ÎÄÑ¡ÔñÍ¨¹ý¿ìËÙ¾í»ý·¨ÊµÏÖ~FIR~ÂË²¨¡£
 
+\begin{figure*}[!h]
+\centering
+\includegraphics[width=11cm]{fig81.png}
+\caption{·Ö¶Î¾í»ý¹ý³ÌÑÝÊ¾Í¼}
+\addtocounter{figure}{-1}
+\renewcommand\figurename{Fig.}
+\caption{\label{fig81} Demonstration of overlap-add process}
+\end{figure*}
+
 FFTÔËËãÊ±¼ÙÉèÆäËù¼ÆËãµÄÐÅºÅÎªÖÜÆÚÐÅºÅ£¬Òò´ËÍ¨¹ýÉÏÊö¿ìËÙ¾í»ý·¨¼ÆËã³öµÄ½á¹ûÊµ¼ÊÉÏÊÇÁ½¸öÐÅºÅµÄÑ­»·¾í»ý£¨»ò½ÐÔ²ÖÜ¾í»ý£©£¬¶ø²»ÊÇÏßÐÔ¾í»ý¡£ÎªÁËÓÃ~FFT~¼ÆËãÏßÐÔ¾í»ý£¬ÐèÒª¶ÔÐÅºÅ½øÐÐ²¹ÁãÀ©Õ¹£¬Ê¹µÃÆä³¤¶È´óÓÚÏßÐÔ¾í»ý½á¹ûµÄ³¤¶È¡£ÔÚ±¾¿ÎÌâÖÐ£¬Èç¹ûµÍÍ¨ÂË²¨Æ÷µÄ½×´ÎÎª~50£¬¶ø²ÎÓë¾í»ýµÄÊäÈëÐÅºÅ³¤¶ÈÎª~840~µã£¬ÔòÐèÒª½«ÂË²¨Æ÷ÏµÊýºÍÊäÈëÐÅºÅ³¤¶È¾ù²¹Áãµ½ÖÁÉÙ~889~¸öµã£¬Õâ½«ÒâÎ¶×Å~DSP~Òª×öºÜ¶àÈßÓàµÄ¼ÆËã£¬¿ìËÙ¾í»ýÔËËãËÙ¶È¿ìµÄÓÅÊÆÒ²²»ÄÜÌåÏÖ³öÀ´¡£ËùÒÔÒýÈë·Ö¶Î¾í»ý·¨¿ÉÒÔ½â¾öÒÔÉÏµÄÎÊÌâ¡£
 
-½«³¤¶ÈºÜ³¤µÄÊäÈëÐòÁÐ·Ö½âÎªÈô¸É¸ö½ÏÐ¡µÄ¶Î£¬¶ÔÃ¿Ò»¸öÊäÈë¶Î·Ö±ð¼ÆËãÏàÓ¦µÄÏßÐÔ¾í»ý£¬È»ºó°ÑÃ¿¶ÎµÄÊä³ö°´ÕÕÒ»¶¨µÄ·½·¨×éºÏÔÚÒ»Æð£¬µÃµ½×îÖÕµÄÊä³öÐòÁÐ\upcite{OAM1£¬OAM2}¡£¸ù¾Ý·Ö¶Î·½Ê½µÄ²»Í¬£¬·Ö¶Î¾í»ý·¨·ÖÎªÖØµþÏà¼Ó·¨£¨Overlap-add Method£©ºÍÖØµþ±£Áô·¨£¨Overlap-save Method£©Á½ÖÖ¡£ÆäÖÐÖØµþÏà¼Ó·¨µÄ·Ö¶Î¾í»ý¹ý³ÌÈçÍ¼~\ref{fig81}~ ËùÊ¾¡£
+
+·Ö¶Î¾í»ý·¨¾ÍÊÇ½«³¤¶ÈºÜ³¤µÄÊäÈëÐòÁÐ·Ö½âÎªÈô¸É¸ö½ÏÐ¡µÄ¶Î£¬¶ÔÃ¿Ò»¸öÊäÈë¶Î·Ö±ð¼ÆËãÏàÓ¦µÄÏßÐÔ¾í»ý£¬È»ºó°ÑÃ¿¶ÎµÄÊä³ö°´ÕÕÒ»¶¨µÄ·½·¨×éºÏÔÚÒ»Æð£¬µÃµ½×îÖÕµÄÊä³öÐòÁÐ\upcite{}¡£¸ù¾Ý·Ö¶Î·½Ê½µÄ²»Í¬£¬·Ö¶Î¾í»ý·¨·ÖÎªÖØµþÏà¼Ó·¨£¨Overlap-add Method£©ºÍÖØµþ±£Áô·¨£¨Overlap-save Method£©Á½ÖÖ¡£ÆäÖÐÖØµþÏà¼Ó·¨µÄ·Ö¶Î¾í»ý¹ý³ÌÈçÍ¼~\ref{fig81}~ËùÊ¾¡£
+
+±¾ÎÄÍ¨¹ýÖØµþÏà¼ÓËã·¨ÊµÏÖ~FIR~ÂË²¨£¬ÆäÈí¼þÁ÷³ÌÍ¼ÈçÍ¼~\ref{fig82}~ËùÊ¾¡£
+
 \begin{figure*}[!h]
 \centering
-\includegraphics[width=12cm]{fig81.png}
-\caption{·Ö¶Î¾í»ý¹ý³ÌÑÝÊ¾Í¼}
+\includegraphics[width=5cm]{fig82.pdf}
+\caption{Êý×ÖµÍÍ¨ÂË²¨Èí¼þÁ÷³ÌÍ¼}
 \addtocounter{figure}{-1}
 \renewcommand\figurename{Fig.}
-\caption{\label{fig81} Demonstration of overlap-add process}
+\caption{\label{fig82} Digital low pass filtering software flow chart}
 \end{figure*}
 
-±¾ÎÄÍ¨¹ý·Ö¶Î¾í»ýËã·¨ÊµÏÖ~FIR~ÂË²¨£¬ÆäÈí¼þÁ÷³ÌÍ¼ÈçÍ¼~\ref{}~ËùÊ¾¡£
-\begin{figure*}[!h]
-\centering
-\includegraphics[width=12cm]{fig81.png}
-\caption{·Ö¶Î¾í»ý¹ý³ÌÑÝÊ¾Í¼}
-\addtocounter{figure}{-1}
-\renewcommand\figurename{Fig.}
-\caption{\label{fig81} Demonstration of overlap-add process}
-\end{figure*}
-
-
+ÎªÁËÑéÖ¤~FIR~Êý×ÖµÍÍ¨ÂË²¨Æ÷µÄ´¦ÀíÐ§¹û£¬±¾ÎÄ¶ÔÉÏ½ÚÖÐÏà¹ØÔËËãÊä³öµÄ·ùÖµÐòÁÐ¶ø×öÖØµþÏà¼Ó·¨ÔËËã£¬µÃµ½ÈçÍ¼~\ref{fig79}~ËùÊ¾µÄÐÅºÅ·ùÖµÍ¼¡£¿ÉÒÔ¿´µ½£¬ËäÈ»ÔÚÊ±ÓòÉÏ´æÔÚÒ»¶¨µÄÑÓÊ±£¬µ«ÊÇÔÚÇúÏßµÄÖÐ¼ä²¿·ÖÄÜ¹»µÃµ½Ò»¶ÎÆ½ÕûµÄ·ùÖµ£¬²¢ÇÒÆä·ùÖµ´óÐ¡Óë×î³õ¸ø¶¨µÄÐÅºÅ·ùÖµ´óÐ¡Ò»ÖÂ¡£
 \begin{figure*}[!h]
 \centering
 \includegraphics[width=7cm]{fig79a.png}
@@ -289,7 +293,7 @@ FFTÔËËãÊ±¼ÙÉèÆäËù¼ÆËãµÄÐÅºÅÎªÖÜÆÚÐÅºÅ£¬Òò´ËÍ¨¹ýÉÏÊö¿ìËÙ¾í»ý·¨¼ÆËã³öµÄ½á¹ûÊµ¼ÊÉÏÊ
 
 \section{¹¤Òµ´®¿ÚÆÁÈí¼þÉè¼Æ}\label{end_TFT}
 
-±¾ÏµÍ³µÄÈË»ú½»»¥²ÉÓÃ×éÌ¬´®¿Ú´¥ÃþÆÁ½øÐÐÏÔÊ¾ºÍ°´¼üµÈ²Ù×÷¡£µ±Ç°¹¤¿ØÁìÓòTFTÏÔÊ¾ÒÑ³ÉÎª·¢Õ¹Ç÷ÊÆ£¬´«Í³µÄ~1602¡¢12864~ÒÔ¼°ÊýÂë¹ÜÒÑ¾­ÎÞ·¨Âú×ã²úÆ·ÐèÇóºÍÓÃ»§ÌåÑé¡£¹ãÖÝ´ó²Ê¹âµç¿Æ¼¼ÓÐÏÞ¹«Ë¾ÍÆ³öµÄ¹¤Òµ´®¿ÚÆÁÊÇ¼¯~TFT~ÏÔÊ¾Çý¶¯¡¢Í¼Æ¬×Ö¿â´æ´¢¡¢GUI~²Ù×÷¡¢RTC~ÏÔÊ¾¼°¸÷ÖÖ×éÌ¬¿Ø¼þÓÚÒ»ÌåµÄ´®¿ÚÏÔÊ¾ÖÕ¶Ë¡£ÓÃ»§µ¥Æ¬»úÖ»ÐèÒª·¢ËÍÏàÓ¦µÄ´®¿ÚÖ¸Áî¾Í¿ÉÒÔÇáËÉÊµÏÖÎÄ±¾¡¢Í¼Æ¬ºÍÇúÏßÏÔÊ¾¡£±¾¿ÎÌâ²ÉÓÃÁË¸Ã¹«Ë¾Éú²úµÄÒ»¿î»ù±¾ÐÍ¹¤Òµ´®¿ÚÆÁ¡ª¡ª~DC80480B070¡£
+±¾ÏµÍ³µÄÈË»ú½»»¥²ÉÓÃ×éÌ¬´®¿Ú´¥ÃþÆÁ½øÐÐÏÔÊ¾ºÍ°´¼üµÈ²Ù×÷¡£µ±Ç°¹¤¿ØÁìÓò~TFT~ÏÔÊ¾ÒÑ³ÉÎª·¢Õ¹Ç÷ÊÆ£¬´«Í³µÄ~1602¡¢12864~ÒÔ¼°ÊýÂë¹ÜÒÑ¾­ÎÞ·¨Âú×ã²úÆ·ÐèÇóºÍÓÃ»§ÌåÑé¡£¹ãÖÝ´ó²Ê¹âµç¿Æ¼¼ÓÐÏÞ¹«Ë¾ÍÆ³öµÄ¹¤Òµ´®¿ÚÆÁÊÇ¼¯~TFT~ÏÔÊ¾Çý¶¯¡¢Í¼Æ¬×Ö¿â´æ´¢¡¢GUI~²Ù×÷¡¢RTC~ÏÔÊ¾¼°¸÷ÖÖ×éÌ¬¿Ø¼þÓÚÒ»ÌåµÄ´®¿ÚÏÔÊ¾ÖÕ¶Ë¡£ÓÃ»§µ¥Æ¬»úÖ»ÐèÒª·¢ËÍÏàÓ¦µÄ´®¿ÚÖ¸Áî¾Í¿ÉÒÔÇáËÉÊµÏÖÎÄ±¾¡¢Í¼Æ¬ºÍÇúÏßÏÔÊ¾¡£±¾¿ÎÌâ²ÉÓÃÁË¸Ã¹«Ë¾Éú²úµÄÒ»¿î»ù±¾ÐÍ¹¤Òµ´®¿ÚÆÁ¡ª¡ª~DC80480B070¡£
 
 DC80480B070~ÄÜÊÊÓ¦¶ñÁÓ»·¾³¡¢Ç¿´Å¸ÉÈÅºÍ»§ÍâµÈ¹¤×÷³¡ºÏ¡£ÏµÍ³´¦ÀíÆ÷²ÉÓÃ~Cortex-M3+~¸ßËÙ~FPGA~Ë«ºËÉè¼Æ£¬ARM~Ö÷Òª½øÐÐÐ­Òé½âÎöºÍ USB~Í¼Æ¬ÏÂÔØ£¬FPGA~ Ö÷ÒªÊµÏÖ~Nandflash~µÄÍ¼Æ¬¶ÁÈ¡ºÍ~TFT~¿ØÖÆÏÔÊ¾¡£ÄÚ²¿½á¹¹ÈçÍ¼~\ref{fig70}~ËùÊ¾¡£
 \begin{figure*}[!h]
@@ -303,15 +307,31 @@ DC80480B070~ÄÜÊÊÓ¦¶ñÁÓ»·¾³¡¢Ç¿´Å¸ÉÈÅºÍ»§ÍâµÈ¹¤×÷³¡ºÏ¡£ÏµÍ³´¦ÀíÆ÷²ÉÓÃ~Cortex-M3+~
 
 DSP~ÐèÒªÒ»¸ö´®¿Ú¾ÍÄÜÊµÏÖÎÄ±¾¡¢GUI¡¢Í¼Æ¬¡¢gif~¶¯»­ÏÔÊ¾ºÍ´¥Ãþ¿ØÖÆµÈ¹¦ÄÜ£¬Ö§³Ö¶àÖÖ³£ÓÃ×éÌ¬¿Ø¼þ£º´¥Ãþ¿Ø¼þ¡¢ÎÄ±¾¿Ø¼þ¡¢½ø¶ÈÌõ¡¢»¬¶¯ÌõºÍÒÇ±í¿Ø¼þµÈ¡£Éè±¸ÄÚ²¿ÓÐ~4.7K~×Ö½ÚµÄÖ¸Áî»º´æÇø£¬ÓÃ»§Ö÷»ú¿ÉÎÞµÈ´ý¡¢Á¬Ðø·¢ËÍ¶àÌõÖ¸ÁîºóÍË³ö´®¿Ú³ÌÐò¡£Õû¸ö¹ý³Ì²Ù×÷¼òµ¥£¬³ÌÐò´úÂëÁ¿´ó´ó½µµÍ¡£
 
-²Ù×÷Ê±£¬ÓÃ»§Ê×ÏÈÀûÓÃÅäÌ×µÄÉÏÎ»»ú~VisualTFT~Èí¼þ£¬½«Ô¤ÏÈÉè¼ÆºÃµÄÃÀ¹¤Í¼Æ¬½øÐÐ½çÃæÅÅ°æºÍ¿Ø¼þÅäÖÃ£¬È»ºóÊ¹ÓÃÄÚÖÃµÄ¡°ÐéÄâ´®¿ÚÆÁ¡±½øÐÐÄ£Äâ·ÂÕæ£¬×îºóÍ¨¹ý~UART~»ò~SD~¿¨·½Ê½½«Õû¸ö¹¤³ÌÍ¼Æ¬ºÍÅäÖÃÐÅÏ¢ÏÂÔØµ½´®¿ÚÆÁÄÚ²¿´æ´¢Æ÷ÖÐ¡£ÏÂÔØÖ®Ç°£¬ÉÏÎ»»ú½«»á¶Ô¹¤³ÌÖÐµÄÃ¿¸ö»­Ãæ¡¢Í¼Æ¬ºÍ¿Ø¼þ·ÖÅäÒ»¸öÎ¨Ò»µÄ~ID¡£Ò»µ©´¥Ãþ±»°´ÏÂ£¬ÓÃ»§µ¥Æ¬»ú´®¿Ú¾Í»áÊÕµ½ÆÁÄ»ÉÏ´«µÄ°´Å¥~ID~Öµ£¬Í¨¹ý½âÎö~ID~Öµ¾Í¿ÉÒÔÅÐ¶Ïµ±Ç°ÄÄ¸ö°´Å¥±»°´ÏÂ£¬È»ºó·¢ËÍÏàÓ¦µÄÖ¸ÁîÈ¥¿ØÖÆ»­ÃæµÄÏÔÊ¾¡£
+²Ù×÷Ê±£¬ÓÃ»§Ê×ÏÈÀûÓÃÅäÌ×µÄÉÏÎ»»ú~VisualTFT~Èí¼þ£¬½«Ô¤ÏÈÉè¼ÆºÃµÄÃÀ¹¤Í¼Æ¬½øÐÐ½çÃæÅÅ°æ£¬²¢¶ÔÃ¿¸ö»­ÃæÖÐµÄ°´Å¥ºÍÆäËü¿Ø¼þ½øÐÐÅäÖÃ£¬Èí¼þ»áÎª¹¤³ÌÖÐµÄÃ¿¸ö»­Ãæ¡¢Í¼Æ¬ºÍ¿Ø¼þ·ÖÅäÒ»¸öÎ¨Ò»µÄ~ID£¬¿ÉÒÔÊ¹ÓÃÄÚÖÃµÄ¡°ÐéÄâ´®¿ÚÆÁ¡±½øÐÐÄ£Äâ·ÂÕæ£¬×îºóÍ¨¹ý~UART~Í¨Ñ¶·½Ê½½«Õû¸ö¹¤³ÌÍ¼Æ¬ºÍÅäÖÃÐÅÏ¢ÏÂÔØµ½´®¿ÚÆÁÄÚ²¿´æ´¢Æ÷ÖÐ¡£
 
-´®¿ÚÆÁÊ¹ÓÃ~VisualTFT~Èí¼þ½øÐÐ×éÌ¬½çÃæµÄÉè¼Æ£¬VisualTFT~´®¿ÚÆÁÅäÌ×µÄ½çÃæ¿ª·¢µ÷ÊÔÈí¼þ¡£ÓÃ»§ÐÂ½¨¹¤³Ìºó£¬µ¼ÈëÉè¼ÆºÃµÄÃÀ¹¤Í¼Æ¬£¬È»ºó¶ÔÃ¿¸ö»­ÃæÖÐµÄ°´Å¥ºÍÆäËü¿Ø¼þ½øÐÐÅäÖÃ£¬Ã¿Ò»¸öÒ³ÃæºÍ¿Õ¼ä·ÖÅäÎ¨Ò»µÄ~ID¡£Ä£Äâ·ÂÕæÕýÈ·ºó£¬×îºó½«Õû¸ö¹¤³ÌÏÂÔØµ½´®¿ÚÆÁÖÐ¡£Éè±¸Óë~PC~Á¬½Ó³É¹¦ºó£¬¿É½øÐÐÍ¬²½ºÍµ÷ÊÔÏÔÊ¾¡£
+±¾¿ÎÌâÎªË®·Ö²âÁ¿ÏµÍ³Éè¼ÆÁË4¸öÒ³Ãæ£¬Ö÷½çÃæÈçÍ¼\ref{fig83}ËùÊ¾£¬ÓÃÓÚÏÔÊ¾ÊµÊ±Ë®·ÖÖµ¡¢Ì½²âÆ÷ÎÂ¶ÈÖµÒÔ¼°ÎªÆäËüÒ³ÃæÌá¹©Ìø×ª°´Å¥¡£
+\begin{figure*}[!h]
+\centering
+\includegraphics[width=10cm]{fig83.png}
+\caption {´¥ÃþÆÁÖ÷½çÃæ}
+\addtocounter{figure}{-1}
+\renewcommand\figurename{Fig.}
+\caption{\label{fig83} Touch screen main interface}
+\end{figure*}
 
-±¾¿ÎÌâÉè¼ÆµÄ½çÃæ·ÖÎªÁù¸ö½çÃæ£¬Ö÷½çÃæÈçÍ¼5.6ËùÊ¾£¬ÓÃÓÚÏÔÊ¾ÊµÊ±Ë®·ÖÖµ¡¢Ì½²âÆ÷ÎÂ¶ÈÖµºÍµç»ú×ªËÙÖµ¡£ÆäÓà¼¸¸ö½çÃæ·Ö±ðÓÃÓÚÏÔÊ¾Ë®·ÖÇúÏß¡¢ÎÂ¶ÈÇúÏßºÍµç»ú×ªËÙÇúÏß¡¢¸÷Í¨µÀµÄ²ÉÑùµçÑ¹ÖµÒÔ¼°ÉèÖÃ²ÎÊý¡£
-
+Í¼~\ref{fig84}~ÊÇ´¥ÃþÆÁµÄÉèÖÃ½çÃæºÍÀúÊ·ÇúÏß½çÃæ£¬ÓÃÓÚÔÚ¹¤ÒµÏÖ³¡¶ÔË®·ÖÒÇ½øÐÐ²ÎÊýÐÞÕý£¬ÒÔ¼°²é¿´Ò»¶¨Ê±¼ä¶ËÄÚµÄÀúÊ·Ë®·Öº¬Á¿ÇúÏß¡£
+\begin{figure*}[!h]
+\centering
+\includegraphics[width=7cm]{fig84a.png}
+\includegraphics[width=7cm]{fig84b.png}
+\caption{ÉèÖÃ½çÃæºÍÀúÊ·ÇúÏß½çÃæ}
+\addtocounter{figure}{-1}
+\renewcommand\figurename{Fig.}
+\caption{\label{fig84} Set interface and history curve}
+\end{figure*}
 
 \section{±¾ÕÂÐ¡½á}
-±¾ÕÂÏêÏ¸½éÉÜÁËÊý¾ÝµÄ²ÉÑùÓëÊý×ÖÂË²¨´¦Àí¡£»ùÓÚ~STM32~µ¥Æ¬»úÖØÐÂ±àÐ´ÁËÈí¼þ³ÌÐò£¬¸ø³öÁË¸÷²¿·ÖµÄ³ÌÐòÁ÷³ÌÍ¼¡£¶ÔÌ½²âÆ÷µÄÎÂ¶È½øÐÐÁË¿ØÖÆ£¬µÃ³öÁËÎÂ¶È¿ØÖÆÇúÏß¡£¼òµ¥½éÉÜÁË¹¤Òµ×éÌ¬´®¿ÚÆÁ£¬±àÐ´ÁË×éÌ¬½çÃæÒÔ¼°³ÌÐò£¬ÊµÏÖÁËÎÄ±¾ÏÔÊ¾¡¢²ÎÊýÉèÖÃµÈÈË»ú½»»¥¡£
+±¾ÕÂÏêÏ¸½éÉÜÁËÊý¾ÝµÄ²É¼¯ÓëÊý×ÖËøÏà·Å´óÆ÷´¦Àí£¬ÌØ±ðÊÇÊý×ÖËøÏà·Å´óÆ÷Æ÷£¬±¾ÕÂ´Ó²Î¿¼ÐÅºÅµÄ²úÉú¡¢Ïà¹ØÔËËãµÄÊµÏÖ¡¢·ùÖµ¼ÆËãºÍÊý×ÖµÍÍ¨ÂË²¨Æ÷·½Ãæ¾ù×öÁËÏêÏ¸µÄ·ÖÎö£¬²¢±àÐ´ÁË»ùÓÚ~DSP~ Î¢¿ØÖÆÆ÷µÄÈí¼þ³ÌÐò£¬²¢¸ø³öÁË¸÷²¿·ÖµÄ³ÌÐòÁ÷³ÌÍ¼¡£×îºó¼òµ¥½éÉÜÁË¹¤Òµ×éÌ¬´®¿ÚÆÁ£¬±àÐ´ÁË×éÌ¬½çÃæÒÔ¼°³ÌÐò£¬ÊµÏÖÁËÎÄ±¾ÏÔÊ¾¡¢²ÎÊýÉèÖÃµÈÈË»ú½»»¥¡£
 
 
 
