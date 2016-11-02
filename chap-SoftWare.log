@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.23)  25 OCT 2016 10:01
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.23)  2 NOV 2016 20:59
 entering extended mode
 **E:/01_Master_project/Water_Detection_Project/07_Page/chapter/chap-SoftWare.te
 x
@@ -8,66 +8,8 @@ LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for loaded.
 ! Undefined control sequence.
 l.1 \chapter
-            {ÀÆ∑÷“«»Ìº˛…Ëº∆}
-? 
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \chapter{À
-              Æ∑÷“«»Ìº˛…Ëº∆}
-? 
-Missing character: There is no À in font nullfont!
-Missing character: There is no Æ in font nullfont!
-Missing character: There is no ∑ in font nullfont!
-Missing character: There is no ÷ in font nullfont!
-Missing character: There is no “ in font nullfont!
-Missing character: There is no « in font nullfont!
-Missing character: There is no » in font nullfont!
-Missing character: There is no Ì in font nullfont!
-Missing character: There is no º in font nullfont!
-Missing character: There is no ˛ in font nullfont!
-Missing character: There is no … in font nullfont!
-Missing character: There is no Ë in font nullfont!
-Missing character: There is no º in font nullfont!
-Missing character: There is no ∆ in font nullfont!
-)
-*
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 1--0
-[] 
- []
-
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-! Emergency stop.
-<*> 
-    
-End of file on the terminal!
-
+            {ÀÆ∑÷≤‚¡øœµÕ≥»Ìº˛…Ëº∆}\label{chap5}
+? e
  
 Here is how much of TeX's memory you used:
  7 strings out of 495354
@@ -76,5 +18,10 @@ Here is how much of TeX's memory you used:
  3276 multiletter control sequences out of 15000+200000
  3640 words of font info for 14 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 5i,0n,4p,106b,16s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 5i,0n,1p,127b,8s stack positions out of 5000i,500n,10000p,200000b,50000s
+No pages of output.
+PDF statistics:
+ 0 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
