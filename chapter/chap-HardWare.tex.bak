@@ -18,11 +18,11 @@
 
 £¨1£©¹âÔ´¼¤ÀøÄ£¿é
 
-¸ÃÄ£¿éÎª~LED~¹âÔ´Ìá¹©ÕýÏÒ²¨¼¤ÀøÐÅºÅ£¬Ê¹~LED~¹âÔ´ÄÜÒÔ¹Ì¶¨ÆµÂÊµÄÕýÏÒ¼¤ÀøÕÕÉäµ½±»²âÎïµÄ±íÃæ¡£±ê×¼µÄÕýÏÒ²¨¼¤ÀøÐÅºÅÓÉ~DSP~ Î¢´¦ÀíÆ÷¿ØÖÆÊý×ÖÊ½ÆµÂÊºÏ³ÉÆ÷£¨DDS£©Ð¾Æ¬²úÉú£¬ÔÙ¾­¹ýºãÁ÷Ô´µçÂ·±ä³ÉÕýÏÒµçÁ÷¼¤Àø¹©¸ø~LED~¹âÔ´¡£ÓÉÓÚ±¾¿ÎÌâ²ÉÓÃÁËÈý²¨³¤²âÁ¿ÊÖ¶Î£¬¼´Ò»Â·²âÁ¿²¨³¤ºÍÁ½Â·²Î±È²¨³¤µÄ¹âÔ´Í¬Ê±ÕÕÉä±»²âÎïµÄ±íÃæ£¬ËùÒÔ±¾ÎÄµÄ¹âÔ´¼¤ÀøÓ²¼þÄ£¿éÐèÒªÈýÂ·£¬·Ö±ð¸øÈýÂ·²»Í¬²¨³¤µÄ¹âÔ´Ìá¹©Í¬·ù²»Í¬ÆµµÄÕýÏÒ²¨µçÁ÷¼¤ÀøÐÅºÅ£¬±¾¿ÎÌâÖÐÈýÂ·¼¤ÀøÐÅºÅµÄÆµÂÊÒ»´ÎÎª~5kHz~¡¢6kHz~ºÍ~7kHz¡£
+¸ÃÄ£¿éÎª~LED~¹âÔ´Ìá¹©ÕýÏÒ²¨¼¤ÀøÐÅºÅ£¬Ê¹~LED~¹âÔ´ÄÜÒÔ¹Ì¶¨ÆµÂÊµÄÕýÏÒ¼¤ÀøÕÕÉäµ½±»²âÎïµÄ±íÃæ¡£±ê×¼µÄÕýÏÒ²¨¼¤ÀøÐÅºÅÓÉ~DSP~Î¢´¦ÀíÆ÷¿ØÖÆÊý×ÖÊ½ÆµÂÊºÏ³ÉÆ÷£¨~DDS~£©Ð¾Æ¬²úÉú£¬ÔÙ¾­¹ýºãÁ÷Ô´µçÂ·±ä³ÉÕýÏÒµçÁ÷¼¤Àø¹©¸ø~LED~¹âÔ´¡£ÓÉÓÚ±¾¿ÎÌâ²ÉÓÃÁËÈý²¨³¤²âÁ¿ÊÖ¶Î£¬¼´Ò»Â·²âÁ¿²¨³¤ºÍÁ½Â·²Î±È²¨³¤µÄ¹âÔ´Í¬Ê±ÕÕÉä±»²âÎïµÄ±íÃæ£¬ËùÒÔ±¾ÎÄµÄ¹âÔ´¼¤ÀøÓ²¼þÄ£¿éÐèÒªÈýÂ·£¬·Ö±ð¸øÈýÂ·²»Í¬²¨³¤µÄ¹âÔ´Ìá¹©Í¬·ù²»Í¬ÆµµÄÕýÏÒ²¨µçÁ÷¼¤ÀøÐÅºÅ£¬±¾¿ÎÌâÖÐÈýÂ·¼¤ÀøÐÅºÅµÄÆµÂÊÒÀ´ÎÎª~4kHz¡¢6kHz~ºÍ~8kHz¡£
 
 £¨2£©Ä£ÄâÐÅºÅ´¦ÀíÄ£¿é
 
-Ä£ÄâÐÅºÅ´¦ÀíµçÂ·°üÀ¨ÐÅºÅ·Å´óµçÂ·ºÍ´øÍ¨ÂË²¨µçÂ·¡£ÆäÖÐÐÅºÅ·Å´óµçÂ·ÓÉÁ½²¿·Ö×é³É£ºµÍÔëÉùÇ°ÖÃ·Å´óÆ÷ºÍ´Î¼¶·Å´óÆ÷¡£´Ó±»²âÎï±íÃæ·´Éä»ØÀ´µÄÈýÂ·²»Í¬ÆµÂÊµÄ¹âÐÅºÅÈ«²¿½øÈë¹âµçÌ½²âÆ÷ºó×ª»¯ÎªµçÐÅºÅ£¬µ«´ËÊ±µÄÓÐÓÃÐÅºÅ·Ç³£Î¢Èõ¡£ÎªÁËµÃµ½Âú×ãºóÐø~A/D~²ÉÑùµÄµçÆ½·¶Î§ÒªÇó£¬Î¢ÈõµÄÐÅºÅ¾­¹ýµÍÔëÉùÇ°ÖÃ·Å´óÆ÷ºÍ´Î¼¶·Å´óÆ÷½øÐÐÐÅºÅ·Å´ó£¬·Å´óºóµÄÐÅºÅÊÇÈýÂ·²»Í¬ÆµÂÊÕýÏÒÐÅºÅµÄµþ¼Ó£¬ÔÙ·Ö±ð¾­¹ýÈýÂ·²»Í¬ÖÐÐÄÆµÂÊµÄÕ­´ø´øÍ¨ÂË²¨Æ÷½øÐÐÂË²¨£¬¾ÍµÃµ½ÁËÈýÂ··ÖÀëºóµÄÕýÏÒ²¨´ý²âÐÅºÅ¡£±¾¿ÎÌâÖÐÕâÈýÂ·´ý²âÐÅºÅµÄÆµÂÊÒÀ´ÎÎª~5kHz~¡¢6kHz~ ºÍ~7kHz£¬ÓëÌá¹©µÄÈýÂ·~LED~¹âÔ´¼¤ÀøÐÅºÅµÄÆµÂÊÏàÒ»ÖÂ¡£½«ÕâÈýÂ·´ý²âÐÅºÅÈ«²¿Í¨¹ý~A/D~ ×ª»»Ð¾Æ¬½øÐÐÄ£Êý×ª»»ºóËÍÈë~DSP~Î¢´¦ÀíÆ÷£¬ÔÚ~DSP~Î¢´¦ÀíÆ÷ÄÚ²¿½øÐÐÊý×ÖËøÏà·Å´óÆ÷ÔËËã¡£ËùÒÔ¸ÃÄ£¿éÒ²ÊÇÊý×ÖËøÏà·Å´óÆ÷µÄÐÅºÅÊäÈëÍ¨µÀ¡£
+Ä£ÄâÐÅºÅ´¦ÀíµçÂ·°üÀ¨ÐÅºÅ·Å´óµçÂ·ºÍ´øÍ¨ÂË²¨µçÂ·¡£ÆäÖÐÐÅºÅ·Å´óµçÂ·ÓÉÁ½²¿·Ö×é³É£ºµÍÔëÉùÇ°ÖÃ·Å´óÆ÷ºÍ´Î¼¶·Å´óÆ÷¡£´Ó±»²âÎï±íÃæ·´Éä»ØÀ´µÄÈýÂ·²»Í¬ÆµÂÊµÄ¹âÐÅºÅÈ«²¿½øÈë¹âµçÌ½²âÆ÷ºó×ª»¯ÎªµçÐÅºÅ£¬µ«´ËÊ±µÄÓÐÓÃÐÅºÅ·Ç³£Î¢Èõ¡£ÎªÁËµÃµ½Âú×ãºóÐø~A/D~²ÉÑùµÄµçÆ½·¶Î§ÒªÇó£¬Î¢ÈõµÄÐÅºÅ¾­¹ýµÍÔëÉùÇ°ÖÃ·Å´óÆ÷ºÍ´Î¼¶·Å´óÆ÷½øÐÐÐÅºÅ·Å´ó£¬·Å´óºóµÄÐÅºÅÊÇÈýÂ·²»Í¬ÆµÂÊÕýÏÒÐÅºÅµÄµþ¼Ó£¬ÔÙ·Ö±ð¾­¹ýÈýÂ·²»Í¬ÖÐÐÄÆµÂÊµÄÕ­´ø´øÍ¨ÂË²¨Æ÷½øÐÐÂË²¨£¬¾ÍµÃµ½ÁËÈýÂ··ÖÀëºóµÄÕýÏÒ²¨´ý²âÐÅºÅ¡£¼´ÕâÈýÂ·´ý²âÐÅºÅµÄÆµÂÊÒÀ´ÎÎª~4kHz¡¢6kHz~ ºÍ~8kHz£¬ÓëÌá¹©µÄÈýÂ·~LED~¹âÔ´¼¤ÀøÐÅºÅµÄÆµÂÊÏàÒ»ÖÂ¡£½«ÕâÈýÂ·´ý²âÐÅºÅÈ«²¿Í¨¹ý~A/D~ ×ª»»Ð¾Æ¬½øÐÐÄ£Êý×ª»»ºóËÍÈë~DSP~Î¢´¦ÀíÆ÷£¬ÔÚ~DSP~Î¢´¦ÀíÆ÷ÄÚ²¿½øÐÐÊý×ÖËøÏà·Å´óÆ÷ÔËËã¡£ËùÒÔ¸ÃÄ£¿éÒ²ÊÇÊý×ÖËøÏà·Å´óÆ÷µÄÐÅºÅÊäÈëÍ¨µÀ¡£
 
 £¨3£©DSP~¿ØÖÆÄ£¿é
 
@@ -62,12 +62,12 @@ DSP~Î¢´¦ÀíÆ÷ÊÇÕû¸öË®·Ö²âÁ¿ÏµÍ³µÄ¿ØÖÆºËÐÄ£¬Ëü²»½ö¿ØÖÆ~DDS~Ð¾Æ¬²úÉúËùÐèµÄÕýÏÒ²¨ÐÅº
 \end{tabular}
 \end{table*}
 
-ÎªÁË¼ò»¯µçÔ´µçÂ·Êµ¼ÊµÄ¸´ÔÓÐÔ£¬±¾¿ÎÌâÑ¡ÓÃÁË½ðÉýÑôµÄ~LH~ ÏµÁÐ~AC-DC~Ä£¿éµçÔ´£¬LH~ÏµÁÐµçÔ´Ä£¿éÊäÈëµçÑ¹·¶Î§Îª~85 ¡«264VAC£¬50/60Hz£¬Êä³öµçÔ´ÎÈ¶¨¡¢µÍÎÆ²¨¡¢µÍÔëÉù£¬¾ßÓÐÊä³ö¶ÌÂ·¡¢¹ýÁ÷ºÍ¹ýÎÂ±£»¤¹¦ÄÜ¡£¸ÃÏµÁÐµÄµçÔ´Ä£¿éÖ»ÐèÒª¼¸¸öµçÈÝµç×è¾ÍÄÜÊµÏÖ~AC-DC~µÄ¾«È·Êä³ö£¬¸÷Êä³öµçÑ¹µÄ¹¦ÂÊÒ²ÄÜÂú×ã±¾¿ÎÌâµÄÒªÇó¡£
+ÎªÁË¼ò»¯µçÔ´µçÂ·Êµ¼ÊµÄ¸´ÔÓÐÔ£¬±¾¿ÎÌâÑ¡ÓÃÁË½ðÉýÑôµÄ~LH~ ÏµÁÐ~AC-DC~Ä£¿éµçÔ´£¬LH~ÏµÁÐµçÔ´Ä£¿éÊäÈëµçÑ¹·¶Î§Îª~85$\thicksim$264VAC£¬50/60Hz£¬Êä³öµçÔ´ÎÈ¶¨¡¢µÍÎÆ²¨¡¢µÍÔëÉù£¬¾ßÓÐÊä³ö¶ÌÂ·¡¢¹ýÁ÷ºÍ¹ýÎÂ±£»¤¹¦ÄÜ¡£¸ÃÏµÁÐµÄµçÔ´Ä£¿éÖ»ÐèÒª¼¸¸öµçÈÝµç×è¾ÍÄÜÊµÏÖ~AC-DC~µÄ¾«È·Êä³ö£¬¸÷Êä³öµçÑ¹µÄ¹¦ÂÊÒ²ÄÜÂú×ã±¾¿ÎÌâµÄÒªÇó¡£
 
 ÆäÖÐ£¬$+$15V~µçÔ´ÓÉÐÍºÅÎª~LH10-B15~µçÔ´Ä£¿é²úÉú£¬Êä³ö¹¦ÂÊÄÜ´ïµ½~10W¡£ ¶ø~$\pm$12V~µçÔ´ÓÉÐÍºÅÎª~LH10-10A12~ µçÔ´Ä£¿é²úÉú£¬Êä³ö¹¦ÂÊÄÜ´ïµ½~10W£¬Ä£Äâ²¿·ÖµÄ~$+$5V~µçÔ´ÓÉÐÍºÅÎª~LH05-10B05~µçÔ´Ä£¿é²úÉú£¬Êä³ö¹¦ÂÊÒ²ÄÜ´ïµ½~5W£¬ÍêÈ«ÄÜÂú×ã±¾¿ÎÌâµÄ¹©µçÐèÇó¡£ÆäÓàµÄµçÔ´µçÑ¹£¬ÈçÊý×Ö²¿·ÖµÄ~$+$5V~µçÔ´¡¢Ä£Äâ¼°Êý×Ö²¿·ÖµÄ~$+$3.3V¡¢$+$1.9V~ µçÔ´¾ùÓÉÄ£Äâ²¿·ÖµÄ~$+$5V~µçÔ´Í¨¹ýµç¸ÐÆ÷¼þºÍÏßÐÔÎÈÑ¹µçÔ´Ð¾Æ¬×ª»¯¶øÀ´¡£
 \begin{figure*}[!h]
 \centering
-\includegraphics[width=14cm]{fig41.jpg}
+\includegraphics[width=14cm]{fig41.png}
 \caption {LH10-10A12~µçÔ´Ä£¿éµçÂ·Í¼}
 \addtocounter{figure}{-1}
 \renewcommand\figurename{Fig.}
@@ -347,7 +347,7 @@ AD8671~ÔËËã·Å´óÆ÷µÄÔöÒæ´ø¿í»ýÎª~10MHz£¬¶øÌ½²âÆ÷µÄÅÔÂ·µçÈÝ~$C_{D}\simeq1000pF$£¬Ë
 ÐÅºÅ¾­¹ý·Å´óµçÂ·ºó£¬»¹´æÔÚ´óÁ¿µÄ¹¤ÆµÔëÉù¡¢Ëæ»úÔëÉùµÈ¸ÉÈÅ£¬ÐèÒªÊ¹ÓÃÂË²¨Æ÷ÂË³ýÕâÐ©¸ÉÈÅÐÅºÅ¡£Í¬Ê±£¬ÓÉÓÚÌ½²âÆ÷½ÓÊÕµ½µÄÊÇÈýÂ·²»Í¬¼¤ÀøÆµÂÊÏÂµÄ¹âÐÅºÅ£¬ËùÒÔÐÅºÅÖÐ»ìºÏÕâÈýÂ·²»Í¬ÆµÂÊµÄÕýÏÒÐÅºÅ¡£ÒªÏë½«Õâ²»Í¬ÆµÂÊµÄÈýÂ·ÕýÏÒÐÅºÅ·ÖÀë³öÀ´£¬±ØÐëÊ¹ÓÃÕ­´ø´øÍ¨ÂË²¨Æ÷¡£´øÍ¨ÂË²¨Æ÷ÊÇÒ»ÖÖÆÁ±ÎÍ¨´øÍâµÄÆµ¶ÎÐÅºÅ£¬¶øÖ»ÔÊÐíÍ¨´øÄÚµÄÆµ¶ÎÐÅºÅÍ¨¹ýµÄÂË²¨Æ÷¡£´øÍ¨ÂË²¨Æ÷ÓÐÐí¶àÀàÐÍ£¬ÆäÖÐ°ÍÌØÎÖË¹ÂË²¨Æ÷ÔÚÐÅºÅµÄÂË²¨ÖÐÓ¦ÓÃ½ÏÎª¹ã·º£¬Ëü¾ßÓÐÑ¡ÔñÐÔ¼«¸ßºÍ¹ý¶É´ø¶¸ÇÍµÄÌØµã\upcite{}¡£ ËüµÄµçÂ·Ô­ÐÍÈçÍ¼~\ref{fig61}¡£
 \begin{figure*}[!h]
 \centering
-\includegraphics[width=12cm]{fig61.png}
+\includegraphics[width=10cm]{fig61.png}
 \caption {´øÍ¨ÂË²¨Æ÷µçÂ·Ô­ÐÍ}
 \addtocounter{figure}{-1}
 \renewcommand\figurename{Fig.}
@@ -375,10 +375,10 @@ AD8671~ÔËËã·Å´óÆ÷µÄÔöÒæ´ø¿í»ýÎª~10MHz£¬¶øÌ½²âÆ÷µÄÅÔÂ·µçÈÝ~$C_{D}\simeq1000pF$£¬Ë
 
 ±¾¿ÎÌâÖÐµÄÈýÂ·ÐÅºÅÆµÂÊ·Ö±ðÎª~5KHz£¬6KHz£¬7KHz£¬¾­¹ýÐÅºÅ·Å´óµçÂ·µÄÐÅºÅÐèÒª½ÓÈëÕ­´ø´øÍ¨ÂË²¨Æ÷½«ÈýÂ·ÐÅºÅ·Ö±ðÂË³öÀ´¡£µÂÖÝÒÇÆ÷µÄ~FilterPro~³ÌÐò¿ÉÒÔ¸ù¾ÝËùÒªÇóµÄÂË²¨Æ÷Ö¸ÊýÉè¼Æ³öÂú×ãÒªÇóµÄÂË²¨Æ÷¡£±¾ÌâÌâÊ¹ÓÃ¸ÃÈí¼þ½øÐÐÕ­´ø´øÍ¨ÂË²¨Æ÷µÄÉè¼Æ£¬ÒÔÍ¨Æµ´øÖÐÐÄÆµÂÊÎª~6KHz~ÎªÀý½øÐÐËµÃ÷¡£
 
-´ò¿ª~FilterPro~Ó¦ÓÃÈí¼þ£¬ÊäÈëÉè¼ÆËùÐèµÄÐÂÄÜ²ÎÊý£¬Ñ¡È¡ÖÐÐÄÆµÂÊ~$f_{0}=6000Hz$£¬ÔÊÐíµÄ´øÍ¨ÎÆ²¨Îª~0.5dB¡£Í¨´ø´ø¿íÎª~500Hz£¬½ÇÆµÂÊË¥¼õÎª~-3dB¡£Í¬Ê±Ñ¡ÔñÂË²¨Æ÷½×´Î¹Ì¶¨Îª~4~½×£¬×îºóÉè¼ÆµÄ°ÍÌØÎÖË¹´øÍ¨ÂË²¨Æ÷ÈçÏÂÍ¼ËùÊ¾¡£
+´ò¿ª~FilterPro~Ó¦ÓÃÈí¼þ£¬ÊäÈëÉè¼ÆËùÐèµÄÐÂÄÜ²ÎÊý£¬Ñ¡È¡ÖÐÐÄÆµÂÊ~$f_{0}=6000Hz$£¬ÔÊÐíµÄ´øÍ¨ÎÆ²¨Îª~0.5dB¡£Í¨´ø´ø¿íÎª~500Hz£¬½ÇÆµÂÊË¥¼õÎª~-3dB¡£Í¬Ê±Ñ¡ÔñÂË²¨Æ÷½×´Î¹Ì¶¨Îª~4~½×£¬×îºóÉè¼ÆµÄ°ÍÌØÎÖË¹´øÍ¨ÂË²¨Æ÷ÈçÍ¼~\ref{fig62}~ËùÊ¾¡£
 \begin{figure*}[!h]
 \centering
-\includegraphics[width=14cm]{fig62.png}
+\includegraphics[width=16cm]{fig62.png}
 \caption {ÖÐÐÄÆµÂÊÎª~6KHz~µÄ´øÍ¨ÂË²¨µçÂ·}
 \addtocounter{figure}{-1}
 \renewcommand\figurename{Fig.}
@@ -388,7 +388,7 @@ AD8671~ÔËËã·Å´óÆ÷µÄÔöÒæ´ø¿í»ýÎª~10MHz£¬¶øÌ½²âÆ÷µÄÅÔÂ·µçÈÝ~$C_{D}\simeq1000pF$£¬Ë
 µÃ³öµÄµç×è¡¢µçÈÝ²ÎÊý¿ÉÒÔ´úÈëÀíÂÛ¹«Ê½½øÐÐÑéÖ¤ºÍ·ÖÎö¡£¾­¹ýÊµ¼ÊµÄ²âÊÔºÍ²»¶ÏÓÅ»¯£¬×îÖÕÉè¼ÆµÄ´øÍ¨ÂË²¨Æ÷µÄ²®µÂÍ¼ÈçÍ¼~\ref{fig63}~ËùÊ¾¡£
 \begin{figure*}[!h]
 \centering
-\includegraphics[width=14cm]{fig63.png}
+\includegraphics[width=13cm]{fig63.png}
 \caption {Õ­´ø´øÍ¨ÂË²¨Æ÷²®µÂÍ¼}
 \addtocounter{figure}{-1}
 \renewcommand\figurename{Fig.}
@@ -476,7 +476,7 @@ AD7656~Óë~TMS320F28335~¿ØÖÆÆ÷½Ó¿ÚµçÂ·²ÉÈ¡²¢ÐÐ½Ó¿ÚÉè¼Æ£¬½Ó¿ÚµçÂ·ÈçÍ¼~\ref{fig49}~
 
 \section{±¾ÕÂÐ¡½á}
 
-
+±¾ÕÂÏêÏ¸½éÉÜÁË¹¹³ÉË®·Ö²âÁ¿ÏµÍ³µÄ¸÷²¿·ÖÓ²¼þµçÂ·¼°Ô­Àí£¬°üÀ¨~LED~¹âÔ´µÄ¼¤ÀøÇý¶¯ÐÅºÅ¡¢Ä£ÄâÐÅºÅÊäÈëÍ¨µÀµÄÉè¼Æ¡¢A/D~²É¼¯µçÂ·ÒÔ¼°Ö÷¿Ø~DSP~¿ØÖÆÆ÷ºÍÆäÍâÎ§µÄÊý×ÖµçÂ·¡£×ÅÖØ·ÖÎöÁËÄ£ÄâÐÅºÅ´¦ÀíµÄµçÁ÷µÄ¾ßÌåÉè¼ÆÓëÓÅ»¯£¬²¢¶ÔÇ°ÖÃ·Å´óÆ÷µÄÔëÉù½øÐÐÁË·ÖÎö¡£Í¬Ê±±¾ÕÂÏêÏ¸½éÉÜÁË~A/D~Ð¾Æ¬~AD7656~µÄÌØµãºÍÒÔ¼°ÔÚÄ£Êý×ª»»µçÂ·ÖÐµÄ¹¤×÷·½Ê½£¬²¢¼òµ¥½éÉÜÁËÎÂ¶È¼ì²âÓë¿ØÖÆµçÂ·µÄÊµÏÖ¡£
 
 
 

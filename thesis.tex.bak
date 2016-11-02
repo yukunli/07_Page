@@ -121,7 +121,7 @@
 %\bibliography{bib/tex}
   %\nocite{*}
   % 不使用 BibTeX
-  %\include{chapter/bib}\pagestyle{fancy}
+  \include{chapter/bib}\pagestyle{fancy}
 
 % 发表文章目录
  % \include{chapter/pub}

@@ -1,7 +1,7 @@
 \chapter{Êý×ÖËøÏà·Å´óÆ÷µÄÉè¼ÆºÍ·ÂÕæ}
 ±¾¿ÎÌâÖÐµÄ¹âµçÌ½²âÆ÷½ÓÊÕµ½µÄ¹âÐÅºÅÊ®·ÖÎ¢Èõ£¬Òò´ËÆäÊä³öµÄµçÐÅºÅÊÇÑÍÃ»ÔÚÇ¿ÔëÉù±³¾°ÏÂµÄÎ¢ÈõÐÅºÅ£¬ÐÅºÅ¼ì²âµçÂ··Å´ó±»²âÐÅºÅµÄÍ¬Ê±Ò²·Å´óÁËÔëÉù£¬²¢ÇÒÒýÈëÆäËûµÄÔëÉù½øÀ´£¬ÀýÈç·Å´óÆ÷ÄÚ²¿µÄ¹ÌÓÐÔëÉùºÍ¸÷ÖÖÍâ²¿ÔëÉù£¬ËùÒÔÖ»¿¿·Å´ó¼¼ÊõÊÇ²»ÄÜÓÐÐ§µØ°ÑÎ¢ÈõÐÅºÅ¼ì²â³öÀ´¡£¶ø»ùÓÚÏà¹Ø¼ì²âÔ­Àí¹¹½¨µÄËøÏà·Å´óÆ÷ÊÇÄ¿Ç°Ó¦ÓÃ×îÎª¹ã·ºµÄÎ¢ÈõÐÅºÅ¼ì²â·½·¨¡£
 
-±¾ÕÂ½«ÏêÏ¸½éÉÜËøÏà·Å´óÆ÷µÄÏà¹ØÔ­Àí£¬²¢¸ù¾ÝÆäÔ­Àí½¨Á¢Êý×ÖËøÏà·Å´óÆ÷µÄPython·ÂÕæÄ£ÐÍ£¬Í¨¹ýÊ¹ÓÃPython¶ÔÏàÃô¼ì²¨¹ý³Ì½øÐÐ·ÂÕæ£¬ÕÒµ½ÊÊºÏ±¾¿ÎÌâµÄ×î¼ÑµÄÊý×ÖÐÅºÅ²ÉÑùÆµÂÊºÍ×îºÏÊÊµÄ²ÉÑùÊý¾Ý³¤¶ÈµÈ²ÎÊý£¬ÎªÖ®ºóÕÂ½ÚµÄDSPÈí¼þÉè¼ÆÌá¹©±ØÒªµÄÀíÂÛÒÀ¾Ý¡£
+±¾ÕÂ½«ÏêÏ¸½éÉÜËøÏà·Å´óÆ÷µÄÏà¹ØÔ­Àí£¬²¢¸ù¾ÝÆäÔ­Àí½¨Á¢Êý×ÖËøÏà·Å´óÆ÷µÄ~Python~·ÂÕæÄ£ÐÍ£¬Í¨¹ýÊ¹ÓÃ~Python~¶ÔÏàÃô¼ì²¨¹ý³Ì½øÐÐ·ÂÕæ£¬ÕÒµ½ÊÊºÏ±¾¿ÎÌâµÄ×î¼ÑµÄÊý×ÖÐÅºÅ²ÉÑùÆµÂÊºÍ×îºÏÊÊµÄ²ÉÑùÊý¾Ý³¤¶ÈµÈ²ÎÊý£¬ÎªÖ®ºóÕÂ½ÚµÄ~DSP~Èí¼þÉè¼ÆÌá¹©±ØÒªµÄÀíÂÛÒÀ¾Ý¡£
 
 \section{Î¢ÈõÐÅºÅ¼ì²â¼¼ÊõÀíÂÛ}
 
@@ -18,12 +18,12 @@
 
 £¨5£©»ìãçÕñ×Ó·¨£º»ìãçÕñ×Ó·¨ÊÇ»ùÓÚ»ìãçÀíÂÛµÄ¡¢ÀûÓÃ»ìãçÕñ×Ó¶ÔÍ¬ÆµÐÅºÅ¾ßÓÐ¼«Ç¿µÄÃô¸ÐÐÔÈ´¶ÔÔëÉù¾ßÓÐ¼«Ç¿µÄÃâÒßÁ¦¶øÊµÏÖµÄÎ¢ÈõÐÅºÅ¼ì²â·¨£¬ÊÇÀûÓÃÔëÉù¶ø·ÇÏû³ýÔëÉùÒÔ´ïµ½ÐÅºÅ¼ì²âµÄÄ¿µÄ¡£
 
-£¨6£©¹â×Ó¼ÆÊý¼¼Êõ:¹â×Ó¼ÆÊý¼¼ÊõÊÇÒ»ÖÖÌ½²âÁéÃô¶È¡¢·Ö±æÂÊ¼«¸ß,ÇÒ¾ßÓÐ³¤Ê±¼äÎÈ¶¨ÐÔµÄÎ¢ÈõÐÅºÅ¼ì²â·½·¨¡£µ¥¸ö¹â×Ó»áÔÚ¹âµç±¶Ôö¹ÜÖÐ¼¤·¢³ö¹âµç×ÓÂö³å,¸ÃÏî¼¼Êõ¾ÍÊÇÍ¨¹ý·Ö±æÕâÐ©Âö³å´Ó¶ø½«¹âÐÅºÅÒÔÊý×Ö»¯µÄ·½Ê½ÌáÈ¡³öµÄ¡£ÊÊÓÃÓÚ´«Í³µÄËøÏà¼¼ÊõºÍÈ¡Ñù»ý·Ö¼¼ÊõÎÞ·¨¼ì²âµÄ³¬Î¢Èõ¹âµÄÇé¿öÏÂ±íÏÖ³öÁ¿×ÓÐÔµÄ¹âÐÅºÅ¼ì²â\upcite{}¡£
+£¨6£©¹â×Ó¼ÆÊý¼¼Êõ:¹â×Ó¼ÆÊý¼¼ÊõÊÇÒ»ÖÖÌ½²âÁéÃô¶È¡¢·Ö±æÂÊ¼«¸ß,ÇÒ¾ßÓÐ³¤Ê±¼äÎÈ¶¨ÐÔµÄÎ¢ÈõÐÅºÅ¼ì²â·½·¨¡£µ¥¸ö¹â×Ó»áÔÚ¹âµç±¶Ôö¹ÜÖÐ¼¤·¢³ö¹âµç×ÓÂö³å£¬¸ÃÏî¼¼Êõ¾ÍÊÇÍ¨¹ý·Ö±æÕâÐ©Âö³å´Ó¶ø½«¹âÐÅºÅÒÔÊý×Ö»¯µÄ·½Ê½ÌáÈ¡³öµÄ¡£ÊÊÓÃÓÚ´«Í³µÄËøÏà¼¼ÊõºÍÈ¡Ñù»ý·Ö¼¼ÊõÎÞ·¨¼ì²âµÄ³¬Î¢Èõ¹âµÄÇé¿öÏÂ±íÏÖ³öÁ¿×ÓÐÔµÄ¹âÐÅºÅ¼ì²â\upcite{}¡£
 
-ÔÚÕâÐ©·½·¨ÖÐ£¬Ïà¹Ø·½·¨ÊÇÊ¹ÓÃµÃ×îÎª¹ã·º£¬±»ÈÏÎªÊÇ×îÓÐÐ§µÄÒ»ÖÖ·½·¨£¬¶ø½ü¼¸ÄêÐËÆðµÄËøÏà·Å´óÆ÷¼ÈÊÇ»ùÓÚÏà¹Ø·½·¨·¢Õ¹ÆðÀ´µÄ¼ì²âÎ¢ÈõÐÅºÅµÄÓÐÐ§ÒÇÆ÷¡£
+ÔÚÕâÐ©·½·¨ÖÐ£¬Ïà¹Ø·½·¨ÊÇÊ¹ÓÃµÃ×îÎª¹ã·º£¬±»ÈÏÎªÊÇ×îÓÐÐ§µÄÒ»ÖÖ·½·¨£¬¶ø½ü¼¸ÄêÐËÆðµÄËøÏà·Å´óÆ÷¼´ÊÇ»ùÓÚÏà¹Ø·½·¨·¢Õ¹ÆðÀ´µÄ¼ì²âÎ¢ÈõÐÅºÅµÄÓÐÐ§ÒÇÆ÷¡£
 
 \subsection{ÐÅÔë¸ÄÉÆ±È}
-Î¢ÈõÐÅºÅ¼ì²â·½·¨ÖÚ¶à£¬ÔÚ¾ßÌå¼ì²â¹ý³ÌÖÐ£¬Ðè¸ù¾Ý²»Í¬ÐÅºÅ£¬¼°²»Í¬µÄ¼ì²âÒªÇó,²¢¸ù¾Ý²»Í¬µÄÌõ¼þÀ´Ñ¡Ôñ²»Í¬µÄ²âÁ¿·½·¨¡£µ«Æä×ÚÖ¼¾ùÎªÒÖÖÆÔëÉù£¬»Ö¸´¡¢ÔöÇ¿ºÍÌáÈ¡ÓÐÓÃÐÅºÅ,¼´Ìá¸ßÐÅÔë¸ÄÉÆ±È(SNIR)¡£ ÐÅºÅÍ¨¹ýÒ»¸ö·Å´óÆ÷»òÕßÒ»¸ö²âÊÔÏµÍ³,ÈôÐÅÔë±ÈµÃµ½¸ÄÉÆ,ÆäÊýÁ¿¹ØÏµÊ½ÓÃÐÅÔë¸ÄÉÆ±ÈÀ´ºâÁ¿µÄ,Æä¶¨ÒåÎª
+Î¢ÈõÐÅºÅ¼ì²â·½·¨ÖÚ¶à£¬ÔÚ¾ßÌå¼ì²â¹ý³ÌÖÐ£¬Ðè¸ù¾Ý²»Í¬ÐÅºÅ£¬¼°²»Í¬µÄ¼ì²âÒªÇó£¬²¢¸ù¾Ý²»Í¬µÄÌõ¼þÀ´Ñ¡Ôñ²»Í¬µÄ²âÁ¿·½·¨¡£µ«Æä×ÚÖ¼¾ùÎªÒÖÖÆÔëÉù£¬»Ö¸´¡¢ÔöÇ¿ºÍÌáÈ¡ÓÐÓÃÐÅºÅ£¬¼´Ìá¸ßÐÅÔë¸ÄÉÆ±È(SNIR)¡£ ÐÅºÅÍ¨¹ýÒ»¸ö·Å´óÆ÷»òÕßÒ»¸ö²âÊÔÏµÍ³£¬ÈôÐÅÔë±ÈµÃµ½¸ÄÉÆ£¬ÆäÊýÁ¿¹ØÏµÊ½ÓÃÐÅÔë¸ÄÉÆ±ÈÀ´ºâÁ¿µÄ£¬Æä¶¨ÒåÎª
 \begin{equation}\label{3.1}
 SNIR =\frac{S_{o}/N_{o}}{S_{i}/N_{i}}
 \end{equation}
@@ -39,12 +39,12 @@ SNIR =\frac{S_{o}/N_{o}}{S_{i}/N_{i}} = \sqrt{\frac{\Delta f_{N_{i}}}{\Delta f_{
 
 
 \section{ËøÏà·Å´óÆ÷}
-ËøÏà·Å´óÆ÷£¬ÊÇÒÔÏà¹Ø¼ì²â¼¼ÊõÎª»ù´¡£¬ÀûÓÃ²Î¿¼Ï´ºÃÆµÂÊÓë´ø²Á¶øÐÅºÅÆµÂÊÏà¹Ø£¬ÓëÔëÉù²»Ïà¹ØµÄÌØÐÔ£¬½ø¶ø´Ó½ÏÇ¿µÄÔëÉù±³¾°ÖÐÌáÈ¡³öÓÐÓÃÐÅºÅµÄÒ»ÖÖ×°ÖÃ[]¡£ËüÒÔÄ³²Î¿¼ÐÅºÅ×÷Îª±È½ÏµÄ»ù×¼£¬¸Ã²Î¿¼ÐÅºÅµÄÆµÂÊºÍÏàÎ»ÊÇÓë´ý²âÐÅºÅÏàÍ¬µÄ¡£¸Ã²Î¿¼ÐÅºÅÖ»Óë±»²âÐÅºÅ¡¢¼°ÓëËü×ÔÉíÍ¬Æµ(»ò±¶Æµ)¡¢Í¬ÏàµÄÔëÉù·ÖÁ¿Ïà¹Ø£¬¶øÓë´ó²¿·ÖÔëÉù²»Ïà¹Ø£¬´Ó¶øÄÜ¼«´óµÄÒÖÖÆÔëÉù£¬Ìá¸ß¼ì²âÐÅÔë±È¡£¹Ê¶øÊ¹Æä³ÉÎªÒ»ÖÖÓÐÐ§µÄÎ¢ÈõÐÅºÅ¼ì²â×°ÖÃ¡£
+ËøÏà·Å´óÆ÷£¬ÊÇÒÔÏà¹Ø¼ì²â¼¼ÊõÎª»ù´¡£¬ÀûÓÃ²Î¿¼Ï´ºÃÆµÂÊÓë´ø²Á¶øÐÅºÅÆµÂÊÏà¹Ø£¬ÓëÔëÉù²»Ïà¹ØµÄÌØÐÔ£¬½ø¶ø´Ó½ÏÇ¿µÄÔëÉù±³¾°ÖÐÌáÈ¡³öÓÐÓÃÐÅºÅµÄÒ»ÖÖ×°ÖÃ\upcite{}¡£ËüÒÔÄ³²Î¿¼ÐÅºÅ×÷Îª±È½ÏµÄ»ù×¼£¬¸Ã²Î¿¼ÐÅºÅµÄÆµÂÊºÍÏàÎ»ÊÇÓë´ý²âÐÅºÅÏàÍ¬µÄ¡£¸Ã²Î¿¼ÐÅºÅÖ»Óë±»²âÐÅºÅ¡¢¼°ÓëËü×ÔÉíÍ¬Æµ(»ò±¶Æµ)¡¢Í¬ÏàµÄÔëÉù·ÖÁ¿Ïà¹Ø£¬¶øÓë´ó²¿·ÖÔëÉù²»Ïà¹Ø£¬´Ó¶øÄÜ¼«´óµÄÒÖÖÆÔëÉù£¬Ìá¸ß¼ì²âÐÅÔë±È¡£¹Ê¶øÊ¹Æä³ÉÎªÒ»ÖÖÓÐÐ§µÄÎ¢ÈõÐÅºÅ¼ì²â×°ÖÃ¡£
 
 ËøÏà·Å´óÆ÷Ò»°ã·ÖÎªÄ£ÄâËøÏà·Å´óÆ÷(ALIA)ºÍÊý×ÖËøÏà·Å´óÆ÷(DLIA)¡£ALIAÒ»°ãÊÇÓÃÏàÃô¼ì²¨Æ÷(¿ª¹ØÊ½³Ë·¨Æ÷)ºÍµÍÍ¨ÂË²¨Æ÷À´ÊµÏÖÄ£ÄâÏàÃô¼ì²¨¡£¼´ÊäÈëÐÅºÅÓë²Î¿¼ÐÅºÅ·Ö±ðÍ¨¹ýÐÅºÅÍ¨µÀºÍ²Î¿¼Í¨µÀ£¬È»ºó½øÈëÏàÃô¼ì²¨Æ÷(»ò³Æ½âµ÷Æ÷)£¬×ö³Ë·¨½âµ÷£¬È»ºó¾­¹ýµÍÍ¨ÂË²¨Æ÷ÂË³ý½»Á÷·ÖÁ¿²¢½«×îºóµÄ¼ì²â½á¹ûÊä³ö¡£DLLÆøÊÇ½«ALLÆøÖÐµÄºËÐÄÏàÃô¼ì²¨Æ÷ÓÉDSP»òÎ¢´¦ÀíÆ÷ÄÚ²¿±à³ÌÊµÏÖ£¬À´½øÐÐÊý×Ö½âµ÷ÔËËã½ø¶øÊä³ö¼ì²â½á¹û¡£
 
 \subsection{Ä£ÄâËøÏà·Å´óÆ÷»ù±¾Ô­Àí}
-Ä£ÄâËøÏà·Å´óÆ÷µÄÔ­Àí¿òÍ¼ÈçÍ¼\ref{fig1}ËùÊ¾£¬´ÓÍ¼ÖÐ¿ÉÒÔ¿´³öÒ»°ãÄ£ÄâËøÏà·Å´óÆ÷×é³É·ÖÎªÐÅºÅÍ¨µÀ£¬²Î¿¼Í¨µÀºÍÏà¹ØÆ÷Èý²¿·Ö¡£
+Ä£ÄâËøÏà·Å´óÆ÷µÄÔ­Àí¿òÍ¼ÈçÍ¼~\ref{fig1}~ËùÊ¾£¬´ÓÍ¼ÖÐ¿ÉÒÔ¿´³öÒ»°ãÄ£ÄâËøÏà·Å´óÆ÷×é³É·ÖÎªÐÅºÅÍ¨µÀ£¬²Î¿¼Í¨µÀºÍÏà¹ØÆ÷Èý²¿·Ö¡£
 \begin{figure*}[!h]
 \centering
 \includegraphics[width=15cm]{fig30.png}
@@ -93,14 +93,14 @@ SNIR =\frac{S_{o}/N_{o}}{S_{i}/N_{i}} = \sqrt{\frac{\Delta f_{N_{i}}}{\Delta f_{
   &-\frac{1}{2}ABcos[(\omega_{x}-\omega_{r})t+(\varphi_{x}-\varphi)_{r}]\}dt
 \end{split}
 \end{equation}
-µ±~$\omega_{x}=\omega_{r}$~Ê±£¬ÇÒÔëÉùÏà¹Øº¯Êý~$R_{nr}$~ÎªÁãÊ±£¬»ý·ÖÆ÷Êä³öµÄÐÅºÅ~$V_{0}$~Îª
+µ±~$\omega_{x}=\omega_{r}$~Ê±£¬ÇÒÔëÉùÏà¹Øº¯Êý~$R_{nr}$~ÎªÁãÊ±£¬»ý·ÖÆ÷Êä³öµÄÐÅºÅ~$u_{0}$~Îª
 \begin{equation}\label{s6}
-  V_{0}=\frac{AB}{2}cos\varphi
+  u_{0}=\frac{AB}{2}cos\theta
 \end{equation}
 
-Ê½ÖÐ£¬$\varphi$~Îª´ý²âÐÅºÅÓë²Î¿¼ÐÅºÅµÄÏàÎ»²î¡£
+Ê½ÖÐ£¬$\theta$~Îª´ý²âÐÅºÅÓë²Î¿¼ÐÅºÅµÄÏàÎ»²î¡£
 
-ÓÉÊ½~\ref{s6}~±íÃ÷£¬ÔÚ²Î¿¼ÐÅºÅÎªÕýÏÒ²¨µÄÇé¿öÏÂ£¬¾­¹ýÏà¹Ø¼ì²âºó£¬ÆäÊä³ö½á¹û²»½öÓë±»²âÐÅºÅµÄ·ùÖµºÍ²Î¿¼ÐÅºÅµÄ·ùÖµÓÐ¹Ø£¬»¹ÓëÁ½ÐÅºÅµÄÏàÎ»²îÓÐ¹Ø¡£µ±ÊäÈëµÄ±»²âÐÅºÅ~$V_{x}(t)$~Óë²Î¿¼ÐÅºÅ~$V_{r}(t)$~ÆµÂÊÏàÍ¬Ê±£¬»­³öÒÔÏàÎ»²î~$\theta$~ Îª×Ô±äÁ¿£¬$u_{0}(t)$ÎªÒò±äÁ¿µÄÏàÃôÌØÐÔÇúÏßÈçÍ¼~\ref{fig2}~ËùÊ¾¡£µ±±»²âÐÅºÅÓë²Î¿¼ÐÅºÅÏàÎ»²î~$\theta=0$~Ê±£¬Êä³öÐÅºÅ~$u_{0}(t)$~µÄ·ùÖµ×î´ó¡£
+ÓÉÊ½~\ref{s6}~±íÃ÷£¬ÔÚ²Î¿¼ÐÅºÅÎªÕýÏÒ²¨µÄÇé¿öÏÂ£¬¾­¹ýÏà¹Ø¼ì²âºó£¬ÆäÊä³ö½á¹û²»½öÓë±»²âÐÅºÅµÄ·ùÖµºÍ²Î¿¼ÐÅºÅµÄ·ùÖµÓÐ¹Ø£¬»¹ÓëÁ½ÐÅºÅµÄÏàÎ»²îÓÐ¹Ø¡£µ±ÊäÈëµÄ±»²âÐÅºÅ~$V_{x}(t)$~Óë²Î¿¼ÐÅºÅ~$V_{r}(t)$~ÆµÂÊÏàÍ¬Ê±£¬»­³öÒÔÏàÎ»²î~$\theta$~ Îª×Ô±äÁ¿£¬$u_{0}(\theta)$ÎªÒò±äÁ¿µÄÏàÃôÌØÐÔÇúÏßÈçÍ¼~\ref{fig2}~ËùÊ¾¡£µ±±»²âÐÅºÅÓë²Î¿¼ÐÅºÅÏàÎ»²î~$\theta=0$~Ê±£¬Êä³öÐÅºÅ~$u_{0}(\theta)$~µÄ·ùÖµ×î´ó¡£
 \begin{figure*}[!h]
 \centering
 \includegraphics[width=8cm]{fig31.png}
@@ -113,7 +113,7 @@ SNIR =\frac{S_{o}/N_{o}}{S_{i}/N_{i}} = \sqrt{\frac{\Delta f_{N_{i}}}{\Delta f_{
 \subsection{Õý½»Ê¸Á¿ÐÍËøÏà·Å´óÆ÷»ù±¾Ô­Àí}
 ËøÏà·Å´óÆ÷ËäÈ»¿ÉÒÔºÜºÃµÄ¼ì²âÇ¿ÔëÉù±³¾°ÖÐµÄÎ¢ÈõÐÅºÅ£¬µ«È´¶Ô²Î¿¼ÐÅºÅµÄÏàÎ»ÓÐ×ÅÑÏ¸ñµÄÒªÇó¡£´ý²âÐÅºÅºÍ²Î¿¼ÐÅºÅµÄÏàÎ»²îÎª~$0^{o}$~Ê±ËøÏà·Å´óÆ÷µÄÖ±Á÷Êä³öÐÅºÅ²ÅÄÜÕæÊµµØ·´Ó³Êµ¼ÊÐÅºÅµÄ±ä»¯£¬¶øÔÚÊµ¼ÊµÄÓ¦ÓÃÖÐ£¬ÒªÊÇÁ½ÕßÖ®¼äµÄÏàÎ»²îÎª~$0^{o}$~Ê±Ïàµ±À§ÄÑµÄ¡£»ùÓÚÉÏËßÔ­Òò£¬Ê¹ÓÃÁ½¸öÏàÃô¼ì²¨Æ÷×é³ÉÕý½»Ê¸Á¿ËøÏà·Å´óÆ÷¿ÉÒÔºÜºÃµØ±ÜÃâÏàÎ»²î¶Ô²âÁ¿½á¹ûµÄÓ°Ïì£¬ÒÔ»ñµÃ¸üºÃµÄÐÅÔë¸ÄÉÆ±È¡£
 
-Õý½»Ê¸Á¿ËøÏà·Å´óÆ÷²ÉÓÃÁËÁ½¸ö¹¤×÷Ô­ÀíÍêÈ«ÏàÍ¬µÄÏàÃô¼ì²¨Æ÷ÓÃÒÔÍ¬Ê±¸ø³öÕý½»·ÖÁ¿ºÍÍ¬Ïà·ÖÁ¿ÒÔ×öÊ¸Á¿ÔËËã¡£Í¼~\ref{fig2} ~ÎªÕý½»Ê¸Á¿ËøÏà·Å´óÆ÷½á¹¹Í¼¡£
+Õý½»Ê¸Á¿ËøÏà·Å´óÆ÷²ÉÓÃÁËÁ½¸ö¹¤×÷Ô­ÀíÍêÈ«ÏàÍ¬µÄÏàÃô¼ì²¨Æ÷ÓÃÒÔÍ¬Ê±¸ø³öÕý½»·ÖÁ¿ºÍÍ¬Ïà·ÖÁ¿ÒÔ×öÊ¸Á¿ÔËËã¡£Í¼~\ref{fig2}~ÎªÕý½»Ê¸Á¿ËøÏà·Å´óÆ÷½á¹¹Í¼¡£
 \begin{figure*}[!h]
 \centering
 \includegraphics[width=15cm]{fig32.png}
@@ -123,7 +123,7 @@ SNIR =\frac{S_{o}/N_{o}}{S_{i}/N_{i}} = \sqrt{\frac{\Delta f_{N_{i}}}{\Delta f_{
 \caption{\label{fig2}Schematic diagram of orthogonal lock-in-amplifier}
 \end{figure*}
 
-²Î¿¼Í¨µÀÍ¨¹ýÒÆÏàÆ÷²úÉúÏà»¥³ÉÕý½»£¬¼´ÏàÎ»²îÎª~$90¡ã$~µÄÁ½¸ö²Î¿¼ÐÅºÅ£¬·Ö±ðÓë±»²âÐÅºÅ½øÈë²»Í¬µÄÏàÃô¼ì²âÆ÷½øÐÐ»¥Ïà¹ØÔËËã£¬ÔËËã½á¹û·Ö±ðÍ¨¹ýÁ½¸öµÍÍ¨ÂË²¨Æ÷ÂË³ý¸ßÆµ·ÖÁ¿£¬µÃµ½Á½¸ö²îÆµ·ÖÁ¿£º
+²Î¿¼Í¨µÀÍ¨¹ýÒÆÏàÆ÷²úÉúÏà»¥³ÉÕý½»£¬¼´ÏàÎ»²îÎª~$90^{o}$~µÄÁ½¸ö²Î¿¼ÐÅºÅ£¬·Ö±ðÓë±»²âÐÅºÅ½øÈë²»Í¬µÄÏàÃô¼ì²âÆ÷½øÐÐ»¥Ïà¹ØÔËËã£¬ÔËËã½á¹û·Ö±ðÍ¨¹ýÁ½¸öµÍÍ¨ÂË²¨Æ÷ÂË³ý¸ßÆµ·ÖÁ¿£¬µÃµ½Á½¸ö²îÆµ·ÖÁ¿£º
 \begin{equation}\label{s6}
   X=\frac{1}{2}Acos\theta
 \end{equation}
@@ -156,7 +156,7 @@ SNIR =\frac{S_{o}/N_{o}}{S_{i}/N_{i}} = \sqrt{\frac{\Delta f_{N_{i}}}{\Delta f_{
 \caption{\label{fig3}Digital lock-in amplifier schematic diagram}
 \end{figure*}
 
-ÓÉÍ¼\ref{fig3}¿ÉÒÔ¿´³ö£¬´ý²âÐÅºÅÊ×ÏÈ½øÈëÐÅºÅÍ¨µÀ£¬¸ÃÍ¨µÀÓë»ù±¾µÄËøÏà·Å´óÆ÷µÄÐÅºÅÍ¨µÀ¹¦ÄÜÏàÍ¬£¬ÊµÏÖ¶Ô´ý²âÐÅºÅµÄ·Å´ó¡¢ÂË²¨µÈÐÅºÅÔ¤´¦Àí¡£ÔÚ»ñµÃÂú×ã~$A/D$~·Ö±æÂÊÒªÇóµÄ´ý²âÐÅºÅºó¾­¹ý~$A/D$~Ð¾Æ¬²ÉÑùµÃµ½ÀëÉ¢µÄÐÅºÅÐòÁÐ£¬È»ºóÊäÈëµ½Î¢´¦ÀíÆ÷ÖÐ½øÐÐÊý×Ö»¥Ïà¹ØÔËËã¡£¶ø²ÎÓëÔËËãµÄ²Î¿¼ÐÅºÅÒ²ÓÐÎ¢´¦ÀíÄÚ²¿²úÉú£¬ÔÚÎ¢´¦ÀíÄÚ²¿½øÐÐÕý½»Ê¸Á¿ËøÏàÆ÷µÄÏà¹ØÔËËãºó¼´¿É»ñµÃ´ý²âµÄÓÐÓÃÐÅºÅ¡£
+ÓÉÍ¼~\ref{fig3}~¿ÉÒÔ¿´³ö£¬´ý²âÐÅºÅÊ×ÏÈ½øÈëÐÅºÅÍ¨µÀ£¬¸ÃÍ¨µÀÓë»ù±¾µÄËøÏà·Å´óÆ÷µÄÐÅºÅÍ¨µÀ¹¦ÄÜÏàÍ¬£¬ÊµÏÖ¶Ô´ý²âÐÅºÅµÄ·Å´ó¡¢ÂË²¨µÈÐÅºÅÔ¤´¦Àí¡£ÔÚ»ñµÃÂú×ã~$A/D$~·Ö±æÂÊÒªÇóµÄ´ý²âÐÅºÅºó¾­¹ý~$A/D$~Ð¾Æ¬²ÉÑùµÃµ½ÀëÉ¢µÄÐÅºÅÐòÁÐ£¬È»ºóÊäÈëµ½Î¢´¦ÀíÆ÷ÖÐ½øÐÐÊý×Ö»¥Ïà¹ØÔËËã¡£¶ø²ÎÓëÔËËãµÄ²Î¿¼ÐÅºÅÒ²ÓÐÎ¢´¦ÀíÄÚ²¿²úÉú£¬ÔÚÎ¢´¦ÀíÄÚ²¿½øÐÐÕý½»Ê¸Á¿ËøÏàÆ÷µÄÏà¹ØÔËËãºó¼´¿É»ñµÃ´ý²âµÄÓÐÓÃÐÅºÅ¡£
 
 »ùÓÚÉÏËßÊý×ÖËøÏà·Å´óÆ÷Ô­Àí£¬Éè´ý²âÐÅºÅÎª£º
 \begin{equation}\label{s10}
@@ -192,7 +192,7 @@ SNIR =\frac{S_{o}/N_{o}}{S_{i}/N_{i}} = \sqrt{\frac{\Delta f_{N_{i}}}{\Delta f_{
   \theta=\arctan(R_{xr,c}/R_{xr,s})
 \end{equation}
 
-µ±~$x(t)$~Îª~$M$~¸ö²ÉÑùµãËù¹¹³ÉµÄÐÅºÅÊý×éÊ±£¬¶ÔÓÚµÚ~$j£¨j=0,1,2£¬...£¬M-1£©$~¸ö²ÉÑùµã£¬¾­¹ýÊý×ÖËøÏà·Å´óÆ÷´¦Àíºó£¬Êä³öÐÅºÅµÄ·ùÖµ¡¢ÏàÎ»·Ö±ðÎª£º
+µ±~$x(t)$~Îª~$M$~¸ö²ÉÑùµãËù¹¹³ÉµÄÐÅºÅÊý×éÊ±£¬¶ÔÓÚµÚ~$j(j=0,1,2£¬...£¬M-1)$~¸ö²ÉÑùµã£¬¾­¹ýÊý×ÖËøÏà·Å´óÆ÷´¦Àíºó£¬Êä³öÐÅºÅµÄ·ùÖµ¡¢ÏàÎ»·Ö±ðÎª£º
 \begin{equation}\label{s16}
   A(i)=2\sqrt{R^{2}_{xr,s}(i)+R^{2}_{xr,c}(i)}
 \end{equation}
@@ -217,7 +217,7 @@ SNIR =\frac{S_{o}/N_{o}}{S_{i}/N_{i}} = \sqrt{\frac{\Delta f_{N_{i}}}{\Delta f_{
 
 Ëæ×Å´«Í³µÄÄ£ÄâÐÅºÅ´¦Àí·½·¨ÂýÂý±»Êý×ÖÐÅºÅ´¦Àí·½·¨Ëù´úÌæ£¬Ä£ÄâËøÏà·Å´óÆ÷ºËÐÄ²¿¼þÏàÃô¼ì²¨Æ÷±»Êý×Ö»¯´¦Àí·½·¨È¡´úºó²Å³öÏÖÁËÈ«ÐÂÒâÒåÉÏµÄÊý×ÖËøÏà·Å´óÆ÷¡£Ïà±ÈÓÚÄ£ÄâËøÏà·Å´óÆ÷£¬Êý×ÖËøÏà·Å´óÆ÷ÓÐ×ÅÖî¶àµÄÓÅÊÆËùÔÚ¡£
 
-£¨1£©Êý×ÖËøÏà·Å´óÆ÷ÒòÆäºËÐÄµçÂ·±»DSP»òÎ¢´¦ÀíÆ÷ËùÈ¡´ú£¬´Ó¶øÔÚµçÂ·Éè¼ÆÉÏµÃµ½ÁË¼«´ó³Ì¶ÈµÄ¼ò»¯¡£
+£¨1£©Êý×ÖËøÏà·Å´óÆ÷ÒòÆäºËÐÄµçÂ·±»~DSP~»òÎ¢´¦ÀíÆ÷ËùÈ¡´ú£¬´Ó¶øÔÚµçÂ·Éè¼ÆÉÏµÃµ½ÁË¼«´ó³Ì¶ÈµÄ¼ò»¯¡£
 
 £¨2£©´óÁ¿Ä£ÄâµçÂ·±»Êý×Ö»¯Î¢´¦ÀíÆ÷Ìæ´úºó£¬ÇáËÉµÄ¿Ë·þÁËÒòÄ£ÄâÆ÷¼þ×ÔÉíÓ°ÏìËù²úÉúµÄÖîÈçÐ³²¨ÒÖÖÆÄÜÁ¦²î£¬Ö±Á÷Æ¯ÒÆµÈÎÊÌâ¡£
 
@@ -227,7 +227,7 @@ SNIR =\frac{S_{o}/N_{o}}{S_{i}/N_{i}} = \sqrt{\frac{\Delta f_{N_{i}}}{\Delta f_{
 
 \section{Êý×ÖËøÏà·Å´óÆ÷·ÂÕæÆ½Ì¨µÄÉè¼ÆºÍ·ÂÕæ}
 
-ÔÚÊý×ÖËøÏà·Å´óÆ÷Ëã·¨ÖÐ£¬²ÉÑùÆµÂÊ¡¢²ÉÑùÊý¾Ý³¤¶ÈÊÇ¾ö¶¨Êý×ÖËøÏà·Å´óÆ÷´¦ÀíÐ§¹ûµÄ¹Ø¼ü²ÎÊý¡£¶øÕâÐ©²ÎÊýµÄÉè¼ÆÐèÒª×ÛºÏÊäÈëÐÅºÅµÄÆµÂÊ¡¢ÐÅÔë±È¡¢·ùÖµ¡¢²¨ÐÎµÈ¶àÏîÒòËØ½øÐÐ¿¼ÂÇ¡£±¾ÎÄ½¨Á¢ÁË»ùÓÚPython µÄËã·¨·ÂÕæÆ½Ì¨¶Ô¸ÃËã·¨½øÐÐÒ»ÏµÁÐµÄ²âÊÔ£¬´Ó¶øÍê³É¶ÔËùÐè²ÎÊýµÄÑ¡Ôñ£¬ÎªºóÃæÕÂ½ÚµÄÇ¶ÈëÊ½Èí¼þÉè¼ÆÌá¹©ÀíÂÛÒÀ¾Ý¡£
+ÔÚÊý×ÖËøÏà·Å´óÆ÷Ëã·¨ÖÐ£¬²ÉÑùÆµÂÊ¡¢²ÉÑùÊý¾Ý³¤¶ÈÊÇ¾ö¶¨Êý×ÖËøÏà·Å´óÆ÷´¦ÀíÐ§¹ûµÄ¹Ø¼ü²ÎÊý¡£¶øÕâÐ©²ÎÊýµÄÉè¼ÆÐèÒª×ÛºÏÊäÈëÐÅºÅµÄÆµÂÊ¡¢ÐÅÔë±È¡¢·ùÖµ¡¢²¨ÐÎµÈ¶àÏîÒòËØ½øÐÐ¿¼ÂÇ¡£±¾ÎÄ½¨Á¢ÁË»ùÓÚ~Python~µÄËã·¨·ÂÕæÆ½Ì¨¶Ô¸ÃËã·¨½øÐÐÒ»ÏµÁÐµÄ²âÊÔ£¬´Ó¶øÍê³É¶ÔËùÐè²ÎÊýµÄÑ¡Ôñ£¬ÎªºóÃæÕÂ½ÚµÄÇ¶ÈëÊ½Èí¼þÉè¼ÆÌá¹©ÀíÂÛÒÀ¾Ý¡£
 \subsection{·ÂÕæÆ½Ì¨µÄÉè¼Æ}
 Python~ÊÇÒ»ÖÖÃæÏò¶ÔÏóµÄ¡¢¶¯Ì¬µÄ³ÌÐòÉè¼ÆÓïÑÔ¡£¾ßÓÐ·Ç³£¼ò½à¶øÇåÎúµÄÓï·¨£¬ÊÊºÏÓÚÍê³É¸÷ÖÖ¸ß²ãÈÎÎñ¡£Ëü¼È¿ÉÒÔÓÃÀ´¿ìËÙ¿ª·¢³ÌÐò½Å±¾£¬Ò²¿ÉÒÔÓÃÀ´¿ª·¢´ó¹æÄ£µÄÈí¼þ¡£Ëæ×Å~NumPy¡¢SciPy¡¢Matplotlib¡¢Enthought librarys~µÈÖÚ¶à³ÌÐò¿âµÄ¿ª·¢£¬Python~Ô½À´Ô½ÊÊºÏÓÚ×ö¿ÆÑ§¼ÆËã¡¢»æÖÆ¸ßÖÊÁ¿µÄ~2D~ºÍ~3D~Í¼Ïñ¡£ºÍ¿ÆÑ§¼ÆËãÁìÓò×îÁ÷ÐÐµÄÉÌÒµÈí¼þ~MATLAB~Ïà±È£¬Python~ÊÇÒ»ÃÅÍ¨ÓÃµÄ³ÌÐòÉè¼ÆÓïÑÔ£¬±È~MATLAB~Ëù²ÉÓÃµÄ½Å±¾ÓïÑÔµÄÓ¦ÓÃ·¶Î§¸ü¹ã·º£¬ÓÐ¸ü¶àµÄ³ÌÐò¿âµÄÖ§³Ö¡£ÊÊÓÃÓÚ~Windows~ºÍ~Linux~µÈ¶àÖÖÆ½Ì¨£¬ÍêÈ«Ãâ·Ñ²¢ÇÒ¿ª·ÅÔ´Âë¡£
 
@@ -250,7 +250,7 @@ Python~ÊÇÒ»ÖÖÃæÏò¶ÔÏóµÄ¡¢¶¯Ì¬µÄ³ÌÐòÉè¼ÆÓïÑÔ¡£¾ßÓÐ·Ç³£¼ò½à¶øÇåÎúµÄÓï·¨£¬ÊÊºÏÓÚÍê³
 ±¾¿ÎÌâÖÐ£¬¸ù¾ÝÌ½²âÆ÷½ÓÊÕµ½µÄÐÅºÅµÄÆµÂÊ±¾ÎÄÒÔ´ý²âÐÅºÅÎª~$5kHz$~ÎªÀý½øÐÐ·ÂÕæ¡£¸ù¾ÝÄÎ¿üË¹ÌØ¶¨Àí£¬²ÉÑùÆµÂÊ±ØÐë´óÓÚ£²±¶µÄ´ý²âÐÅºÅµÄÆµÂÊ¡£ÎªÁË±ÜÃâÓÉ·ÇÖÜÆÚ²ÉÑù¸øÊý×ÖËøÏà½á¹û´øÀ´Îó²î£¬Ó¦¾¡Á¿Ê¹²ÉÑùÆµÂÊÓë´ý²âÐÅºÅµÄÆµÂÊµÄ±ÈÖµÎªÒ»¸öÕûÊý¡£
 %¶ø¿¼ÂÇµ½ÔëÉùÊÇ¿í´øµÄ£¬ÎªÁË±ÜÃâ~$f_{s}$~ÆµÂÊÒÔÉÏµÄÔëÉùÍ¨¹ý~$A/D$~ºóÒýÆð»ìµþÏÖÏó£¬
 
-±¾ÎÄ¸ø¶¨ÈçÏÂÌõ¼þ£º´ý²âÐÅºÅÖÐÓÐÓÃÐÅºÅµÄÆµÂÊÎª~$5kHz$£¬ÐÅºÅ·ùÖµÎª~$0.1V$£¬µþ¼ÓµÄËæ»úÔëÉù¾ùÖµÎª~$0$~£¬·½²îÎª~$0.01$~£¬¼´ÊäÈëÐÅºÅµÄÐÅÔë±ÈÎª~$-30dB$~¡£ÔÚ~$100kHz$~µÄ²ÉÑùÖÜÆÚÏÂ²É¼¯~$480$~¸öµã£¬µÃµ½ÈçÏÂÍ¼~\ ref{fig5}~ËùÊ¾µÄ´ý²âÐÅºÅÊ±Óò¡¢ÆµÓòµÄÐÅºÅÍ¼¡£
+±¾ÎÄ¸ø¶¨ÈçÏÂÌõ¼þ£º´ý²âÐÅºÅÖÐÓÐÓÃÐÅºÅµÄÆµÂÊÎª~$5kHz$£¬ÐÅºÅ·ùÖµÎª~$0.1V$£¬µþ¼ÓµÄËæ»úÔëÉù¾ùÖµÎª~$0$~£¬·½²îÎª~$0.01$~£¬¼´ÊäÈëÐÅºÅµÄÐÅÔë±ÈÎª~$-30dB$~¡£ÔÚ~$100kHz$~µÄ²ÉÑùÖÜÆÚÏÂ²É¼¯~$480$~¸öµã£¬µÃµ½ÈçÏÂÍ¼~\ref{fig5}~ËùÊ¾µÄ´ý²âÐÅºÅÊ±Óò¡¢ÆµÓòµÄÐÅºÅÍ¼¡£
 \begin{figure*}[!h]
 \centering
 \includegraphics[width=15cm]{fig35_2.png}
@@ -340,11 +340,11 @@ $F_{s}(kHz)$  && $20$        && $40$         && $50$        && $80$        && $1
 \end{tabular}
 \end{table*}
 
-½ÓÏÂÀ´£¬±¾ÎÄÑÐ¾¿ÁË²»Í¬Êý¾Ý³¤¶È£¨¼´²ÉÑùµãÊý£©¶ÔËøÏà·Å´óÐ§¹ûµÄÓ°Ïì¡£´Ó±í~\ref{table2}~ÖÐ¿ÉÒÔ·¢ÏÖ£¬Ëæ×Å²ÉÑùµãÊýµÄÔö¼Ó£¬Êý×ÖËøÏà·Å´óÆ÷Ëã·¨µÄ²âÁ¿¾«¶ÈÒ²ÓÐÁËÏÔÖøÌá¸ß£¬µ«ËæÖ®´øÀ´¼ÆËãÊ±¼äÒ²»áÔö³¤¡£ÔÚÊµÊ±ÐÔÒªÇó½Ï¸ßµÄ³¡ºÏ£¬ÐèÒª¼æ¹ËËÙ¶ÈºÍ¾«¶È£¬Ñ¡È¡ÊÊµ±µÄ²ÉÑùµãÊý¡£¿¼ÂÇµ½±¾¿ÎÌâ¶ÔÔËËãËÙ¶ÈºÍ¾«¶ÈµÄÒªÇó£¬Ñ¡È¡²ÉÑùµãÊýÎª420×÷Îª´ý²âÐÅºÅÐòÁÐµÄ³¤¶È£¬ÕâÑù¼È¿ÉÒÔ±£Ö¤ÈýÂ·²»Í¬ÆµÂÊµÄÐÅºÅ¾ùÄÜ²É¼¯µ½ÕûÖÜÆÚµÄÐÅºÅ£¬Ò²ÄÜÔÚÂú×ã¾«¶ÈÒªÇóµÄÍ¬Ê±²»»áÓ°Ïì¼ÆËãÊ±¼ä¡£
+½ÓÏÂÀ´£¬±¾ÎÄÑÐ¾¿ÁË²»Í¬Êý¾Ý³¤¶È£¨¼´²ÉÑùµãÊý£©¶ÔËøÏà·Å´óÐ§¹ûµÄÓ°Ïì¡£´Ó±í~\ref{table2}~ÖÐ¿ÉÒÔ·¢ÏÖ£¬Ëæ×Å²ÉÑùµãÊýµÄÔö¼Ó£¬Êý×ÖËøÏà·Å´óÆ÷Ëã·¨µÄ²âÁ¿¾«¶ÈÒ²ÓÐÁËÏÔÖøÌá¸ß£¬µ«ËæÖ®´øÀ´¼ÆËãÊ±¼äÒ²»áÔö³¤¡£ÔÚÊµÊ±ÐÔÒªÇó½Ï¸ßµÄ³¡ºÏ£¬ÐèÒª¼æ¹ËËÙ¶ÈºÍ¾«¶È£¬Ñ¡È¡ÊÊµ±µÄ²ÉÑùµãÊý¡£¿¼ÂÇµ½±¾¿ÎÌâ¶ÔÔËËãËÙ¶ÈºÍ¾«¶ÈµÄÒªÇó£¬Ñ¡È¡²ÉÑùµãÊýÎª~420~×÷Îª´ý²âÐÅºÅÐòÁÐµÄ³¤¶È£¬ÕâÑù¼È¿ÉÒÔ±£Ö¤ÈýÂ·²»Í¬ÆµÂÊµÄÐÅºÅ¾ùÄÜ²É¼¯µ½ÕûÖÜÆÚµÄÐÅºÅ£¬Ò²ÄÜÔÚÂú×ã¾«¶ÈÒªÇóµÄÍ¬Ê±²»»áÓ°Ïì¼ÆËãÊ±¼ä¡£
 
 
 \section{Ð¡½á}
-±¾ÕÂÑÐ¾¿ÁËÎ¢ÈõÐÅºÅµÄ¼¸ÖÖ¼ì²â·½·¨£¬²¢Õë¶ÔÏà¹Ø¼ì²â·¨×÷ÁËÏêÏ¸µÄ²ûÊö£¬ÌØ±ðÊÇ¶ÔÄ£ÄâËøÏà·Å´óÆ÷¡¢Õý½»Ê¸Á¿ÐÍËøÏà·Å´óÆ÷ºÍÊý×ÖËøÏà·Å´óÆ÷µÄ»ù±¾Ô­Àí×öÁËÉîÈëµÄÑÐ¾¿¡£Í¨¹ý¶Ô±ÈÄ£ÄâÄ£ÄâËøÏà·Å´óÆ÷ºÍÊý×ÖËøÏà·Å´óÆ÷µÄÓÅÈ±µã£¬±¾ÎÄÑ¡ÔñÁË¸ßÐÅÔë¸ÄÉÆ±È¡¢Éè¼Æ¼òµ¥¡¢µ÷ÊÔ·½±ã¡¢Áé»îÐÔºÃµÄÊý×ÖËøÏà·Å´óÆ÷ÊµÏÖÎ¢ÈõÐÅºÅµÄ¼ì²â¡£ÓÉÓÚ²ÉÑùÆµÂÊºÍÊý¾Ý³¤¶È²ÎÊýµÄÉè¼Æ¶ÔÊý×ÖËøÏà·Å´óÆ÷µÄÐÔÄÜÓÐ¹Ø¼üÐÔµÄÓ°Ïì£¬±¾ÎÄ½¨Á¢ÁË»ùÓÚPythonµÄ·ÂÕæÆ½Ì¨¶Ô¸ÃËã·¨½øÐÐÒ»ÏµÁÐµÄ²âÊÔ¡£Í¨¹ý¶Ô¸ÃËã·¨¼°²ÉÑùÆµÂÊºÍÊý¾Ý³¤¶ÈÁ½¸ö¹Ø¼ü²ÎÊýµÄ·ÂÕæºÍ·ÖÎö£¬²¢½áºÏ±¾¿ÎÌâÊµ¼ÊµÄÈíÓ²¼þÒªÇó£¬±¾ÕÂÑ¡È¡ÁË×î¼ÑµÄ²ÉÑùÆµÂÊºÍ×îºÏÊÊµÄ²ÉÑù³¤¶È£¬ÎªºóÃæÕÂ½ÚµÄÈíÓ²¼þÉè¼ÆÌá¹©ÁËÀíÂÛÒÀ¾Ý¡£ÆäÖÐ£¬Êý×ÖËøÏà·Å´óÆ÷µÄÐÅºÅÍ¨µÀµÄÓ²¼þÊµÏÖ½«ÔÚµÚ\ref{x}ÕÂ½ÚËµÃ÷£¬¶øÆäÔÚDSPÏµÍ³ÖÐµÄÈí¼þÊµÏÖ½«ÔÚµÚ\ref{y}ÕÂ½ÚÖÐ½øÐÐÏêÏ¸ËµÃ÷¡£
+±¾ÕÂÑÐ¾¿ÁËÎ¢ÈõÐÅºÅµÄ¼¸ÖÖ¼ì²â·½·¨£¬²¢Õë¶ÔÏà¹Ø¼ì²â·¨×÷ÁËÏêÏ¸µÄ²ûÊö£¬ÌØ±ðÊÇ¶ÔÄ£ÄâËøÏà·Å´óÆ÷¡¢Õý½»Ê¸Á¿ÐÍËøÏà·Å´óÆ÷ºÍÊý×ÖËøÏà·Å´óÆ÷µÄ»ù±¾Ô­Àí×öÁËÉîÈëµÄÑÐ¾¿¡£Í¨¹ý¶Ô±ÈÄ£ÄâÄ£ÄâËøÏà·Å´óÆ÷ºÍÊý×ÖËøÏà·Å´óÆ÷µÄÓÅÈ±µã£¬±¾ÎÄÑ¡ÔñÁË¸ßÐÅÔë¸ÄÉÆ±È¡¢Éè¼Æ¼òµ¥¡¢µ÷ÊÔ·½±ã¡¢Áé»îÐÔºÃµÄÊý×ÖËøÏà·Å´óÆ÷ÊµÏÖÎ¢ÈõÐÅºÅµÄ¼ì²â¡£ÓÉÓÚ²ÉÑùÆµÂÊºÍÊý¾Ý³¤¶È²ÎÊýµÄÉè¼Æ¶ÔÊý×ÖËøÏà·Å´óÆ÷µÄÐÔÄÜÓÐ¹Ø¼üÐÔµÄÓ°Ïì£¬±¾ÎÄ½¨Á¢ÁË»ùÓÚ~Python~µÄ·ÂÕæÆ½Ì¨¶Ô¸ÃËã·¨½øÐÐÒ»ÏµÁÐµÄ²âÊÔ¡£Í¨¹ý¶Ô¸ÃËã·¨¼°²ÉÑùÆµÂÊºÍÊý¾Ý³¤¶ÈÁ½¸ö¹Ø¼ü²ÎÊýµÄ·ÂÕæºÍ·ÖÎö£¬²¢½áºÏ±¾¿ÎÌâÊµ¼ÊµÄÈíÓ²¼þÒªÇó£¬±¾ÕÂÑ¡È¡ÁË×î¼ÑµÄ²ÉÑùÆµÂÊºÍ×îºÏÊÊµÄ²ÉÑù³¤¶È£¬ÎªºóÃæÕÂ½ÚµÄÈíÓ²¼þÉè¼ÆÌá¹©ÁËÀíÂÛÒÀ¾Ý¡£ÆäÖÐ£¬Êý×ÖËøÏà·Å´óÆ÷µÄÐÅºÅÍ¨µÀµÄÓ²¼þÊµÏÖ½«ÔÚµÚ~\ref{x}~ÕÂ½ÚËµÃ÷£¬¶øÆäÔÚDSP ÏµÍ³ÖÐµÄÈí¼þÊµÏÖ½«ÔÚµÚ~\ref{y}~ÕÂ½ÚÖÐ½øÐÐÏêÏ¸ËµÃ÷¡£
 
 
 
