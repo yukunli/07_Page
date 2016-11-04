@@ -8,7 +8,9 @@ A level-1 auxiliary file: chapter/chap-DLIAsumli.aux
 A level-1 auxiliary file: chapter/chap-HardWare.aux
 A level-1 auxiliary file: chapter/chap-SoftWare.aux
 A level-1 auxiliary file: chapter/chap-Experiment.aux
+A level-1 auxiliary file: chapter/chap-Conclusion.aux
 A level-1 auxiliary file: chapter/bib.aux
+A level-1 auxiliary file: chapter/thanks.aux
 I found no \bibdata command---while reading file thesis.aux
 Warning--I didn't find a database entry for "c1t1-1"
 Warning--I didn't find a database entry for ""
@@ -31,6 +33,12 @@ Warning--I didn't find a database entry for "c2theoc1"
 Warning--I didn't find a database entry for "c2theoc2"
 Warning--I didn't find a database entry for "23"
 Warning--I didn't find a database entry for "[6]"
+Warning--I didn't find a database entry for "c3-jifen"
+Warning--I didn't find a database entry for "c3-jifen2"
+Warning--I didn't find a database entry for "c3-tongbu1"
+Warning--I didn't find a database entry for "c3-tongbu2"
+Warning--I didn't find a database entry for "c3-xianguan"
+Warning--I didn't find a database entry for "c3-xianbo"
 Warning--I didn't find a database entry for "8"
 Warning--I didn't find a database entry for "26"
 Warning--I didn't find a database entry for "29"

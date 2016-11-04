@@ -5,7 +5,6 @@
 %%
 %% $Id: template.tex,v 1.7 2005/11/28 02:50:06 aloft Exp $
 
-
 \documentclass{CASthesis}
 
 \graphicspath{{fig/}}
@@ -26,7 +25,7 @@
 
 %\setlength\parskip{3pt}
 \usepackage{multirow}
-
+\setlength{\abovecaptionskip}{4pt}  %使图的英文图题距离中文图题变近，但是对于表格，英文表题与表距离变大了，
 
 \begin{document}\pagestyle{empty}
 
@@ -47,10 +46,10 @@
   \degree{硕士}
   \subject{工学}
   \major{检测技术及自动化装置}
-  \submitdate{2016年6月}
-  \defenddate{2016年6月}
-  \conferdate{2016年7月}
-  \graduatedate{2016~年~6~月}
+  \submitdate{2016年0月}
+  \defenddate{2016年0月}
+  \conferdate{2016年0月}
+  \graduatedate{2017~年~0~月}
   \reviewer{XXX~~XXX }
   \institute{信息科学与工程学院}
   \school{东~~~北~~~大~~~学}
@@ -97,13 +96,13 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \mainmatter \pagestyle{fancy}
 
-  \include{chapter/chap-Intro}  %
+ \include{chapter/chap-Intro}  %
   \include{chapter/chap-Theory}  % 水分检测原理
   \include{chapter/chap-DLIAsumli} % 数字锁相放大器仿真
   \include{chapter/chap-HardWare} % 水分仪硬件电路设计
   \include{chapter/chap-SoftWare}  %水分仪软件设计
   \include{chapter/chap-Experiment} %水分仪测量实验
-  %\include{chapter/chap-Conclusion}% 结论和展望
+  \include{chapter/chap-Conclusion}% 结论和展望
 
   % 附录
   %\appendix

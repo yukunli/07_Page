@@ -30,6 +30,8 @@
 Bona M T, Andrés J M. Coal analysis by diffuse reflectance near-infrared spectroscopy: hierarchical cluster and linear discriminant analysis[J]. Talanta, 2007, 72(4): 1423-1431.
 \bibitem{c2theoc1}
 李玉忠. 物性分析仪器[M]，北京：化学工业出版社，2005，51-53.
+\bibitem{c2theoc2}
+陈晓东. 光电传感器应用技术[M]. 机械工业出版社, 2007.
 
 \bibitem{PINtheory}
  陈永甫.红外辐射红外器件与典型应用[M] .北京:电子工业出版社, 2004:200.
@@ -47,6 +49,19 @@ Bona M T, Andrés J M. Coal analysis by diffuse reflectance near-infrared spectr
    Quanzhen Huang, Quanxi Li, Zhongwei Chen, "System Design and Application of TMS320C54X Based FIR Wave Filter", Journal of Henan University of Science and Technology (natural Science), vol. 27, no. 2, pp. 314-318, 2008.
 \bibitem{Filter6}
    Xongwei Zhang, Tieyong Cao, The Fundamentals and Application of DSP Chips, pp. 186-200, 2000, Electronics Press.
+
+%%%第三章
+\bibitem{c3-jifen}
+曾庆勇，微弱信号检测(第二版).浙江大学出版社.2005:122页,47一52页
+\bibitem{c3-jifen2}
+高晋占，微弱信号检测.清华大学出版社有限公司, 2004 - 319页
+
+\bibitem{c3-tongbu1}
+精密测控与系统  作者：董永贵，李庆祥   219-221页
+\bibitem{c3-tongbu2}
+刘俊,张斌珍.微弱信号检测技术.电子工业出版社.2005:40一42,90,75一89页
+
+
 
 
 \end{thebibliography}

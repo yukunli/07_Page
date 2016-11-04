@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.23)  2 NOV 2016 20:59
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.23)  4 NOV 2016 15:44
 entering extended mode
 **E:/01_Master_project/Water_Detection_Project/07_Page/chapter/chap-SoftWare.te
 x
@@ -9,7 +9,12 @@ Babel <v3.8m> and hyphenation patterns for loaded.
 ! Undefined control sequence.
 l.1 \chapter
             {水分测量系统软件设计}\label{chap5}
-? e
+? 
+! Emergency stop.
+l.1 \chapter
+            {水分测量系统软件设计}\label{chap5}
+End of file on the terminal!
+
  
 Here is how much of TeX's memory you used:
  7 strings out of 495354
@@ -18,10 +23,5 @@ Here is how much of TeX's memory you used:
  3276 multiletter control sequences out of 15000+200000
  3640 words of font info for 14 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 5i,0n,1p,127b,8s stack positions out of 5000i,500n,10000p,200000b,50000s
-No pages of output.
-PDF statistics:
- 0 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 5i,0n,1p,125b,8s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
