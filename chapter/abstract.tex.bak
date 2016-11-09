@@ -1,27 +1,43 @@
 \begin{abstract}
 
-20~世纪末两个宇宙学研究小组发现宇宙加速膨胀以来，人们便对其加速膨胀的原因进行了深入的研究。为了解释宇宙加速膨胀，当前有两种比较流行的观点：%(1)~在爱因斯坦场方程的右边加入一个常数项~$\Lambda g_{\mu\nu}$~，即引入“暗能量”；(2)~修改爱因斯坦场方程左边的曲率项，即“修改引力”理论。
-暗能量和修改引力。迄今为止，关于宇宙加速膨胀的问题，人们已做了大量的分析，但仍无法断定暗能量和修改引力谁更能合理地解释宇宙加速膨胀。因此，基于这两大理论的提出，人们建立了许多宇宙学模型。此外随着天文观测技术的不断进步，超新星、 宇宙微波背景辐射、重子声学振荡以及哈勃常数~$H_{0}$~等天文观测也为研究宇宙加速膨胀提供了大量精确的信息。因此，使用不同的观测数据组合精确限制宇宙学模型是研究宇宙加速膨胀的主要思想。
+水分的准确测量对很多生产领域的生产过程具有重要意义。在众多水分检测方法中，近红外水分检测凭借连续在线、非接触测量、响应速度快等优点，在很多领域得到了广泛的应用。当前基于近红外吸收光谱的传统近红外水分仪通过切光盘对大功率卤素灯光源进行调制，具有功耗大、可动部件多、调制频率受机械转速限制等不足，影响了仪器的测量精度、稳定性和使用寿命。
 
-本文从两个方面研究天文观测检验暗能量的问题。首先，我们研究了未来红移漂移观测对一种典型的修改引力模型（$f(T)$~模型）参数限制的影响。红移漂移观测作为当前其他天文观测方法的重要补充，它可直接测量遥远类星体~Lyman-$\alpha$~吸收线的红移漂移，其测量“红移沙漠”范围为~$2 \lesssim z \lesssim 5$。为了避免其检验数据与其他观测数据不一致，我们选用当前观测数据的最佳拟合%用现有观测数据组合限制不同形式的~$f(T)$~模型，并选出
-模型本身为基准模型，模拟~30~年的红移漂移模拟数据。然后定量地分析这些模拟数据对~$f(T)$~引力模型参数限制的影响。结果表明：30~年的红移漂移模拟数据可以有效地打破物质密度参数~$\Omega_{\rm {m}}$~和哈勃常数~$H_{0}$~在当前观测数据中的强简并，从而极大地提高~$f(T)$~引力模型中自由参数~$\Omega_{\rm {m}}$~和~$H_{0}$~的限制精度，但并不能有效地提高~$f(T)$~模型自身参数的限制精度。
+本课题研制了应用于烧结矿生产过程中烧结混合料水分测量的近红外水分测量系统。针对传统的近红外水分测量仪的不足之处，本课题采用红外~LED~光源代替传统光源，电调制光信号取代机械调制的新型近红外水分检测方案。在充分了解前人研究工作的基础上，本文对信号的处理
+对红外水分仪的光学结构、系统硬件以及软件编程进行了优化，使水分仪运行稳定可靠，性能得到提高。
 
-此外，近年来人们对哈勃参量~$H(z)$~的数据观测问题进行了大量的研究。众所周知，目前较流行的天文观测量为光度距离和角直径距离。它们影响暗能量状态方程~$w$~需要对哈勃参量~$H(z)$~进行一次积分，然而这个积分的存在必然会对宇宙观测信息检验暗能量造成一定的困扰。因此不同红移处哈勃参量~$H(z)$~的直接测量对暗能量物理性质的研究具有重大意义。本文采用了~31~ 个红移在~[0.07，2.34]~区间的哈勃参量~$H(z)$~的直接观测数据，并用它们分析一系列典型的暗能量模型，包括~$\Lambda$CDM~模型、$w$CDM~ 模型、CPL~ 模型以及全息暗能量模型。事实上，红移漂移观测的的本质也是直接测量高红移~[2，5]~范围内哈勃参量~$H(z)$~的几何观测。因此，单独研究这些直接观测数据对暗能量限制的影响具有十分重要的意义。我们发现联合~10~年的红移漂移模拟数据与哈勃参量~$H(z)$~的直接观测数据能够极大地提高对暗能量的限制。
+本文针对传统的近红外水分测量仪的不足之处，提出了一种无可动部件的新型近红外水分检测方案。采用近红外LED光源代替传统的大功率光源；采用电调制代替机械调制；采用锁相放大技术将淹没在强噪声背景下的有用信号提取出来。本文的主要工作内容如下：
+
+（1）研究近红外水分检测的理论，其中包括近红外光谱分析的理论、漫反射定量分析理论和三波长测量法的原理。研究并应用锁相放大技术，对微弱信号进行检测；
+
+（2）设计近红外水分仪的光学系统，应用LightTools软件对光学系统进行模拟仿真，通过对比分析选取了最佳的光学系统设计方案；
+
+（3）设计并制作水分仪的硬件电路，其中包括电源电路、光源驱动电路、信号检测电路和数字电路等；
+
+（4）采用C语言编写近红外水分仪的单片机程序，在LabVIEW开发环境下完成近红外水分仪的上位机设计;
+
+（5）在实验室条件下，应用设计制作的近红外水分仪，以烧结混合料为水分检测对象，进行了最佳测量距离实验、水分仪标定实验、重复性实验和稳定性实验。实验表明，仪器的最佳测量距离为0~150mm，测量含水量为3\%~8\%的烧结混合料时，仪器的稳定性实验中的最大绝对变化量在0.31\%水分含量以内，仪器的重复性实验中的相对标准偏差为2.14\%，仪器的测量误差小于0.34\%水分绝对含量。
 
 
-\keywords{暗能量；修改引力；哈勃参量；红移漂移；宇宙学参数限制}
+\keywords{近红外；数字锁相放大器；水分检测}
 \end{abstract}
 
 \begin{englishabstract}
 
-Since two observation teams found that the universe is currently undergoing  an accelerating expansion, cosmologists have studied its origin in depth. In order to explain it, there are two popular arguments: dark energy and modified gravity. So far, whether dark energy or modified gravity hasn't been totally accepted by the public. Therefore people established all kinds of cosmological models based on them. In addition, with the development of technology in astronomy, many astronomical observations, including type Ia supernova, cosmic microwave background radiation, baryon acoustic oscillations, Hubble constant $H_{0}$ and others, also provide a number of important information for our research. Therefore that combining different kinds of observations constrains dark energy is our major method to study the cosmic acceleration.
+The moisture of materials is an important parameter during the production process in many fields. It is significant to detect the moisture of materials quickly and precisely. With the feature of non-contact, continuation and fast measure speed, the method of near-infrared detection has been widely applied to many fields in moisture detection. There are moving parts in traditional near-infrared moisture meter, which influence accuracy and stability of measurement by its machinery rotation, power consumption and volume of the equipment is larger as well.
 
-In the thesis, we study the observational test of dark energy in the following two aspects. Firstly we analyze the effect of future redshift drift measurement on $f(T)$ model. Redshift-drift observation is an important supplement to current cosmological observations because it measures the redshift drift in the Lyman-$\alpha$ forest in the spectra of distant quasars, covering the ``redshift desert" of $2 \lesssim z \lesssim5$. To avoid data inconsistency, we use the best-fit models based on current combined observational data as fiducial models to simulate 30 mock data. We quantify the impact of these data on parameter estimation for $f(T)$ gravity theories. Two typical $f(T)$ models are considered, the power-law model $f(T)_{\rm PL}$ and the exponential-form model $f(T)_{\rm EXP}$. The results show that Redshift-drift observation can effectively break the existing strong degeneracy between the present-day matter density $\Omega_{\rm m}$ and the Hubble constant $H_0$ in other cosmological observations. For the considered $f(T)$ models, a 30-year observation of redshift drift can improve the constraint precision of $\Omega_{\rm m}$ and $H_0$ enormously but cannot effectively improve the constraint precision of the model parameters.
+A new near-infrared moisture detection scheme without moving parts was proposed in this thesis, which against the disadvantages of traditional near-infrared moisture measurement instrument. Traditional high power light source was replaced by near-infrared LED, while mechanical modulation was replaced by electrical modulation. Useful signal drowning in strong noise background can be extracted by phase-lock amplifier technology. The main content in this thesis reads as follows:
 
-Otherwise, in recent years we have done lots of research about Hubble parameter measurements. As is known to us, the usual observables are the luminosity distances or the angular diameter distances, which measure the distance-redshift relation. Actually, the property of dark energy affects the distances (and the growth factor) by a further integration over functions of $H(z)$. Thus the direct measurements of the Hubble parameter $H(z)$ at different redshifts are of great importance for constraining the properties of dark energy. In this thesis, we show how the typical dark energy models, for example, the $\Lambda$CDM, $w$CDM, CPL, and holographic dark energy models, can be constrained by the current direct measurements of $H(z)$ (31 data used in total in this paper, covering the redshift range of $z\in [0.07,2.34]$). In fact, the future redshift-drift observations (also referred to as the Sandage-Loeb test) can also directly measure $H(z)$ at higher redshifts, covering the range of $z\in [2,5]$. We thus discuss what role the redshift-drift observations can play in constraining dark energy with the Hubble parameter measurements. We show that the constraints on dark energy can be improved greatly with the $H(z)$ data from only a 10-year observation of redshift drift.
+(1) The theory of near-infrared moisture detection has been studied, including near-infrared spectral analysis theory, diffuse quantitative analysis theory and the principle of three wavelength measurement. Phase-lock amplifier technology has been researched and applied to detect the weake signal.
+
+(2) Optical system of the near-infrared moisture meter was designed and simulated by LightTools. The optimal designing scheme of optical system was chosen after comparison and analysis.
+
+(3) Hardware circuit of moisture meter was designed and made to entity, which including power circuit, light source driving circuit, signal processing circuit and digital circuit.
+
+(4) The microcontroller procedures of near-infrared moisture meter was writed by C language, The PC software was completed in the LabVIEW development environment.
+
+(5) The best measuring distance experiment, moisture meter calibration experiment, repetitive experiment and stability experiment was conducted by near-infrared moisture meter under laboratory conditions, which taking sinter mixture as moisture detection object. The results show that the best measuring distance was 0~150mm. Absolute variation in stability experiment was within 0.31\% moisture content while measuring sinter mixture of 3\%~8\% water content. Relative standard deviation in repetitive experiment was 2.14\%. Measuring error of this instrument was under 0.34\%moisture content.
 
 
-
-\englishkeywords{dark energy; modified gravity; Hubble parameter; redshift drift; cosmological parameter constraints }
+\englishkeywords{lock-in amplifier; near-infrared; moisture detection }
 
 \end{englishabstract}
