@@ -1,55 +1,160 @@
+
 \begin{thebibliography}{100}
 %\baselineskip=13pt
 \addtolength{\itemsep}{-1.5ex}
-\bibitem{sandage}
- A.~Sandage,
- The change of redshift and apparent luminosity of galaxies due to the deceleration of selected expanding universes.
- Astrophys. J. {\bf 136}, 319 (1962).
- 
-\bibitem{Loeb:1998bu}
-  A.~Loeb,
-  Direct measurement of cosmological parameters from the cosmic deceleration of extragalactic objects.
-  Astrophys.\ J.\  {\bf 499}, L111 (1998)
-  %doi:10.1086/311375
-  [astro-ph/9802122]. 
- 
- 
-\bibitem{Hubble}
-Hubble E. A relation between distance and radial velocity among extra-galactic nebulae[J], Proceedings of the National Academy of Sciences, 1929, 15(3): 168-173.
+\bibitem{c1t1-0}
+方景林, 王燕. 烧结混合料水分测量方法的研究[J]. 传感器与微系统, 2000, 19(1):36-38.
+\bibitem{c1t1-1}
+姜灏. 烧结混合料水分控制的神经网络建模和实验[D]. 大连轻工业学院 大连工业大学, 2005.
+%\bibitem{c1t1:1-0}
+%韩亚玲. 红外水分仪在烧结混合料水分控制中的应用[J]. 电子制作, 2013, 17: 030.
+\bibitem{c1t1:1-1}
+朱振宇. 基于三波段六光束反射式的近红外水分仪的研究[D]. 东北大学, 2011.
+\bibitem{c1t1:1-2}
+彭敬兵. 自动化仪器仪表行业分析及企业发展方向研究[D]. 重庆理工大学, 2014.
+\bibitem{c1:theo1}
+马学林. 我看水分分析[J]，企业标准化：2006，26(5)：57-58.
+\bibitem{c1:theo2}
+郭怡, 李丹, 孙占辉. 浅淡卡尔费休法测定样品中水分含量及对仪器的校准[J]. 中国纤检, 2009(12):65-67.
+\bibitem{c1:theoc2}
+郭怡, 李丹, 孙占辉. 浅谈卡尔费休法测定样品中水分含量及对仪器的校准[J]. 中国纤检, 2009 (12): 65-67.
+\bibitem{c1theoc3}
+赵良羽, 李宝华, 郭怀天,等. 基于干燥减量法水分检测仪的研制[J]. 微计算机信息, 2007, 23(26):26-27.
+\bibitem{c1theoc4}
+于洋, 张宏勋. 电导法测定烧结混合料水分的研究[J]. 烧结球团, 1998, 23(4): 1-4.
+\bibitem{c1theoc5}
+刘金刚, 吕庆, 刘浏,等. 烧结混合料水含量测量方法综述[J]. 中国冶金, 2005(9):14-18.
+\bibitem{c1theoc6}
+赵经武, 刘圣康, 张治平. 中子测水技术在中国的发展[J]. 同位素, 2011, 24(2): 124-128.
+\bibitem{c1theoc7}
+靳忠银. 物料水分测量微波谐振腔的研究与设计[D]. 哈尔滨工程大学, 2013.
+\bibitem{c1theoc8}
+董亚锋, 沙永志, 曹军. 微波测量烧结混合料水分的试验研究[J]. 烧结球团, 2008, 33(6):18-21.
+\bibitem{c1theoc9}
+Bona M T, Andrés J M. Coal analysis by diffuse reflectance near-infrared spectroscopy: hierarchical cluster and linear discriminant analysis[J]. Talanta, 2007, 72(4): 1423-1431.
+\bibitem{c1theoc9.2}
+ Claudia C, Bu D S, Both D. Comparison of near infrared and microwave resonance sensors for at-line moisture determination in powders and tablets [J], Analytica Chimica Acta, 2011, 696(1): 84-93.
 
-\bibitem{Wang:2013mha}
-  Y.~Wang and S.~Wang,
-  %``Distance Priors from Planck and Dark Energy Constraints from Current Data,''
-  Phys.\ Rev.\ D {\bf 88}, no. 4, 043522 (2013)
-  Erratum: [Phys.\ Rev.\ D {\bf 88}, no. 6, 069903 (2013)]
-  doi:10.1103/PhysRevD.88.043522, 10.1103/PhysRevD.88.069903
-  [arXiv:1304.4514 [astro-ph.CO]].
+\bibitem{c1t1-2}
+陆品桢. 国内外水分测量技术及水分计发展概况[J]，分析仪器，1990，21(1)：12-17.
+\bibitem{c1t1-3}
+孙桂霞. 红外水分仪在大型烧结中的应用[J]，仪表技术，2012，41(11)：48-50.
+\bibitem{c1t1-4}
+徐恩道. 港口铁精矿在线微波水分检测技术研究[D]. 杭州电子科技大学, 2015.
+\bibitem{c1t1-5}
+王树山. 基于C8051F020的便携式近红外水分仪的研制[D]. 江苏大学, 2011.
+\bibitem{c1t1-6}
+邬鹏程. 烧结混合料水分检测与控制的研究[D]. 东北大学, 2012.
 
-\bibitem{plk}
-  P.~A.~R.~Ade {\it et al.} [Planck Collaboration],
-  %``Planck 2015 results. XIV. Dark energy and modified gravity,''
-  arXiv:1502.01590 [astro-ph.CO].
+\bibitem{c1t1-7}
+林晓鹰. 近红外水分仪的研制[J]，中国仪器仪表，2001，(2)：13-14.
 
-\bibitem{Conley:2011ku}
-  A.~Conley {\it et al.} [SNLS Collaboration],
-  %``Supernova Constraints and Systematic Uncertainties from the First 3 Years of the Supernova Legacy Survey,''
-  Astrophys.\ J.\ Suppl.\  {\bf 192}, 1 (2011)
-  doi:10.1088/0067-0049/192/1/1
-  [arXiv:1104.1443 [astro-ph.CO]].
-
-\bibitem{Riess:2011yx}
-  A.~G.~Riess {\it et al.},
-  %``A 3% Solution: Determination of the Hubble Constant with the Hubble Space Telescope and Wide Field Camera 3,''
-  Astrophys.\ J.\  {\bf 730}, 119 (2011)
-  Erratum: [Astrophys.\ J.\  {\bf 732}, 129 (2011)]
-  doi:10.1088/0004-637X/732/2/129, 10.1088/0004-637X/730/2/119
-  [arXiv:1103.2976 [astro-ph.CO]].
-
-\bibitem{Ade:2015xua}
-  P.~A.~R.~Ade et al. [Planck Collaboration],
-  Planck 2015 results. XIII. Cosmological parameters.
-  [arXiv:1502.01589 [astro-ph.CO]].
+\bibitem{c1t1-8.0}
+ 李华兴. 基于三波段六光束的反射式近红外水分仪设计[D]. 东北大学, 2009.
+\bibitem{c1t1-8.1}
+朱振宇. 基于三波段六光束反射式的近红外水分仪的研究[D]. 东北大学, 2011.
+\bibitem{c1t1-8.2}
+宋端阳. 基于LED的近红外水分测量研究[D].东北大学,2014.
+\bibitem{c1t1-9}
+翟宝峰, 郭宏林, 许会. 粮食水分检测技术的综合分析及发展概况[J]. 沈阳工业大学学报, 2001, 23(5):413-416.
 
 
+\bibitem{c2:th1}
+杨风暴. 红外物理与技术[M]. 电子工业出版社, 2014.
+\bibitem{c2:th2}
+叶玉堂. 红外与微光技术[M]. 国防工业出版社, 2010.
 
-\end{thebibliography}{100}
+\bibitem{c2:th3}
+ 陆婉珍. 现代近红外光谱分析技术[M]，北京：中国石化出版社，2007，13-13.
+\bibitem{c2:th4}
+ Huang. C. J, Han. L. J, Liu. X. Rapid measurement for moisture and calorific value of straw based on near infrared spectroscopy and local algorithm [J], Journal of Infrared and Millimeter Waves, 2009, 28(3): 184-187.
+\bibitem{c2:th5}
+孙毓庆. 分析化学. 上[M]. 科学出版社发行处出版社, 2006.
+\bibitem{c2:th6}
+李玉忠. 物性分析仪器[M]. 化学工业出版社, 2005, 51-53.
+
+\bibitem{c2:tp1}
+陈晓东. 光电传感器应用技术[M]. 机械工业出版社, 2007.
+
+\bibitem{c2:tp2}
+ 曾戈虹. 红外光子探测器与热探测器性能分析[J]，红外技术，2011，33(9)：497-500.
+\bibitem{c2:tp3}
+罗加尔斯基. 红外探测器[M]. 机械工业出版社, 2014.
+
+\bibitem{c2:tp4}
+ 陈永甫.红外辐射红外器件与典型应用[M].北京:电子工业出版社, 2004:200.
+
+
+%%第三章
+\bibitem{c3-jifen}
+曾庆勇. 微弱信号检测(第二版)[M]. 浙江大学出版社, 2005:122页,47一52页
+\bibitem{c3-jifen2}
+高晋占. 微弱信号检测[M]. 清华大学出版社, 2004年:154-172,242-243页.
+\bibitem{c3-tongbu1}
+董永贵, 李庆祥. 精密测控与系统[J]. 清华大学出版社, 2005.
+\bibitem{c3-tongbu2}
+刘俊, 张斌珍. 微弱信号检测技术[M]. 电子工业出版社, 2005:40-42,90,75-89页.
+\bibitem{c3-xianguan}
+宋改青. 锁相放大器的应用及数字化设计[D]. 山西大学, 2006.
+\bibitem{c3-xianbo}
+胡广书. 现代信号处理教程[M]. 清华大学出版社, 2015.
+%%锁相放大器
+
+%%第五章
+\bibitem{sin}
+ 雷杨梅,张良祖等.电力设备高质量信号发生器的查表法软件实现.西安交通大学.2007年
+\bibitem{Filter1}
+ 李兰英[1],王志超[1],王峰[1]等.FIR数字滤波器设计与仿真[J].哈尔滨理工大学学报,2013,18(3):36-41.
+\bibitem{Filter2}
+ 胡琥[1],万秋玉[1],周彤[2].FIR数字滤波器的DSP实现.哈尔滨理工大学学报,2004,9(1);122-124
+\bibitem{Filter3}
+ 李泉溪[1],黄全振[2],陈素霞[1].基于DSP的FIR数字滤波器的实现.河南科学,2008,26(2);190-193
+\bibitem{Filter4}
+  Nianxi Xue, Application of MATLAB in Digital Signal Processing, pp. 86-120, Qinhua University Press.
+\bibitem{Filter5}
+   Quanzhen Huang, Quanxi Li, Zhongwei Chen, "System Design and Application of TMS320C54X Based FIR Wave Filter", Journal of Henan University of Science and Technology (natural Science), vol. 27, no. 2, pp. 314-318, 2008.
+\bibitem{Filter6}
+   Xongwei Zhang, Tieyong Cao, The Fundamentals and Application of DSP Chips, pp. 186-200, 2000, Electronics Press.
+
+
+
+%胡乱拷贝过来的，可能与上面的有重复
+\bibitem{c?-0}
+ 杨蕾玉. 四电极电阻式烟草水分仪设计[D]，长春：吉林大学，2012.
+\bibitem{c?-1}
+ Wang. C. W, Wang. L. Design of Moisture Content Detection System [J], Physics Procedia, 2012, 33: 1408-1411.
+\bibitem{c?-2}
+ 董亚锋，沙永志. 微波测量烧结混合料水分的试验研究[J]，烧结球团，2008(6)：18-21.
+
+\bibitem{c?-3}
+ 李振涛，张燕云. 红外水分仪在烧结混合料水分连续测量中的应用[J]，山东冶金，2005，27(6)：20-21.
+\bibitem{c?-4}
+ 李新光，张华，孙岩. 过程检测技术[M]，北京：机械工业出版社，2004，259-260.
+
+\bibitem{c?-8}
+ 李玉忠. 中国湿度与水分测量技术的现状[J]，分析仪器，2003(1)：5-8.
+\bibitem{c?-9}
+ 李建闽. 基于MSP430F5438的新型水分测定仪设计[D]，长沙：湖南大学， 2012.
+\bibitem{c?-11}
+ Andrea De Marcellis, Giuseppe Ferri, Arnaldo D'Amico. A Fully-Analog Lock-In Amplifier with Automatic Phase Alignment for Accurate Measurements of ppb Gas Concentrations[J], Sensors Journal, 2012, 12(5): 1377-1383.
+
+\bibitem{c?-13}
+ 朱虹，林君，吴忠杰. 近红外光谱仪中的数字锁相技术研究[J]，仪器仪表学报，2006，27(10)：1258-1261.
+\bibitem{c?-14}
+ 刘陵顺，高艳丽.TMS320F28335DSP原理及开发编程[M]，北京：北京航空航天大学出版社，2011，1-23.
+\bibitem{c?-15}
+ 郎健.数字锁相放大器关键技术研究[D]，天津，天津大学，2006.
+
+
+\bibitem{c?-17}
+ 林晓鹰. 近红外水分仪的研制[J]，中国仪器仪表，2001，(2)：13-14.
+\bibitem{c?-18}
+ 杨杰，吴凡. 粗糙表面可见光散射特性的实验研究[J]，中国测试，2009，35(2)：125-128.
+
+
+\bibitem{c?-21}
+ 肖颖. 基于激光二极管光源的近红外水分仪的研制[D]，江苏大学，2009.
+\bibitem{c?-22}
+ Ehsan Kamrani, Frederic Lesage, Mohamad Sawan. Low-Noise, High-Gain Transimpedance Amplifier Integrated With SiAPD for Low-Intensity Near-Infrared Light Detection[J], Sensors Journal, 2014, 14: 258-269.
+
+\end{thebibliography}
