@@ -16,8 +16,6 @@
 马学林. 我看水分分析[J]，企业标准化：2006，26(5)：57-58.
 \bibitem{c1:theo2}
 郭怡, 李丹, 孙占辉. 浅淡卡尔费休法测定样品中水分含量及对仪器的校准[J]. 中国纤检, 2009(12):65-67.
-\bibitem{c1:theoc2}
-郭怡, 李丹, 孙占辉. 浅谈卡尔费休法测定样品中水分含量及对仪器的校准[J]. 中国纤检, 2009 (12): 65-67.
 \bibitem{c1theoc3}
 赵良羽, 李宝华, 郭怀天,等. 基于干燥减量法水分检测仪的研制[J]. 微计算机信息, 2007, 23(26):26-27.
 \bibitem{c1theoc4}
@@ -31,14 +29,14 @@
 \bibitem{c1theoc8}
 董亚锋, 沙永志, 曹军. 微波测量烧结混合料水分的试验研究[J]. 烧结球团, 2008, 33(6):18-21.
 \bibitem{c1theoc9}
-Bona M T, Andrés J M. Coal analysis by diffuse reflectance near-infrared spectroscopy: hierarchical cluster and linear discriminant analysis[J]. Talanta, 2007, 72(4): 1423-1431.
+Bona M T, Andrés J M. Coal analysis by diffuse reflectance near-infrared spectroscopy: hierarchical cluster and linear discriminant analysis[J]. Talanta, 2007, 72(4):1423-1431.
 \bibitem{c1theoc9.2}
- Claudia C, Bu D S, Both D. Comparison of near infrared and microwave resonance sensors for at-line moisture determination in powders and tablets [J], Analytica Chimica Acta, 2011, 696(1): 84-93.
+Claudia C, Bu D S, Both D. Comparison of near infrared and microwave resonance sensors for at-line moisture determination in powders and tablets [J]. Analytica Chimica Acta, 2011, 696(1):84-93.
 
 \bibitem{c1t1-2}
-陆品桢. 国内外水分测量技术及水分计发展概况[J]，分析仪器，1990，21(1)：12-17.
+陆品桢. 国内外水分测量技术及水分计发展概况[J]. 分析仪器, 1990, 21(1):12-17.
 \bibitem{c1t1-3}
-孙桂霞. 红外水分仪在大型烧结中的应用[J]，仪表技术，2012，41(11)：48-50.
+孙桂霞. 红外水分仪在大型烧结中的应用[J]. 仪表技术，2012，41(11):48-50.
 \bibitem{c1t1-4}
 徐恩道. 港口铁精矿在线微波水分检测技术研究[D]. 杭州电子科技大学, 2015.
 \bibitem{c1t1-5}
@@ -47,7 +45,7 @@ Bona M T, Andrés J M. Coal analysis by diffuse reflectance near-infrared spectr
 邬鹏程. 烧结混合料水分检测与控制的研究[D]. 东北大学, 2012.
 
 \bibitem{c1t1-7}
-林晓鹰. 近红外水分仪的研制[J]，中国仪器仪表，2001，(2)：13-14.
+林晓鹰. 近红外水分仪的研制[J]. 中国仪器仪表, 2001, (2):13-14.
 
 \bibitem{c1t1-8.0}
  李华兴. 基于三波段六光束的反射式近红外水分仪设计[D]. 东北大学, 2009.
@@ -65,9 +63,9 @@ Bona M T, Andrés J M. Coal analysis by diffuse reflectance near-infrared spectr
 叶玉堂. 红外与微光技术[M]. 国防工业出版社, 2010.
 
 \bibitem{c2:th3}
- 陆婉珍. 现代近红外光谱分析技术[M]，北京：中国石化出版社，2007，13-13.
+ 陆婉珍. 现代近红外光谱分析技术[M]. 中国石化出版社, 2007, 13-13.
 \bibitem{c2:th4}
- Huang. C. J, Han. L. J, Liu. X. Rapid measurement for moisture and calorific value of straw based on near infrared spectroscopy and local algorithm [J], Journal of Infrared and Millimeter Waves, 2009, 28(3): 184-187.
+ Huang. C. J, Han. L. J, Liu. X. Rapid measurement for moisture and calorific value of straw based on near infrared spectroscopy and local algorithm [J]. Journal of Infrared and Millimeter Waves, 2009, 28(3):184-187.
 \bibitem{c2:th5}
 孙毓庆. 分析化学. 上[M]. 科学出版社发行处出版社, 2006.
 \bibitem{c2:th6}
@@ -77,14 +75,15 @@ Bona M T, Andrés J M. Coal analysis by diffuse reflectance near-infrared spectr
 陈晓东. 光电传感器应用技术[M]. 机械工业出版社, 2007.
 
 \bibitem{c2:tp2}
- 曾戈虹. 红外光子探测器与热探测器性能分析[J]，红外技术，2011，33(9)：497-500.
+ 曾戈虹. 红外光子探测器与热探测器性能分析[J]. 红外技术，2011，33(9):497-500.
 \bibitem{c2:tp3}
 罗加尔斯基. 红外探测器[M]. 机械工业出版社, 2014.
 
 \bibitem{c2:tp4}
  陈永甫.红外辐射红外器件与典型应用[M].北京:电子工业出版社, 2004:200.
 
-
+\bibitem{c2:ss}
+ 杨杰, 吴凡. 粗糙表面可见光散射特性的实验研究[J]. 中国测试, 2009, 35(2):125-128.
 %%第三章
 \bibitem{c3-jifen}
 曾庆勇. 微弱信号检测(第二版)[M]. 浙江大学出版社, 2005:122页,47一52页
@@ -93,12 +92,45 @@ Bona M T, Andrés J M. Coal analysis by diffuse reflectance near-infrared spectr
 \bibitem{c3-tongbu1}
 董永贵, 李庆祥. 精密测控与系统[J]. 清华大学出版社, 2005.
 \bibitem{c3-tongbu2}
-刘俊, 张斌珍. 微弱信号检测技术[M]. 电子工业出版社, 2005:40-42,90,75-89页.
+刘俊, 张斌珍. 微弱信号检测技术[M]. 电子工业出版社, 2005.
 \bibitem{c3-xianguan}
 宋改青. 锁相放大器的应用及数字化设计[D]. 山西大学, 2006.
 \bibitem{c3-xianbo}
 胡广书. 现代信号处理教程[M]. 清华大学出版社, 2015.
 %%锁相放大器
+\bibitem{c3-sx1}
+朱虹, 林君, 吴忠杰. 近红外光谱仪中的数字锁相技术研究[J]. 仪器仪表学报, 2006. 27(10): 1258-1261.
+\bibitem{c3-sx2}
+刘晓明, 梁平, 仲元红. 基于数字双相位锁相放大器的前向散射能见度仪[J]. 数据通信, 2009(3):26-29.
+%%数字锁相放大器
+\bibitem{c3-dlia1}
+Leis J, Martin P, Buttsworth D. Simplified digital lock-in amplifier algorithm[J]. Electronics Letters, 2012, 48(5):259-261.
+\bibitem{c3-dlia2}
+Li G, Zhang S, Zhou M, et al. A method to remove odd harmonic interferences in square wave reference digital lock-in amplifier[J]. Review of Scientific Instruments, 2013, 84(2):025115-025115-7.
+%%数模锁相放大器比较
+\bibitem{c3-da1}
+李飞. 基于数字相关的弱信号检测方法的研究[D]. 华中科技大学, 2007.
+\bibitem{c3-da2}
+李凤鸣. 基于DSP的数字锁相放大器的设计[D]. 哈尔滨工程大学, 2011.
+\bibitem{c3-da3}
+孙志斌, 陈佳圭, SUNZhi-Bin,等. 锁相放大器的新进展[J]. 物理, 2006, 35(10):879-884.
+
+\bibitem{c3-py1}
+张若愚. Python~科学计算[D]. 清华大学出版社, 2012. 10-12.
+
+%第四章
+\bibitem{c4-EMC1}
+耿敬伟. 浅谈电磁兼容与电磁干扰[J]. 科技资讯, 2009 (6): 109-109.
+\bibitem{c4-uart}
+ 李建闽. 基于MSP430F5438的新型水分测定仪设计[D]，长沙：湖南大学， 2012.
+%第四章 前置放大电路
+\bibitem{c4-kd1}
+王蓉, 王志功, 柯锡明,等. InAlAsInGaAs HEMT跨阻前置放大器的设计与实现[J]. 东南大学学报(自然科学版), 2002, 32(1):46-49.
+
+
+\bibitem{c3-wx1}
+戴逸松. 测量低信噪比电压的数字相敏解调算法及性能分析[J]. 计量学报, 1997(2):126-132.
+
 
 %%第五章
 \bibitem{sin}
@@ -133,13 +165,11 @@ Bona M T, Andrés J M. Coal analysis by diffuse reflectance near-infrared spectr
 
 \bibitem{c?-8}
  李玉忠. 中国湿度与水分测量技术的现状[J]，分析仪器，2003(1)：5-8.
-\bibitem{c?-9}
- 李建闽. 基于MSP430F5438的新型水分测定仪设计[D]，长沙：湖南大学， 2012.
+
 \bibitem{c?-11}
  Andrea De Marcellis, Giuseppe Ferri, Arnaldo D'Amico. A Fully-Analog Lock-In Amplifier with Automatic Phase Alignment for Accurate Measurements of ppb Gas Concentrations[J], Sensors Journal, 2012, 12(5): 1377-1383.
 
-\bibitem{c?-13}
- 朱虹，林君，吴忠杰. 近红外光谱仪中的数字锁相技术研究[J]，仪器仪表学报，2006，27(10)：1258-1261.
+
 \bibitem{c?-14}
  刘陵顺，高艳丽.TMS320F28335DSP原理及开发编程[M]，北京：北京航空航天大学出版社，2011，1-23.
 \bibitem{c?-15}
