@@ -65,14 +65,14 @@
 \contentsline {subsection}{\numberline {5.2.1}正弦信号发生程序的设计}{52}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}数据采集程序的设计}{53}{subsection.5.2.2}
 \contentsline {subsection}{\numberline {5.2.3}数据通讯程序的设计}{53}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}温度控制程序的设计}{55}{subsection.5.2.4}
-\contentsline {section}{\numberline {5.3}数字锁相放大器软件设计}{55}{section.5.3}
+\contentsline {subsection}{\numberline {5.2.4}温度控制程序的设计}{56}{subsection.5.2.4}
+\contentsline {section}{\numberline {5.3}数字锁相放大器软件设计}{57}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}参考信号的产生}{57}{subsection.5.3.1}
 \contentsline {subsection}{\numberline {5.3.2}相关运算的实现}{58}{subsection.5.3.2}
 \contentsline {subsection}{\numberline {5.3.3}数字滤波器的设计}{60}{subsection.5.3.3}
 \contentsline {subsubsection}{\numberline {5.3.3.1}FIR\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 滤波器的设计}{60}{subsubsection.5.3.3.1}
-\contentsline {subsubsection}{\numberline {5.3.3.2}FIR滤波器的\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces DSP\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 实现}{61}{subsubsection.5.3.3.2}
-\contentsline {section}{\numberline {5.4}工业串口屏软件设计}{63}{section.5.4}
+\contentsline {subsubsection}{\numberline {5.3.3.2}FIR\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 滤波器的\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces DSP\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 实现}{61}{subsubsection.5.3.3.2}
+\contentsline {section}{\numberline {5.4}工业串口屏软件设计}{64}{section.5.4}
 \contentsline {section}{\numberline {5.5}本章小结}{65}{section.5.5}
 \contentsline {chapter}{\numberline {第六章\hspace {0.3em}}烧结混合料水分测量实验}{67}{chapter.6}
 \contentsline {section}{\numberline {6.1}水分测量系统的标定}{67}{section.6.1}

@@ -35,6 +35,8 @@ Claudia C, Bu D S, Both D. Comparison of near infrared and microwave resonance s
 
 \bibitem{c1t1-2}
 陆品桢. 国内外水分测量技术及水分计发展概况[J]. 分析仪器, 1990, 21(1):12-17.
+\bibitem{c1t1-2.1}
+ 李玉忠. 中国湿度与水分测量技术的现状[J]，分析仪器，2003(1)：5-8.
 \bibitem{c1t1-3}
 孙桂霞. 红外水分仪在大型烧结中的应用[J]. 仪表技术，2012，41(11):48-50.
 \bibitem{c1t1-4}
@@ -121,16 +123,24 @@ Li G, Zhang S, Zhou M, et al. A method to remove odd harmonic interferences in s
 %第四章
 \bibitem{c4-EMC1}
 耿敬伟. 浅谈电磁兼容与电磁干扰[J]. 科技资讯, 2009 (6): 109-109.
+\bibitem{c4-dsp}
+ 刘陵顺，高艳丽.TMS320F28335DSP原理及开发编程[M]，北京：北京航空航天大学出版社，2011，1-23.
 \bibitem{c4-uart}
  李建闽. 基于MSP430F5438的新型水分测定仪设计[D]，长沙：湖南大学， 2012.
 %第四章 前置放大电路
 \bibitem{c4-kd1}
 王蓉, 王志功, 柯锡明,等. InAlAsInGaAs HEMT跨阻前置放大器的设计与实现[J]. 东南大学学报(自然科学版), 2002, 32(1):46-49.
 
-
-\bibitem{c3-wx1}
-戴逸松. 测量低信噪比电压的数字相敏解调算法及性能分析[J]. 计量学报, 1997(2):126-132.
-
+\bibitem{c4-dt}
+熊俊俏, 戴璐平, 刘海英等. 无限增益多路反馈带通滤波器的研究[J]. 电气电子教学学报, 2013, 35(3):84-86.
+\bibitem{c4-dt2}
+胡寿松. 自动控制原理[M]. 北京：科学出版社, 2007, 192-205.
+%\bibitem{c3-wx1}
+%戴逸松. 测量低信噪比电压的数字相敏解调算法及性能分析[J]. 计量学报, 1997(2):126-132.
+\bibitem{c4-AD1}
+孙冬娇, 夏江涛, 张闯. 六通道同步ADC与MSP430的接口设计[J]. 四川兵工学报, 2014, 35(1):128-131.
+\bibitem{c4-wk1}
+童汉维. 半导体制冷器温度控制系统的设计与实现[D]. 华中科技大学, 2010.
 
 %%第五章
 \bibitem{sin}
@@ -144,46 +154,37 @@ Li G, Zhang S, Zhou M, et al. A method to remove odd harmonic interferences in s
 \bibitem{Filter4}
   Nianxi Xue, Application of MATLAB in Digital Signal Processing, pp. 86-120, Qinhua University Press.
 \bibitem{Filter5}
-   Quanzhen Huang, Quanxi Li, Zhongwei Chen, "System Design and Application of TMS320C54X Based FIR Wave Filter", Journal of Henan University of Science and Technology (natural Science), vol. 27, no. 2, pp. 314-318, 2008.
+Quanzhen Huang, Quanxi Li, Zhongwei Chen, "System Design and Application of TMS320C54X Based FIR Wave Filter", Journal of Henan University of Science and Technology (natural Science), vol. 27, no. 2, pp. 314-318, 2008.
 \bibitem{Filter6}
-   Xongwei Zhang, Tieyong Cao, The Fundamentals and Application of DSP Chips, pp. 186-200, 2000, Electronics Press.
+Xongwei Zhang, Tieyong Cao, The Fundamentals and Application of DSP Chips, pp. 186-200, 2000, Electronics Press.
 
 
 
 %胡乱拷贝过来的，可能与上面的有重复
-\bibitem{c?-0}
- 杨蕾玉. 四电极电阻式烟草水分仪设计[D]，长春：吉林大学，2012.
 \bibitem{c?-1}
  Wang. C. W, Wang. L. Design of Moisture Content Detection System [J], Physics Procedia, 2012, 33: 1408-1411.
-\bibitem{c?-2}
- 董亚锋，沙永志. 微波测量烧结混合料水分的试验研究[J]，烧结球团，2008(6)：18-21.
+
 
 \bibitem{c?-3}
  李振涛，张燕云. 红外水分仪在烧结混合料水分连续测量中的应用[J]，山东冶金，2005，27(6)：20-21.
+
 \bibitem{c?-4}
  李新光，张华，孙岩. 过程检测技术[M]，北京：机械工业出版社，2004，259-260.
 
-\bibitem{c?-8}
- 李玉忠. 中国湿度与水分测量技术的现状[J]，分析仪器，2003(1)：5-8.
+
 
 \bibitem{c?-11}
  Andrea De Marcellis, Giuseppe Ferri, Arnaldo D'Amico. A Fully-Analog Lock-In Amplifier with Automatic Phase Alignment for Accurate Measurements of ppb Gas Concentrations[J], Sensors Journal, 2012, 12(5): 1377-1383.
 
 
-\bibitem{c?-14}
- 刘陵顺，高艳丽.TMS320F28335DSP原理及开发编程[M]，北京：北京航空航天大学出版社，2011，1-23.
+
 \bibitem{c?-15}
  郎健.数字锁相放大器关键技术研究[D]，天津，天津大学，2006.
 
 
 \bibitem{c?-17}
  林晓鹰. 近红外水分仪的研制[J]，中国仪器仪表，2001，(2)：13-14.
-\bibitem{c?-18}
- 杨杰，吴凡. 粗糙表面可见光散射特性的实验研究[J]，中国测试，2009，35(2)：125-128.
 
-
-\bibitem{c?-21}
- 肖颖. 基于激光二极管光源的近红外水分仪的研制[D]，江苏大学，2009.
 \bibitem{c?-22}
  Ehsan Kamrani, Frederic Lesage, Mohamad Sawan. Low-Noise, High-Gain Transimpedance Amplifier Integrated With SiAPD for Low-Intensity Near-Infrared Light Detection[J], Sensors Journal, 2014, 14: 258-269.
 
