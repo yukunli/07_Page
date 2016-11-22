@@ -10,7 +10,7 @@
 \graphicspath{{fig/}}
 %\normalem
 % 取消链接的颜色（黑白打印时）
-\hypersetup{colorlinks=false}
+\hypersetup{linkcolor=blue,citecolor=blue}
 
 %改变行间距
 %\setlength{\baselineskip}{1.5\baselineskip}  %或者\linespread{1.5}
@@ -25,12 +25,10 @@
 %\setlength\parskip{3pt}
 \usepackage{multirow}
 \setlength{\abovecaptionskip}{4pt}  %使图的英文图题距离中文图题变近，但是对于表格，英文表题与表距离变大了，
-\newcommand{\topcaption}{%
-\setlength{\belowcaptionskip}{4pt}%
-\caption}
-
 
 \usepackage{ccmap}   %是pdf中可复制文本
+
+%\titleformat{\chapter}{\centering\Huge\bfseries}{第\,\thechapter\,章}{1em}{}
 
 \begin{document}\pagestyle{empty}
 
@@ -94,7 +92,6 @@
   %\listoftables
    %插图目录
   %\listoffigures
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% 正文部分

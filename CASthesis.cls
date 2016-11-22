@@ -107,6 +107,7 @@
 %%%%%参考文献为上标且有括号
 \RequirePackage[numbers,sort&compress]{natbib}
 %\RequirePackage{hypernat}
+\usepackage{times}
 \usepackage{setspace}
 \usepackage{titletoc}
 \usepackage{titlesec}
@@ -526,7 +527,7 @@
        {\@latex@warning{Empty `thebibliography' environment}}%
       \endlist}
 \newcommand{\upcite}[1]{\textsuperscript{\textsuperscript{\cite{#1}}}}
-\renewcommand{\bibnumfmt}[1]{#1.}
+%\renewcommand{\bibnumfmt}[1]{#1.}
 
 
 
