@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.23)  30 NOV 2016 21:11
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.23)  1 DEC 2016 09:04
 entering extended mode
-**E:/01_Master_project/Water_Detection_Project/07_Page/thesis.tex
-(E:/01_Master_project/Water_Detection_Project/07_Page/thesis.tex
+**thesis.tex
+(E:\01_Master_project\Water_Detection_Project\07_Page\thesis.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for loaded.
 (E:\01_Master_project\Water_Detection_Project\07_Page\CASthesis.cls
@@ -2081,9 +2081,15 @@ ux) (E:\01_Master_project\Water_Detection_Project\07_Page\chapter/bib.aux)
 (E:\01_Master_project\Water_Detection_Project\07_Page\chapter/thanks.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 143.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 143.
-Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 7D174D8F42B03DAC32C7B4AD655F129A;5905.
 
+
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `thesis.out':
+(rerunfilecheck)             Before: 2CB4A0A3376C19252798714A00F89F25;13518
+(rerunfilecheck)             After:  7D174D8F42B03DAC32C7B4AD655F129A;5905.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.47pt have occurred.
@@ -2092,11 +2098,11 @@ LaTeX Font Warning: Size substitutions with differences
 Here is how much of TeX's memory you used:
  19995 strings out of 495354
  317989 string characters out of 3183859
- 379638 words of memory out of 3000000
+ 379639 words of memory out of 3000000
  21683 multiletter control sequences out of 15000+200000
  134637 words of font info for 424 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 47i,18n,58p,1983b,1488s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,18n,58p,1930b,1488s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/s
 imsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows
 /Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:
@@ -2151,7 +2157,7 @@ public/amsfonts/cm/cmsy9.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/symbol
 s/msam10.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><D:
 /CTEX/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><D:/CTEX/MiKTeX/fonts/type1/urw/t
 imes/utmr8a.pfb>
-Output written on thesis.pdf (95 pages, 4500298 bytes).
+Output written on thesis.pdf (95 pages, 4507911 bytes).
 PDF statistics:
  2683 PDF objects out of 2984 (max. 8388607)
  366 named destinations out of 1000 (max. 500000)
