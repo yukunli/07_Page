@@ -28,7 +28,8 @@
 
 \usepackage{ccmap}   %是pdf中可复制文本
 
-%\titleformat{\chapter}{\centering\Huge\bfseries}{第\,\thechapter\,章}{1em}{}
+\titleformat{\chapter}{\centering\Huge\bfseries}{第\,\thechapter\,章}{1em}{}
+\CTEXsetup[name={第,章},number={\arabic{chapter}}]{chapter}
 
 \begin{document}\pagestyle{empty}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.23)  12 NOV 2016 16:47
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.23)  5 DEC 2016 16:02
 entering extended mode
 **E:/01_Master_project/Water_Detection_Project/07_Page/chapter/abstract.tex
 (E:/01_Master_project/Water_Detection_Project/07_Page/chapter/abstract.tex
@@ -11,13 +11,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1 \begin{abstract}
+l.2 \begin{abstract}
                     
 ? 
 ! Emergency stop.
  ...                                              
                                                   
-l.1 \begin{abstract}
+l.2 \begin{abstract}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
