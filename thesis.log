@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.23)  11 DEC 2016 11:34
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.23)  12 DEC 2016 09:41
 entering extended mode
-**E:/01_Master_project/Water_Detection_Project/07_Page/thesis.tex
-(E:/01_Master_project/Water_Detection_Project/07_Page/thesis.tex
+**thesis.tex
+(E:\01_Master_project\Water_Detection_Project\07_Page\thesis.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for loaded.
 (E:\01_Master_project\Water_Detection_Project\07_Page\CASthesis.cls
@@ -1930,13 +1930,18 @@ File: fig/figshandian.pdf Graphic file (type pdf)
 <use fig/figshandian.pdf>
 Package pdftex.def Info: fig/figshandian.pdf used on input line 77.
 (pdftex.def)             Requested size: 369.88582pt x 206.23366pt.
- [68pdfTeX warning (ext4): destination with the same identifier (name{table.6.1
-}) has been already used, duplicate ignored
+
+
+LaTeX Warning: File ot158.cmap not found on input line 88.
+
+[68pdfTeX warning (ext4): destination with the same identifier (name{table.6.1}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.85 
-     ]
+l.88 为
+       了找到比值~$T$~和烧结料水分含量~$W$~之间的数学关系，需要对~$T$~进行多...
+]
 
 pdfTeX warning: pdflatex.exe (file E:/01_Master_project/Water_Detection_Project
 /07_Page/fig/fignihe2.pdf): PDF inclusion: found PDF version <1.7>, but at most
@@ -1947,37 +1952,35 @@ File: fig/fignihe2.pdf Graphic file (type pdf)
 Package pdftex.def Info: fig/fignihe2.pdf used on input line 93.
 (pdftex.def)             Requested size: 369.88582pt x 185.22719pt.
 
-[69pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.102 （
-        2）三次多项式的拟合曲线如图~\ref{fig91b}~所示。pdfTeX warning (ext4): d
-estination with the same identifier (name{figure.6.2}) has been already used, d
-uplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.102 （
-        2）三次多项式的拟合曲线如图~\ref{fig91b}~所示。 <E:/01_Master_project/W
-ater_Detection_Project/07_Page/fig/figshandian.pdf> <E:/01_Master_project/Water
-_Detection_Project/07_Page/fig/fignihe2.pdf>]
 
 pdfTeX warning: pdflatex.exe (file E:/01_Master_project/Water_Detection_Project
 /07_Page/fig/fignihe3.pdf): PDF inclusion: found PDF version <1.7>, but at most
  version <1.5> allowed
-<fig/fignihe3.pdf, id=2262, 508.68756pt x 259.62395pt>
+<fig/fignihe3.pdf, id=2224, 508.68756pt x 259.62395pt>
 File: fig/fignihe3.pdf Graphic file (type pdf)
  <use fig/fignihe3.pdf>
 Package pdftex.def Info: fig/fignihe3.pdf used on input line 105.
 (pdftex.def)             Requested size: 398.33858pt x 203.31401pt.
 
+[69pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.113 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+6.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.113 
+       <E:/01_Master_project/Water_Detection_Project/07_Page/fig/figshandian.pd
+f> <E:/01_Master_project/Water_Detection_Project/07_Page/fig/fignihe2.pdf>]
 
 pdfTeX warning: pdflatex.exe (file E:/01_Master_project/Water_Detection_Project
 /07_Page/fig/fignihezhi.pdf): PDF inclusion: found PDF version <1.7>, but at mo
 st version <1.5> allowed
-<fig/fignihezhi.pdf, id=2264, 522.31949pt x 270.02983pt>
+<fig/fignihezhi.pdf, id=2265, 522.31949pt x 270.02983pt>
 File: fig/fignihezhi.pdf Graphic file (type pdf)
 
 <use fig/fignihezhi.pdf>
@@ -1999,39 +2002,52 @@ l.127
 <E:/01_Master_project/Water_Detection_Project/07_Page/fig/fignihezhi.pdf>]
 
 pdfTeX warning: pdflatex.exe (file E:/01_Master_project/Water_Detection_Project
+/07_Page/fig/figniheduan.pdf): PDF inclusion: found PDF version <1.7>, but at m
+ost version <1.5> allowed
+<fig/figniheduan.pdf, id=2312, 474.50165pt x 255.23355pt>
+File: fig/figniheduan.pdf Graphic file (type pdf)
+
+<use fig/figniheduan.pdf>
+Package pdftex.def Info: fig/figniheduan.pdf used on input line 130.
+(pdftex.def)             Requested size: 398.33858pt x 214.26228pt.
+
+
+pdfTeX warning: pdflatex.exe (file E:/01_Master_project/Water_Detection_Project
 /07_Page/fig/figyz.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<fig/figyz.pdf, id=2316, 473.04219pt x 268.93274pt>
+<fig/figyz.pdf, id=2315, 473.04219pt x 268.93274pt>
 File: fig/figyz.pdf Graphic file (type pdf)
  <use fig/figyz.pdf>
-Package pdftex.def Info: fig/figyz.pdf used on input line 167.
+Package pdftex.def Info: fig/figyz.pdf used on input line 178.
 (pdftex.def)             Requested size: 398.33858pt x 226.46414pt.
 
-[71pdfTeX warning (ext4): destination with the same identifier (name{table.6.2}
-) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.174 \newpage
-              ]
-
-LaTeX Warning: File ot161.cmap not found on input line 210.
-
-[72pdfTeX warning (ext4): destination with the same identifier (name{figure.6.5
+[71pdfTeX warning (ext4): destination with the same identifier (name{figure.6.5
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.210 仪
-        器的重复性一般用测量的相对标准偏差~$C_{v}$~来表示:pdfTeX warning (ext4)
-: destination with the same identifier (name{table.6.3}) has been already used,
- duplicate ignored
+l.186 
+       <E:/01_Master_project/Water_Detection_Project/07_Page/fig/figniheduan.pd
+f>] [72pdfTeX warning (ext4): destination with the same identifier (name{table.
+6.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.210 仪
-        器的重复性一般用测量的相对标准偏差~$C_{v}$~来表示: <E:/01_Master_projec
-t/Water_Detection_Project/07_Page/fig/figyz.pdf>] [73]) [74]
+l.188 \newpage
+              pdfTeX warning (ext4): destination with the same identifier (name
+{figure.6.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.188 \newpage
+               <E:/01_Master_project/Water_Detection_Project/07_Page/fig/figyz.
+pdf>] [73pdfTeX warning (ext4): destination with the same identifier (name{tabl
+e.6.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.239 
+      ]) [74]
 (E:\01_Master_project\Water_Detection_Project\07_Page\chapter/chap-Conclusion.t
 ex
 第7\ignorespaces 章
@@ -2084,22 +2100,28 @@ ux) (E:\01_Master_project\Water_Detection_Project\07_Page\chapter/bib.aux)
 (E:\01_Master_project\Water_Detection_Project\07_Page\chapter/thanks.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
-Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 7D174D8F42B03DAC32C7B4AD655F129A;5905.
 
+
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `thesis.out':
+(rerunfilecheck)             Before: 2CB4A0A3376C19252798714A00F89F25;13518
+(rerunfilecheck)             After:  7D174D8F42B03DAC32C7B4AD655F129A;5905.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.47pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 20029 strings out of 495354
- 318572 string characters out of 3183859
- 379723 words of memory out of 3000000
- 21709 multiletter control sequences out of 15000+200000
+ 20032 strings out of 495354
+ 318587 string characters out of 3183859
+ 379828 words of memory out of 3000000
+ 21710 multiletter control sequences out of 15000+200000
  134931 words of font info for 425 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 47i,18n,58p,1995b,1556s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,18n,58p,1942b,1556s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/s
 imsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows
 /Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:
@@ -2154,9 +2176,9 @@ eX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/CTEX/MiKTeX/fonts/type1/public
 /type1/public/amsfonts/symbols/msam10.pfb><D:/CTEX/MiKTeX/fonts/type1/public/am
 sfonts/symbols/msbm10.pfb><D:/CTEX/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><D:/
 CTEX/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on thesis.pdf (95 pages, 5413567 bytes).
+Output written on thesis.pdf (95 pages, 5449485 bytes).
 PDF statistics:
- 2872 PDF objects out of 2984 (max. 8388607)
- 370 named destinations out of 1000 (max. 500000)
- 1203 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2892 PDF objects out of 2984 (max. 8388607)
+ 371 named destinations out of 1000 (max. 500000)
+ 1208 words of extra memory for PDF output out of 10000 (max. 10000000)
 

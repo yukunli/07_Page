@@ -79,7 +79,7 @@
 \contentsline {subsection}{\numberline {6.1.1}水分测量系统标定方法}{67}{subsection.6.1.1}
 \contentsline {subsection}{\numberline {6.1.2}标定数据曲线拟合}{68}{subsection.6.1.2}
 \contentsline {section}{\numberline {6.2}水分测量系统精度验证实验}{71}{section.6.2}
-\contentsline {section}{\numberline {6.3}水分测量系统重复性实验}{72}{section.6.3}
+\contentsline {section}{\numberline {6.3}水分测量系统重复性实验}{73}{section.6.3}
 \contentsline {section}{\numberline {6.4}水分测量系统误差分析}{73}{section.6.4}
 \contentsline {section}{\numberline {6.5}本章小结}{74}{section.6.5}
 \contentsline {chapter}{\numberline {第7\ignorespaces 章\hspace {0.3em}}结论和展望}{75}{chapter.7}
