@@ -1,8 +1,8 @@
 \let \CTEX@spaceChar \relax 
 \contentsline {chapter}{独创性声明}{I}{Doc-Start}
-\contentsline {chapter}{摘\CTEX@spaceChar \CTEX@spaceChar 要}{III}{section*.1}
+\contentsline {chapter}{摘\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces \hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces \hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces \hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 要}{III}{section*.1}
 \contentsline {chapter}{Abstract}{V}{section*.2}
-\contentsline {chapter}{目\CTEX@spaceChar \CTEX@spaceChar 录}{VII}{chapter*.3}
+\contentsline {chapter}{目\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces \hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces \hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 录}{VII}{chapter*.3}
 \contentsline {chapter}{\numberline {第\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 1\ignorespaces \hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 章\hspace {0.3em}}绪论}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}课题研究的背景与意义}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}水分测量技术简介}{1}{section.1.2}
@@ -17,8 +17,8 @@
 \contentsline {section}{\numberline {2.2}光源和红外探测器的选型}{9}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}光源的选型}{9}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}红外探测器的选型}{10}{subsection.2.2.2}
-\contentsline {section}{\numberline {2.3}近红外水分测量系统整体方案}{12}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}近红外水分测量系统方案}{12}{subsection.2.3.1}
+\contentsline {section}{\numberline {2.3}近红外水分测量系统整体方案}{11}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}近红外水分测量系统方案}{11}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}近红外水分仪光路分析}{14}{subsection.2.3.2}
 \contentsline {section}{\numberline {2.4}本章小结}{15}{section.2.4}
 \contentsline {chapter}{\numberline {第\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 3\ignorespaces \hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 章\hspace {0.3em}}数字锁相放大器的设计和仿真}{17}{chapter.3}
@@ -86,5 +86,5 @@
 \contentsline {section}{\numberline {7.1}总结}{75}{section.7.1}
 \contentsline {section}{\numberline {7.2}展望}{75}{section.7.2}
 \contentsline {chapter}{参考文献}{77}{chapter*.4}
-\contentsline {chapter}{致\CTEX@spaceChar \CTEX@spaceChar 谢}{81}{chapter*.5}
+\contentsline {chapter}{致\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces \hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces \hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 谢}{81}{chapter*.5}
 \contentsfinish 

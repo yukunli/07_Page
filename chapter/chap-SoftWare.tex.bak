@@ -73,14 +73,15 @@ AD9833~²úÉúÕýÏÒÐÅºÅµÄÈí¼þÁ÷³ÌÍ¼ÈçÍ¼~\ref{fig76}~ËùÊ¾¡£
 %\setlength\tabcolsep{2.8pt}
 \renewcommand{\arraystretch}{1.5}
 \centering
+\vspace{-6mm}
 \begin{tabular}{cccccccccccccccccccc}
 \\
-\bottomrule
+\hline
 %           \cline{2-4}\cline{6-8}
 ~~~Ö¸Áî~~~  &&&& EE   &&&&     XX    &&&&~~XX~XX~$\cdot\cdot\cdot$~XXX~~&&&& ~~~~FF~FC~FF~FF~~~~ \\
 \hline
 ËµÃ÷  &&&& ~~~Ö¡Í·~~~ &&&&    ~~~Ö¸Áî~~~   &&&& ~~Ö¸Áî²ÎÊý~~     &&&& Ö¡Î²   \\
-\bottomrule
+\hline
 \end{tabular}
 \end{table*}
 
@@ -115,7 +116,7 @@ AD9833~²úÉúÕýÏÒÐÅºÅµÄÈí¼þÁ÷³ÌÍ¼ÈçÍ¼~\ref{fig76}~ËùÊ¾¡£
 \end{split}
 \end{equation}
 
-Ê½~\ref{eq50}~ÎªÔöÁ¿Ê½~PID~Ëã·¨\upcite{c5:pid}¡£Ê½ÖÐ£¬$e(k)$~ÎªµÚ~$k$~´Î²ÉÑùÆ«²î£¬$e(k-1)$ÎªµÚ~$k-1$~´Î²ÉÑùÆ«²î£¬$e(k-2)$~ÎªµÚ~$k-2$~´Î²ÉÑùÆ«²î¡£
+Ê½~(\ref{eq50})~ÎªÔöÁ¿Ê½~PID~Ëã·¨\upcite{c5:pid}¡£Ê½ÖÐ£¬$e(k)$~ÎªµÚ~$k$~´Î²ÉÑùÆ«²î£¬$e(k-1)$ÎªµÚ~$k-1$~´Î²ÉÑùÆ«²î£¬$e(k-2)$~ÎªµÚ~$k-2$~´Î²ÉÑùÆ«²î¡£
 
 ÎÂ¶ÈÍ¨¹ýÊý×ÖÎÂ¶È´«¸ÐÆ÷~DS18B20~½øÐÐ²É¼¯£¬DS18B20²ÉÓÃµ¥×ÜÏß·½Ê½Óë¿ØÖÆÆ÷½øÐÐÍ¨Ñ¶¡£Ê×ÏÈÒª¸´Î»~DS18B20~²¢¶ÔÆä½øÐÐ³õÊ¼»¯£¬È»ºó~DSP~·¢ËÍÏà¹Ø¿ØÖÆÖ¸Áî¸ø
 ~DS18B20~ÒÔ»ñÈ¡ÎÂ¶È²¢×ª»»£¬½ô½Ó×ÅÔÙ´Î¶Ô~DS18B20~½øÐÐ¸´Î»£¬DSP~·¢³öÏà¹ØÖ¸Áî¶ÁÈ¡~DS18B20~ÖÐ¼Ä´æÆ÷ÖÐ´æ´¢µÄÎÂ¶ÈÊý¾Ý¡£±¾¿ÎÌâÐèÒª²âÁ¿Á½µãµÄÎÂ¶È£¬Á½¸öÎÂ¶È´«¸ÐÆ÷¹Ò½ÓÔÚÍ¬Ò»ÌõÊý¾ÝÏßÉÏ£¬ËùÒÔÔÚ¶ÁÈ¡ÎÂ¶ÈÊý¾ÝÊ±£¬ÐèÒªÁ¬Ðø¶ÁÈ¡Á½´ÎÎÂ¶ÈÊý¾Ý£¬ÎÂ¶È¿ØÖÆÁ÷³ÌÍ¼ÈçÍ¼~\ref{fig69}~ËùÊ¾¡£
@@ -184,7 +185,7 @@ $\}$
 ÉÏÊöÉè¼ÆµÄÊÇÕýÏÒÐÅºÅ²Î¿¼ÐòÁÐµÄÉú³É·½Ê½£¬ÓàÏÒÐÅºÅÐòÁÐ¿ÉÍ¨¹ýÕýÏÒÐÅºÅÒÆÏà~$90^{\circ}$~µÄ·½Ê½²úÉú¡£
 
 \subsection{Ïà¹ØÔËËãµÄÊµÏÖ}
-±¾½ÚÖØµã½éÉÜÊý×ÖËøÏà·Å´óÆ÷µÄºËÐÄËã·¨Ïà¹ØÔËËãµÄ~C~ÓïÑÔÊµÏÖ¡£¸ù¾ÝÊ½~\ref{s13}~£¬½«´øÔëÉùµÄ´ý²âÐÅºÅÓëÍ¬ÆµÕýÏÒ²Î¿¼ÐÅºÅ×öÍ¬ÏàÏà¹Ø£¬ÓëÍ¬ÆµÓàÏÒ²Î¿¼ÐÅºÅ×öÕý½»Ïà¹Ø£¬´Ó¶øÊµÏÖÏà¹ØÔËËã£¬ÌáÈ¡³ö´ý²âÐÅºÅÖÐµÄÓÐÓÃÐÅºÅ¡£
+±¾½ÚÖØµã½éÉÜÊý×ÖËøÏà·Å´óÆ÷µÄºËÐÄËã·¨Ïà¹ØÔËËãµÄ~C~ÓïÑÔÊµÏÖ¡£¸ù¾ÝÊ½~(\ref{s13})~£¬½«´øÔëÉùµÄ´ý²âÐÅºÅÓëÍ¬ÆµÕýÏÒ²Î¿¼ÐÅºÅ×öÍ¬ÏàÏà¹Ø£¬ÓëÍ¬ÆµÓàÏÒ²Î¿¼ÐÅºÅ×öÕý½»Ïà¹Ø£¬´Ó¶øÊµÏÖÏà¹ØÔËËã£¬ÌáÈ¡³ö´ý²âÐÅºÅÖÐµÄÓÐÓÃÐÅºÅ¡£
 
 Ïà¹ØÔËËãËã·¨µÄÁ÷³ÌÍ¼ÈçÍ¼~\ref{fig77}~ËùÊ¾¡£
 \begin{figure*}[!ht]
@@ -211,7 +212,7 @@ $\}$
 
 ¶ÔÉÏÊöÉè¼ÆµÄÏà¹ØÔËËã´úÂë½øÐÐ²âÊÔ£¬²âÊÔÔÚ~DSP~Ó²¼þÆ½Ì¨ÉÏÍê³É£¬Í¼~\ref{fig78}~ÊÇ²ÎÓëÔËËãµÄÊäÈëÐÅºÅºÍÊä³öÀëÉ¢ÐÅºÅÍ¼¡££¨a£©Í¼ÊÇÓÃÓÚ²âÊÔµÄÐÅºÅ£¬£¨b£©Í¼ÊÇÔÚ£¨a£©Í¼ËùÊ¾µÄÐÅºÅÉÏµþ¼ÓÁËËæ»ú°×ÔëÉù£¬¾­¹ýÏà¹ØÔËËãºó£¬Êä³öÍ¬ÏàÏà¹Ø½á¹ûÐòÁÐºÍÕý½»Ïà¹Ø½á¹ûÐòÁÐ£¬¿ÉÒÔ¿´µ½£¬Á½¸öÏà¹Ø½á¹ûÐòÁÐµÄ²¨ÐÎ±È½ÏÆ½»¬£¬´ó²¿·ÖµÄÔëÉù±»ÂËµôÁË¡£
 
-ÒªÏë»ñµÃ´ý²âÐÅºÅÖÐÓÐÓÃÐÅºÅµÄ·ùÖµ£¬Ðè¶ÔÁ½Ïà¹Ø½á¹ûÐòÁÐ½øÐÐ·ùÖµ¼ÆËã£¬¸ù¾ÝÊ½~\ref{s16}£¬½«Í¬ÏàÏà¹Ø½á¹ûÐòÁÐºÍÕý½»Ïà¹Ø½á¹ûÐòÁÐ¶ÔÓ¦Êý¾Ý½øÐÐÆ½·½ÇóºÍÔÙ¿ª·½ÔËËã£¬¾ÍµÃµ½ÊäÈëÐÅºÅµÄ·ùÖµÐòÁÐ£¬Æä´úÂëÊµÏÖÎª£º
+ÒªÏë»ñµÃ´ý²âÐÅºÅÖÐÓÐÓÃÐÅºÅµÄ·ùÖµ£¬Ðè¶ÔÁ½Ïà¹Ø½á¹ûÐòÁÐ½øÐÐ·ùÖµ¼ÆËã£¬¸ù¾ÝÊ½~(\ref{s16})£¬½«Í¬ÏàÏà¹Ø½á¹ûÐòÁÐºÍÕý½»Ïà¹Ø½á¹ûÐòÁÐ¶ÔÓ¦Êý¾Ý½øÐÐÆ½·½ÇóºÍÔÙ¿ª·½ÔËËã£¬¾ÍµÃµ½ÊäÈëÐÅºÅµÄ·ùÖµÐòÁÐ£¬Æä´úÂëÊµÏÖÎª£º
 
 for~(~i = 0;~i $<$ Length;~i++)
 
@@ -239,6 +240,7 @@ FIR~ÂË²¨Æ÷µÄÉè¼Æ·½·¨Ö÷ÒªÓÐ´°º¯ÊýÉè¼Æ·¨ºÍÆµÂÊ³éÑùÉè¼Æ·¨µÈ£¬¶ø´°º¯ÊýÉè¼Æ·¨ÊÇ×î»ù±¾
 %\setlength\tabcolsep{2.8pt}
 \renewcommand{\arraystretch}{1.5}
 \centering
+\vspace{-5mm}
 \begin{tabular}{ccccccccccccccccccccccc}
 \\
 \bottomrule
@@ -275,7 +277,7 @@ FIR~ÂË²¨Æ÷¹¤×÷Ô­Àí¾ÍÊÇÒ»¸öÀëÉ¢ÐÅºÅÐòÁÐÍ¨¹ýÒ»¸öÀëÉ¢ÂË²¨ÏµÍ³£¬µÃµ½ÀëÉ¢Êä³öÐÅºÅµÄ¹ý
   y(n) = x(n)\ast h(n) = \sum^{M}_{m=0}h(m)x(n-m)
 \end{equation}
 
-Ê½~\ref{c7-1}~±íÊ¾ÁË~FIR~ÂË²¨Æ÷µÄÊäÈëÐÅºÅÓëÏµÍ³ÏìÓ¦Ö®¼äµÄ¹ØÏµ£¬¼´ÎªÏßÐÔ¾í»ýÔËËã¡£
+Ê½~(\ref{c7-1})~±íÊ¾ÁË~FIR~ÂË²¨Æ÷µÄÊäÈëÐÅºÅÓëÏµÍ³ÏìÓ¦Ö®¼äµÄ¹ØÏµ£¬¼´ÎªÏßÐÔ¾í»ýÔËËã¡£
 
 Ò»°ãÓÐÁ½ÖÖ·½Ê½ÊµÏÖ~FIR~ÂË²¨£ºÖ±½Ó¾í»ý·¨ºÍ¿ìËÙ¾í»ý·¨¡£Ö±½Ó¾í»ý·¨ÊÇ¸ù¾Ý¾í»ýµÄµü´úÔËËãÖ±½Ó¼ÆËãÊäÈëÐÅºÅÐòÁÐÓëÂË²¨Æ÷ÏµÊýµÄ¾í»ý£¬µÃµ½ÂË²¨Æ÷Êä³öÐÅºÅ£¬¸Ã·½·¨ÔËËã¹ØÏµ¼òµ¥£¬µ«ÔËÐÐÊ±¼ä½Ï³¤¡£
 
@@ -338,7 +340,7 @@ DSP~ÐèÒªÒ»¸ö´®¿Ú¾ÍÄÜÊµÏÖGUI¡¢ÎÄ±¾¡¢Í¼Æ¬¡¢gif~¶¯»­ÏÔÊ¾ºÍ´¥Ãþ¿ØÖÆµÈ¹¦ÄÜ£¬¸ÃÉè±¸Ö§³
 ±¾¿ÎÌâÎªË®·Ö²âÁ¿ÏµÍ³Éè¼ÆÁË~4~¸öÒ³Ãæ£¬Ö÷½çÃæÈçÍ¼~\ref{fig83}~ËùÊ¾£¬ÓÃÓÚÏÔÊ¾ÊµÊ±Ë®·ÖÖµ¡¢Ì½²âÆ÷ÎÂ¶ÈÖµÒÔ¼°ÎªÆäËüÒ³ÃæÌá¹©Ìø×ª°´Å¥¡£
 \begin{figure*}[!ht]
 \centering
-\includegraphics[width=10cm]{fig83.png}
+\includegraphics[width=10cm]{fig83.pdf}
 \caption {´¥ÃþÆÁÖ÷½çÃæ}
 \addtocounter{figure}{-1}
 \renewcommand\figurename{Fig.}
@@ -348,8 +350,8 @@ DSP~ÐèÒªÒ»¸ö´®¿Ú¾ÍÄÜÊµÏÖGUI¡¢ÎÄ±¾¡¢Í¼Æ¬¡¢gif~¶¯»­ÏÔÊ¾ºÍ´¥Ãþ¿ØÖÆµÈ¹¦ÄÜ£¬¸ÃÉè±¸Ö§³
 Í¼~\ref{fig84}~ÊÇ´¥ÃþÆÁµÄÉèÖÃ½çÃæºÍÀúÊ·ÇúÏß½çÃæ£¬ÓÃÓÚÔÚ¹¤ÒµÏÖ³¡¶ÔË®·ÖÒÇ½øÐÐ²ÎÊýÐÞÕý£¬ÒÔ¼°²é¿´Ò»¶¨Ê±¼ä¶ËÄÚµÄÀúÊ·Ë®·Öº¬Á¿ÇúÏß¡£
 \begin{figure*}[!ht]
 \centering
-\includegraphics[width=7cm]{fig84a.png}
-\includegraphics[width=7cm]{fig84b.png}
+\includegraphics[width=7cm]{fig84a.pdf}
+\includegraphics[width=7cm]{fig84b.pdf}
 \caption{ÉèÖÃ½çÃæºÍÀúÊ·ÇúÏß½çÃæ}
 \addtocounter{figure}{-1}
 \renewcommand\figurename{Fig.}

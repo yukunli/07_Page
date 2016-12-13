@@ -47,9 +47,10 @@ DSP~Î¢´¦ÀíÆ÷ÊÇÕû¸öË®·Ö²âÁ¿ÏµÍ³µÄ¿ØÖÆºËÐÄ£¬Ëü²»½ö¿ØÖÆ~DDS~Ð¾Æ¬²úÉúËùÐèµÄÕýÏÒ²¨ÐÅº
 %\setlength\tabcolsep{2.8pt}
 \renewcommand{\arraystretch}{1.5}
 \centering
+\vspace{-6mm}
 \begin{tabular}{ccccccccccccccccccccccccccccccccccccccc}
 \\
-\bottomrule
+\hline
 ~~µçÔ´ÀàÐÍ~~   && ~~~µçÔ´µçÑ¹~~~ && ~¹©µçµ¥Ôª~  && ~²ÎÊýÐèÇó~   \\
 \hline
 \multirow{5}{*}{Ä£Äâ} &&      $+$15V    && 3~Â·ºãÁ÷Ô´µçÂ· &&ÎÆ²¨Ð¡£¬µçÁ÷½Ï´ó£¬¹¦ÂÊ$>9W$\\
@@ -60,7 +61,7 @@ DSP~Î¢´¦ÀíÆ÷ÊÇÕû¸öË®·Ö²âÁ¿ÏµÍ³µÄ¿ØÖÆºËÐÄ£¬Ëü²»½ö¿ØÖÆ~DDS~Ð¾Æ¬²úÉúËùÐèµÄÕýÏÒ²¨ÐÅº
 \multirow{3}{*}{Êý×Ö} &&      $+$5V     && ÓÐÔ´¾§Õñ¡¢µçÆ½×ª»»µÈÊý×ÖÐ¾Æ¬ &&\multirow{3}{*}{µçÑ¹ÎÈ¶¨£¬¹¦ÂÊºÜÐ¡}\\
                       &&      $+$3.3V   && DSP~¿ØÖÆÆ÷Êý×ÖµçÔ´¡¢²âÎÂµçÂ·µÈÊý×ÖµçÂ· \\
                       &&      $+$1.9V   && DSP~¿ØÖÆÆ÷Êý×ÖµçÔ´\\
-\bottomrule
+\hline
 \end{tabular}
 \end{table*}
 
@@ -192,14 +193,14 @@ AD9833~Êä³öµÄÕýÏÒ²¨ÐÅºÅ¾­·Å´óµçÂ·ÊäÈëµ½ºãÁ÷Ô´µçÂ·µÄ~SOUR$_{-}$IN1~¶Ë¿Ú£¬Í¨¹ýÑ¹¿Ø
   I_{R_{L}}=I_{R}=\frac{U_{b}}{R}
 \end{equation}
 
-ÓÉÊ½~\ref{xd1}~ºÍÊ½~\ref{xd2}~¿ÉÖª£¬Í¨¹ýµç×è~$R$~µÄµçÁ÷ÊÜ~$U_{IN}$~µÄ¿ØÖÆ¡£µ«ÊÇÔÚ¸ºÔØÍ¨Â·ÉÏÓÖ±ØÐëÒªÂú×ãÅ·Ä·¶¨ÂÉ£¬¹ØÏµÊ½Îª£º
+ÓÉÊ½~(\ref{xd1})~ºÍÊ½~(\ref{xd2})~¿ÉÖª£¬Í¨¹ýµç×è~$R$~µÄµçÁ÷ÊÜ~$U_{IN}$~µÄ¿ØÖÆ¡£µ«ÊÇÔÚ¸ºÔØÍ¨Â·ÉÏÓÖ±ØÐëÒªÂú×ãÅ·Ä·¶¨ÂÉ£¬¹ØÏµÊ½Îª£º
 \begin{equation}\label{xd3}
   V_{CC}=I_{R_{L}}R_{o}+I_{R_{L}}R_{L}+U_{b}
 \end{equation}
 
 ÓÉÓÚÈý¼«¹ÜÔÚµ¼Í¨×´Ì¬ÏÂÄÚ×èºÜÐ¡£¬ÆäÉÏÏûºÄµÄµçÑ¹ºöÂÔ²»¼Æ¡£
 
-½«Ê½~\ref{xd2}~´úÈëÉÏÊ½ÖÐ£¬µÃ£º
+½«Ê½~(\ref{xd2})~´úÈëÉÏÊ½ÖÐ£¬µÃ£º
 \begin{equation}\label{xd4}
   V_{CC}=U_{IN}(\frac{R_{o}+R_{L}}{R}+1)
 \end{equation}
@@ -313,7 +314,7 @@ AD8671~ÔËËã·Å´óÆ÷µÄÔöÒæ´ø¿í»ýÎª~10MHz£¬¶øÌ½²âÆ÷µÄÅÔÂ·µçÈÝ~$C_{D}\simeq1000$pF£¬Ë
   SNR = \frac{U_{so}}{U_{no}}
 \end{equation}
 
-½«Ê½~\ref{xd7}~ºÍÊ½~\ref{xd8}~´øÈëÉÏÊ½ÖÐ£¬µÃ£º
+½«Ê½~(\ref{xd7})~ºÍÊ½~(\ref{xd8})~´øÈëÉÏÊ½ÖÐ£¬µÃ£º
 \begin{equation}\label{xd10}
 \begin{split}
   SNR & = \frac{I_{sc}R_{f}}{U_{0}-U_{so}=(I_{ns}+I_{nd}+\frac{E_{n}}{R_{d}})+U_{nf}} \\
@@ -322,7 +323,7 @@ AD8671~ÔËËã·Å´óÆ÷µÄÔöÒæ´ø¿í»ýÎª~10MHz£¬¶øÌ½²âÆ÷µÄÅÔÂ·µçÈÝ~$C_{D}\simeq1000$pF£¬Ë
 \end{split}
 \end{equation}
 
-´ÓÊ½~\ref{xd10}~ÖÐ¿ÉÒÔµÃ³öÈçÏÂ½áÂÛ£º
+´ÓÊ½~(\ref{xd10})~ÖÐ¿ÉÒÔµÃ³öÈçÏÂ½áÂÛ£º
 
 £¨1£©Ç°ÖÃ·Å´óµçÂ·ÖÐµÄ·´À¡µç×è~$R_{f}$~±ä´ó£¬»áÊ¹ÐÅºÅÔöÒæ±ä´ó£¬Êä³öÐÅÔë±ÈÒ²Ô½´ó¡£µ«ÔÚÑ¡Ôñ·´À¡µç×èÊ±Ò²Òª¿¼ÂÇÇ°ÖÃ·Å´óµçÂ·Óë¹âµç´«¸ÐÆ÷µÄ×è¿¹Æ¥ÅäÎÊÌâ¡£
 
@@ -378,7 +379,7 @@ AD8671~ÔËËã·Å´óÆ÷µÄÔöÒæ´ø¿í»ýÎª~10MHz£¬¶øÌ½²âÆ÷µÄÅÔÂ·µçÈÝ~$C_{D}\simeq1000$pF£¬Ë
   BW=f_{H} - f_{L} = \frac{f_{0}}{Q}
 \end{equation}
 
-¸ù¾ÝÊ½~\ref{xd15}$\sim$\ref{xd18}~¿ÉÖª£¬´øÍ¨ÂË²¨Æ÷µÄÖÐÐÄÆµÂÊ~$f_{0}$~ÓëµçÈÝ~C~µÄÖµ¡¢µç×è~R3~µÄÖµÒÔ¼°~R1ºÍ~R2~µÄ²¢ÁªÖµÓÐ¹Ø£¬µç×è~R3~µÄ±ä»¯»áÍ¬Ê±Ó°ÏìÖÐÐÄÆµÂÊ~$f_{0}$¡¢ÔöÒæ~$H$~ºÍÆ·ÖÊÒòËØ~$Q$¡£ÓÉÍ¨´ø¿í~$BW$~µÄ¼ÆËã¹«Ê½Öª£¬Í¨´ø¿íÓëµçÈÝ~C~ºÍµç×è~R3~³É·´±È\upcite{c4-dt2}¡£
+¸ù¾ÝÊ½~(\ref{xd15}$\sim$\ref{xd18})~¿ÉÖª£¬´øÍ¨ÂË²¨Æ÷µÄÖÐÐÄÆµÂÊ~$f_{0}$~ÓëµçÈÝ~C~µÄÖµ¡¢µç×è~R3~µÄÖµÒÔ¼°~R1ºÍ~R2~µÄ²¢ÁªÖµÓÐ¹Ø£¬µç×è~R3~µÄ±ä»¯»áÍ¬Ê±Ó°ÏìÖÐÐÄÆµÂÊ~$f_{0}$¡¢ÔöÒæ~$H$~ºÍÆ·ÖÊÒòËØ~$Q$¡£ÓÉÍ¨´ø¿í~$BW$~µÄ¼ÆËã¹«Ê½Öª£¬Í¨´ø¿íÓëµçÈÝ~C~ºÍµç×è~R3~³É·´±È\upcite{c4-dt2}¡£
 
 ±¾¿ÎÌâÖÐ£¬ÈýÂ·ÐÅºÅÆµÂÊ·Ö±ðÎª~4kHz£¬6kHz£¬8kHz£¬¾­¹ýÐÅºÅ·Å´óµçÂ·µÄÐÅºÅÐèÒª½ÓÈëÕ­´ø´øÍ¨ÂË²¨Æ÷½«ÈýÂ·ÐÅºÅ·Ö±ðÂË³öÀ´¡£µÂÖÝÒÇÆ÷µÄ~FilterPro~³ÌÐò¿ÉÒÔ¸ù¾ÝËùÒªÇóµÄÂË²¨Æ÷Ö¸ÊýÉè¼Æ³öÂú×ãÒªÇóµÄÂË²¨Æ÷¡£±¾ÌâÌâÊ¹ÓÃ¸ÃÈí¼þ½øÐÐÕ­´ø´øÍ¨ÂË²¨Æ÷µÄÉè¼Æ£¬ÒÔÍ¨Æµ´øÖÐÐÄÆµÂÊÎª~6kHz~ÎªÀý½øÐÐËµÃ÷¡£
 

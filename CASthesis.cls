@@ -376,11 +376,11 @@
 \fi
   \phantomsection
   \addcontentsline{toc}{chapter}{\CAST@label@abstract}
-  \begin{center}
-    \vspace*{-0.2cm}\bf\zihao{3}\CAST@value@title
-  \end{center}
+  %\begin{center}
+    %\vspace*{-0.2cm}\bf\zihao{3}\CAST@value@title
+  %\end{center}
     \begin{center}
-    \vspace*{0.1cm}\bf\zihao{2}\CAST@label@abstract
+    \vspace*{0.1cm}\zihao{2}\CAST@label@abstract
   \end{center}
  }
  {}
@@ -402,11 +402,11 @@
 \fi
   \phantomsection
   \addcontentsline{toc}{chapter}{\CAST@label@englishabstract}
+  %\begin{center}
+  %{\vspace*{-0.2cm}\bf\zihao{3}\CAST@value@englishtitle}
+  %\end{center}
   \begin{center}
-  {\vspace*{-0.2cm}\bf\zihao{3}\CAST@value@englishtitle}
-  \end{center}
-  \begin{center}
-  {\vspace*{0.1cm}\bf\zihao{2}\CAST@label@englishabstract}
+  {\vspace*{0.1cm}\zihao{2}\CAST@label@englishabstract}
   \end{center}
  }
  {}
@@ -633,13 +633,12 @@
  {\contentslabel{3.5em}\hspace*{0.0em}}{\hspace*{-3.5em}}
  {\color{black}\titlerule*[0.8pc]{.}\songti\zihao{-4}\contentspage}[\addvspace{0.5ex}]
 
-\titlecontents{section}[2.0em] {\color{black}\songti\zihao{-4}}
+\titlecontents{section}[3.0em] {\color{black}\songti\zihao{-4}}
 {\contentslabel{2em}\hspace*{0.0em}} {\hspace*{-2.3em}}
 {\color{black}\titlerule*[0.8pc]{.}\contentspage}
 %[6.0em] {\color{blue}\bf\normalsize}
 
-\titlecontents{subsection}
-[3.0em]{\color{black}\songti\zihao{-4}}
+\titlecontents{subsection}[4.0em]{\color{black}\songti\zihao{-4}}
 {\contentslabel{2em}\hspace*{1.0em}} {\hspace*{-3.3em}}
 {\color{black}\titlerule*[0.8pc]{.}\contentspage}
 
