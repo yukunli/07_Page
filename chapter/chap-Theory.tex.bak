@@ -33,7 +33,7 @@
   E_{p}=h\cdot\gamma=h\cdot c/\lambda
 \end{equation}
 
-\textit{\lambda}~\ref{q1}~中，$h$~为普朗普朗克常量~$6.626\times10^{-34}J\cdot S$，$\gamma$~为光子的频率，$c$~为光波的传播速度，$c=3.0\times10^{8}m/s$，$\lambda$~为光的波长，单位为~$nm$。近红外光子的能量同样可以用式~\ref{q1}~来描述。
+式~\ref{q1}~中，$h$~为普朗普朗克常量~$6.626\times10^{-34}J\cdot S$，$\gamma$~为光子的频率，$c$~为光波的传播速度，$c=3.0\times10^{8}m/s$，$\lambda$~为光的波长，单位为~$nm$。近红外光子的能量同样可以用式~\ref{q1}~来描述。
 
 不同波长的光具有不同的能量，当光波照射到分子或原子上，并满足光子跃迁的条件时，原子中的电子会吸收光子的能量而发生跃迁，造成特定波长的光能被衰减，从而形成分子或原子特定的吸收光谱\upcite{c2:th2}。所以当一束特定波长的近红外光照射到某物质上，在发生反射、折射和散射等光学现象时，都会发生一定程度的光能吸收，对反射或透射回来的近红外光做光谱特性分析，就得到了该物质对特定近红外光的吸收光谱。
 
@@ -82,7 +82,7 @@
 
 \subsection{朗伯比尔定律}
 
-科学家很早就注意到了物质对光吸收的定量并对其进行了研究。皮埃尔·布格（Pierre~Bouguer）和约翰·海因里希·朗伯（Johann~Heinrich~Lambert）分别在~1729~ 年和~1760~年阐明了物质对光的吸收程度和吸收介质厚度之间的关系。奥古斯特·比尔（August Beer）又在~1852~年提出光的吸收程度和吸光物质浓度也具有类似关系，前后两者结合起来就得到有关光吸收的基本定律：布格-朗伯-比尔定律，简称朗伯比尔定律。
+科学家很早就注意到了物质对光吸收的定量并对其进行了研究。皮埃尔$\cdot$布格（Pierre~Bouguer）和约翰$\cdot$海因里希$\cdot$朗伯（Johann~Heinrich~Lambert）分别在~1729~ 年和~1760~年阐明了物质对光的吸收程度和吸收介质厚度之间的关系。奥古斯特$\cdot$比尔（August Beer）又在~1852~年提出光的吸收程度和吸光物质浓度也具有类似关系，前后两者结合起来就得到有关光吸收的基本定律：布格-朗伯-比尔定律，简称朗伯比尔定律。
 
 朗伯比尔定律是光吸收的基本定量，对所有的电磁辐射和吸光物质均适用，包括气体、固体、液体、分子、原子和离子。朗伯比尔定律可以描述为：一束单色光照射到吸光介质表面，并通过一定厚度的介质后，由于介质吸收了一部分光能，透过介质的光强度就要减弱。透射后的光强~$P$~与入射光强~$P_{0}$~的关系为：
 \begin{equation}\label{q2}
@@ -153,7 +153,7 @@
 \caption{光源种类与特性}
 \addtocounter{table}{-1}
 \renewcommand\tablename{Table}
-\caption{Types and characteristics of the light source }
+\caption{Types and characteristics of the light sources }
 \label{qt3}
 \small
 %\setlength\tabcolsep{2.8pt}
@@ -302,7 +302,7 @@ LMS22     &&&&&&& 2220 &&&&&&& 200     &&&&&&&  1  &&&&&&&  5 \\
 
 \begin{figure*}[!ht]
 \centering
-\includegraphics[width=12cm]{fig24.pdf}
+\includegraphics[width=11cm]{fig24.pdf}
 \caption {水分测量系统的硬件电路结构图}
 \addtocounter{figure}{-1}
 \renewcommand\figurename{Fig.}
