@@ -4,7 +4,7 @@
 %%
 %% The original source files were:
 %%
-%% CASthesis.dtx  (with options: `cls')
+%% CASthesis.dtx  (with options: `cls')·½
 %%
 %% This is a generated file.
 %%
@@ -429,13 +429,12 @@
     \fi
     \Nchapter{\contentsname}%
     \pagestyle{fancy}
-    \@mkboth{\MakeUppercase\contentsname}{\MakeUppercase\contentsname}%
+   % \@mkboth{\MakeUppercase\contentsname}{\MakeUppercase\contentsname}%
     \@starttoc{toc}%
     \if@restonecol\twocolumn\fi
     }
+
 \addtocontents{toc}{\let\string\CTEX@spaceChar\relax}
-
-
 
 
 

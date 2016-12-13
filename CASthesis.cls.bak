@@ -380,14 +380,14 @@
     %\vspace*{-0.2cm}\bf\zihao{3}\CAST@value@title
   %\end{center}
     \begin{center}
-    \vspace*{0.1cm}\bf\zihao{2}\CAST@label@abstract
+    \vspace*{0.1cm}\zihao{2}\CAST@label@abstract
   \end{center}
  }
  {}
 
 
 %%%ÖÐÎÄ¹Ø¼ü´Ê
-\newcommand\key words[1]{%
+\newcommand\keywords[1]{%
   \vspace{2ex}\noindent{\heiti \CAST@label@keywords} #1}
 
 
@@ -406,7 +406,7 @@
   %{\vspace*{-0.2cm}\bf\zihao{3}\CAST@value@englishtitle}
   %\end{center}
   \begin{center}
-  {\vspace*{0.1cm}\bf\zihao{2}\CAST@label@englishabstract}
+  {\vspace*{0.1cm}\zihao{2}\CAST@label@englishabstract}
   \end{center}
  }
  {}
@@ -463,7 +463,7 @@
      \@tempdima #3\relax
      \advance\leftskip \@tempdima \null\nobreak\hskip -\leftskip
      {#4}\nobreak
-     \leaders\hbox{$\m@th\mkern 1.5mu\cdot\mkern 1.5mu$}\hfill
+     \leaders\hbox{$\m@th\mkern 1.5mu\cdot\mkern 5.5mu$}\hfill
      \nobreak
      \hb@xt@\@pnumwidth{\hfil\normalfont \normalcolor #5}%
      \par}%
@@ -633,13 +633,12 @@
  {\contentslabel{3.5em}\hspace*{0.0em}}{\hspace*{-3.5em}}
  {\color{black}\titlerule*[0.8pc]{.}\songti\zihao{-4}\contentspage}[\addvspace{0.5ex}]
 
-\titlecontents{section}[2.0em] {\color{black}\songti\zihao{-4}}
+\titlecontents{section}[3.0em] {\color{black}\songti\zihao{-4}}
 {\contentslabel{2em}\hspace*{0.0em}} {\hspace*{-2.3em}}
 {\color{black}\titlerule*[0.8pc]{.}\contentspage}
 %[6.0em] {\color{blue}\bf\normalsize}
 
-\titlecontents{subsection}
-[3.0em]{\color{black}\songti\zihao{-4}}
+\titlecontents{subsection}[4.0em]{\color{black}\songti\zihao{-4}}
 {\contentslabel{2em}\hspace*{1.0em}} {\hspace*{-3.3em}}
 {\color{black}\titlerule*[0.8pc]{.}\contentspage}
 

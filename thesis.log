@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.31)  13 DEC 2016 23:58
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.31)  14 DEC 2016 01:00
 entering extended mode
 **thesis.tex
 (E:\01_Master_Project\Water_Detection_Project\07_Page\thesis.tex
@@ -931,30 +931,31 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <26.1> not available
 (E:\01_Master_Project\Water_Detection_Project\07_Page\chapter/chap-Intro.tex
 µÚ\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 1\ignorespaces \hspac
 e {0.25em plus 0.125em minus 0.08em}\ignorespaces ÕÂ
-
-LaTeX Warning: File ot126.cmap not found on input line 19.
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.19 £¨
-       2£©¸ÉÔï·¨£º¸ÉÔï·¨ÊÇ¹ú±ê¹æ¶¨µÄ±ê×¼·½·¨£¬Æä¹ý³ÌÊÇ½«±»²âÑù±¾·ÅÈëºæÏäÖÐ£¬...
-[1
+l.20 
+      [1
 
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.36 
-      [2]pdfTeX warning (ext4): destination with the same identifier (name{page
-.3}) has been already used, duplicate ignored
+l.39 
+      [2]
+
+LaTeX Warning: File ot126.cmap not found on input line 54.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.51 
-      [3])pdfTeX warning (ext4): destination with the same identifier (name{pag
-e.4}) has been already used, duplicate ignored
+l.54 £¨
+       1£©·ÖÎö¸ÖÌú³§ÖÐÉÕ½áÏÖ³¡µÄ»·¾³£¬ÑÐ¾¿Ë®·Ö¼ì²â·½·¨ºÍÎ¢ÈõÐÅºÅ¼ì²âÏà¹ØÀíÂÛ...
+[3])pdfTeX warning (ext4): destination with the same identifier (name{page.4}) 
+has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.100   \include{chapter/chap-Intro}
@@ -977,8 +978,11 @@ as been already used, duplicate ignored
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.55 
-     ] [6pdfTeX warning (ext4): destination with the same identifier (name{figu
-re.2.1}) has been already used, duplicate ignored
+     ]
+Underfull \vbox (badness 3657) has occurred while \output is active []
+
+ [6pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1006,43 +1010,40 @@ Package pdftex.def Info: fig/fig22.pdf used on input line 131.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.148 
-       <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig21.pdf>]<<c
-1974.cmap>>
+l.142 \end{equation}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.2.3}) has been already used, duplicate ignored
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<fig/fig25.pdf, id=862, 380.92313pt x 267.24844pt>
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.142 \end{equation}
+                     <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/
+fig21.pdf> <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig22.pdf>
+]<<c1974.cmap>> <fig/fig25.pdf, id=887, 380.92313pt x 267.24844pt>
 File: fig/fig25.pdf Graphic file (type pdf)
- <use fig/fig25.pdf>
+
+<use fig/fig25.pdf>
 Package pdftex.def Info: fig/fig25.pdf used on input line 206.
 (pdftex.def)             Requested size: 227.62204pt x 159.69376pt.
- [9pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3
-}) has been already used, duplicate ignored
+ [9pdfTeX warning (ext4): destination with the same identifier (name{table.2.3}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.212 
       pdfTeX warning (ext4): destination with the same identifier (name{table.2
-.3}) has been already used, duplicate ignored
+.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.212 
-       <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig22.pdf>]<<c
-1982.cmap>><<c1983.cmap>><<c1981.cmap>> [10pdfTeX warning (ext4): destination w
-ith the same identifier (name{table.2.4}) has been already used, duplicate igno
-red
+      ]<<c1982.cmap>><<c1983.cmap>><<c1981.cmap>> [10pdfTeX warning (ext4): des
+tination with the same identifier (name{figure.2.4}) has been already used, dup
+licate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.246 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-2.4}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.246 
+l.276 
        <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig25.pdf>]
 <fig/fig26.pdf, id=938, 360.59718pt x 344.03531pt>
 File: fig/fig26.pdf Graphic file (type pdf)
@@ -1054,14 +1055,14 @@ Package pdftex.def Info: fig/fig26.pdf used on input line 284.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.292 
+l.294 
       pdfTeX warning (ext4): destination with the same identifier (name{table.2
 .6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.292 
-      ] <fig/fig23.pdf, id=951, 434.37282pt x 405.01312pt>
+l.294 
+      ] <fig/fig23.pdf, id=950, 434.37282pt x 405.01312pt>
 File: fig/fig23.pdf Graphic file (type pdf)
  <use fig/fig23.pdf>
 Package pdftex.def Info: fig/fig23.pdf used on input line 298.
@@ -1072,7 +1073,7 @@ Package pdftex.def Info: fig/fig23.pdf used on input line 298.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.306 
+l.308 
        <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig26.pdf>]
 <fig/fig24.pdf, id=973, 362.10281pt x 194.97844pt>
 File: fig/fig24.pdf Graphic file (type pdf)
@@ -1084,29 +1085,33 @@ Package pdftex.def Info: fig/fig24.pdf used on input line 311.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.322 
+l.324 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 2.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.322 
+l.324 
        <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig23.pdf> <E:
 /01_Master_Project/Water_Detection_Project/07_Page/fig/fig24.pdf>]
-<fig/fig27.png, id=1014, 440.39531pt x 392.21532pt>
+<fig/fig27.png, id=1013, 440.39531pt x 392.21532pt>
 File: fig/fig27.png Graphic file (type png)
  <use fig/fig27.png>
 Package pdftex.def Info: fig/fig27.png used on input line 345.
 (pdftex.def)             Requested size: 113.81102pt x 101.35715pt.
+
+
+LaTeX Warning: File ot154.cmap not found on input line 358.
 
 [14pdfTeX warning (ext4): destination with the same identifier (name{figure.2.8
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.352 \begin{equation}
-                      \label{eq3} <E:/01_Master_Project/Water_Detection_Project
-/07_Page/fig/fig27.png>]) [15]
+l.358 Èý
+        ¸ö¹â°ßÖØºÏÃæ»ýÓë¹âÔ´µ½±»²âÎï±íÃæ¾àÀëÃÜÇÐÏà¹Ø£¬µ±¾àÀëÌ«½üÊ±£¬¹â°ßÖØºÏ...
+ <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig27.png>])
+[15]
 (E:\01_Master_Project\Water_Detection_Project\07_Page\chapter/chap-DLIAsumli.te
 x [16
 
@@ -1115,7 +1120,7 @@ x [16
 ]
 µÚ\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 3\ignorespaces \hspac
 e {0.25em plus 0.125em minus 0.08em}\ignorespaces ÕÂ
-[17] [18] <fig/fig30.pdf, id=1067, 554.07pt x 134.00063pt>
+[17] [18] <fig/fig30.pdf, id=1066, 554.07pt x 134.00063pt>
 File: fig/fig30.pdf Graphic file (type pdf)
  <use fig/fig30.pdf>
 Package pdftex.def Info: fig/fig30.pdf used on input line 50.
@@ -1126,158 +1131,159 @@ Package pdftex.def Info: fig/fig30.pdf used on input line 50.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.70 \end{equation}
+l.84 \end{equation}
                     <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/f
-ig30.pdf>] <fig/fig31.png, id=1093, 565.11125pt x 342.27875pt>
+ig30.pdf>] <fig/fig31.png, id=1094, 565.11125pt x 342.27875pt>
 File: fig/fig31.png Graphic file (type png)
 
 <use fig/fig31.png>
 Package pdftex.def Info: fig/fig31.png used on input line 105.
 (pdftex.def)             Requested size: 227.62204pt x 137.86482pt.
+ [20pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+2}) has been already used, duplicate ignored
 
-Underfull \vbox (badness 2961) has occurred while \output is active []
-
- [20]
-<fig/fig32.pdf, id=1107, 472.76625pt x 197.98969pt>
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.113 
+       <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig31.png>]
+<fig/fig32.pdf, id=1106, 472.76625pt x 197.98969pt>
 File: fig/fig32.pdf Graphic file (type pdf)
  <use fig/fig32.pdf>
 Package pdftex.def Info: fig/fig32.pdf used on input line 121.
 (pdftex.def)             Requested size: 341.43306pt x 142.99051pt.
 
-[21pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
+[21pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.134 \end{equation}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{figure.3.3}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.134 \end{equation}
+l.145 \end{equation}
                      <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/
-fig31.png> <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig32.pdf>
-] <fig/fig33.pdf, id=1139, 588.69937pt x 179.16937pt>
+fig32.pdf>] <fig/fig33.pdf, id=1140, 588.69937pt x 179.16937pt>
 File: fig/fig33.pdf Graphic file (type pdf)
- <use fig/fig33.pdf>
+
+<use fig/fig33.pdf>
 Package pdftex.def Info: fig/fig33.pdf used on input line 155.
 (pdftex.def)             Requested size: 455.24408pt x 138.5541pt.
-
-[22pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4
-}) has been already used, duplicate ignored
+ [22pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.163 
-       <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig33.pdf>]
-Underfull \vbox (badness 2103) has occurred while \output is active []
+l.172 \end{equation}
+                     <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/
+fig33.pdf>]
 
- [23]
-[24] <fig/fig34_0.pdf, id=1195, 369.63094pt x 161.10187pt>
+LaTeX Warning: File ot156.cmap not found on input line 211.
+
+[23] <fig/fig34_0.pdf, id=1187, 369.63094pt x 161.10187pt>
 File: fig/fig34_0.pdf Graphic file (type pdf)
 
 <use fig/fig34_0.pdf>
 Package pdftex.def Info: fig/fig34_0.pdf used on input line 239.
 (pdftex.def)             Requested size: 369.88582pt x 161.21454pt.
+ [24] <fig/fig34.pdf, id=1196, 170.13562pt x 372.64218pt>
+File: fig/fig34.pdf Graphic file (type pdf)
+
+<use fig/fig34.pdf>
+Package pdftex.def Info: fig/fig34.pdf used on input line 257.
+(pdftex.def)             Requested size: 142.26378pt x 311.61284pt.
  [25pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.253 
+l.266 
        <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig34_0.pdf>]
-<fig/fig34.pdf, id=1218, 170.13562pt x 372.64218pt>
-File: fig/fig34.pdf Graphic file (type pdf)
- <use fig/fig34.pdf>
-Package pdftex.def Info: fig/fig34.pdf used on input line 257.
-(pdftex.def)             Requested size: 142.26378pt x 311.61284pt.
-
-[26pdfTeX warning (ext4): destination with the same identifier (name{figure.3.6
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.268 
-       <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig34.pdf>]
-<fig/fig35_2.png, id=1240, 791.95876pt x 554.82281pt>
+<fig/fig35_2.png, id=1222, 791.95876pt x 554.82281pt>
 File: fig/fig35_2.png Graphic file (type png)
  <use fig/fig35_2.png>
 Package pdftex.def Info: fig/fig35_2.png used on input line 277.
 (pdftex.def)             Requested size: 426.79134pt x 298.99878pt.
 
-<fig/fig36_2.png, id=1242, 813.79031pt x 493.0922pt>
+<fig/fig36_2.png, id=1224, 813.79031pt x 493.0922pt>
 File: fig/fig36_2.png Graphic file (type png)
  <use fig/fig36_2.png>
 Package pdftex.def Info: fig/fig36_2.png used on input line 288.
 (pdftex.def)             Requested size: 426.79134pt x 258.59889pt.
 
-<fig/fig37.png, id=1243, 758.835pt x 431.36156pt>
+<fig/fig37.png, id=1225, 758.835pt x 431.36156pt>
 File: fig/fig37.png Graphic file (type png)
  <use fig/fig37.png>
 Package pdftex.def Info: fig/fig37.png used on input line 297.
 (pdftex.def)             Requested size: 398.33858pt x 226.44188pt.
+ [26pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.305 
+       <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig34.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [27pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.305 
-       <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig35_2.png>]
-<fig/fig38_2.png, id=1255, 1031.35312pt x 484.81125pt>
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+3.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.305 
+       <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig35_2.png> <
+E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig36_2.png>]
+<fig/fig38_2.png, id=1254, 1031.35312pt x 484.81125pt>
 File: fig/fig38_2.png Graphic file (type png)
  <use fig/fig38_2.png>
 Package pdftex.def Info: fig/fig38_2.png used on input line 333.
 (pdftex.def)             Requested size: 455.24408pt x 213.99818pt.
 
-[28pdfTeX warning (ext4): destination with the same identifier (name{figure.3.8
+[28pdfTeX warning (ext4): destination with the same identifier (name{figure.3.9
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.341 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-3.9}) has been already used, duplicate ignored
+l.369 \section{±¾ÕÂÐ¡½á}
+                        pdfTeX warning (ext4): destination with the same identi
+fier (name{table.3.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.341 
-       <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig36_2.png> <
-E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig37.png>] [29pdfTeX 
-warning (ext4): destination with the same identifier (name{table.3.1}) has been
- already used, duplicate ignored
+l.369 \section{±¾ÕÂÐ¡½á}
+                         <E:/01_Master_Project/Water_Detection_Project/07_Page/
+fig/fig37.png>]) [29pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.3.10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.371 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-3.10}) has been already used, duplicate ignored
+l.102   \include{chapter/chap-DLIAsumli}
+                                         % Êý×ÖËøÏà·Å´óÆ÷·ÂÕæpdfTeX warning (ex
+t4): destination with the same identifier (name{table.3.2}) has been already us
+ed, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.371 
-      pdfTeX warning (ext4): destination with the same identifier (name{table.3
-.2}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.371 
-       <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig38_2.png>])
-[30]
+l.102   \include{chapter/chap-DLIAsumli}
+                                         % Êý×ÖËøÏà·Å´óÆ÷·ÂÕæ <E:/01_Master_Pro
+ject/Water_Detection_Project/07_Page/fig/fig38_2.png>]
 (E:\01_Master_Project\Water_Detection_Project\07_Page\chapter/chap-HardWare.tex
+[30
+
+
+
+]
 µÚ\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 4\ignorespaces \hspac
 e {0.25em plus 0.125em minus 0.08em}\ignorespaces ÕÂ
-<fig/fig40.pdf, id=1281, 661.72218pt x 517.935pt>
+<fig/fig40.pdf, id=1280, 661.72218pt x 517.935pt>
 File: fig/fig40.pdf Graphic file (type pdf)
  <use fig/fig40.pdf>
 Package pdftex.def Info: fig/fig40.pdf used on input line 10.
 (pdftex.def)             Requested size: 341.43306pt x 267.24133pt.
- [31
-
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) 
-has been already used, duplicate ignored
+ [31pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1291,52 +1297,56 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 pdfTeX warning: pdflatex.exe (file E:/01_Master_Project/Water_Detection_Project
 /07_Page/fig/fig41.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<fig/fig41.pdf, id=1310, 212.21152pt x 67.88963pt>
+<fig/fig41.pdf, id=1309, 212.21152pt x 67.88963pt>
 File: fig/fig41.pdf Graphic file (type pdf)
  <use fig/fig41.pdf>
 Package pdftex.def Info: fig/fig41.pdf used on input line 74.
 (pdftex.def)             Requested size: 398.33858pt x 127.44812pt.
-<<c1986.cmap>> [33pdfTeX warning (ext4): destination with the same identifier (
-name{table.4.1}) has been already used, duplicate ignored
+<<c1986.cmap>>
+
+pdfTeX warning: pdflatex.exe (file E:/01_Master_Project/Water_Detection_Project
+/07_Page/fig/fig42.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
+rsion <1.5> allowed
+<fig/fig42.pdf, id=1313, 204.32767pt x 82.78227pt>
+File: fig/fig42.pdf Graphic file (type pdf)
+ <use fig/fig42.pdf>
+Package pdftex.def Info: fig/fig42.pdf used on input line 88.
+(pdftex.def)             Requested size: 398.33858pt x 161.3957pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[33pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.85 
+l.96 
      pdfTeX warning (ext4): destination with the same identifier (name{figure.4
 .2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.85 
+l.96 
       <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig41.pdf>]
-
-pdfTeX warning: pdflatex.exe (file E:/01_Master_Project/Water_Detection_Project
-/07_Page/fig/fig42.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
-rsion <1.5> allowed
-<fig/fig42.pdf, id=1341, 204.32767pt x 82.78227pt>
-File: fig/fig42.pdf Graphic file (type pdf)
- <use fig/fig42.pdf>
-Package pdftex.def Info: fig/fig42.pdf used on input line 88.
-(pdftex.def)             Requested size: 398.33858pt x 161.3957pt.
- [34pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-3}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.109 £¨
-        4£©Æ¬ÄÚ´æ´¢£º256K$\times16$~µÄ~Flash~´æ´¢Æ÷£¬34K$\times16$~µÄ~SARAM£...
- <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig42.pdf>]
-<fig/fig43.pdf, id=1368, 500.62032pt x 268.75406pt>
+<fig/fig43.pdf, id=1344, 500.62032pt x 268.75406pt>
 File: fig/fig43.pdf Graphic file (type pdf)
  <use fig/fig43.pdf>
 Package pdftex.def Info: fig/fig43.pdf used on input line 116.
 (pdftex.def)             Requested size: 284.52756pt x 152.75261pt.
 
+[34pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.122 
+       <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig42.pdf>]
 
 pdfTeX warning: pdflatex.exe (file E:/01_Master_Project/Water_Detection_Project
 /07_Page/fig/fig44.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<fig/fig44.pdf, id=1371, 168.41118pt x 96.79863pt>
+<fig/fig44.pdf, id=1370, 168.41118pt x 96.79863pt>
 File: fig/fig44.pdf Graphic file (type pdf)
  <use fig/fig44.pdf>
 Package pdftex.def Info: fig/fig44.pdf used on input line 132.
@@ -1353,7 +1363,7 @@ pdf>]<<c1984.cmap>>
 pdfTeX warning: pdflatex.exe (file E:/01_Master_Project/Water_Detection_Project
 /07_Page/fig/fig45.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<fig/fig45.pdf, id=1397, 180.89381pt x 72.70863pt>
+<fig/fig45.pdf, id=1396, 180.89381pt x 72.70863pt>
 File: fig/fig45.pdf Graphic file (type pdf)
  <use fig/fig45.pdf>
 Package pdftex.def Info: fig/fig45.pdf used on input line 151.
@@ -1369,36 +1379,40 @@ l.161
 pdfTeX warning: pdflatex.exe (file E:/01_Master_Project/Water_Detection_Project
 /07_Page/fig/fig46.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<fig/fig46.pdf, id=1423, 187.902pt x 130.41423pt>
+<fig/fig46.pdf, id=1422, 187.902pt x 130.41423pt>
 File: fig/fig46.pdf Graphic file (type pdf)
  <use fig/fig46.pdf>
 Package pdftex.def Info: fig/fig46.pdf used on input line 167.
 (pdftex.def)             Requested size: 398.33858pt x 276.50667pt.
- [37pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-6}) has been already used, duplicate ignored
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.177 
-       <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig45.pdf>]
-<fig/fig47_1.pdf, id=1446, 159.65045pt x 173.11931pt>
+<fig/fig47_1.pdf, id=1423, 159.65045pt x 173.11931pt>
 File: fig/fig47_1.pdf Graphic file (type pdf)
  <use fig/fig47_1.pdf>
 Package pdftex.def Info: fig/fig47_1.pdf used on input line 180.
 (pdftex.def)             Requested size: 199.16928pt x 215.98384pt.
 
-[38pdfTeX warning (ext4): destination with the same identifier (name{figure.4.7
+[37pdfTeX warning (ext4): destination with the same identifier (name{figure.4.6
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.191 \end{equation}
+l.189 \begin{equation}
+                      \label{xd1} <E:/01_Master_Project/Water_Detection_Project
+/07_Page/fig/fig45.pdf>]
+Underfull \vbox (badness 2181) has occurred while \output is active []
+
+ [38pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.194 \end{equation}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{figure.4.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.191 \end{equation}
+l.194 \end{equation}
                      <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/
 fig46.pdf> <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig47_1.pd
 f>] <fig/fig55.pdf, id=1484, 310.91156pt x 152.82094pt>
@@ -1407,58 +1421,72 @@ File: fig/fig55.pdf Graphic file (type pdf)
 Package pdftex.def Info: fig/fig55.pdf used on input line 214.
 (pdftex.def)             Requested size: 341.43306pt x 167.8237pt.
 
+
+LaTeX Warning: File ot140.cmap not found on input line 225.
+
 [39pdfTeX warning (ext4): destination with the same identifier (name{figure.4.9
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.224 
-       <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig55.pdf>]
+l.225 µä
+        ÐÍµÄÇ°ÖÃ·Å´óµçÂ·ÓÐÈýÖÖÀàÐÍ£ºµÍ×è¿¹¡¢¸ß×è¿¹ºÍ¿ç×è·Å´óÆ÷¡£ <E:/01_Master_
+Project/Water_Detection_Project/07_Page/fig/fig55.pdf>]
 <fig/fig56_2.png, id=1511, 408.02437pt x 274.02374pt>
 File: fig/fig56_2.png Graphic file (type png)
  <use fig/fig56_2.png>
 Package pdftex.def Info: fig/fig56_2.png used on input line 236.
 (pdftex.def)             Requested size: 227.62204pt x 152.86687pt.
 
-[40pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
-0}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.244 
-       <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig56_2.png>]
-<fig/fig57.pdf, id=1523, 142.28156pt x 101.62968pt>
+<fig/fig57.pdf, id=1515, 142.28156pt x 101.62968pt>
 File: fig/fig57.pdf Graphic file (type pdf)
  <use fig/fig57.pdf>
 Package pdftex.def Info: fig/fig57.pdf used on input line 247.
 (pdftex.def)             Requested size: 113.81102pt x 81.29764pt.
 
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
 pdfTeX warning: pdflatex.exe (file E:/01_Master_Project/Water_Detection_Project
 /07_Page/fig/fig58.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<fig/fig58.pdf, id=1525, 132.495pt x 66.57674pt>
+<fig/fig58.pdf, id=1517, 132.495pt x 66.57674pt>
 File: fig/fig58.pdf Graphic file (type pdf)
  <use fig/fig58.pdf>
 Package pdftex.def Info: fig/fig58.pdf used on input line 258.
 (pdftex.def)             Requested size: 341.43306pt x 171.59798pt.
- [41pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-11}) has been already used, duplicate ignored
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[40pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+0}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.270 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-4.12}) has been already used, duplicate ignored
+l.266 
+       <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig56_2.png>]
+[41pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.270 
-       <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig57.pdf> <E:
-/01_Master_Project/Water_Detection_Project/07_Page/fig/fig58.pdf>]
-<fig/fig59.png, id=1559, 720.6925pt x 315.1775pt>
+l.280 \subsubsection{Ç°ÖÃ·Å´óµçÂ·ÔëÉù·ÖÎö}
+                                          pdfTeX warning (ext4): destination wi
+th the same identifier (name{figure.4.12}) has been already used, duplicate ign
+ored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.280 \subsubsection{Ç°ÖÃ·Å´óµçÂ·ÔëÉù·ÖÎö}
+                                           <E:/01_Master_Project/Water_Detectio
+n_Project/07_Page/fig/fig57.pdf> <E:/01_Master_Project/Water_Detection_Project/
+07_Page/fig/fig58.pdf>] <fig/fig59.png, id=1559, 720.6925pt x 315.1775pt>
 File: fig/fig59.png Graphic file (type png)
- <use fig/fig59.png>
+
+<use fig/fig59.png>
 Package pdftex.def Info: fig/fig59.png used on input line 286.
 (pdftex.def)             Requested size: 341.43306pt x 149.31651pt.
  [42pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
@@ -1466,43 +1494,44 @@ Package pdftex.def Info: fig/fig59.png used on input line 286.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.305 \end{equation}
+l.324 \end{equation}
                      <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/
 fig59.png>]
 
 pdfTeX warning: pdflatex.exe (file E:/01_Master_Project/Water_Detection_Project
 /07_Page/fig/fig58b.pdf): PDF inclusion: found PDF version <1.7>, but at most v
 ersion <1.5> allowed
-<fig/fig58b.pdf, id=1573, 245.06055pt x 79.16878pt>
+<fig/fig58b.pdf, id=1575, 245.06055pt x 79.16878pt>
 File: fig/fig58b.pdf Graphic file (type pdf)
  <use fig/fig58b.pdf>
 Package pdftex.def Info: fig/fig58b.pdf used on input line 343.
 (pdftex.def)             Requested size: 398.33858pt x 128.70085pt.
 
+[43pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+4}) has been already used, duplicate ignored
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[43] <fig/fig61.png, id=1585, 709.65125pt x 368.37625pt>
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.351 
+       <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig58b.pdf>]
+<fig/fig61.png, id=1601, 709.65125pt x 368.37625pt>
 File: fig/fig61.png Graphic file (type png)
  <use fig/fig61.png>
 Package pdftex.def Info: fig/fig61.png used on input line 358.
 (pdftex.def)             Requested size: 284.52756pt x 147.69638pt.
 
+
+LaTeX Warning: File ot137.cmap not found on input line 384.
+
 [44pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
-4}) has been already used, duplicate ignored
+5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.368 \end{equation}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{figure.4.15}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.368 \end{equation}
-                     <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/
-fig58b.pdf> <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig61.png
->] <fig/fig63_1.pdf, id=1614, 495.35063pt x 170.88844pt>
+l.384 ±¾
+        ¿ÎÌâÖÐ£¬ÈýÂ·ÐÅºÅÆµÂÊ·Ö±ðÎª~4kHz£¬6kHz£¬8kHz£¬¾­¹ýÐÅºÅ·Å´óµçÂ·µÄÐÅºÅÐ...
+ <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig61.png>]
+<fig/fig63_1.pdf, id=1617, 495.35063pt x 170.88844pt>
 File: fig/fig63_1.pdf Graphic file (type pdf)
  <use fig/fig63_1.pdf>
 Package pdftex.def Info: fig/fig63_1.pdf used on input line 389.
@@ -1512,107 +1541,108 @@ Package pdftex.def Info: fig/fig63_1.pdf used on input line 389.
 pdfTeX warning: pdflatex.exe (file E:/01_Master_Project/Water_Detection_Project
 /07_Page/fig/fig62.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<fig/fig62.pdf, id=1616, 265.42865pt x 63.40086pt>
+<fig/fig62.pdf, id=1619, 265.42865pt x 63.40086pt>
 File: fig/fig62.pdf Graphic file (type pdf)
  <use fig/fig62.pdf>
 Package pdftex.def Info: fig/fig62.pdf used on input line 400.
 (pdftex.def)             Requested size: 455.24408pt x 108.74937pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[45pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
-6}) has been already used, duplicate ignored
+ [45pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+16}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.410 
-       <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig63_1.pdf>]
+l.411 A
+       D7656~Ö÷ÒªÓÐÒÔÏÂ¼¸¸öÌØµã£ºpdfTeX warning (ext4): destination with the sa
+me identifier (name{figure.4.17}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.411 A
+       D7656~Ö÷ÒªÓÐÒÔÏÂ¼¸¸öÌØµã£º <E:/01_Master_Project/Water_Detection_Project
+/07_Page/fig/fig63_1.pdf> <E:/01_Master_Project/Water_Detection_Project/07_Page
+/fig/fig62.pdf>]
 
 pdfTeX warning: pdflatex.exe (file E:/01_Master_Project/Water_Detection_Project
 /07_Page/fig/fig48.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<fig/fig48.pdf, id=1646, 259.12007pt x 259.12007pt>
+<fig/fig48.pdf, id=1661, 259.12007pt x 259.12007pt>
 File: fig/fig48.pdf Graphic file (type pdf)
  <use fig/fig48.pdf>
 Package pdftex.def Info: fig/fig48.pdf used on input line 428.
 (pdftex.def)             Requested size: 312.9803pt x 313.01038pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 [46pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
-7}) has been already used, duplicate ignored
+8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.438 
-       <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig62.pdf>]
-<fig/fig50.png, id=1670, 820.56563pt x 346.29375pt>
+l.436 
+       <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig48.pdf>]
+<fig/fig50.png, id=1738, 820.56563pt x 346.29375pt>
 File: fig/fig50.png Graphic file (type png)
  <use fig/fig50.png>
 Package pdftex.def Info: fig/fig50.png used on input line 443.
 (pdftex.def)             Requested size: 341.43306pt x 144.08966pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<fig/fig49.jpg, id=1673, 715.17188pt x 453.94594pt>
+<fig/fig49.jpg, id=1741, 715.17188pt x 453.94594pt>
 File: fig/fig49.jpg Graphic file (type jpg)
  <use fig/fig49.jpg>
 Package pdftex.def Info: fig/fig49.jpg used on input line 457.
 (pdftex.def)             Requested size: 398.33858pt x 252.84343pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-18}) has been already used, duplicate ignored
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.463 
-       <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig48.pdf>]
-[48pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+[47pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
 9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.468 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-4.20}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.468 
-       <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig50.png> <E:
-/01_Master_Project/Water_Detection_Project/07_Page/fig/fig49.jpg>]
+       <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig50.png>]
 
 pdfTeX warning: pdflatex.exe (file E:/01_Master_Project/Water_Detection_Project
 /07_Page/fig/fig51.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<fig/fig51.pdf, id=1757, 94.38965pt x 61.10147pt>
+<fig/fig51.pdf, id=1751, 94.38965pt x 61.10147pt>
 File: fig/fig51.pdf Graphic file (type pdf)
  <use fig/fig51.pdf>
 Package pdftex.def Info: fig/fig51.pdf used on input line 479.
 (pdftex.def)             Requested size: 284.52756pt x 184.2111pt.
- [49pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-21}) has been already used, duplicate ignored
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[48pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
+0}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.489 
-       <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig51.pdf>]
+l.487 \subsection{°ëµ¼ÌåÖÆÀäµçÂ·}
+                                  <E:/01_Master_Project/Water_Detection_Project
+/07_Page/fig/fig49.jpg>]
 
 pdfTeX warning: pdflatex.exe (file E:/01_Master_Project/Water_Detection_Project
 /07_Page/fig/fig52.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<fig/fig52.pdf, id=1782, 226.447pt x 78.40192pt>
+<fig/fig52.pdf, id=1759, 226.447pt x 78.40192pt>
 File: fig/fig52.pdf Graphic file (type pdf)
  <use fig/fig52.pdf>
 Package pdftex.def Info: fig/fig52.pdf used on input line 494.
 (pdftex.def)             Requested size: 398.33858pt x 137.91959pt.
-) [50pdfTeX warning (ext4): destination with the same identifier (name{figure.4
-.22}) has been already used, duplicate ignored
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[49pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.508 
+       <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig51.pdf>])
+[50pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
+2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1622,13 +1652,13 @@ ect/Water_Detection_Project/07_Page/fig/fig52.pdf>]
 (E:\01_Master_Project\Water_Detection_Project\07_Page\chapter/chap-SoftWare.tex
 µÚ\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 5\ignorespaces \hspac
 e {0.25em plus 0.125em minus 0.08em}\ignorespaces ÕÂ
-<fig/fig75.pdf, id=1807, 576.65437pt x 355.3275pt>
+<fig/fig75.pdf, id=1805, 576.65437pt x 355.3275pt>
 File: fig/fig75.pdf Graphic file (type pdf)
  <use fig/fig75.pdf>
 Package pdftex.def Info: fig/fig75.pdf used on input line 11.
 (pdftex.def)             Requested size: 455.24408pt x 280.52672pt.
 
-Underfull \vbox (badness 1895) has occurred while \output is active []
+Underfull \vbox (badness 5231) has occurred while \output is active []
 
  [51
 
@@ -1641,7 +1671,7 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.23 
       <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig75.pdf>]
-<fig/fig76.pdf, id=1830, 218.31563pt x 352.31625pt>
+<fig/fig76.pdf, id=1828, 218.31563pt x 352.31625pt>
 File: fig/fig76.pdf Graphic file (type pdf)
  <use fig/fig76.pdf>
 Package pdftex.def Info: fig/fig76.pdf used on input line 29.
@@ -1651,7 +1681,7 @@ Package pdftex.def Info: fig/fig76.pdf used on input line 29.
 pdfTeX warning: pdflatex.exe (file E:/01_Master_Project/Water_Detection_Project
 /07_Page/fig/fig73.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<fig/fig73.pdf, id=1832, 458.32169pt x 161.8848pt>
+<fig/fig73.pdf, id=1830, 458.32169pt x 161.8848pt>
 File: fig/fig73.pdf Graphic file (type pdf)
  <use fig/fig73.pdf>
 Package pdftex.def Info: fig/fig73.pdf used on input line 40.
@@ -1663,7 +1693,7 @@ Package pdftex.def Info: fig/fig73.pdf used on input line 40.
                                                   \fi \fi 
 l.46 
       <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig76.pdf>]
-<fig/fig74.pdf, id=1853, 340.27126pt x 360.59718pt>
+<fig/fig74.pdf, id=1851, 340.27126pt x 360.59718pt>
 File: fig/fig74.pdf Graphic file (type pdf)
  <use fig/fig74.pdf>
 Package pdftex.def Info: fig/fig74.pdf used on input line 49.
@@ -1676,7 +1706,7 @@ Package pdftex.def Info: fig/fig74.pdf used on input line 49.
                                                   \fi \fi 
 l.87 
       <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig73.pdf>]
-<fig/fig72.pdf, id=1912, 218.31563pt x 191.21437pt>
+<fig/fig72.pdf, id=1910, 218.31563pt x 191.21437pt>
 File: fig/fig72.pdf Graphic file (type pdf)
  <use fig/fig72.pdf>
 Package pdftex.def Info: fig/fig72.pdf used on input line 91.
@@ -1695,7 +1725,7 @@ table.5.1}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.97 \newpage
               <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig74.p
-df>] <fig/fig71_2.pdf, id=1936, 305.64188pt x 474.27188pt>
+df>] <fig/fig71_2.pdf, id=1934, 305.64188pt x 474.27188pt>
 File: fig/fig71_2.pdf Graphic file (type pdf)
 
 <use fig/fig71_2.pdf>
@@ -1715,7 +1745,7 @@ ame identifier (name{figure.5.6}) has been already used, duplicate ignored
 l.112 \begin{equation}
                       \label{eq50} <E:/01_Master_Project/Water_Detection_Projec
 t/07_Page/fig/fig72.pdf> <E:/01_Master_Project/Water_Detection_Project/07_Page/
-fig/fig71_2.pdf>] <fig/fig69.pdf, id=1975, 189.70876pt x 283.0575pt>
+fig/fig71_2.pdf>] <fig/fig69.pdf, id=1973, 189.70876pt x 283.0575pt>
 File: fig/fig69.pdf Graphic file (type pdf)
 
 <use fig/fig69.pdf>
@@ -1728,31 +1758,31 @@ Package pdftex.def Info: fig/fig69.pdf used on input line 125.
                                                   \fi \fi 
 l.134 
        <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig69.pdf>]
-[57] <fig/fig77.pdf, id=2010, 430.60875pt x 304.88907pt>
+[57] <fig/fig77.pdf, id=2008, 430.60875pt x 304.88907pt>
 File: fig/fig77.pdf Graphic file (type pdf)
  <use fig/fig77.pdf>
 Package pdftex.def Info: fig/fig77.pdf used on input line 193.
 (pdftex.def)             Requested size: 341.43306pt x 241.75294pt.
 
-<fig/fig78a.png, id=2012, 540.51938pt x 449.42906pt>
+<fig/fig78a.png, id=2010, 540.51938pt x 449.42906pt>
 File: fig/fig78a.png Graphic file (type png)
  <use fig/fig78a.png>
 Package pdftex.def Info: fig/fig78a.png used on input line 203.
 (pdftex.def)             Requested size: 199.16928pt x 165.60037pt.
 
-<fig/fig78b.png, id=2013, 540.51938pt x 447.17062pt>
+<fig/fig78b.png, id=2011, 540.51938pt x 447.17062pt>
 File: fig/fig78b.png Graphic file (type png)
  <use fig/fig78b.png>
 Package pdftex.def Info: fig/fig78b.png used on input line 204.
 (pdftex.def)             Requested size: 199.16928pt x 164.7682pt.
 
-<fig/fig78c.png, id=2014, 540.51938pt x 448.67625pt>
+<fig/fig78c.png, id=2012, 540.51938pt x 448.67625pt>
 File: fig/fig78c.png Graphic file (type png)
  <use fig/fig78c.png>
 Package pdftex.def Info: fig/fig78c.png used on input line 205.
 (pdftex.def)             Requested size: 199.16928pt x 165.32298pt.
 
-<fig/fig78d.png, id=2015, 540.51938pt x 447.17062pt>
+<fig/fig78d.png, id=2013, 540.51938pt x 447.17062pt>
 File: fig/fig78d.png Graphic file (type png)
  <use fig/fig78d.png>
 Package pdftex.def Info: fig/fig78d.png used on input line 206.
@@ -1775,58 +1805,65 @@ l.229 \subsubsection{FIR~ÂË²¨Æ÷µÄÉè¼Æ}
 oject/07_Page/fig/fig78a.png> <E:/01_Master_Project/Water_Detection_Project/07_
 Page/fig/fig78b.png> <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/
 fig78c.png> <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig78d.pn
-g>] <fig/fig80.png, id=2056, 578.91281pt x 397.485pt>
+g>] <fig/fig80.png, id=2054, 578.91281pt x 397.485pt>
 File: fig/fig80.png Graphic file (type png)
  <use fig/fig80.png>
 Package pdftex.def Info: fig/fig80.png used on input line 267.
 (pdftex.def)             Requested size: 398.33858pt x 273.50073pt.
 
-[60pdfTeX warning (ext4): destination with the same identifier (name{table.5.2}
-) has been already used, duplicate ignored
+Underfull \vbox (badness 1478) has occurred while \output is active []
+
+ [60pdfTeX warning (ext4): destination with the same identifier (name{table.5.2
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.273 
-      ] [61pdfTeX warning (ext4): destination with the same identifier (name{fi
-gure.5.10}) has been already used, duplicate ignored
+l.276 \begin{equation}
+                      \label{c7-1}]
+
+LaTeX Warning: File ot163.cmap not found on input line 288.
+
+[61pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
+0}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.285 
-       <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig80.png>]
-<fig/fig81.png, id=2080, 602.25pt x 599.23875pt>
+l.288 ÔÚ
+        ½øÐÐ~FFT~ÔËËãÊ±£¬¼ÙÉèÆäËù¼ÆËãµÄÐÅºÅÎªÖÜÆÚÐÅºÅ£¬Òò´ËÍ¨¹ýÉÏÊö¿ìËÙ¾í»ý·...
+ <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig80.png>]
+<fig/fig81.png, id=2078, 602.25pt x 599.23875pt>
 File: fig/fig81.png Graphic file (type png)
  <use fig/fig81.png>
 Package pdftex.def Info: fig/fig81.png used on input line 291.
 (pdftex.def)             Requested size: 312.9803pt x 311.42307pt.
 
-<fig/fig82.pdf, id=2084, 166.37157pt x 351.56343pt>
+<fig/fig82.pdf, id=2082, 166.37157pt x 351.56343pt>
 File: fig/fig82.pdf Graphic file (type pdf)
  <use fig/fig82.pdf>
 Package pdftex.def Info: fig/fig82.pdf used on input line 304.
 (pdftex.def)             Requested size: 142.26378pt x 300.63812pt.
+
+<fig/fig79a.png, id=2084, 540.51938pt x 420.82219pt>
+File: fig/fig79a.png Graphic file (type png)
+ <use fig/fig79a.png>
+Package pdftex.def Info: fig/fig79a.png used on input line 314.
+(pdftex.def)             Requested size: 199.16928pt x 155.05965pt.
+
+<fig/fig79b.png, id=2085, 543.53062pt x 421.575pt>
+File: fig/fig79b.png Graphic file (type png)
+ <use fig/fig79b.png>
+Package pdftex.def Info: fig/fig79b.png used on input line 315.
+(pdftex.def)             Requested size: 199.16928pt x 154.48148pt.
 
 [62pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.309 \end{figure*}
-                    <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/f
-ig81.png>] <fig/fig79a.png, id=2094, 540.51938pt x 420.82219pt>
-File: fig/fig79a.png Graphic file (type png)
-
-<use fig/fig79a.png>
-Package pdftex.def Info: fig/fig79a.png used on input line 314.
-(pdftex.def)             Requested size: 199.16928pt x 155.05965pt.
- <fig/fig79b.png, id=2095, 543.53062pt x 421.575pt>
-File: fig/fig79b.png Graphic file (type png)
-
-<use fig/fig79b.png>
-Package pdftex.def Info: fig/fig79b.png used on input line 315.
-(pdftex.def)             Requested size: 199.16928pt x 154.48148pt.
- [63pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
-12}) has been already used, duplicate ignored
+l.321 
+       <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig81.png>]
+[63pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
+2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1844,7 +1881,7 @@ r_Project/Water_Detection_Project/07_Page/fig/fig79b.png>]
 pdfTeX warning: pdflatex.exe (file E:/01_Master_Project/Water_Detection_Project
 /07_Page/fig/fig70.pdf): PDF inclusion: found PDF version <1.6>, but at most ve
 rsion <1.5> allowed
-<fig/fig70.pdf, id=2120, 222.39386pt x 141.25473pt>
+<fig/fig70.pdf, id=2118, 222.39386pt x 141.25473pt>
 File: fig/fig70.pdf Graphic file (type pdf)
  <use fig/fig70.pdf>
 Package pdftex.def Info: fig/fig70.pdf used on input line 329.
@@ -1854,23 +1891,17 @@ Package pdftex.def Info: fig/fig70.pdf used on input line 329.
 pdfTeX warning: pdflatex.exe (file E:/01_Master_Project/Water_Detection_Project
 /07_Page/fig/fig83.pdf): PDF inclusion: found PDF version <1.6>, but at most ve
 rsion <1.5> allowed
-<fig/fig83.pdf, id=2123, 722.7pt x 542.025pt>
+<fig/fig83.pdf, id=2121, 722.7pt x 542.025pt>
 File: fig/fig83.pdf Graphic file (type pdf)
  <use fig/fig83.pdf>
 Package pdftex.def Info: fig/fig83.pdf used on input line 343.
 (pdftex.def)             Requested size: 284.52756pt x 213.39865pt.
- [64pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
-14}) has been already used, duplicate ignored
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.349 
-       <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig70.pdf>]
 
 pdfTeX warning: pdflatex.exe (file E:/01_Master_Project/Water_Detection_Project
 /07_Page/fig/fig84a.pdf): PDF inclusion: found PDF version <1.6>, but at most v
 ersion <1.5> allowed
-<fig/fig84a.pdf, id=2185, 722.7pt x 542.025pt>
+<fig/fig84a.pdf, id=2123, 722.7pt x 542.025pt>
 File: fig/fig84a.pdf Graphic file (type pdf)
  <use fig/fig84a.pdf>
 Package pdftex.def Info: fig/fig84a.pdf used on input line 353.
@@ -1880,13 +1911,20 @@ Package pdftex.def Info: fig/fig84a.pdf used on input line 353.
 pdfTeX warning: pdflatex.exe (file E:/01_Master_Project/Water_Detection_Project
 /07_Page/fig/fig84b.pdf): PDF inclusion: found PDF version <1.6>, but at most v
 ersion <1.5> allowed
-<fig/fig84b.pdf, id=2186, 722.7pt x 542.025pt>
+<fig/fig84b.pdf, id=2124, 722.7pt x 542.025pt>
 File: fig/fig84b.pdf Graphic file (type pdf)
  <use fig/fig84b.pdf>
 Package pdftex.def Info: fig/fig84b.pdf used on input line 354.
 (pdftex.def)             Requested size: 199.16928pt x 149.37575pt.
-) [65pdfTeX warning (ext4): destination with the same identifier (name{figure.5
-.15}) has been already used, duplicate ignored
+ [64pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.363 
+       <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fig70.pdf>])
+[65pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
+5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1915,34 +1953,35 @@ e {0.25em plus 0.125em minus 0.08em}\ignorespaces ÕÂ
 pdfTeX warning: pdflatex.exe (file E:/01_Master_Project/Water_Detection_Project
 /07_Page/fig/figshandian.pdf): PDF inclusion: found PDF version <1.7>, but at m
 ost version <1.5> allowed
-<fig/figshandian.pdf, id=2385, 489.32542pt x 272.82527pt>
+<fig/figshandian.pdf, id=2383, 489.32542pt x 272.82527pt>
 File: fig/figshandian.pdf Graphic file (type pdf)
 
 <use fig/figshandian.pdf>
 Package pdftex.def Info: fig/figshandian.pdf used on input line 78.
 (pdftex.def)             Requested size: 369.88582pt x 206.23366pt.
- [68pdfTeX warning (ext4): destination with the same identifier (name{table.6.1
-}) has been already used, duplicate ignored
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.90 
-     ]
 
 pdfTeX warning: pdflatex.exe (file E:/01_Master_Project/Water_Detection_Project
 /07_Page/fig/fignihe2.pdf): PDF inclusion: found PDF version <1.7>, but at most
  version <1.5> allowed
-<fig/fignihe2.pdf, id=2394, 473.5791pt x 237.14699pt>
+<fig/fignihe2.pdf, id=2386, 473.5791pt x 237.14699pt>
 File: fig/fignihe2.pdf Graphic file (type pdf)
  <use fig/fignihe2.pdf>
 Package pdftex.def Info: fig/fignihe2.pdf used on input line 94.
 (pdftex.def)             Requested size: 369.88582pt x 185.22719pt.
 
+[68pdfTeX warning (ext4): destination with the same identifier (name{table.6.1}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.103 £¨
+        2£©Èý´Î¶àÏîÊ½µÄÄâºÏÇúÏßÈçÍ¼~\ref{fig91b}~ËùÊ¾¡£]
 
 pdfTeX warning: pdflatex.exe (file E:/01_Master_Project/Water_Detection_Project
 /07_Page/fig/fignihe3.pdf): PDF inclusion: found PDF version <1.7>, but at most
  version <1.5> allowed
-<fig/fignihe3.pdf, id=2396, 508.68756pt x 259.62395pt>
+<fig/fignihe3.pdf, id=2395, 508.68756pt x 259.62395pt>
 File: fig/fignihe3.pdf Graphic file (type pdf)
  <use fig/fignihe3.pdf>
 Package pdftex.def Info: fig/fignihe3.pdf used on input line 106.
@@ -1952,7 +1991,7 @@ Package pdftex.def Info: fig/fignihe3.pdf used on input line 106.
 pdfTeX warning: pdflatex.exe (file E:/01_Master_Project/Water_Detection_Project
 /07_Page/fig/fignihezhi.pdf): PDF inclusion: found PDF version <1.7>, but at mo
 st version <1.5> allowed
-<fig/fignihezhi.pdf, id=2398, 522.31949pt x 270.02983pt>
+<fig/fignihezhi.pdf, id=2397, 522.31949pt x 270.02983pt>
 File: fig/fignihezhi.pdf Graphic file (type pdf)
 
 <use fig/fignihezhi.pdf>
@@ -1963,25 +2002,28 @@ Package pdftex.def Info: fig/fignihezhi.pdf used on input line 118.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.124 
+l.126 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 6.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.124 
+l.126 
        <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/figshandian.pd
 f> <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fignihe2.pdf>]
 
 pdfTeX warning: pdflatex.exe (file E:/01_Master_Project/Water_Detection_Project
 /07_Page/fig/figniheduan.pdf): PDF inclusion: found PDF version <1.7>, but at m
 ost version <1.5> allowed
-<fig/figniheduan.pdf, id=2440, 474.50165pt x 255.23355pt>
+<fig/figniheduan.pdf, id=2439, 474.50165pt x 255.23355pt>
 File: fig/figniheduan.pdf Graphic file (type pdf)
 
 <use fig/figniheduan.pdf>
 Package pdftex.def Info: fig/figniheduan.pdf used on input line 131.
 (pdftex.def)             Requested size: 398.33858pt x 214.26228pt.
+
+Underfull \vbox (badness 1931) has occurred while \output is active []
+
  [70pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
 3}) has been already used, duplicate ignored
 
@@ -2000,7 +2042,7 @@ l.139
 pdfTeX warning: pdflatex.exe (file E:/01_Master_Project/Water_Detection_Project
 /07_Page/fig/figyz.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<fig/figyz.pdf, id=2487, 473.04219pt x 268.93274pt>
+<fig/figyz.pdf, id=2486, 473.04219pt x 268.93274pt>
 File: fig/figyz.pdf Graphic file (type pdf)
  <use fig/figyz.pdf>
 Package pdftex.def Info: fig/figyz.pdf used on input line 180.
@@ -2018,20 +2060,20 @@ e{table.6.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.190 \newpage
-              pdfTeX warning (ext4): destination with the same identifier (name
-{figure.6.6}) has been already used, duplicate ignored
+l.218 \end{table*}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{figure.6.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.190 \newpage
-               <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/figyz.
-pdf>] [73pdfTeX warning (ext4): destination with the same identifier (name{tabl
-e.6.3}) has been already used, duplicate ignored
+l.218 \end{table*}
+                   <E:/01_Master_Project/Water_Detection_Project/07_Page/fig/fi
+gyz.pdf>] [73pdfTeX warning (ext4): destination with the same identifier (name{
+table.6.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.242 
+l.246 
       ]) [74]
 (E:\01_Master_Project\Water_Detection_Project\07_Page\chapter/chap-Conclusion.t
 ex
@@ -2041,15 +2083,15 @@ e {0.25em plus 0.125em minus 0.08em}\ignorespaces ÕÂ
 
 
 
-] [76]
+] [76
+
+
+]
 (E:\01_Master_Project\Water_Detection_Project\07_Page\chapter/bib.tex<<c1975.cm
-ap>><<c1973.cmap>><<c1930.cmap>><<c1978.cmap>> [77
+ap>><<c1973.cmap>><<c1930.cmap>><<c1978.cmap>><<c1967.cmap>> [77
 
 
-
-
-]<<c1967.cmap>><<c1966.cmap>> [78]<<c1977.cmap>><<c1969.cmap>> [79]<<c1988.cmap
->>) [80]
+]<<c1966.cmap>> [78]<<c1977.cmap>><<c1969.cmap>> [79]<<c1988.cmap>>) [80]
 (E:\01_Master_Project\Water_Detection_Project\07_Page\chapter/thanks.tex<<c1968
 .cmap>>) [81
 
@@ -2091,13 +2133,13 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 19990 strings out of 495354
- 317840 string characters out of 3183858
- 380169 words of memory out of 3000000
- 21686 multiletter control sequences out of 15000+200000
+ 20010 strings out of 495354
+ 318135 string characters out of 3183858
+ 384470 words of memory out of 3000000
+ 21701 multiletter control sequences out of 15000+200000
  136009 words of font info for 426 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 47i,18n,58p,1929b,1550s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,18n,54p,1929b,1562s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/s
 imsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows
 /Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:
@@ -2152,9 +2194,9 @@ eX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/CTEX/MiKTeX/fonts/type1/public
 /type1/public/amsfonts/symbols/msam10.pfb><d:/CTEX/MiKTeX/fonts/type1/public/am
 sfonts/symbols/msbm10.pfb><d:/CTEX/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><d:/
 CTEX/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on thesis.pdf (95 pages, 5838287 bytes).
+Output written on thesis.pdf (95 pages, 5837093 bytes).
 PDF statistics:
- 3064 PDF objects out of 3580 (max. 8388607)
+ 3062 PDF objects out of 3580 (max. 8388607)
  371 named destinations out of 1000 (max. 500000)
  1208 words of extra memory for PDF output out of 10000 (max. 10000000)
 
