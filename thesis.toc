@@ -82,8 +82,8 @@
 \contentsline {section}{\numberline {6.3}水分测量系统重复性实验}{73}{section.6.3}
 \contentsline {section}{\numberline {6.4}水分测量系统误差分析}{73}{section.6.4}
 \contentsline {section}{\numberline {6.5}本章小结}{74}{section.6.5}
-\contentsline {chapter}{\numberline {第\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 7\ignorespaces \hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 章\hspace {0.3em}}结论和展望}{75}{chapter.7}
-\contentsline {section}{\numberline {7.1}结论}{75}{section.7.1}
+\contentsline {chapter}{\numberline {第\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 7\ignorespaces \hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 章\hspace {0.3em}}总结和展望}{75}{chapter.7}
+\contentsline {section}{\numberline {7.1}总结}{75}{section.7.1}
 \contentsline {section}{\numberline {7.2}展望}{75}{section.7.2}
 \contentsline {chapter}{参考文献}{77}{chapter*.4}
 \contentsline {chapter}{致\CTEX@spaceChar \CTEX@spaceChar 谢}{81}{chapter*.5}

@@ -23,7 +23,7 @@ DSP~¿ØÖÆÆ÷Í¨¹ý~SPI~½Ó¿Ú·½Ê½¿ÉÒÔ¶Ô~AD9833~½øÐÐ±à³Ì£¬´Ó¶ø¿ØÖÆÆä²úÉúËùÐèÒªµÄ²¨ÐÎ¡£Õ
 
 AD9833~µÄÄÚ²¿¼Ä´æÆ÷Îª~16~Î»£¬Í¨¹ý¶Ô~AD9833~µÄ¿ØÖÆ¼Ä´æÆ÷¡¢ÆµÂÊ¼Ä´æÆ÷ºÍÏàÎ»¼Ä´æÆ÷Ð´Èë¿ØÖÆ×Ö¿ÉÍê³É¶Ô~AD9833~µÄÅäÖÃ¡£AD9833~µÄÊý¾ÝÐ´ÈëÁ÷³ÌÒÔÏÂÃæµÄÀý×ÓËµÃ÷¡£Èç¹ûÒªÊä³ö~5kHz~µÄÕýÏÒÐÅºÅ£¬ÏàÎ»Îª~0$^{\circ}$£¬ÔòÍ¨¹ý~SPI~ÊäÈëÊý¾ÝÒÀ´ÎÎª£º0x0100¡¢0x2100£¬0x4AE1£¬0x4143£¬0xC000£¬0x2000¡£ÆäÖÐ~0x0100~Îª¸´Î»~AD9833~Ð¾Æ¬£¬0x2100~ÓÃÓÚÉèÖÃ¿ØÖÆ¼Ä´æÆ÷£¬Ñ¡ÔñÒ»´ÎÐÔÐ´ÈëÊý¾Ý£»0x4AE1~Óë~0x4143~±íÊ¾ÔÚÆµÂÊ¼Ä´æÆ÷~0~ÖÐÐ´Èë~0x0AE1~ºÍ~0x0143£¨µÍÎ»ÔÚÇ°£©£»0xC000~±íÊ¾ÔÚÏàÎ»¼Ä´æÆ÷~0~ÖÐÐ´Èë~0x000£»0x2000~±íÊ¾Êä³öÊ¹ÄÜ£¬ÐÅºÅÆµÂÊÎªÆµÂÊ¼Ä´æÆ÷~0~ÖÐ´æ´¢µÄÆµÂÊ£¬ÏàÎ»ÎªÏàÎ»¼Ä´æÆ÷~0~ÖÐ´æ´¢µÄÏàÎ»£¬Êä³öÐÅºÅÎªÕýÏÒ²¨¡£
 
-AD9833~µÄÈí¼þÁ÷³ÌÍ¼Èç~\ref{fig76}~ËùÊ¾¡£
+AD9833~²úÉúÕýÏÒÐÅºÅµÄÈí¼þÁ÷³ÌÍ¼ÈçÍ¼~\ref{fig76}~ËùÊ¾¡£
 \begin{figure*}[!ht]
 \centering
 \includegraphics[width=7cm]{fig76.pdf}
@@ -58,11 +58,11 @@ AD9833~µÄÈí¼þÁ÷³ÌÍ¼Èç~\ref{fig76}~ËùÊ¾¡£
 ±¾ÎÄÉè¼ÆµÄÊý¾Ý²É¼¯³ÌÐòÖ÷Òª°üÀ¨~TMS320F28335~µÄ~IO~¿Ú³õÊ¼»¯¡¢AD7656~¿ØÖÆÊ±ÐòµÄ²úÉú¼°×´Ì¬²éÑ¯¡¢²É¼¯Êý¾ÝµÄ´¦Àí¡£Æä³ÌÐòµÄÁ÷³ÌÍ¼ÈçÍ¼~\ref{fig74}~ ËùÊ¾.
 
 \subsection{Êý¾ÝÍ¨Ñ¶³ÌÐòµÄÉè¼Æ}
-ÏÂÎ»»úµÄÍ¨Ñ¶³ÌÐòÖ÷Òª¹¦ÄÜÊÇ½«~DSP~´¦ÀíºóµÄÊý¾Ý·¢ËÍµ½×éÌ¬¹¤Òµ´®¿ÚÆÁ½øÐÐÏÔÊ¾£¬±¾ÎÄÉè¼ÆµÄÍ¨Ñ¶²ÉÓÃ~TMS320F28335~µÄ´®ÐÐÍ¨ÐÅ½Ó¿Ú£¨~SCI~£©£¬Óë~UART~ ÀàËÆ¡£SCI~½ÓÊÕÆ÷ºÍ·¢ËÍÆ÷¸÷×ÔÓµÓÐÒ»¸ö~16~¼¶Éî¶ÈµÄ~FIFO£¬Ò²¸÷×ÔÓµÓÐ×Ô¼ºµÄÊ¹ÄÜºÍÖÐ¶ÏÎ»£¬Á½Õß¶¼ÄÜ¶ÀÁ¢½øÐÐ°ëË«¹¤Í¨ÐÅ£¬»òÕßÁªÁ¢½¨Á¢È«Ë«¹¤Í¨ÐÅ¡£ÎªÁË±£Ö¤Êý¾ÝµÄÍêÕûÐÔ£¬SCI~Ä£¿é»á¶Ô½ÓÊÕµ½µÄÊý¾Ý½øÐÐ¼ä¶Ï¼ì²â¡¢ÆæÅ¼ÐÔ¡¢Òç³öºÍÖ¡´íÎóµÈ¼ì²â¡£´ËÍâ£¬Í¨¹ý¶ÔÒ»¸ö~16~Î»µÄ²¨ÌØÂÊ¼Ä´æÆ÷±à³Ì£¬¿ÉÅäÖÃ²»Í¬µÄÍ¨ÐÅËÙÂÊ¡£
+ÏÂÎ»»úµÄÍ¨Ñ¶³ÌÐòÖ÷Òª¹¦ÄÜÊÇ½«~DSP~´¦ÀíºóµÄÊý¾Ý·¢ËÍµ½×éÌ¬¹¤Òµ´®¿ÚÆÁ½øÐÐÏÔÊ¾£¬±¾ÎÄÉè¼ÆµÄÍ¨Ñ¶²ÉÓÃ~TMS320F28335~µÄ´®ÐÐÍ¨ÐÅ½Ó¿Ú£¨~SCI~£©£¬Óë~UART~ ÀàËÆ¡£SCI~½ÓÊÕÆ÷ºÍ·¢ËÍÆ÷¸÷×ÔÓµÓÐÒ»¸ö~16~¼¶Éî¶ÈµÄ~FIFO£¬Ò²¸÷×ÔÓµÓÐ×Ô¼ºµÄÊ¹ÄÜºÍÖÐ¶ÏÎ»£¬Á½Õß¶¼ÄÜ¶ÀÁ¢½øÐÐ°ëË«¹¤Í¨ÐÅ£¬»òÕßÁªÁ¢½¨Á¢È«Ë«¹¤Í¨ÐÅ¡£SCI~Ä£¿é»á¶Ô½ÓÊÕµ½µÄÊý¾Ý½øÐÐÆæÅ¼ÐÔ¡¢Òç³ö¡¢¼ä¶ÏºÍÖ¡´íÎóµÈ¼ì²â£¬´Ó¶ø±£Ö¤½ÓÊÕÊý¾ÝµÄÍêÕûÐÔ¡£´ËÍâ£¬Í¨¹ý¶ÔÒ»¸ö~16~Î»µÄ²¨ÌØÂÊ¼Ä´æÆ÷±à³Ì£¬¿ÉÅäÖÃ²»Í¬µÄÍ¨ÐÅËÙÂÊ¡£
 
 ±¾¿ÎÌâ²ÉÓÃµÄ×éÌ¬¹¤Òµ´®¿ÚÆÁÊÇ¼¯~TFT~ÏÔÊ¾Çý¶¯¡¢Í¼Æ¬×Ö¿â´æ´¢¡¢GUI~²Ù×÷¡¢RTC~ÏÔÊ¾¼°¸÷ÖÖ×éÌ¬¿Ø¼þÓÚÒ»ÌåµÄ´®¿ÚÏÔÊ¾ÖÕ¶Ë¡£±¾ÕÂµÚ~\ref{end_TFT}~½Ú½«¶Ô¸Ã´¥ÃþÆÁ×öÏêÏ¸µÄ½éÉÜ¡£
 
-¹¤Òµ´®¿ÚÆÁÍ¨¹ýÖ¸ÁîÖ¡µÄ·½Ê½ÓëÎ¢¿ØÖÆÆ÷½øÐÐÊý¾ÝÍ¨ÐÅ¡£µ±´¥ÃþÆÁÓÐ»­ÃæÇÐ»»»ò¶¯×÷¸üÐÂÊ±£¬»áÍ¨¹ýÒ»¶¨¸ñÊ½µÄÖ¸ÁîÖ¡½«ÐÅÏ¢·¢ËÍ»ØÏÂÎ»»ú¡£ÏÂÎ»»ú½ÓÊÕµ½Ö¡ÐÅÏ¢²¢¶ÔÖ¡ÐÅÏ¢½âÊÍºóÖ´ÐÐÏàÓ¦µÄ´¦Àí£¬²¢°´ÕÕÖ¸ÁîÖ¡µÄ¸ñÊ½½«¶¯×÷ÐÅÏ¢»òÊý¾ÝÐÅÏ¢·¢ËÍ¸ø´¥ÃþÆÁ¡£Ò»ÌõÍêÕûµÄ´®¿ÚÖ¸ÁîÖ¡¸ñÊ½Èç±í~\ref{table51}~ËùÊ¾¡£´¥ÃþÆÁ°´ÕÕ´ó¶ËÄ£Ê½´æ´¢ÐÅÏ¢£¬ËùÒÔÔÚ´«ÊäÊ±¸ß×Ö½ÚÔÚÇ°¡¢µÍ×Ö½ÚÔÚºó¡£Ö¸ÁîµÄ×î´ó³¤¶ÈÎª~1024~×Ö½Ú£¨°üº¬Ö¡Í·ºÍÖ¡Î²£©¡£´®¿Ú¸ñÊ½£º8~ Î»Êý¾ÝÎ»¡¢1~ Î»Í£Ö¹Î»¡¢ÎÞÐ§ÑéÎ»¡£
+¹¤Òµ´®¿ÚÆÁÍ¨¹ýÖ¸ÁîÖ¡µÄ·½Ê½ÓëÎ¢¿ØÖÆÆ÷½øÐÐÊý¾ÝÍ¨ÐÅ¡£µ±´¥ÃþÆÁÓÐ»­ÃæÇÐ»»»ò¶¯×÷¸üÐÂÊ±£¬»áÍ¨¹ýÒ»¶¨¸ñÊ½µÄÖ¸ÁîÖ¡½«ÐÅÏ¢·¢ËÍ»ØÏÂÎ»»ú¡£ÏÂÎ»»ú½ÓÊÕµ½Ö¡ÐÅÏ¢²¢¶ÔÖ¡ÐÅÏ¢½âÊÍºóÖ´ÐÐÏàÓ¦µÄ´¦Àí£¬²¢°´ÕÕÖ¸ÁîÖ¡µÄ¸ñÊ½½«¶¯×÷ÐÅÏ¢»òÊý¾ÝÐÅÏ¢·¢ËÍ¸ø´¥ÃþÆÁ¡£Ò»ÌõÍêÕûµÄ´®¿ÚÖ¸ÁîÖ¡¸ñÊ½Èç±í~\ref{table51}~ËùÊ¾¡£´¥ÃþÆÁ°´ÕÕ´ó¶ËÄ£Ê½´æ´¢ÐÅÏ¢£¬ËùÒÔÔÚ´«ÊäÊ±¸ß×Ö½ÚÔÚÇ°¡¢µÍ×Ö½ÚÔÚºó¡£Ö¸ÁîµÄ×î´ó³¤¶ÈÎª~1024~×Ö½Ú£¨°üº¬Ö¡Í·ºÍÖ¡Î²£©¡£´®¿Ú¸ñÊ½ÊÇ£º8~ Î»Êý¾ÝÎ»¡¢1~ Î»Í£Ö¹Î»¡¢ÎÞÐ§ÑéÎ»¡£
 \begin{table*}[!h]\tiny
 \caption{ÎÞ~CRC~Ð£ÑéÖ¸ÁîÖ¡¸ñÊ½}
 \addtocounter{table}{-1}
@@ -106,7 +106,7 @@ AD9833~µÄÈí¼þÁ÷³ÌÍ¼Èç~\ref{fig76}~ËùÊ¾¡£
 
 \subsection{ÎÂ¶È¿ØÖÆ³ÌÐòµÄÉè¼Æ}
 
-ÎÂ¶È¿ØÖÆÏµÍ³ÓÉÓÚÆäÊ±±äÐÔ¡¢ÖÍºóÐÔºÍ·ÇÏßÐÔµÈÌØµã£¬ÄÑÒÔ½¨Á¢¾«È·µÄÎÂ¶È¿ØÖÆÏµÍ³ÊýÑ§Ä£ÐÍ¡£¶øÔÚ¹¤³ÌÊµ¼ÊÖÐ£¬PID~¿ØÖÆÊÇÓ¦ÓÃ×îÎª¹ã·ºµÄÒ»ÖÖ¿ØÖÆ¹æÂÉ£¬PID~¿ØÖÆÆ÷¾ßÓÐÎÈ¶¨ÐÔºÃ¡¢¹¤×÷¿É¿¿¡¢²ÎÊýÕû¶¨·½±ã¡¢½á¹¹¸Ä±äÁé»î¡¢Â³°ôÐÔÇ¿µÈÓÅµã£¬±¾ÎÄ²ÉÓÃÊý×Ö~PID~½øÐÐÎÂ¶È¿ØÖÆ¡£
+ÎÂ¶È¿ØÖÆÏµÍ³ÓÉÓÚÆäÊ±±äÐÔ¡¢ÖÍºóÐÔºÍ·ÇÏßÐÔµÈÌØµã£¬ÄÑÒÔ½¨Á¢¾«È·µÄÎÂ¶È¿ØÖÆÏµÍ³ÊýÑ§Ä£ÐÍ¡£¶øÔÚ¹¤³ÌÊµ¼ÊÖÐ£¬PID~¿ØÖÆÊÇÓ¦ÓÃ×îÎª¹ã·ºµÄÒ»ÖÖ¿ØÖÆ¹æÂÉ£¬PID~¿ØÖÆÆ÷¾ßÓÐ²ÎÊýÕû¶¨·½±ã¡¢ÎÈ¶¨ÐÔºÃ¡¢Â³°ôÐÔÇ¿ºÍ½á¹¹¸Ä±äÁé»îµÈÓÅµã£¬±¾ÎÄ²ÉÓÃÊý×Ö~PID~½øÐÐÎÂ¶È¿ØÖÆ¡£
 Êý×Ö~PID~¿ØÖÆÆ÷Ô´ÓÚÄ£Äâ~PID~¿ØÖÆÆ÷£¬ÊÇ½«Ä£Äâ~PID~¿ØÖÆÆ÷Êý×Ö»¯ºóµÃµ½²î·Ö·½³ÌµÄÐÎÊ½¡£Êý×Ö~PID~Ëã·¨ÓÐÎ»ÖÃÊ½ºÍÔöÁ¿Ê½Á½ÖÖ£¬ÔöÁ¿Ê½~PID~Ëã·¨Ö»ÐèÒª¼ÆËã×î½üµÄÈý´ÎÆ«²îÖµ£¬ÀÛ¼ÆÎó²îÏà¶Ô½ÏÐ¡£¬Òò´Ë£¬±¾ÎÄ²ÉÓÃÔöÁ¿Ê½~PID~Ëã·¨¶ÔÎÂ¶È½øÐÐ¿ØÖÆ¡£
 \begin{equation}\label{eq50}
 \begin{split}
@@ -257,7 +257,7 @@ FIR~ÂË²¨Æ÷µÄÉè¼Æ·½·¨Ö÷ÒªÓÐ´°º¯ÊýÉè¼Æ·¨ºÍÆµÂÊ³éÑùÉè¼Æ·¨µÈ£¬¶ø´°º¯ÊýÉè¼Æ·¨ÊÇ×î»ù±¾
 
 ÔÚ´°º¯ÊýµÄÑ¡ÔñÖÐ£¬ÅÔ°ê·ù¶ÈÔ½µÍ¡¢ÅÔ°ê·ù¶ÈÏÂ½µÔ½´ó¡¢Ö÷°ê¿í¶ÈÔ½Õ­£¬ÔòÉè¼ÆµÄÂË²¨Ð§¹ûÔ½ºÃ\upcite{Filter2}¡£µ«ÔÚÊµ¼ÊÖÐ£¬ÕâÈýµãÊÇºÜÄÑÍ¬Ê±Âú×ãµÄ¡£¶ø¿­Èû´°£¨Kaiser£©ÊÇÔÚ¸ø¶¨×è´øË¥¼õÏÂÉè¼Æ³öÒ»ÖÖ´óµÄÖ÷°ê¿í¶ÈÒâÒåÉÏµÄ×îÓÅ½á¹û£¬ËùÒÔËüÊÇÒ»ÖÖÊÊÓ¦ÐÔ½ÏÇ¿µÄ´°£¬±¾ÎÄÑ¡Ôñ~Kaiser~´°À´Éè¼Æ~FIR~ÂË²¨Æ÷¡£
 
-MATLAB~ÖÐµÄ~fdatool~¹¤¾ß¼¯³ÉÁËÊý×ÖÂË²¨Æ÷µÄ¸÷ÖÖÉè¼Æ·½·¨£¬¼ò»¯ÁËÉè¼Æ¹ý³Ì¡£±¾ÎÄÀûÓÃ~MATLAB~ÖÐµÄ~fdatool~¹¤¾ßÉè¼ÆÒ»¸ö»ùÓÚ~Kaiser~´°µÄ~FIR~Êý×ÖµÍÍ¨ÂË²¨Æ÷¡£
+MATLAB~ÖÐµÄ~fdatool~¹¤¾ß¼¯³ÉÁËÊý×ÖÂË²¨Æ÷µÄ¸÷ÖÖÉè¼Æ·½·¨£¬¼ò»¯ÁËÉè¼Æ¹ý³Ì¡£±¾ÎÄÀûÓÃ~MATLAB~ÖÐµÄ~fdatool~¹¤¾ßÉè¼ÆËùÐèµÄ»ùÓÚ~Kaiser~´°µÄ~FIR~Êý×ÖµÍÍ¨ÂË²¨Æ÷¡£
 
 ±¾¿ÎÌâÒª¶ÔÈýÂ·´ý²âÐÅºÅ·Ö±ð½øÐÐÊý×ÖËøÏà·Å´óÆ÷ÔËËã£¬ËùÒÔÒª·Ö±ðÉè¼ÆÈýÂ·²»Í¬½ØÖ¹ÆµÂÊµÄÊý×ÖµÍÍ¨ÂË²¨Æ÷¡£Í¼~\ref{fig80}~ÊÇ¶ÔÆäÖÐÒ»Â·µÄÊý×ÖÂË²¨Æ÷Éè¼Æ½çÃæ£¬ÆäÖÐÉèÖÃ²ÉÑùÆµÂÊÎª~50kHz£¬Í¨´ø½ØÖ¹ÆµÂÊÎª~4.1kHz£¬×è´ø½ØÖ¹ÆµÂÊÎª~6kHz£¬Í¨´øË¥¼õÎª~1dB£¬×è´øË¥¼õÎª~40dB¡£ÔÚÉè¼ÆÍê³Éºó£¬ÓÉ~fdatool~¹¤¾ß¿Éµ¼³öµ¥¾«¶È¸¡µãÊýµÄÂË²¨Æ÷ÏµÊý£¬±ãµÃµ½ÁËËùÒªÉè¼ÆµÄ~FIR~Êý×ÖµÍÍ¨ÂË²¨Æ÷£¬ÂË²¨Æ÷½×´ÎÎª~50¡£ÁíÍâµÄÁ½Â·Êý×ÖµÍÍ¨ÂË²¨Æ÷ÏµÊý¿ÉÍ¨¹ýÀàËÆµÄ·½Ê½»ñµÃ¡£
 \begin{figure*}[!ht]
@@ -279,7 +279,7 @@ FIR~ÂË²¨Æ÷¹¤×÷Ô­Àí¾ÍÊÇÒ»¸öÀëÉ¢ÐÅºÅÐòÁÐÍ¨¹ýÒ»¸öÀëÉ¢ÂË²¨ÏµÍ³£¬µÃµ½ÀëÉ¢Êä³öÐÅºÅµÄ¹ý
 
 Ò»°ãÓÐÁ½ÖÖ·½Ê½ÊµÏÖ~FIR~ÂË²¨£ºÖ±½Ó¾í»ý·¨ºÍ¿ìËÙ¾í»ý·¨¡£Ö±½Ó¾í»ý·¨ÊÇ¸ù¾Ý¾í»ýµÄµü´úÔËËãÖ±½Ó¼ÆËãÊäÈëÐÅºÅÐòÁÐÓëÂË²¨Æ÷ÏµÊýµÄ¾í»ý£¬µÃµ½ÂË²¨Æ÷Êä³öÐÅºÅ£¬¸Ã·½·¨ÔËËã¹ØÏµ¼òµ¥£¬µ«ÔËÐÐÊ±¼ä½Ï³¤¡£
 
-¿ìËÙ¾í»ý·¨ÊÇÀûÓÃÊ±ÓòµÄ¾í»ýµÈÓÚÆµÓòµÄ³Ë»ýµÄ¹ØÏµ£¬½«Ê±ÓòÐÅºÅ×ª»»ÎªÆµÓòÐÅºÅ£¬½øÐÐ³Ë»ýÔËËãÖ®ºóÔÙ½«½á¹û×ª»»ÎªÊ±ÓòÐÅºÅ¶øÊµÏÖµÄ¾í»ý·½·¨~\upcite{Filter3,Filter4}¡£ ¿ìËÙ¸µÀïÒ¶±ä»»£¨FFT£©¿ÉÒÔ¸ßÐ§µØ½«Ê±ÓòÐÅºÅ×ª»»ÎªÆµÓòÐÅºÅ£¬¶ø¿ìËÙ¸µÀïÒ¶Äæ±ä»»£¨IFFT£©¿ÉÒÔ½«ÆµÓòÐÅºÅ×ª»»ÎªÊ±ÓòÐÅºÅ£¬Á½ÕßÔËËãµÄÊ±¼ä¸´ÔÓ¶È¾ùÎª~$O(N*log(N))$£¬Òò´ËÈý´Î¸µÀïÒ¶±ä»»ÔËËã¼ÓÒ»´Î³Ë»ýÔËËãµÄ×ÜÊ±¼ä¸´ÔÓ¶ÈÈÔÈ»Îª~$O(N*log(N))$~¼¶±ð£¬¶øÖ±½Ó¾í»ýÔËËãµÄÊ±¼ä¸´ÔÓ¶ÈÎª~$O(N*N)$¡£ ËùÒÔ¿ìËÙ¾í»ýÓëÖ±½Ó¾í»ýÏà±È£¬ËäÈ»Ëã·¨¸´ÔÓÁË£¬µ«Ç°ÕßÔÚÏàÍ¬µÄµãÊýÏÂÔËËãÊ±¼ä¶Ì£¬¶øÇÒµãÊýÔ½¶àºÄÊ±¾ÍÔ½¶Ì¡£
+¿ìËÙ¾í»ý·¨ÊÇÀûÓÃÊ±ÓòµÄ¾í»ýµÈÓÚÆµÓòµÄ³Ë»ýµÄ¹ØÏµ£¬ÏÈ½«Ê±ÓòÐÅºÅ×ª»»ÎªÆµÓòÐÅºÅºó£¬½øÐÐ³Ë»ýÔËËã£¬È»ºó½«ÔËËã½á¹ûÔÙ×ª»»ÎªÊ±ÓòÐÅºÅµÄÒ»ÖÖ¾í»ý·½·¨~\upcite{Filter3,Filter4}¡£ ¿ìËÙ¸µÀïÒ¶±ä»»£¨FFT£©¿ÉÒÔ¸ßÐ§µØ½«Ê±ÓòÐÅºÅ×ª»»ÎªÆµÓòÐÅºÅ£¬¶ø¿ìËÙ¸µÀïÒ¶Äæ±ä»»£¨IFFT£©¿ÉÒÔ½«ÆµÓòÐÅºÅ×ª»»ÎªÊ±ÓòÐÅºÅ£¬Á½ÕßÔËËãµÄÊ±¼ä¸´ÔÓ¶È¾ùÎª~$O(N*log(N))$£¬Òò´ËÈý´Î¸µÀïÒ¶±ä»»ÔËËã¼ÓÒ»´Î³Ë»ýÔËËãµÄ×ÜÊ±¼ä¸´ÔÓ¶ÈÈÔÈ»Îª~$O(N*log(N))$~¼¶±ð£¬¶øÖ±½Ó¾í»ýÔËËãµÄÊ±¼ä¸´ÔÓ¶ÈÎª~$O(N*N)$¡£ ËùÒÔ¿ìËÙ¾í»ýÓëÖ±½Ó¾í»ýÏà±È£¬ËäÈ»Ëã·¨¸´ÔÓÁË£¬µ«Ç°ÕßÔÚÏàÍ¬µÄµãÊýÏÂÔËËãÊ±¼ä¶Ì£¬¶øÇÒµãÊýÔ½¶àºÄÊ±¾ÍÔ½¶Ì¡£
 
 ¿¼ÂÇµ½Ë®·Ö²âÁ¿ÏµÍ³¶ÔÊµÊ±ÐÔÒªÇóºÍÈýÂ·ËøÏà·Å´óÆ÷ÔËËã¶ÔÔËËãËÙ¶ÈµÄÒªÇó£¬±¾ÎÄÑ¡ÔñÍ¨¹ý¿ìËÙ¾í»ý·¨ÊµÏÖ~FIR~ÂË²¨¡£
 
@@ -293,7 +293,7 @@ FIR~ÂË²¨Æ÷¹¤×÷Ô­Àí¾ÍÊÇÒ»¸öÀëÉ¢ÐÅºÅÐòÁÐÍ¨¹ýÒ»¸öÀëÉ¢ÂË²¨ÏµÍ³£¬µÃµ½ÀëÉ¢Êä³öÐÅºÅµÄ¹ý
 \caption{\label{fig81} Demonstration of overlap-add process}
 \end{figure*}
 
-·Ö¶Î¾í»ý·¨¾ÍÊÇ½«³¤¶ÈºÜ³¤µÄÊäÈëÐòÁÐ·Ö½âÎªÈô¸É¸ö½ÏÐ¡µÄ¶Î£¬¶ÔÃ¿Ò»¸öÊäÈë¶Î·Ö±ð¼ÆËãÏàÓ¦µÄÏßÐÔ¾í»ý£¬È»ºó°ÑÃ¿¶ÎµÄÊä³ö°´ÕÕÒ»¶¨µÄ·½·¨×éºÏÔÚÒ»Æð£¬µÃµ½×îÖÕµÄÊä³öÐòÁÐ\upcite{Filter6}¡£¸ù¾Ý·Ö¶Î·½Ê½µÄ²»Í¬£¬·Ö¶Î¾í»ý·¨·ÖÎªÖØµþÏà¼Ó·¨£¨Overlap-add Method£©ºÍÖØµþ±£Áô·¨£¨Overlap-save Method£©Á½ÖÖ¡£ÆäÖÐÖØµþÏà¼Ó·¨µÄ·Ö¶Î¾í»ý¹ý³ÌÈçÍ¼~\ref{fig81}~ËùÊ¾¡£
+·Ö¶Î¾í»ý·¨¾ÍÊÇ½«³¤¶ÈºÜ³¤µÄÊäÈëÐòÁÐ·Ö½âÎªÈô¸É¸ö½ÏÐ¡µÄ¶Î£¬È»ºó·Ö±ð¼ÆËãÃ¿Ò»¸öÊäÈë¶ÎÓëÂË²¨Æ÷µÄÏßÐÔ¾í»ý£¬°ÑÃ¿¶ÎµÄ¾í»ýÊä³ö°´ÕÕÒ»¶¨µÄ·½·¨×éºÏÔÚÒ»Æð£¬¾ÍµÃµ½×îÖÕµÄÊä³öÐòÁÐ\upcite{Filter6}¡£¸ù¾Ý·Ö¶Î·½Ê½µÄ²»Í¬£¬·Ö¶Î¾í»ý·¨·ÖÎªÖØµþÏà¼Ó·¨£¨Overlap-add Method£©ºÍÖØµþ±£Áô·¨£¨Overlap-save Method£©Á½ÖÖ¡£ÆäÖÐÖØµþÏà¼Ó·¨µÄ·Ö¶Î¾í»ý¹ý³ÌÈçÍ¼~\ref{fig81}~ËùÊ¾¡£
 
 ±¾ÎÄÍ¨¹ýÖØµþÏà¼ÓËã·¨ÊµÏÖ~FIR~ÂË²¨£¬ÆäÈí¼þÁ÷³ÌÍ¼ÈçÍ¼~\ref{fig82}~ËùÊ¾¡£
 
@@ -319,7 +319,7 @@ FIR~ÂË²¨Æ÷¹¤×÷Ô­Àí¾ÍÊÇÒ»¸öÀëÉ¢ÐÅºÅÐòÁÐÍ¨¹ýÒ»¸öÀëÉ¢ÂË²¨ÏµÍ³£¬µÃµ½ÀëÉ¢Êä³öÐÅºÅµÄ¹ý
 
 \section{¹¤Òµ´®¿ÚÆÁÈí¼þÉè¼Æ}\label{end_TFT}
 
-±¾¿ÎÌâµÄÈË»ú½»»¥²ÉÓÃ×éÌ¬´®¿Ú´¥ÃþÆÁ½øÐÐÏÔÊ¾ºÍ°´¼üµÈ²Ù×÷¡£µ±Ç°¹¤¿ØÁìÓò~TFT~ÏÔÊ¾ÒÑ³ÉÎª·¢Õ¹Ç÷ÊÆ£¬´«Í³µÄ~1602¡¢12864~ÒÔ¼°ÊýÂë¹ÜÒÑ¾­ÎÞ·¨Âú×ã²úÆ·ÐèÇóºÍÓÃ»§ÌåÑé¡£¹ãÖÝ´ó²Ê¹âµç¿Æ¼¼ÓÐÏÞ¹«Ë¾ÍÆ³öµÄ¹¤Òµ´®¿ÚÆÁÊÇ¼¯~TFT~ÏÔÊ¾Çý¶¯¡¢Í¼Æ¬×Ö¿â´æ´¢¡¢GUI~²Ù×÷¡¢RTC~ÏÔÊ¾¼°¸÷ÖÖ×éÌ¬¿Ø¼þÓÚÒ»ÌåµÄ´®¿ÚÏÔÊ¾ÖÕ¶Ë¡£ÓÃ»§µ¥Æ¬»úÖ»ÐèÒª·¢ËÍÏàÓ¦µÄ´®¿ÚÖ¸Áî¾Í¿ÉÒÔÇáËÉÊµÏÖÎÄ±¾¡¢Í¼Æ¬ºÍÇúÏßÏÔÊ¾¡£±¾¿ÎÌâ²ÉÓÃ¸Ã¹«Ë¾Éú²úµÄÒ»¿î»ù±¾ÐÍ¹¤Òµ´®¿ÚÆÁ~¡ª~DC80480B070¡£
+ÔÚ¹¤¿ØÁìÓòÖÐ£¬´«Í³µÄ~1602¡¢12864~ÒÔ¼°ÊýÂë¹ÜÏÔÊ¾ÒÑ¾­ÎÞ·¨Âú×ã²úÆ·ÐèÇóºÍÓÃ»§ÌåÑé£¬¶ø~TFT~ÏÔÊ¾ÊÜµ½Ô½À´Ô½¶àµÄÇàíù¡£¹ãÖÝ´ó²Ê¹âµç¿Æ¼¼¹«Ë¾ÍÆ³öµÄ¹¤Òµ´®¿ÚÆÁÊÇ¼¯~TFT~ ÏÔÊ¾Çý¶¯¡¢GUI~²Ù×÷¡¢Í¼Æ¬×Ö¿â´æ´¢¡¢RTC~ÏÔÊ¾¼°¸÷ÖÖ×éÌ¬¿Ø¼þÓÚÒ»ÌåµÄ´®¿ÚÏÔÊ¾ÖÕ¶Ë¡£ÓÃ»§µ¥Æ¬»úÖ»ÐèÒª·¢ËÍÏàÓ¦µÄ´®¿ÚÖ¸Áî¾Í¿ÉÒÔÇáËÉÊµÏÖÎÄ±¾¡¢Í¼Æ¬ºÍÇúÏßÏÔÊ¾¡£±¾¿ÎÌâµÄÈË»ú½»»¥½çÃæ²ÉÓÃ¸Ã¹«Ë¾Éú²úµÄÒ»¿î»ù±¾ÐÍ¹¤Òµ´®¿ÚÆÁ~DC80480B070¡£
 
 DC80480B070~ÄÜÊÊÓ¦¶ñÁÓ»·¾³¡¢Ç¿´Å¸ÉÈÅºÍ»§ÍâµÈ¹¤×÷³¡ºÏ¡£ÏµÍ³´¦ÀíÆ÷²ÉÓÃ~Cortex-M3+~¸ßËÙ~FPGA~Ë«ºËÉè¼Æ£¬ARM~Ö÷Òª½øÐÐÐ­Òé½âÎöºÍ~USB~Í¼Æ¬ÏÂÔØ£¬FPGA~Ö÷ÒªÊµÏÖ~Nandflash~µÄÍ¼Æ¬¶ÁÈ¡ºÍ~TFT~¿ØÖÆÏÔÊ¾£¬ÄÚ²¿½á¹¹ÈçÍ¼~\ref{fig70}~ËùÊ¾¡£
 \begin{figure*}[!ht]
@@ -331,9 +331,9 @@ DC80480B070~ÄÜÊÊÓ¦¶ñÁÓ»·¾³¡¢Ç¿´Å¸ÉÈÅºÍ»§ÍâµÈ¹¤×÷³¡ºÏ¡£ÏµÍ³´¦ÀíÆ÷²ÉÓÃ~Cortex-M3+~
 \caption{\label{fig70} TFT serial screen internal structure}
 \end{figure*}
 
-DSP~ÐèÒªÒ»¸ö´®¿Ú¾ÍÄÜÊµÏÖÎÄ±¾¡¢GUI¡¢Í¼Æ¬¡¢gif~¶¯»­ÏÔÊ¾ºÍ´¥Ãþ¿ØÖÆµÈ¹¦ÄÜ£¬¸ÃÉè±¸Ö§³Ö¶àÖÖ³£ÓÃ×éÌ¬¿Ø¼þ£º´¥Ãþ¿Ø¼þ¡¢ÎÄ±¾¿Ø¼þ¡¢½ø¶ÈÌõ¡¢»¬¶¯ÌõºÍÒÇ±í¿Ø¼þµÈ¡£Éè±¸ÄÚ²¿ÓÐ~4.7K~×Ö½ÚµÄÖ¸Áî»º´æÇø£¬ÓÃ»§Ö÷»ú¿ÉÎÞµÈ´ý¡¢Á¬Ðø·¢ËÍ¶àÌõÖ¸ÁîºóÍË³ö´®¿Ú³ÌÐò\upcite{FTF1}¡£Õû¸ö¹ý³Ì²Ù×÷¼òµ¥£¬³ÌÐò´úÂëÁ¿´ó´ó½µµÍ¡£
+DSP~ÐèÒªÒ»¸ö´®¿Ú¾ÍÄÜÊµÏÖGUI¡¢ÎÄ±¾¡¢Í¼Æ¬¡¢gif~¶¯»­ÏÔÊ¾ºÍ´¥Ãþ¿ØÖÆµÈ¹¦ÄÜ£¬¸ÃÉè±¸Ö§³Ö¶àÖÖ³£ÓÃ×éÌ¬¿Ø¼þ£ºÎÄ±¾¿Ø¼þ¡¢´¥Ãþ¿Ø¼þ¡¢°´Å¥¿Ø¼þ¡¢½ø¶ÈÌõºÍÇúÏß¿Ø¼þµÈ¡£ÓÃ»§Ö÷»ú¿ÉÎÞµÈ´ý¡¢Á¬Ðø·¢ËÍ¶àÌõÖ¸Áîµ½Éè±¸µÄÖ¸Áî»º´æÇø£¬Ö´ÐÐÏàÓ¦µÄ²Ù×÷ºóÍË³ö´®¿Ú³ÌÐò\upcite{FTF1}¡£Õû¸öÈË»ú½»»¥¹ý³Ì²Ù×÷¼òµ¥£¬ÎÞÐèÌ«¶àµÄ³ÌÐò´úÂë¡£
 
-²Ù×÷Ê±£¬ÓÃ»§Ê×ÏÈÀûÓÃÉÏÎ»»ú~VisualTFT~Èí¼þ½øÐÐ½çÃæ¿ª·¢£¬½«Ô¤ÏÈÉè¼ÆºÃµÄÃÀ¹¤Í¼Æ¬½øÐÐ½çÃæÅÅ°æ£¬È»ºóÔÚÃ¿¸ö»­ÃæÖÐÌí¼Ó¿Ø¼þ²¢¶ÔÆä½øÐÐÅäÖÃ£¬ÔËÐÐ±àÒëºó£¬VisualTFT~»áÎª¹¤³ÌÖÐµÄÃ¿¸ö»­ÃæºÍ¿Ø¼þ·ÖÅäÒ»¸ö~IDºÅ£¬¸Ã~ID~ÊÇ~MCU~Óë¿Ø¼þ½øÐÐ½»»¥µÄÎ¨Ò»±êÊ¶¡£ÓÃ»§¿ÉÒÔÊ¹ÓÃÄÚÖÃµÄ¡°ÐéÄâ´®¿ÚÆÁ¡±½øÐÐÄ£Äâ·ÂÕæ£¬×îºóÍ¨¹ý~UART~Í¨Ñ¶·½Ê½½«Õû¸ö¹¤³ÌÍ¼Æ¬ºÍÅäÖÃÐÅÏ¢ÏÂÔØµ½´®¿ÚÆÁÄÚ²¿´æ´¢Æ÷ÖÐ¡£
+²Ù×÷Ê±£¬ÓÃ»§Ê×ÏÈÀûÓÃÉÏÎ»»ú~VisualTFT~Èí¼þ½øÐÐ½çÃæ¿ª·¢£¬½«Ô¤ÏÈÉè¼ÆºÃµÄÃÀ¹¤Í¼Æ¬½øÐÐ½çÃæÅÅ°æ£¬È»ºóÔÚÃ¿¸ö»­ÃæÖÐÌí¼Ó¿Ø¼þ²¢¶ÔÆä½øÐÐÅäÖÃ£¬ÔËÐÐ±àÒëºó£¬VisualTFT~»áÎª¹¤³ÌÖÐµÄÃ¿¸ö»­ÃæºÍ¿Ø¼þ·ÖÅäÒ»¸ö~IDºÅ£¬¸Ã~ID~ÊÇ~MCU~Óë¿Ø¼þ½øÐÐ½»»¥µÄÎ¨Ò»±êÊ¶¡£ÓÃ»§¿ÉÒÔÏÈÊ¹ÓÃÉè±¸ÄÚÖÃµÄ¡°ÐéÄâ´®¿ÚÆÁ¡±¶Ô±àÐ´µÄÈí¼þ¹¤³Ì½øÐÐÄ£Äâ·ÂÕæ£¬È»ºó½«Õû¸ö¹¤³ÌÍ¼Æ¬ºÍÅäÖÃÐÅÏ¢Í¨¹ý~UART~Í¨Ñ¶·½Ê½ÏÂÔØµ½´®¿ÚÆÁÄÚ²¿´æ´¢Æ÷ÖÐ¡£
 
 ±¾¿ÎÌâÎªË®·Ö²âÁ¿ÏµÍ³Éè¼ÆÁË~4~¸öÒ³Ãæ£¬Ö÷½çÃæÈçÍ¼~\ref{fig83}~ËùÊ¾£¬ÓÃÓÚÏÔÊ¾ÊµÊ±Ë®·ÖÖµ¡¢Ì½²âÆ÷ÎÂ¶ÈÖµÒÔ¼°ÎªÆäËüÒ³ÃæÌá¹©Ìø×ª°´Å¥¡£
 \begin{figure*}[!ht]
