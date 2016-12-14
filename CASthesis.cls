@@ -427,7 +427,7 @@
     \else
       \@restonecolfalse
     \fi
-    \Nchapter{\contentsname}%
+    \chapter*{\contentsname}%
     \pagestyle{fancy}
    % \@mkboth{\MakeUppercase\contentsname}{\MakeUppercase\contentsname}%
     \@starttoc{toc}%
@@ -606,6 +606,7 @@
     {\heiti\zihao{3}\thesection\filcenter}{1em}{}{}
 \titlespacing{\section}
     {0pt}{1ex plus .1ex minus .2ex}{\wordsep}
+
 
 
 \titleformat{\subsection}[hang]{\heiti\zihao{4}}

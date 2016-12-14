@@ -47,10 +47,10 @@ DSP~Î¢´¦ÀíÆ÷ÊÇÕû¸öË®·Ö²âÁ¿ÏµÍ³µÄ¿ØÖÆºËÐÄ£¬Ëü²»½ö¿ØÖÆ~DDS~Ð¾Æ¬²úÉúËùÐèµÄÕýÏÒ²¨ÐÅº
 %\setlength\tabcolsep{2.8pt}
 \renewcommand{\arraystretch}{1.5}
 \centering
-\vspace{-5mm}
+\vspace{-5.5mm}
 \begin{tabular}{ccccccccccccccccccccccccccccccccccccccc}
 \\
-\bottomrule
+\hline
 ~~µçÔ´ÀàÐÍ~~   && ~~~µçÔ´µçÑ¹~~~ && ~¹©µçµ¥Ôª~  && ~²ÎÊýÐèÇó~   \\
 \hline
 \multirow{5}{*}{Ä£Äâ} &&      $+$15V    && 3~Â·ºãÁ÷Ô´µçÂ· &&ÎÆ²¨Ð¡£¬µçÁ÷½Ï´ó£¬¹¦ÂÊ$>9W$\\
@@ -61,7 +61,7 @@ DSP~Î¢´¦ÀíÆ÷ÊÇÕû¸öË®·Ö²âÁ¿ÏµÍ³µÄ¿ØÖÆºËÐÄ£¬Ëü²»½ö¿ØÖÆ~DDS~Ð¾Æ¬²úÉúËùÐèµÄÕýÏÒ²¨ÐÅº
 \multirow{3}{*}{Êý×Ö} &&      $+$5V     && ÓÐÔ´¾§Õñ¡¢µçÆ½×ª»»µÈÊý×ÖÐ¾Æ¬ &&\multirow{3}{*}{µçÑ¹ÎÈ¶¨£¬¹¦ÂÊºÜÐ¡}\\
                       &&      $+$3.3V   && DSP~¿ØÖÆÆ÷Êý×ÖµçÔ´¡¢²âÎÂµçÂ·µÈÊý×ÖµçÂ· \\
                       &&      $+$1.9V   && DSP~¿ØÖÆÆ÷Êý×ÖµçÔ´\\
-\bottomrule
+\hline
 \end{tabular}
 \end{table*}
 

@@ -15,18 +15,18 @@
 \label{qt1}
 \small
 %\setlength\tabcolsep{2.8pt}
-\renewcommand{\arraystretch}{1.5}
+\renewcommand{\arraystretch}{1.25}
 \centering
-\vspace{-6mm}
-\begin{tabular}{cccccccccccccccccccccccccccccccccccccccccccccccc}
+\vspace{-5.5mm}
+\begin{tabularx}{157mm}{@{}l *5{>{\centering\arraybackslash}X}@{}}
 \\
 \hline
 %\cline{2-4}\cline{6-8}
-波段  &&&&&&&&&& ~~近红外~~    &&&&&&&&&& ~~中红外~~   &&&&&&&&&& ~~远红外~~  &&&&&&&&&& ~~极远红外~~~~\\
+~~~~~~~~~~~~~波段  & ~~~~~~~近红外    & 中红外  & 远红外  & 极远红外\\
 \hline
-~~波长$/(\mu m)~~$  &&&&&&&&&& $0.75\sim3$ &&&&&&&&&& $3\sim6$  &&&&&&&&&& $6\sim15$ &&&&&&&&&& $15\sim1000$  \\
+~~~~~~~~波长$/(\mu m)$  & ~~~~~~~$0.75\sim3$ & $3\sim6$  & $6\sim15$ & $15\sim1000$  \\
 \hline
-\end{tabular}
+\end{tabularx}
 \end{table*}
 
 近红外光在波长为~0.75$\mu m \sim$~3$\mu m$~的谱区内，具有电磁波的特性，即波粒二象性。在分析红外辐射、散射和吸收现象时，主要考虑其粒子性，即用光子来表示光的能量。在量子力学理论里，光子能量为：
@@ -61,21 +61,21 @@
 \label{qt2}
 \small
 %\setlength\tabcolsep{2.8pt}
-\renewcommand{\arraystretch}{1.5}
+\renewcommand{\arraystretch}{1.25}
 \centering
-\vspace{-6mm}
-\begin{tabular}{cccccccccccccccccccccccccccccccccccccccc}
+\vspace{-5.5mm}
+\begin{tabularx}{157mm}{@{}l *5{>{\centering\arraybackslash}X}@{}}
 \\
 \hline
 %\cline{2-4}\cline{6-8}
-波长   &&&&&&&&&& 特点    &&&&&&&&&& 使用范围   \\
+~~~~~~~~~~~~~~~~~~波长   & ~~~~~~~~~~~~~~~~~~~~~~~~~特点    & 使用范围   \\
 \hline
-~~~1.20$\mu m$~~~ &&&&&&&&&& 吸收率过小 &&&&&&&&&& $50\%$以上的水分  \\
-~1.43$\mu m$ &&&&&&&&&& 吸收率适中，工业领域 &&&&&&&&&& 高含水率（$>20\%$）  \\
-~1.94$\mu m$ &&&&&&&&&& 吸收率适中，工业领域 &&&&&&&&&&  ~~低含水率($0\%\sim20\%$)~~~ \\
-~2.95$\mu m$ &&&&&&&&&& 吸收率过大，测量范围窄 &&&&&&&&&&  ~~ 小范围高精度测量~~~ \\
+~~~~~~~~~~~~~~~1.20$\mu m$ & ~~~~~~~~~~~~~~~~~~~~吸收率过小 & $50\%$以上的水分  \\
+~~~~~~~~~~~~~~~1.43$\mu m$ & ~~~~~~~~~~~~~~~~~~~~吸收率适中，工业领域 & 高含水率（$>20\%$）  \\
+~~~~~~~~~~~~~~~1.94$\mu m$ & ~~~~~~~~~~~~~~~~~~~~吸收率适中，工业领域 &  ~~低含水率($0\%\sim20\%$)~~~ \\
+~~~~~~~~~~~~~~~2.95$\mu m$ & ~~~~~~~~~~~~~~~~~~~~吸收率过大，测量范围窄 &  ~~ 小范围高精度测量~~~ \\
 \hline
-\end{tabular}
+\end{tabularx}
 \end{table*}
 
 从表~\ref{qt2}~中可以看出，1.43$\mu m$~和~1.94$\mu m$~这两个波长的透过率适中，适合用作水分测量。本课题测量的烧结混合料含水率在~3$\sim$8\%~范围内，因此测量光的波长选用~1.94$\mu m$。
@@ -159,19 +159,19 @@
 \label{qt3}
 \small
 %\setlength\tabcolsep{2.8pt}
-\renewcommand{\arraystretch}{1.5}
+\renewcommand{\arraystretch}{1.25}
 \centering
-\vspace{-6mm}
+\vspace{-5.5mm}
 \begin{tabular}{cccccccccccccccccccccccccccccccccccccccccc}
 \\
 \hline
 %\cline{2-4}\cline{6-8}
 %\cline{2-4}\cline{6-8}
-~光源种类~   &&&& 中心波长      &&&& 辐射范围  &&&& ~~亮度~~ &&&& 主要特点   \\
+光源种类   &&&&&&&&&& 中心波长      &&&&&&&&& 辐射范围  &&&&&&&&& 亮度 &&&&&&&&& 主要特点   \\
 \hline
-卤钨灯     &&&& ~$320\sim2500nm$~ &&&& ~全向辐射$/$郎伯辐射~  &&&&  较低  &&&& 辐射范围宽，光功率大\\
-~~激光二极管~~ &&&& $600\sim1500nm$ &&&& 高斯光束           &&&& 高     &&&& ~~单色性好，方向性强，功率大~~  \\
-LED        &&&& $800\sim4000nm$ &&&& 郎伯辐射           &&&&  较高  &&&&  光功率低，波段带宽较窄 \\
+卤钨灯     &&&&&&&&&& $320\sim2500nm$ &&&&&&&&& 全向辐射$/$郎伯辐射  &&&&&&&&&  较低  &&&&&&&&& 辐射范围宽，光功率大\\
+激光二极管 &&&&&&&&&& $600\sim1500nm$ &&&&&&&&& 高斯光束           &&&&&&&&& 高     &&&&&&&&&  单色性好，方向性强，功率大  \\
+LED        &&&&&&&&&& $800\sim4000nm$ &&&&&&&&& 郎伯辐射           &&&&&&&&&  较高  &&&&&&&&&  光功率低，波段带宽较窄 \\
 \hline
 \end{tabular}
 \end{table*}
@@ -185,19 +185,19 @@ LED        &&&& $800\sim4000nm$ &&&& 郎伯辐射           &&&&  较高  &&&&  光功率
 \label{qt4}
 \small
 %\setlength\tabcolsep{2.8pt}
-\renewcommand{\arraystretch}{1.5}
+\renewcommand{\arraystretch}{1.25}
 \centering
-\vspace{-6mm}
-\begin{tabular}{cccccccccccccccccccccccccccccccccccccccccc}
+\vspace{-5.5mm}
+\begin{tabularx}{157mm}{@{}l *5{>{\centering\arraybackslash}X}@{}}
 \\
 \hline
-~~~~~型号~~   &&&&&&& 峰值波长($nm$)      &&&&&&& 半幅宽度($nm$)  &&&&&&& 光功率($mW$) &&&&&&& ~~发光出射角($^{o}$)~~~~~   \\
+&型号   & 峰值波长($nm$)      & 半幅宽度($nm$)  & 光功率($mW$) & 发光出射角($^{o}$) \\
 \hline
-~LMS17~     &&&&&&& 1750 &&&&&&& 130&&&&&&&  1  &&&&&&& 5\\
-LMS19     &&&&&&& 1940 &&&&&&& 150    &&&&&&& 1     &&&&&&& 5   \\
-LMS22     &&&&&&& 2220 &&&&&&& 200     &&&&&&&  1  &&&&&&&  5 \\
+&LMS17     &1750 & 130     &  1  & 5\\
+&LMS19     &1940 & 150     &  1  & 5   \\
+&LMS22     & 2220 & 200     &  1  &  5 \\
 \hline
-\end{tabular}
+\end{tabularx}
 \end{table*}
 
 表~\ref{qt4}~中的三个型号的光源特性相似，下面以~LMS22~型号的光源特性分析为例。LED~光源的发光功率与光源的驱动电流呈近似线性关系，因此~LED~光源的发光强度可以由驱动电流来调制。图~\ref{fig2_5}~为光源在不同驱动电流下的发光波长与发光强度的曲线。从图中可以看出，光源在不同的驱动电流下，峰值波长变化较小，对水分测量影响较小,从而可以让光源在不同的驱动电流下工作。
@@ -227,21 +227,21 @@ LMS22     &&&&&&& 2220 &&&&&&& 200     &&&&&&&  1  &&&&&&&  5 \\
 \label{qt5}
 \small
 %\setlength\tabcolsep{2.8pt}
-\renewcommand{\arraystretch}{1.5}
+\renewcommand{\arraystretch}{1.25}
 \centering
-\vspace{-6mm}
-\begin{tabular}{ccccccccccccccccccccccccccccccccccc}
+\vspace{-5.5mm}
+\begin{tabularx}{157mm}{@{}l *5{>{\centering\arraybackslash}X}@{}}
 \\
 \hline
-~~~红外探测器~~~   &&&&&&& ~~硫化铅探测器(~PbS~)~~      &&&&&&& ~~铟镓砷探测器(~InGaAs~)~~   \\
+&红外探测器   &硫化铅探测器(~PbS~)      & 铟镓砷探测器(~InGaAs~)~~   \\
 \hline
-光谱响应范围~($\mu m$)     &&&&&&& 1$\sim$3.5 &&&&&&& 0.8$\sim$1.7\\
-受光面敏感直径~($mm$)     &&&&&&& 1$\sim$25 &&&&&&& 0.25$\sim$2\\
-响应时间~($\mu s$)     &&&&&&& (0.5$\sim$5)$\times 10^{2}$ &&&&&&& 0.2$\sim$1\\
-归一化探测率~($cm\cdot H_{Z}^{1/2}\cdot W^{-1}$)     &&&&&&& (7$\sim$15)$\times 10^{10}$ &&&&&&& (0.5$\sim$1)$\times 10^{12}$\\
-受温度影响     &&&&&&& 暗电阻增大 &&&&&&& 暗电流增大\\
+&光谱响应范围~($\mu m$)     & 1$\sim$3.5 & 0.8$\sim$1.7\\
+&受光面敏感直径~($mm$)     & 1$\sim$25 & 0.25$\sim$2\\
+&响应时间~($\mu s$)     & (0.5$\sim$5)$\times 10^{2}$ & 0.2$\sim$1\\
+&归一化探测率~($cm\cdot H_{Z}^{1/2}\cdot W^{-1}$)     & (7$\sim$15)$\times 10^{10}$ & (0.5$\sim$1)$\times 10^{12}$\\
+&受温度影响     & 暗电阻增大 & 暗电流增大\\
 \hline
-\end{tabular}
+\end{tabularx}
 \end{table*}
 
 \begin{table*}[!htbp]\tiny
@@ -252,24 +252,24 @@ LMS22     &&&&&&& 2220 &&&&&&& 200     &&&&&&&  1  &&&&&&&  5 \\
 \label{qt6}
 \small
 %\setlength\tabcolsep{2.8pt}
-\renewcommand{\arraystretch}{1.5}
+\renewcommand{\arraystretch}{1.25}
 \centering
-\vspace{-6mm}
-\begin{tabular}{ccccccccccccccccccccccccccccccccccc}
+\vspace{-5.5mm}
+\begin{tabularx}{157mm}{@{}l *5{>{\centering\arraybackslash}X}@{}}
 \\
 \hline
-~~~~~~~~参数~~~~~~~  &&&&&&& ~~~~T=-10$^{\circ}$C~~~~      &&&&&&& ~~~~T=+22$^{\circ}$C~~~~~~~   \\
+&参数  &T=-10$^{\circ}$C      &T=+22$^{\circ}$C  \\
 \hline
-截止波长, $\mu m$     &&&&&&& 2.35 &&&&&&& 2.40\\
-响应率, $A/W$     &&&&&&& 0.9$\sim$1.1 &&&&&&& 0.9$\sim$1.1\\
-暗电流, $\mu A$(V=-0.2V)     &&&&&&& 10$\sim$20 &&&&&&& 80$\sim$150\\
-阻抗, $k\Omega$     &&&&&&& 1.5$\sim$4.0 &&&&&&& 0.4$\sim$1.2\\
-电容, $pF$    &&&&&&& 800$\sim$2000 &&&&&&& 800$\sim$2000\\
-上升下降时间, $ns$    &&&&&&& 100$\sim$250 &&&&&&& 100$\sim$250\\
-探测率, $cm\times Hz^{1/2}/W$    &&&&&&& (0.8$\sim$2.0)$10^{11}$ &&&&&&& (5$\sim$8)$10^{10}$\\
-敏感区直径, $mm$    &&&&&&& 2 &&&&&&& 2\\
+&截止波长, $\mu m$     & 2.35 & 2.40\\
+&响应率, $A/W$     & 0.9$\sim$1.1 & 0.9$\sim$1.1\\
+&暗电流, $\mu A$(V=-0.2V)     & 10$\sim$20 & 80$\sim$150\\
+&阻抗, $k\Omega$     & 1.5$\sim$4.0 & 0.4$\sim$1.2\\
+&电容, $pF$    & 800$\sim$2000 & 800$\sim$2000\\
+&上升下降时间, $ns$    & 100$\sim$250 & 100$\sim$250\\
+&探测率, $cm\times Hz^{1/2}/W$    & (0.8$\sim$2.0)$10^{11}$ & (5$\sim$8)$10^{10}$\\
+&敏感区直径, $mm$    & 2 & 2\\
 \hline
-\end{tabular}
+\end{tabularx}
 \end{table*}
 
 响应时间和归一化探测率是光电传感器的主要指标，InGaAs~探测器具有较高的响应时间，能够满足本课题对响应频率的要求，虽然~InGaAs~ 探测器的光谱响应范围的截止波长为~1.7$\mu m$，但是一般在工程应用中都会对其进行波长拓宽，例如将~InGaAs~的截止波长从~1.7$\mu m$~扩展至~2.5$\mu m$~ 就能满足本课题的需求。在归一化探测率方面，InGaAs~探测器比~PbS~探测器也相对有优势，所以本题选用~InGaAs~探测器作为近红外光电传感器。根据课题的实际需求，选用的光电探测器在不同工作温度下的具体参数如表~\ref{qt6}~所示。

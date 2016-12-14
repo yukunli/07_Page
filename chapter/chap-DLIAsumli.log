@@ -1,28 +1,28 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.23)  15 NOV 2016 09:26
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.7.18)  14 DEC 2016 17:29
 entering extended mode
-**E:/01_Master_project/Water_Detection_Project/07_Page/chapter/chap-DLIAsumli.t
-ex
+**C:/Users/guoruiyun/Desktop/æå®‡å¤æ¯•ä¸šè®ºæ–‡2/14_paper/chapter/chap-DLIAs
+umli.tex
 
-(E:/01_Master_project/Water_Detection_Project/07_Page/chapter/chap-DLIAsumli.te
-x
+(C:/Users/guoruiyun/Desktop/æå®‡å¤æ¯•ä¸šè®ºæ–‡2/14_paper/chapter/chap-DLIAsu
+mli.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for loaded.
 ! Undefined control sequence.
 l.1 \chapter
-            {Êı×ÖËøÏà·Å´óÆ÷µÄÉè¼ÆºÍ·ÂÕæ}
+            {Êı×ÖËøÏà·Å´óÆ÷µÄÉè¼ÆºÍ·ÂÕæ} \label{chap3}
 ? 
 ! Emergency stop.
 l.1 \chapter
-            {Êı×ÖËøÏà·Å´óÆ÷µÄÉè¼ÆºÍ·ÂÕæ}
+            {Êı×ÖËøÏà·Å´óÆ÷µÄÉè¼ÆºÍ·ÂÕæ} \label{chap3}
 End of file on the terminal!
 
  
 Here is how much of TeX's memory you used:
  7 strings out of 495354
- 305 string characters out of 3183859
+ 323 string characters out of 3183859
  44842 words of memory out of 3000000
  3276 multiletter control sequences out of 15000+200000
  3640 words of font info for 14 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 5i,0n,1p,119b,8s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 5i,0n,1p,139b,8s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!
