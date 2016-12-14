@@ -47,36 +47,35 @@
 \BOOKMARK [2][-]{subsection.4.4.3}{4.4.3 窄带带通滤波电路}{section.4.4}% 47
 \BOOKMARK [1][-]{section.4.5}{4.5 模数转换电路设计}{chapter.4}% 48
 \BOOKMARK [2][-]{subsection.4.5.1}{4.5.1 A/D 芯片选型}{section.4.5}% 49
-\BOOKMARK [2][-]{subsection.4.5.2}{4.5.2 芯片原理和结构}{section.4.5}% 50
-\BOOKMARK [2][-]{subsection.4.5.3}{4.5.3 A/D 前端调理电路设计}{section.4.5}% 51
-\BOOKMARK [2][-]{subsection.4.5.4}{4.5.4 A/D 与 DSP 接口电路设计}{section.4.5}% 52
-\BOOKMARK [1][-]{section.4.6}{4.6 温控电路设计}{chapter.4}% 53
-\BOOKMARK [2][-]{subsection.4.6.1}{4.6.1 温度检测电路}{section.4.6}% 54
-\BOOKMARK [2][-]{subsection.4.6.2}{4.6.2 半导体制冷电路}{section.4.6}% 55
-\BOOKMARK [1][-]{section.4.7}{4.7 本章小结}{chapter.4}% 56
-\BOOKMARK [0][-]{chapter.5}{第 5章 \040水分测量系统的软件设计}{}% 57
-\BOOKMARK [1][-]{section.5.1}{5.1 软件系统总体设计}{chapter.5}% 58
-\BOOKMARK [1][-]{section.5.2}{5.2 下位机软件设计}{chapter.5}% 59
-\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 正弦信号发生程序的设计}{section.5.2}% 60
-\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 数据采集程序的设计}{section.5.2}% 61
-\BOOKMARK [2][-]{subsection.5.2.3}{5.2.3 数据通讯程序的设计}{section.5.2}% 62
-\BOOKMARK [2][-]{subsection.5.2.4}{5.2.4 温度控制程序的设计}{section.5.2}% 63
-\BOOKMARK [1][-]{section.5.3}{5.3 数字锁相放大器软件设计}{chapter.5}% 64
-\BOOKMARK [2][-]{subsection.5.3.1}{5.3.1 参考信号的产生}{section.5.3}% 65
-\BOOKMARK [2][-]{subsection.5.3.2}{5.3.2 相关运算的实现}{section.5.3}% 66
-\BOOKMARK [2][-]{subsection.5.3.3}{5.3.3 数字滤波器的设计}{section.5.3}% 67
-\BOOKMARK [1][-]{section.5.4}{5.4 工业串口屏软件设计}{chapter.5}% 68
-\BOOKMARK [1][-]{section.5.5}{5.5 本章小结}{chapter.5}% 69
-\BOOKMARK [0][-]{chapter.6}{第 6章 \040烧结混合料水分测量实验}{}% 70
-\BOOKMARK [1][-]{section.6.1}{6.1 水分测量系统的标定}{chapter.6}% 71
-\BOOKMARK [2][-]{subsection.6.1.1}{6.1.1 水分测量系统标定方法}{section.6.1}% 72
-\BOOKMARK [2][-]{subsection.6.1.2}{6.1.2 标定数据曲线拟合}{section.6.1}% 73
-\BOOKMARK [1][-]{section.6.2}{6.2 水分测量系统精度验证实验}{chapter.6}% 74
-\BOOKMARK [1][-]{section.6.3}{6.3 水分测量系统重复性实验}{chapter.6}% 75
-\BOOKMARK [1][-]{section.6.4}{6.4 水分测量系统误差分析}{chapter.6}% 76
-\BOOKMARK [1][-]{section.6.5}{6.5 本章小结}{chapter.6}% 77
-\BOOKMARK [0][-]{chapter.7}{第 7章 \040总结和展望}{}% 78
-\BOOKMARK [1][-]{section.7.1}{7.1 总结}{chapter.7}% 79
-\BOOKMARK [1][-]{section.7.2}{7.2 展望}{chapter.7}% 80
-\BOOKMARK [0][-]{chapter*.4}{参考文献}{}% 81
-\BOOKMARK [0][-]{chapter*.5}{致 \040 谢}{}% 82
+\BOOKMARK [2][-]{subsection.4.5.2}{4.5.2 A/D 前端调理电路设计}{section.4.5}% 50
+\BOOKMARK [2][-]{subsection.4.5.3}{4.5.3 A/D 与 DSP 接口电路设计}{section.4.5}% 51
+\BOOKMARK [1][-]{section.4.6}{4.6 温控电路设计}{chapter.4}% 52
+\BOOKMARK [2][-]{subsection.4.6.1}{4.6.1 温度检测电路}{section.4.6}% 53
+\BOOKMARK [2][-]{subsection.4.6.2}{4.6.2 半导体制冷电路}{section.4.6}% 54
+\BOOKMARK [1][-]{section.4.7}{4.7 本章小结}{chapter.4}% 55
+\BOOKMARK [0][-]{chapter.5}{第 5章 \040水分测量系统的软件设计}{}% 56
+\BOOKMARK [1][-]{section.5.1}{5.1 软件系统总体设计}{chapter.5}% 57
+\BOOKMARK [1][-]{section.5.2}{5.2 下位机软件设计}{chapter.5}% 58
+\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 正弦信号发生程序的设计}{section.5.2}% 59
+\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 数据采集程序的设计}{section.5.2}% 60
+\BOOKMARK [2][-]{subsection.5.2.3}{5.2.3 数据通讯程序的设计}{section.5.2}% 61
+\BOOKMARK [2][-]{subsection.5.2.4}{5.2.4 温度控制程序的设计}{section.5.2}% 62
+\BOOKMARK [1][-]{section.5.3}{5.3 数字锁相放大器软件设计}{chapter.5}% 63
+\BOOKMARK [2][-]{subsection.5.3.1}{5.3.1 参考信号的产生}{section.5.3}% 64
+\BOOKMARK [2][-]{subsection.5.3.2}{5.3.2 相关运算的实现}{section.5.3}% 65
+\BOOKMARK [2][-]{subsection.5.3.3}{5.3.3 数字滤波器的设计}{section.5.3}% 66
+\BOOKMARK [1][-]{section.5.4}{5.4 工业串口屏软件设计}{chapter.5}% 67
+\BOOKMARK [1][-]{section.5.5}{5.5 本章小结}{chapter.5}% 68
+\BOOKMARK [0][-]{chapter.6}{第 6章 \040烧结混合料水分测量实验}{}% 69
+\BOOKMARK [1][-]{section.6.1}{6.1 水分测量系统的标定}{chapter.6}% 70
+\BOOKMARK [2][-]{subsection.6.1.1}{6.1.1 水分测量系统标定方法}{section.6.1}% 71
+\BOOKMARK [2][-]{subsection.6.1.2}{6.1.2 标定数据曲线拟合}{section.6.1}% 72
+\BOOKMARK [1][-]{section.6.2}{6.2 水分测量系统精度验证实验}{chapter.6}% 73
+\BOOKMARK [1][-]{section.6.3}{6.3 水分测量系统重复性实验}{chapter.6}% 74
+\BOOKMARK [1][-]{section.6.4}{6.4 水分测量系统误差分析}{chapter.6}% 75
+\BOOKMARK [1][-]{section.6.5}{6.5 本章小结}{chapter.6}% 76
+\BOOKMARK [0][-]{chapter.7}{第 7章 \040总结和展望}{}% 77
+\BOOKMARK [1][-]{section.7.1}{7.1 总结}{chapter.7}% 78
+\BOOKMARK [1][-]{section.7.2}{7.2 展望}{chapter.7}% 79
+\BOOKMARK [0][-]{chapter*.4}{参考文献}{}% 80
+\BOOKMARK [0][-]{chapter*.5}{致 \040 谢}{}% 81
