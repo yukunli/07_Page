@@ -371,8 +371,8 @@
   {\clearpage
  \thispagestyle{abstractstyle}
 \if@twoside
-    \cleardoublepage
-    \thispagestyle{abstractstyle}
+    \cleardoublepage\addtocounter{page}{-1}
+    %\thispagestyle{abstractstyle}
 \fi
   \phantomsection
   \addcontentsline{toc}{chapter}{\CAST@label@abstract}
@@ -421,6 +421,7 @@
 
 
 %%%目录
+%\rhead{目~~~录}
 \renewcommand\tableofcontents{%
     \if@twocolumn
       \@restonecoltrue\onecolumn
@@ -626,7 +627,8 @@
 
  %% 目录格式
 %%
-
+%\thispagestyle{fancy}          %更改plain状态
+%\rhead{目~~~录}
 
 \titlecontents{chapter}[4.6em]{\renewcommand{\baselinestretch}{0.5}\color{black}\heiti\zihao{3}\addvspace{1.5ex}}
 %\titlecontents{chapter}[4.6em]{\renewcommand{\baselinestretch}{0.5}\color{black}\heiti\zihao{3}\addvspace{1.5ex}}
