@@ -21,6 +21,6 @@ Aiming at the shortcomings of the traditional near-infrared moisture meter, a ne
 In the laboratory conditions, we use the drying method to calibrate the moisture measurement system. Then the moisture content of 3\% to 8\% of the sintering mixture for moisture measurement experiments. The experimental results show that the maximum absolute measurement error is 0.32\% water content and the relative standard deviation is 1.91\% when the measuring distance is 0$\sim$150mm.
 
 
-\englishkeywords{ digital lock-in amplifier; near-infrared; moisture detection; light source}
-\rhead{ժ~~~Ҫ}
+\englishkeywords{ digital lock-in amplifier; near-infrared; moisture detection; LED light source}
+%\rhead{ժ~~~Ҫ}
 \end{englishabstract}

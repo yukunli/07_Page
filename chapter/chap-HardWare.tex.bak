@@ -393,6 +393,7 @@ AD8671~ÔËËã·Å´óÆ÷µÄÔöÒæ´ø¿í»ýÎª~10MHz£¬¶øÌ½²âÆ÷µÄÅÔÂ·µçÈÝ~$C_{D}\simeq1000$pF£¬Ë
 \renewcommand\figurename{Fig.}
 \caption{\label{fig63} The bode diagram of narrow bandpass filter }
 \end{figure*}
+\vspace{-2mm}
 
 ½«~FilterPro~Èí¼þÉè¼Æ³öµÄ´øÍ¨ÂË²¨Æ÷µÄµç×è¡¢µçÈÝ²ÎÊý¿ÉÒÔ´úÈëÀíÂÛ¹«Ê½½øÐÐÑéÖ¤ºÍ·ÖÎö£¬¾­¹ýÊµ¼ÊµÄ²âÊÔºÍ²»¶ÏÓÅ»¯£¬×îÖÕÉè¼ÆµÄ´øÍ¨ÂË²¨Æ÷µÄµçÂ·Í¼ÈçÍ¼~\ref{fig62}~ËùÊ¾¡£ÁíÍâÁ½Â·Õ­´ø´øÍ¨ÂË²¨Æ÷ÓÃÍ¬ÑùµÄ·½Ê½Éè¼Æ»ñµÃ£¬ÔÚ´Ë²»ÔÙ×¸Êö¡£
 
@@ -412,19 +413,19 @@ AD8671~ÔËËã·Å´óÆ÷µÄÔöÒæ´ø¿í»ýÎª~10MHz£¬¶øÌ½²âÆ÷µÄÅÔÂ·µçÈÝ~$C_{D}\simeq1000$pF£¬Ë
 ÎªÁËÊµÏÖ¶Ô¶àÂ·~AD~ÐÅºÅÊµÊ±¸ß¾«¶È²É¼¯£¬ÒÔ¼°¿¼ÂÇµ½Ä£ÄâÐÅºÅË«¼«ÐÔÌØµã£¬±¾¿ÎÌâ²ÉÓÃÁËÑÇµÂÅµ°ëµ¼Ìå¹«Ë¾£¨ADI£©ÍÆ³öµÄÒ»¿îÁùÍ¨µÀÖð´Î±Æ½üÐÍ£¨SAR£©µÄÄ£Êý×ª»»Æ÷~AD7656¡£AD7656~ÄÚÖÃÁù¸ö~16~Î»¡¢¿ìËÙ¡¢µÍ¹¦ºÄÖð´Î±Æ½üÐÍ~ADC£¬²¢¼¯³Éµ½Ò»¸ö·â×°ÖÐ£¬²ÉÓÃ~iCMOS~ ¹¤ÒÕ£¨¹¤Òµ¼¶~CMOS£©Éè¼Æ¡£Æä²»µ«¿ÉÒÔÊäÈëË«¼«ÐÔÐÅºÅ£¬Í¬Ê±»¹ÄÜÌáÉýÐÔÄÜ£¬´ó·ù½µµÍ¹¦ºÄ²¢¼õÐ¡·â×°³ß´ç\upcite{c4-AD1}¡£
 \begin{figure*}[!h]
 \centering
-\includegraphics[width=9cm]{fig48.pdf}
+\includegraphics[width=10cm]{fig48.pdf}
 \caption {AD7656~ÄÚ²¿½á¹¹¿òÍ¼}
 \addtocounter{figure}{-1}
 \renewcommand\figurename{Fig.}
 \caption{\label{fig48} Internal structure diagram of AD7656 }
 \end{figure*}
 
-\newpage
+
 
 AD7656~ÊÇÖð´Î±Æ½üÐÍ~AD~×ª»»Æ÷£¬Ã¿Â·~ADC~µçÂ·°üÀ¨Ò»¸ö²ÉÑù±£³ÖÆ÷¡¢Ò»¸ö±È½ÏÆ÷¡¢Ò»¸ö~SAR~Ä£Êý×ª»»Æ÷ºÍÒ»¸öÂß¼­¿ØÖÆµ¥Ôª¡£¾ßÌå½á¹¹ÈçÍ¼~\ref{fig48}~ËùÊ¾¡£
 
 
-AD7656~µÄ~6~Â·Ä£ÄâÐÅºÅÊäÈëÍ¨µÀ¶¼ÊÇÏà¹Ø¶ÀÁ¢µÄ£¬Íâ²¿Ä£ÄâÐÅºÅ´Ó~V1$-$V6~Òý½ÅÊäÈë¡£µ±Ä£ÄâÐÅºÅ×ª»»ÎªÊý×ÖÐÅºÅºó£¬ÓÉ¿ØÖÆÂß¼­µ¥Ôª¿ØÖÆÊý×ÖÊä³öÇý¶¯µçÂ·ÒÔ´®ÐÐ»ò²¢ÐÐÊý¾ÝµÄ·½Ê½Êä³ö¡£AD7656~µÄ²¢ÐÐ»ò´®ÐÐµÄÊý¾Ý´«Êä·½Ê½ÔÚÓ²¼þÉÏÍ¨¹ý~SER/PAR~Òý½Å½øÐÐÑ¡Ôñ£¬µ±´ËÒý½Å´¦ÓÚµÍµçÆ½Ê±£¬Ñ¡Ôñ²¢ÐÐ½Ó¿ÚÄ£Ê½¡£µ±´ËÒý½Å´¦ÓÚ¸ßµçÆ½Ê±£¬Ñ¡Ôñ´®ÐÐ½Ó¿ÚÄ£Ê½¡£
+AD7656~µÄ~6~Â·Ä£ÄâÐÅºÅÊäÈëÍ¨µÀ¶¼ÊÇÏà¹Ø¶ÀÁ¢µÄ£¬Íâ²¿Ä£ÄâÐÅºÅ´Ó~V1$-$V6~Òý½ÅÊäÈë£¬¾­¹ýÒ»¸ö¸ß´ø¿íµÄÏßÐÔ¸úËæÆ÷£¨ T/H £©µ¥Ôª½øÐÐ²ÉÑù¡£Ã¿Â·~ADC~¾ù°´ÕÕÖð´Î±Æ½üÔ­Àí½øÐÐ£¬ÓÉ¿ØÖÆÂß¼­µçÂ·ºÍ~SAR~Ä£Êý×ª»»Æ÷¹²Í¬Íê³É¡£µ±Ä£ÄâÐÅºÅ×ª»»ÎªÊý×ÖÐÅºÅºó£¬ÓÉ¿ØÖÆÂß¼­µ¥Ôª¿ØÖÆÊý×ÖÊä³öÇý¶¯µçÂ·ÒÔ´®ÐÐ»ò²¢ÐÐÊý¾ÝµÄ·½Ê½Êä³ö¡£AD7656~µÄ²¢ÐÐ»ò´®ÐÐµÄÊý¾Ý´«Êä·½Ê½ÔÚÓ²¼þÉÏÍ¨¹ý~SER/PAR~Òý½Å½øÐÐÑ¡Ôñ£¬µ±´ËÒý½Å´¦ÓÚµÍµçÆ½Ê±£¬Ñ¡Ôñ²¢ÐÐ½Ó¿ÚÄ£Ê½¡£µ±´ËÒý½Å´¦ÓÚ¸ßµçÆ½Ê±£¬Ñ¡Ôñ´®ÐÐ½Ó¿ÚÄ£Ê½¡£
 
 AD7656~µÄÄ£ÄâÐÅºÅÊäÈë²ÉÈ¡ÁËµ¥¶ËÊäÈë·½Ê½£¬ÊäÈëÐÅºÅµÄµçÆ½·¶Î§ÎªÁ½ÖÖ£º$\pm$10V~ºÍ~$\pm$5V¡£¿ÉÍ¨¹ýÓ²¼þÉèÖÃºÍÈí¼þÅäÖÃÁ½ÖÖ·½Ê½Ñ¡ÔñÊäÈëÐÅºÅµçÆ½·¶Î§£¬Ó²¼þÉÏÍ¨¹ý~RANGE~Òý½ÅÉèÖÃ£¬Èí¼þÉÏÍ¨¹ýÅäÖÃ¿ØÖÆ¼Ä´æÆ÷µÄ~RANGE~Î»À´Ñ¡Ôñ¡£AD7656~µÄ×ª»»·Ö±æÂÊÓëÊäÈëÐÅºÅµÄ·¶Î§ÓÐ¹Ø£¬µ±ÊäÈëÐÅºÅµÄµçÆ½·¶Î§Îª~$\pm$5V~ Ê±£¬ADC~·Ö±æÂÊÄÜ´ïµ½~0.153mV¡£
 
@@ -444,6 +445,9 @@ AD7656~µÄÄ£ÄâÐÅºÅÊäÈë²ÉÈ¡ÁËµ¥¶ËÊäÈë·½Ê½£¬ÊäÈëÐÅºÅµÄµçÆ½·¶Î§ÎªÁ½ÖÖ£º$\pm$10V~ºÍ~$
 \subsection{A/D~Óë~DSP~½Ó¿ÚµçÂ·Éè¼Æ}
 
 AD7656~Óë~TMS320F28335~¿ØÖÆÆ÷½Ó¿ÚµçÂ·²ÉÈ¡²¢ÐÐ½Ó¿ÚÉè¼Æ£¬½Ó¿ÚµçÂ·ÈçÍ¼~\ref{fig49}~ËùÊ¾¡£
+
+\vspace{-2mm}
+
 \begin{figure*}[!h]
 \centering
 \includegraphics[width=14cm]{fig49.jpg}
@@ -453,6 +457,7 @@ AD7656~Óë~TMS320F28335~¿ØÖÆÆ÷½Ó¿ÚµçÂ·²ÉÈ¡²¢ÐÐ½Ó¿ÚÉè¼Æ£¬½Ó¿ÚµçÂ·ÈçÍ¼~\ref{fig49}~
 \caption{\label{fig49} Interface circuit of AD7656 and DSP }
 \end{figure*}
 
+\vspace{-2mm}
 
 ÔÚµçÂ·Éè¼ÆÊ±£¬AD7656~Æ÷¼þ¾ßÓÐ°Ë¸ö~$AVcc$~µçÔ´Òý½Å£¬Ã¿¸ö~$AVcc$~µçÔ´Òý½Å¾ùÐèÒªÍ¨¹ýÒ»¸ö~10$\mu$F~îãµçÈÝºÍÒ»¸ö~100nF~ÌÕ´ÉµçÈÝ½øÐÐÁ¼ºÃÈ¥ñî¡£AD7656~¼´¿É²ÉÓÃÄÚ²¿»ù×¼µçÑ¹Ô´¹¤×÷£¬Ò²¿ÉÒÔ²ÉÓÃÍâ²¿Ê©¼ÓµÄ»ù×¼µçÑ¹Ô´¹¤×÷¡£ÔÚ±¾µçÂ·ÖÐ£¬Æ÷¼þ±»ÅäÖÃÎªÔÚÄÚ²¿»ù×¼µçÑ¹Ô´ÏÂ¹¤×÷¡£
 

@@ -380,7 +380,7 @@
     %\vspace*{-0.2cm}\bf\zihao{3}\CAST@value@title
   %\end{center}
     \begin{center}
-    \vspace*{0.1cm}\zihao{2}\CAST@label@abstract
+    \vspace*{0.1cm}\heiti\zihao{2}\CAST@label@abstract
   \end{center}
  }
  {}

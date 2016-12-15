@@ -1,8 +1,8 @@
 \let \CTEX@spaceChar \relax 
 \contentsline {chapter}{独创性声明}{I}{Doc-Start}
-\contentsline {chapter}{摘\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces \hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces \hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces \hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 要}{III}{section*.1}
-\contentsline {chapter}{Abstract}{V}{section*.2}
-\contentsline {chapter}{\numberline {第\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 1\ignorespaces \hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 章\hspace {0.3em}}绪论}{1}{chapter.1}
+\contentsline {chapter}{摘\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces \hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces \hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 要}{II}{section*.1}
+\contentsline {chapter}{Abstract}{III}{section*.2}
+\contentsline {chapter}{\numberline {第\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 1\ignorespaces \hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 章\hspace {0.3em}}绪\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces \hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces \hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 论}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}课题研究的背景与意义}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}水分测量技术简介}{1}{section.1.2}
 \contentsline {section}{\numberline {1.3}近红外水分检测的研究现状和发展方向}{3}{section.1.3}
