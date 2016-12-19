@@ -40,24 +40,24 @@ DSP~Î¢´¦ÀíÆ÷ÊÇÕû¸öË®·Ö²âÁ¿ÏµÍ³µÄ¿ØÖÆºËÐÄ£¬Ëü²»½ö¿ØÖÆ~DDS~Ð¾Æ¬²úÉúËùÐèµÄÕýÏÒ²¨ÐÅº
 \subsection{ÏµÍ³µçÔ´Éè¼Æ}
 
 µçÔ´µçÂ·¶ÔÓÚË®·Ö¼ì²âÏµÍ³µÄÎÈ¶¨ÐÔºÍ×¼È·ÐÔÆð×ÅÖØÒªµÄ×÷ÓÃ¡£Òò´ËÉè¼Æ¸ß¿É¿¿ÐÔ¡¢¸ßÐ§ÂÊ¡¢µÍÎÆ²¨µÄµçÔ´ÊÇÊ®·Ö±ØÒªµÄ¡£¸ù¾Ý±í~\ref{ht1}~ ËùÊ¾µÄÓ²¼þµçÂ·¹©µçÐèÇó£¬±¾¿ÎÌâÉè¼ÆÁË¶ÀÁ¢µÄµçÔ´µçÂ·°å¸øÕû¸öÏµÍ³¹©µç£¬ÓÃÒÔ¼õÉÙ°å¼¶¼äµçÔ´µÄÏà»¥Ó°Ïì¡£
-\begin{table*}[!ht]\tiny
+\begin{table*}[!ht]\small\centering
 \caption{Ó²¼þµçÂ·µçÔ´ÐèÇó}
 \addtocounter{table}{-1}
 \renewcommand\tablename{Table}
 \caption{Hardware circuit power requirements}
 \label{ht1}
-\footnotesize
+%\footnotesize
 %\setlength\tabcolsep{2.8pt}
-\renewcommand{\arraystretch}{1.5}
+\renewcommand{\arraystretch}{1.25}
 \centering
-\vspace{-5mm}
+\vspace{-4.8mm}
 \begin{tabular}{ccccccccccccccccccccccccccccccccccccccc}
 \\
 \hline
-~~~~~~µçÔ´ÀàÐÍ~~~~~~   && ~~~~~~~~µçÔ´µçÑ¹~~~~~~~~ && ~¹©µçµ¥Ôª~  && ~²ÎÊýÐèÇó~   \\
+~~µçÔ´ÀàÐÍ~~   && ~µçÔ´µçÑ¹~ && ~¹©µçµ¥Ôª~  && ~²ÎÊýÐèÇó~   \\
 \hline
 \multirow{5}{*}{Ä£Äâ} &&      $+$15V    && 3~Â·ºãÁ÷Ô´µçÂ· &&ÎÆ²¨Ð¡£¬µçÁ÷½Ï´ó£¬¹¦ÂÊ$>9W$\\
-                      &&      $\pm$12V  && ~ÔËËã·Å´óÆ÷£¬A/D~Ð¾Æ¬µÈÄ£ÄâµçÂ·~&& ~~~~ÎÆ²¨Ð¡£¬ÔëÉùµÍ£¬¹¦ÂÊ$>9.5W$~~~~\\
+                      &&      $\pm$12V  && ~ÔËËã·Å´óÆ÷£¬A/D~Ð¾Æ¬µÈÄ£ÄâµçÂ·~&& ~ÎÆ²¨Ð¡£¬ÔëÉùµÍ£¬¹¦ÂÊ$>9.5W$~\\
                       &&      $+$5V     && ²¨ÐÎ·¢ÉúÆ÷£¬ÏßÐÔÎÈÑ¹Ð¾Æ¬&&ÎÆ²¨Ð¡£¬µçÁ÷´ó£¬¹¦ÂÊ$>5W$ \\
                       &&      $+$3.3V   && DSP~¿ØÖÆÆ÷Ä£ÄâµçÔ´      && \multirow{2}{*}{µçÑ¹ÎÈ¶¨£¬¹¦ÂÊºÜÐ¡} \\
                       &&      $+$1.9V   && DSP~¿ØÖÆÆ÷Ä£ÄâµçÔ´       \\
@@ -72,7 +72,7 @@ DSP~Î¢´¦ÀíÆ÷ÊÇÕû¸öË®·Ö²âÁ¿ÏµÍ³µÄ¿ØÖÆºËÐÄ£¬Ëü²»½ö¿ØÖÆ~DDS~Ð¾Æ¬²úÉúËùÐèµÄÕýÏÒ²¨ÐÅº
 
 ÆäÖÐ£¬$+$15V~µçÔ´ÓÉÐÍºÅÎª~LH10-B15~µçÔ´Ä£¿é²úÉú£¬Êä³ö¹¦ÂÊÄÜ´ïµ½~10W¡£¶ø~$\pm$12V~µçÔ´ÓÉÐÍºÅÎª~LH10-10A12~µçÔ´Ä£¿é²úÉú£¬Êä³ö¹¦ÂÊÄÜ´ïµ½~10W£¬Ä£Äâ²¿·ÖµÄ~$+$5V~µçÔ´ÓÉÐÍºÅÎª~LH05-10B05~µçÔ´Ä£¿é²úÉú£¬Êä³ö¹¦ÂÊÒ²ÄÜ´ïµ½~5W£¬ÍêÈ«ÄÜÂú×ã±¾¿ÎÌâµÄ¹©µçÐèÇó¡£ÆäÓàµÄµçÔ´µçÑ¹£¬ÈçÊý×Ö²¿·ÖµÄ~$+$5V~µçÔ´¡¢Ä£Äâ¼°Êý×Ö²¿·ÖµÄ~$+$3.3V~ºÍ~$+$1.9V~µçÔ´¾ùÓÉÄ£Äâ²¿·ÖµÄ~$+$5V~µçÔ´Í¨¹ýµç¸ÐÆ÷¼þºÍÏßÐÔÎÈÑ¹µçÔ´Ð¾Æ¬×ª»¯¶øÀ´¡£
 
-\begin{figure*}[!h]
+\begin{figure*}[!ht]
 \centering
 \includegraphics[width=14cm]{fig41.pdf}
 \caption {LH10-10A12~µçÔ´Ä£¿éµçÂ·Í¼}
@@ -86,7 +86,7 @@ D1¡¢D2~ÎªË²Ì¬µçÑ¹ÒÖÖÆ¶þ¼«¹Ü£¬Ëü¾ßÓÐ³ÐÊÜË²¼ä´óµçÁ÷µÄÄÜÁ¦£¬ÊÇÒ»ÖÖ¸ßÐÔÄÜµÄµçÂ·±£»¤Æ
 
 ±¾¿ÎÌâÖÐÊý×ÖµçÂ·µÄºËÐÄÊÇ~DSP~Ð¾Æ¬~TMS320F28335~´¦ÀíÆ÷¡£ÎªÂú×ã¸Ã~DSP~Ð¾Æ¬ÄÚ²¿¹¦ÄÜÄ£¿éµÄ²»Í¬¹©µçÐèÇó£¬Éè¼ÆÁË·ùÖµÎª~3.3V~ºÍ~1.9V~µÄÊý×ÖµçÔ´ºÍÄ£ÄâµçÔ´Á½ÖÖ¡£Êý×ÖµçÔ´µçÂ·²ÉÓÃÁË~DSP~×¨ÓÃµçÔ´Ð¾Æ¬~PS767D301£¬ÄÜ¹»Í¬Ê±Êä³öÁ½ÖÖµçÑ¹£¬Ò»Â·¹Ì¶¨Êä³ö~3.3V£¬ÁíÒ»Â·¿ÉÒÔÔÚ~1.5V$\sim$5.5V~·¶Î§ÄÚµ÷Õû¡£
 
-\begin{figure*}[!h]
+\begin{figure*}[!ht]
 \centering
 \includegraphics[width=14cm]{fig42.pdf}
 \caption {3.3VºÍ1.9VµçÔ´µçÂ·Í¼}
@@ -470,10 +470,10 @@ AD7656~Óë~TMS320F28335~¿ØÖÆÆ÷½Ó¿ÚµçÂ·²ÉÈ¡²¢ÐÐ½Ó¿ÚÉè¼Æ£¬½Ó¿ÚµçÂ·ÈçÍ¼~\ref{fig49}~
 
 \subsection{ÎÂ¶È¼ì²âµçÂ·}
 
-±¾¿ÎÌâ²ÉÓÃ~DALLAS~°ëµ¼Ìå¹«Ë¾Éú²úµÄ~DS18B20~ÎÂ¶È´«¸ÐÆ÷£¬Æä²âÎÂ·¶Î§Îª~-55$^{\circ}$C~$\sim$~+125$^{\circ}$C£¬²âÎÂ·Ö±æÂÊÎª~0.5$^{\circ}$C¡£Ëü¾ßÓÐÎ¢ÐÍ»¯¡¢µÍ¹¦ºÄ¡¢¿¹¸ÉÈÅÄÜÁ¦Ç¿¡¢Ò×ÓëÎ¢´¦ÀíÆ÷½Ó¿ÚµÈÓÅµã£¬Ëü¼¯ÎÂ¶È²âÁ¿£¬A/D~×ª»»ÓÚÒ»Ìå£¬Ö»ÐèÒ»¸ù¶Ë¿ÚÏß¾ÍÄÜÓëµ¥Æ¬»úÍ¨Ñ¶£¬²âÁ¿ÏµÍ³µçÂ·¼òµ¥£¬Ò×ÓÚÊµÏÖ¡£ ÎÂ¶È²âÁ¿µçÂ·ÈçÍ¼~\ref{fig51}~ ËùÊ¾¡£
+±¾¿ÎÌâ²ÉÓÃ~DALLAS~°ëµ¼Ìå¹«Ë¾Éú²úµÄ~DS18B20~ÎÂ¶È´«¸ÐÆ÷£¬Æä²âÎÂ·¶Î§Îª~-55$^{\circ}$C~$\sim$~+125$^{\circ}$C£¬²âÎÂ·Ö±æÂÊ¿É´ï~0.0625$^{\circ}$C¡£ Ëü¾ßÓÐÎ¢ÐÍ»¯¡¢µÍ¹¦ºÄ¡¢¿¹¸ÉÈÅÄÜÁ¦Ç¿¡¢Ò×ÓëÎ¢´¦ÀíÆ÷½Ó¿ÚµÈÓÅµã¡£Ëü¼¯ÎÂ¶È²âÁ¿£¬A/D~×ª»»ÓÚÒ»Ìå£¬Ö»ÐèÒ»¸ù¶Ë¿ÚÏß¾ÍÄÜÓëµ¥Æ¬»úÍ¨Ñ¶£¬²âÁ¿ÏµÍ³µçÂ·¼òµ¥£¬Ò×ÓÚÊµÏÖ¡£ ÎÂ¶È²âÁ¿µçÂ·ÈçÍ¼~\ref{fig51}~ ËùÊ¾¡£
 \begin{figure*}[!h]
 \centering
-\includegraphics[width=10cm]{fig51.pdf}
+\includegraphics[width=9cm]{fig51.pdf}
 \caption {²âÎÂµçÂ·}
 \addtocounter{figure}{-1}
 \renewcommand\figurename{Fig.}
