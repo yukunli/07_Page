@@ -29,7 +29,8 @@
 \setlength{\abovecaptionskip}{0.5pt}  %使图的英文图题距离中文图题变近，但是对于表格，英文表题与表距离变大了，
 
 %\usepackage{ccmap}   %使pdf中可复制文本
-\titleformat{\chapter}{\centering\heiti\zihao{2}}{第~\,\thechapter\,~章}{1em}{}
+
+\titleformat{\chapter}{\centering\Huge\bfseries}{第~\,\thechapter\,~章}{1em}{}
 \CTEXsetup[name={第~,~章}, number={\arabic{chapter}}]{chapter}
 
 \begin{document}\pagestyle{empty}

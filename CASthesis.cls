@@ -321,7 +321,7 @@
     \fancyhead[LE,LO]{\kaishu\zihao{5} 东北大学硕士学位论文}
     \fancyhead[RE,RO]{\kaishu\zihao{5} \leftmark}
   \fancyfoot[CE,CO]{\songti\zihao{-4} -~\thepage~-}
-  \renewcommand{\headrulewidth}{0.1pt}
+  \renewcommand{\headrulewidth}{0.4pt}
   \renewcommand{\footrulewidth}{0pt}
 }
 \pagestyle{fancy}
@@ -635,15 +635,13 @@
  {\contentslabel{3.5em}\hspace*{0.0em}}{\hspace*{-3.5em}}
  {\color{black}\titlerule*[0.3pc]{.}\songti\zihao{-4}\contentspage}[\addvspace{0.5ex}]
 
- %{\color{black}\titlerule*[0.3pc]{.}\contentspage}%[\addvspace{0.5ex}]
-
 \titlecontents{section}[3.0em] {\color{black}\songti\zihao{-4}}
 {\contentslabel{2em}\hspace*{0.0em}} {\hspace*{-2.3em}}
 {\color{black}\titlerule*[0.3pc]{.}\contentspage}
 %[6.0em] {\color{blue}\bf\normalsize}
 
 \titlecontents{subsection}[4.0em]{\color{black}\songti\zihao{-4}}
-{\contentslabel{2em}\hspace*{0.0em}} {\hspace*{-3.3em}}
+{\contentslabel{2em}\hspace*{0.8em}} {\hspace*{-3.3em}}
 {\color{black}\titlerule*[0.3pc]{.}\contentspage}
 
 

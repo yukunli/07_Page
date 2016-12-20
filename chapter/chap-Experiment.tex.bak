@@ -71,7 +71,7 @@
 
 根据表~\ref{tabc6-1}~中的数据，可以看出，测量通道电压值随着物料水分含量的增加而逐渐减小，并且对含水量较低的物料比较敏感。当物料水分含量较高时，测量通道电压值变化幅度减小。
 %而两路参比通道的电压值也随着物料水分的增加有所减小，但变化幅度较小，这是由于物料中的水分对参比光也有一定的吸收率，只是由于吸收率较小而不予考虑。
-在整个测量范围内，测量通道、两路参比通道的电压比值~$T$~值随物料水分含量的增加而逐渐减小，比值~T~与物料水分值的散点图如图
+在整个测量范围内，测量通道、两路参比通道的电压比值~T~值随物料水分含量的增加而逐渐减小，比值~T~与物料水分值的散点图如图
 ~\ref{fig90}~ 所示。
 \begin{figure*}[!ht]
 \centering
@@ -146,7 +146,7 @@
 \renewcommand\tablename{Table}
 \caption{Moisture measurement validation experiment data}
 \label{tabc6-2}
-%\small
+\small
 %\setlength\tabcolsep{2.8pt}
 \renewcommand{\arraystretch}{1.25}
 \centering

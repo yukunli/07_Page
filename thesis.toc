@@ -21,14 +21,11 @@
 \contentsline {subsection}{\numberline {2.3.2}近红外水分仪光路分析}{14}{subsection.2.3.2}
 \contentsline {section}{\numberline {2.4}本章小结}{15}{section.2.4}
 \contentsline {chapter}{\numberline {第\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 3\ignorespaces \hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 章\hspace {0.3em}}数字锁相放大器的设计和仿真}{17}{chapter.3}
-\contentsline {section}{\numberline {3.1}微弱信号检测技术理论}{17}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}微弱信号检测}{17}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}信噪改善比}{18}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.1}微弱信号检测技术}{17}{section.3.1}
 \contentsline {section}{\numberline {3.2}锁相放大器}{19}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}模拟锁相放大器基本原理}{19}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}正交矢量型锁相放大器基本原理}{21}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}数字锁相放大器基本原理}{22}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}数字锁相放大器与模拟锁相放大器的比较}{24}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.1}模拟锁相放大器}{19}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}正交矢量型锁相放大器}{21}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}数字锁相放大器}{23}{subsection.3.2.3}
 \contentsline {section}{\numberline {3.3}数字锁相放大器仿真平台的设计与仿真}{25}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Python\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces 仿真平台的设计}{25}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}仿真结果与分析}{27}{subsection.3.3.2}
